@@ -275,7 +275,7 @@ body{background:var(--bg);color:var(--text);font-family:'Inter',sans-serif;font-
   <div id="empty">ничего не найдено</div>
 </main>
 <div id="pagination"></div>
-<div id="footer">made by <a href="https://t.me/iishkisvetika" target="_blank">Светлячок</a></div>
+<div id="footer">made by <a href="https://t.me/+H-HIp1UP1BxiZGUy" target="_blank">Светлячок</a></div>
 <div id="toast"></div>
 
 <!-- Modal -->
@@ -310,7 +310,7 @@ const POV=new Set(["#fempov","#malepov","#anypov"]);
 function sortedTags(tags){return [...tags].sort((a,b)=>{const ap=POV.has(a.toLowerCase()),bp=POV.has(b.toLowerCase());return ap===bp?0:ap?-1:1;});}
 function sortKey(s){return s.replace(/^[@#]/,"").toLowerCase();}
 
-const WELCOME={id:"welcome",isWelcome:true,name:"────୨ৎ────",author:"Светлячок",image:"images/og.jpg",description:"Всем привет, любители русреала! Нажми чтобы узнать о сайте.",janitorUrl:"",authorUrl:"https://t.me/iishkisvetika",tags:[]};
+const WELCOME={id:"welcome",isWelcome:true,name:"────୨ৎ────",author:"Светлячок",image:"images/welcome.jpg",description:"Всем привет, любители русреала! Нажми чтобы узнать о сайте.",janitorUrl:"",authorUrl:"https://t.me/+H-HIp1UP1BxiZGUy",tags:[]};
 
 let ALL_BOTS=[],ALL_AUTHORS=[],ALL_TAGS=[];
 let activeAuthor=null,activeTags=new Set(),searchQuery="",sortMode="az";
@@ -482,7 +482,7 @@ function renderPage(){
 function renderWelcomeCard(){
   return`<div class="card card-welcome" onclick="openWelcomeModal()">
     <div class="card-img-wrap">
-      <img class="card-img" src="images/og.jpg" alt="welcome" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+      <img class="card-img" src="images/welcome.jpg" alt="welcome" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
       <div class="card-placeholder">ৎ</div>
     </div>
     <div class="card-info">
@@ -558,7 +558,7 @@ function openWelcomeModal(){
   document.getElementById("modal-cover").style.background="#2a2228";
   document.getElementById("modal-tabs").style.display="none";
   const img=document.getElementById("modal-img"),ph=document.getElementById("modal-cover-placeholder");
-  img.src="images/og.jpg";img.style.display="block";ph.style.display="none";
+  img.src="images/welcome.jpg";img.style.display="block";ph.style.display="none";
   img.onerror=()=>{img.style.display="none";ph.style.display="flex";ph.textContent="ৎ";};
   document.getElementById("modal-author-badge").textContent="Светлячок";
   document.getElementById("modal-name").textContent="────୨ৎ────";
@@ -569,12 +569,12 @@ function openWelcomeModal(){
     Будучи очень большой любительницей ботиков в этом жанре, мне супер захотелось сделать подборку классных русреальных ботиков и их авторов — и так родился этот список :)<br><br>
     Здесь вы можете удобно фильтровать или искать ботов по тегам/авторам/имени. К каждому боту прикреплена карточка для таво/таверны — её можно скачать, зажав картинку бота, и есть ссылки на джанитор как самого бота, так и профиля автора.<br><br>
     <b>Обратите внимание!</b> На сайте опубликованы карточки без лорбуков, так как зачастую они закрыты — для дополнительной информации советую сначала самостоятельно зайти на джанитор.<br><br>
-    Я всё это делала руками, так что вероятно здесь есть ошибки. Если что-то нашли, напишите мне в <a href="https://t.me/iishkisvetika" target="_blank">телеграм канал</a>, где я также публикую обновления по сайту и приколюхи для таво/джанитора!<br><br>
+    Я всё это делала руками, так что вероятно здесь есть ошибки. Если что-то нашли, напишите мне в <a href="https://t.me/+H-HIp1UP1BxiZGUy" target="_blank">телеграм канал</a>, где я также публикую обновления по сайту и приколюхи для таво/джанитора!<br><br>
     Буду благодарна, если сборник распространится на как можно большее количество пользователей. Всем спасибо и приятной игры!
     <div class="welcome-stars">. ݁₊ ⊹ . ݁ ⟡ ݁ . ⊹ ₊ ݁. ݁₊ ⊹ . ݁ ⟡ ݁ . ⊹ ₊ ݁. ݁₊ ⊹ . ݁ ⟡ ݁ . ⊹ ₊ ݁.</div>
   </div>`;
   document.getElementById("modal-tags").innerHTML="";
-  document.getElementById("modal-btns").innerHTML=`<a class="btn-full" href="https://t.me/iishkisvetika" target="_blank">телеграм канал →</a>`;
+  document.getElementById("modal-btns").innerHTML=`<a class="btn-full" href="https://t.me/+H-HIp1UP1BxiZGUy" target="_blank">телеграм канал →</a>`;
   document.getElementById("modal-bg").classList.add("show");
   document.body.style.overflow="hidden";
 }

@@ -313,6 +313,7 @@ async function init(){
     const r=await fetch("bots.json");
     const data=await r.json();
     const raw=(data.bots||[])
+      .filter(b=>!b.tags.some(t=>t.toLowerCase().includes('инструкц')))
       .filter(b=>(b.janitorUrl||b.image)&&(b.description||b.tags&&b.tags.length))
       .map(b=>({...b, author:normAuthor(b.author), tags:sortedTags(b.tags)}));
     raw.sort((a,b)=>sortKey(a.name).localeCompare(sortKey(b.name),"ru"));

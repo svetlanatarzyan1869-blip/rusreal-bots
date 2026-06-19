@@ -165,6 +165,29 @@ body{background:var(--bg);color:var(--text);font-family:'Inter',sans-serif;font-
 /* Theme button */
 #theme-btn svg{transition:transform .3s}
 #theme-btn:hover svg{transform:rotate(20deg)}
+
+/* ── Welcome ── */
+#welcome{margin:20px 20px 0;border:1px solid var(--border);border-radius:14px;overflow:hidden;background:var(--surface)}
+.welcome-inner{display:flex;gap:0}
+.welcome-img{width:220px;flex-shrink:0;position:relative;overflow:hidden}
+.welcome-img img{width:100%;height:100%;object-fit:cover;display:block}
+.welcome-text{padding:24px 26px;flex:1;display:flex;flex-direction:column;gap:12px}
+.welcome-deco{font-family:var(--serif);font-size:15px;color:var(--accent);letter-spacing:.1em;opacity:.7}
+.welcome-title{font-family:var(--serif);font-size:18px;font-weight:500;color:var(--text);letter-spacing:.03em}
+.welcome-body{font-size:12px;color:var(--text-dim);line-height:1.75;letter-spacing:.01em}
+.welcome-body a{color:var(--accent);text-decoration:none;border-bottom:1px solid rgba(130,36,36,.3);transition:opacity .15s}
+.welcome-body a:hover{opacity:.7}
+.welcome-stars{font-size:12px;color:var(--text-mute);letter-spacing:.06em;margin-top:4px}
+@media(max-width:640px){.welcome-inner{flex-direction:column}.welcome-img{width:100%;height:200px}}
+
+/* ── Footer ── */
+#footer{text-align:center;padding:24px 20px;font-size:11px;color:var(--text-mute);letter-spacing:.06em;border-top:1px solid var(--border);margin-top:8px}
+#footer a{color:var(--accent);text-decoration:none;border-bottom:1px solid rgba(130,36,36,.3);transition:opacity .15s}
+#footer a:hover{opacity:.7}
+
+/* ── Спецтеги ── */
+.tag-chip[data-tag*="звездочка"],.tag-chip[data-tag*="zvezda"]{background:rgba(180,150,0,.12);color:#d4aa30;border-color:rgba(180,150,0,.25)}
+.tag-chip[data-tag*="эксклюзив"]{background:rgba(150,20,20,.15);color:#e05050;border-color:rgba(150,20,20,.28)}
 </style>
 </head>
 <body>
@@ -243,6 +266,28 @@ body{background:var(--bg);color:var(--text);font-family:'Inter',sans-serif;font-
 <div id="active-pills">
   <span class="pills-label">фильтры:</span>
   <div id="pills-inner"></div>
+</div>
+
+
+<div id="welcome">
+  <div class="welcome-inner">
+    <div class="welcome-img">
+      <img src="images/welcome.jpg" alt="русреал">
+    </div>
+    <div class="welcome-text">
+      <div class="welcome-deco">────୨ৎ────</div>
+      <div class="welcome-title">Всем привет, любители русреала!</div>
+      <div class="welcome-body">
+        Будучи очень большой любительницей ботиков в этом жанре, мне супер захотелось сделать какую-нибудь подборку классных русреальных ботиков и их авторов, и именно так родился этот список :)<br><br>
+        Здесь вы можете удобно фильтровать или искать ботов по тегам/авторам/имени. Также к каждому боту прикреплена карточка для таво/таверны, которую можно скачать, зажав картинку бота, и есть ссылки на джанитор как самого бота, так и профиля автора.<br><br>
+        <b>Обратите внимание!</b> На сайте опубликованы карточки без лорбуков, так как зачастую они закрыты, поэтому для дополнительной информации и лучшего погружения я советую сначала самостоятельно зайти на джанитор.<br><br>
+        Помимо привычных тегов, я добавила два своих: <b>#звездочка</b> и <b>#эксклюзив</b>. Первым отмечены боты, которых я очень люблю и трогала долгое время, вторым — боты, которых нет на джаниторе, но здесь доступны их карточки. Звёздочки подсвечены <span style="color:#d4aa30">жёлтым</span>, эксклюзив — <span style="color:#e05050">красным</span>.<br><br>
+        Я всё это делала руками, так что, вероятно, здесь были допущены какие-то ошибки. Если вдруг вы что-то нашли, напишите мне в <a href="https://t.me/iishkisvetika" target="_blank">телеграм канал</a>, где я также публикую обновления по сайту, а также приколюхи для таво/джанитора!<br><br>
+        Я была бы благодарна, если бы этот сборник распространился на как можно большее количество пользователей — я вложила сюда достаточно много времени и была бы рада, если бы им пользовались. Всем спасибо большое и приятной игры!
+      </div>
+      <div class="welcome-stars">. ݁₊ ⊹ . ݁ ⟡ ݁ . ⊹ ₊ ݁. ݁₊ ⊹ . ݁ ⟡ ݁ . ⊹ ₊ ݁. ݁₊ ⊹ . ݁ ⟡ ݁ . ⊹ ₊ ݁.</div>
+    </div>
+  </div>
 </div>
 
 <main id="main">
@@ -516,5 +561,8 @@ function cardBg(n){let h=0;for(const c of n)h=(h*31+c.charCodeAt(0))&0xffff;cons
 document.addEventListener("keydown",e=>{if(e.key==="Escape"){closeModalDirect();if(openPanel)closePanel(openPanel);}});
 init();
 </script>
+
+<div id="footer">made by <a href="https://t.me/iishkisvetika" target="_blank">Светлячок</a></div>
+
 </body>
 </html>

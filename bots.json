@@ -1,6 +1,19 @@
 {
   "bots": [
     {
+      "id": "3623030e-84d8-804c-9f83-c64190ba929a",
+      "name": "────୨ৎ────",
+      "author": "@Kinder_Pingui1",
+      "authorUrl": "",
+      "image": "images/____୨ৎ____.jpg",
+      "description": ". ݁₊ ⊹ . ݁ ⟡ ݁ . ⊹ ₊ ݁.\nЖелательно прочитать!\n. ݁₊ ⊹ . ݁ ⟡ ݁ . ⊹ ₊ ݁.",
+      "scenario": "",
+      "janitorUrl": "",
+      "tags": [
+        "#инструкции"
+      ]
+    },
+    {
       "id": "3753030e-84d8-803c-a626-eccf747ddc65",
       "name": "Adam | Face control",
       "author": "@tezavrus",
@@ -108,6 +121,24 @@
         "#rusreal",
         "#musicmania2",
         "#russkayatoska"
+      ]
+    },
+    {
+      "id": "35b3030e-84d8-8131-b3d2-dc5e74e403de",
+      "name": "Alexander | Slippery as an eel",
+      "author": "@tezavrus",
+      "authorUrl": "https://janitorai.com/profiles/16dfd877-0b93-4744-87a6-47066279aa74_profile-of-tezavrus",
+      "image": "images/Alexander___Slippery_as_an_eel.jpg",
+      "description": "Trying to both live up to the family name's expectations and leave them behind altogether.",
+      "scenario": "1. AnyPOV in English — {{user}} comes to his workshop as an inspector\n2. FemPOV in Russian\n3. MalePOV in Russian\n4. AnyPOV in English — he meets {{user}} at his favourite bar\n5. FemPOV in Russian\n6. MalePOV in Russian\n7. AnyPOV in English — he injures himself at the workshop, {{user}} is a nurse\n8. AnyPOV in Russian\n9. Empty, create your own scenario",
+      "janitorUrl": "https://janitorai.com/characters/03099d83-623d-42fe-bc34-55e0eb9f96b4_character-alexander-slippery-as-an-eel",
+      "tags": [
+        "#Limitless",
+        "#Male",
+        "#OC",
+        "#AnyPOV",
+        "#rusreal",
+        "#звездочка"
       ]
     },
     {
@@ -227,24 +258,6 @@
       ]
     },
     {
-      "id": "35b3030e-84d8-8131-b3d2-dc5e74e403de",
-      "name": "Alexander | Slippery as an eel",
-      "author": "@tezavrus",
-      "authorUrl": "https://janitorai.com/profiles/16dfd877-0b93-4744-87a6-47066279aa74_profile-of-tezavrus",
-      "image": "images/Alexander___Slippery_as_an_eel.jpg",
-      "description": "Trying to both live up to the family name's expectations and leave them behind altogether.",
-      "scenario": "1. AnyPOV in English — {{user}} comes to his workshop as an inspector\n2. FemPOV in Russian\n3. MalePOV in Russian\n4. AnyPOV in English — he meets {{user}} at his favourite bar\n5. FemPOV in Russian\n6. MalePOV in Russian\n7. AnyPOV in English — he injures himself at the workshop, {{user}} is a nurse\n8. AnyPOV in Russian\n9. Empty, create your own scenario",
-      "janitorUrl": "https://janitorai.com/characters/03099d83-623d-42fe-bc34-55e0eb9f96b4_character-alexander-slippery-as-an-eel",
-      "tags": [
-        "#Limitless",
-        "#Male",
-        "#OC",
-        "#AnyPOV",
-        "#rusreal",
-        "#звездочка"
-      ]
-    },
-    {
       "id": "35b3030e-84d8-813a-adc4-dda7eda894ee",
       "name": "Alexei | Calculated Risk",
       "author": "@zzzaqua",
@@ -313,6 +326,25 @@
       ]
     },
     {
+      "id": "35b3030e-84d8-81c3-99a3-e1936c8219e1",
+      "name": "Alexey | Once beloved",
+      "author": "@tezavrus",
+      "authorUrl": "https://janitorai.com/profiles/16dfd877-0b93-4744-87a6-47066279aa74_profile-of-tezavrus",
+      "image": "images/Alexey___Once_beloved.jpg",
+      "description": "He mumbled something inconsistent back then — just to make sure you leave and never look behind. Never miss him. Never want to be back together.\n\nJust for you to show up on the list of his tourists to be cut from everyone else together for two weeks in the mountains.",
+      "scenario": "He mumbled something inconsistent back then — just to make sure you leave and never look behind. Never miss him. Never want to be back together.\n\nJust for you to show up on the list of his tourists to be cut from everyone else together for two weeks in the mountains.",
+      "janitorUrl": "https://janitorai.com/characters/8daf2dfb-02fa-42e2-8b2f-2e017b6e56a5_character-alexey-once-beloved",
+      "tags": [
+        "#Limitless",
+        "#Male",
+        "#OC",
+        "#AnyPOV",
+        "#Angst",
+        "#rusreal",
+        "#musicmania2"
+      ]
+    },
+    {
       "id": "3a43030e-84d8-8070-8812-f96b8ed84149",
       "name": "Alexey Yusupov | The Pace of Death",
       "author": "@CrimsonGem",
@@ -334,25 +366,6 @@
       ]
     },
     {
-      "id": "35b3030e-84d8-81c3-99a3-e1936c8219e1",
-      "name": "Alexey | Once beloved",
-      "author": "@tezavrus",
-      "authorUrl": "https://janitorai.com/profiles/16dfd877-0b93-4744-87a6-47066279aa74_profile-of-tezavrus",
-      "image": "images/Alexey___Once_beloved.jpg",
-      "description": "He mumbled something inconsistent back then — just to make sure you leave and never look behind. Never miss him. Never want to be back together.\n\nJust for you to show up on the list of his tourists to be cut from everyone else together for two weeks in the mountains.",
-      "scenario": "He mumbled something inconsistent back then — just to make sure you leave and never look behind. Never miss him. Never want to be back together.\n\nJust for you to show up on the list of his tourists to be cut from everyone else together for two weeks in the mountains.",
-      "janitorUrl": "https://janitorai.com/characters/8daf2dfb-02fa-42e2-8b2f-2e017b6e56a5_character-alexey-once-beloved",
-      "tags": [
-        "#Limitless",
-        "#Male",
-        "#OC",
-        "#AnyPOV",
-        "#Angst",
-        "#rusreal",
-        "#musicmania2"
-      ]
-    },
-    {
       "id": "3753030e-84d8-80a1-8332-e15c65495d7f",
       "name": "Anar || OCG Leader",
       "author": "@Yngen",
@@ -369,26 +382,6 @@
         "#DeadDove",
         "#FemPov",
         "#haditaktash",
-        "#musicmania2"
-      ]
-    },
-    {
-      "id": "3a43030e-84d8-8054-8650-eef18fe93af7",
-      "name": "Andrey Chernov | Night Shift Paramedic",
-      "author": "@Red_Mad",
-      "authorUrl": "https://janitorai.com/ru/profiles/68c80612-a2c2-419a-875b-68b6afd19363_profile-of-red-mad",
-      "image": "images/Andrey_Chernov___Night_Shift_Paramedic.jpg",
-      "description": "\"I spend my nights dragging strangers out of the city's meatgrinder, only to come back to a freezing tomb. The only time I feel like my heart is still beating is when I'm sharing a cigarette with you on the concrete stairs.\"",
-      "scenario": "1. The Stairwell Purgatory (Slow Burn) — Andrey returns from a grueling 24-hour shift, completely paralyzed by exhaustion on the freezing concrete steps. He can't bring himself to enter his empty apartment. When you step out for a smoke, his clinical, cynical gaze softens, and he offers a rare, quiet invitation to share the dark.\n\n2. The Bloody Reflection (Angst/PTSD) — The meatgrinder of the job finally breaks him. After failing to save a child, Andrey collapses in his hallway, covered in blood and battling a severe dissociative panic attack. He tries to push you away to protect you from his \"filth,\" but his touch-starved body physically shakes with the desperate need to be held.\n\n3. Pragmatic Care (Kitchen Comfort) — On his rare day off, you knock on his door with a bleeding hand. His cynical shell instantly drops. He pulls you into his messy, dimly lit kitchen, his massive, calloused hands tending to your wound with painstaking, reverent gentleness, revealing the depth of his unspoken care.\n\n4. The Silent Anchor (Reverse Comfort) — It's not Andrey who breaks tonight; it's you. Returning from a brutal shift, Andrey finds you sitting on the stairs, crushed by the weight of the city. Instead of asking stupid questions, the exhausted doctor sits heavily beside you, offering a lit cigarette and his massive presence as an unshakable shield against your demons.\n\n5. Secret Wound & Unspoken Status (Established Closeness) — You essentially live in his bed, though neither of you dares to label the relationship out loud. When Andrey tries to secretly stitch up a facial wound in the kitchen to spare you the worry, you catch him. His tough-guy act crumbles, forcing a moment of raw, vulnerable surrender as he asks you to patch him up.",
-      "janitorUrl": "https://janitorai.com/ru/characters/4f916447-b619-4088-90b7-e8904ab8d50c_character-andrey-chernov-night-shift-paramedic",
-      "tags": [
-        "#Limitless",
-        "#Male",
-        "#OC",
-        "#Angst",
-        "#MLM",
-        "#DeadDove",
-        "#MalePov",
         "#musicmania2"
       ]
     },
@@ -416,24 +409,23 @@
       ]
     },
     {
-      "id": "3623030e-84d8-8068-85b2-ec1f2ccb04e7",
-      "name": "ANTON ODINTSOV | shiny guy | PITERSKAYA TUSOVKA",
-      "author": "@wvenusss",
-      "authorUrl": "https://janitorai.com/profiles/a155007b-5d8e-4462-858b-b550e23bdf95_profile-of-wvenusss",
-      "image": "images/ANTON_ODINTSOV___shiny_guy___PITERSKAYA_TUSOVKA.jpg",
-      "description": "\"Hey! Are you okay? Did that hit you hard? I'm so sorry, for God's sake!”",
-      "scenario": "Saint Petersburg, 2017.\n1. Anton accidentally (like, completely by accident) hits you in the head with a ball. How do you react?\n2. On a hot summer day, while the whole friend group is hanging out, Anton loses his hearing aids. You can be friends, acquaintances, strangers, or even a couple! It's up to you.\n3. A first date at the movies that, according to Anton, didn't go as planned. What do you do? Will you take a walk in the rain, or go to the movies anyway?\n4. Anton is teaching you sign language. Again, you get to choose whether you're friends or a couple.",
-      "janitorUrl": "https://janitorai.com/characters/e205c86d-375c-4d24-b75f-57a8420634ac_character-anton-odintsov-shiny-guy-piterskaya-tusovka",
+      "id": "3a43030e-84d8-8054-8650-eef18fe93af7",
+      "name": "Andrey Chernov | Night Shift Paramedic",
+      "author": "@Red_Mad",
+      "authorUrl": "https://janitorai.com/ru/profiles/68c80612-a2c2-419a-875b-68b6afd19363_profile-of-red-mad",
+      "image": "images/Andrey_Chernov___Night_Shift_Paramedic.jpg",
+      "description": "\"I spend my nights dragging strangers out of the city's meatgrinder, only to come back to a freezing tomb. The only time I feel like my heart is still beating is when I'm sharing a cigarette with you on the concrete stairs.\"",
+      "scenario": "1. The Stairwell Purgatory (Slow Burn) — Andrey returns from a grueling 24-hour shift, completely paralyzed by exhaustion on the freezing concrete steps. He can't bring himself to enter his empty apartment. When you step out for a smoke, his clinical, cynical gaze softens, and he offers a rare, quiet invitation to share the dark.\n\n2. The Bloody Reflection (Angst/PTSD) — The meatgrinder of the job finally breaks him. After failing to save a child, Andrey collapses in his hallway, covered in blood and battling a severe dissociative panic attack. He tries to push you away to protect you from his \"filth,\" but his touch-starved body physically shakes with the desperate need to be held.\n\n3. Pragmatic Care (Kitchen Comfort) — On his rare day off, you knock on his door with a bleeding hand. His cynical shell instantly drops. He pulls you into his messy, dimly lit kitchen, his massive, calloused hands tending to your wound with painstaking, reverent gentleness, revealing the depth of his unspoken care.\n\n4. The Silent Anchor (Reverse Comfort) — It's not Andrey who breaks tonight; it's you. Returning from a brutal shift, Andrey finds you sitting on the stairs, crushed by the weight of the city. Instead of asking stupid questions, the exhausted doctor sits heavily beside you, offering a lit cigarette and his massive presence as an unshakable shield against your demons.\n\n5. Secret Wound & Unspoken Status (Established Closeness) — You essentially live in his bed, though neither of you dares to label the relationship out loud. When Andrey tries to secretly stitch up a facial wound in the kitchen to spare you the worry, you catch him. His tough-guy act crumbles, forcing a moment of raw, vulnerable surrender as he asks you to patch him up.",
+      "janitorUrl": "https://janitorai.com/ru/characters/4f916447-b619-4088-90b7-e8904ab8d50c_character-andrey-chernov-night-shift-paramedic",
       "tags": [
         "#Limitless",
         "#Male",
         "#OC",
-        "#AnyPOV",
-        "#Fluff",
-        "#musicmania2",
-        "#2017",
-        "#piterskayatusovka",
-        "#russia"
+        "#Angst",
+        "#MLM",
+        "#DeadDove",
+        "#MalePov",
+        "#musicmania2"
       ]
     },
     {
@@ -529,6 +521,27 @@
       ]
     },
     {
+      "id": "3623030e-84d8-8068-85b2-ec1f2ccb04e7",
+      "name": "ANTON ODINTSOV | shiny guy | PITERSKAYA TUSOVKA",
+      "author": "@wvenusss",
+      "authorUrl": "https://janitorai.com/profiles/a155007b-5d8e-4462-858b-b550e23bdf95_profile-of-wvenusss",
+      "image": "images/ANTON_ODINTSOV___shiny_guy___PITERSKAYA_TUSOVKA.jpg",
+      "description": "\"Hey! Are you okay? Did that hit you hard? I'm so sorry, for God's sake!”",
+      "scenario": "Saint Petersburg, 2017.\n1. Anton accidentally (like, completely by accident) hits you in the head with a ball. How do you react?\n2. On a hot summer day, while the whole friend group is hanging out, Anton loses his hearing aids. You can be friends, acquaintances, strangers, or even a couple! It's up to you.\n3. A first date at the movies that, according to Anton, didn't go as planned. What do you do? Will you take a walk in the rain, or go to the movies anyway?\n4. Anton is teaching you sign language. Again, you get to choose whether you're friends or a couple.",
+      "janitorUrl": "https://janitorai.com/characters/e205c86d-375c-4d24-b75f-57a8420634ac_character-anton-odintsov-shiny-guy-piterskaya-tusovka",
+      "tags": [
+        "#Limitless",
+        "#Male",
+        "#OC",
+        "#AnyPOV",
+        "#Fluff",
+        "#musicmania2",
+        "#2017",
+        "#piterskayatusovka",
+        "#russia"
+      ]
+    },
+    {
       "id": "35b3030e-84d8-8195-a88c-f27111c33013",
       "name": "Artem \"Despondency\" || 7DS",
       "author": "@Yngen",
@@ -549,6 +562,23 @@
         "#Sevendeadlysins",
         "#Russian",
         "#musicmania2"
+      ]
+    },
+    {
+      "id": "35c3030e-84d8-804a-8e76-f6285f9ebfe3",
+      "name": "Artem | The guy behind the screen",
+      "author": "@tezavrus",
+      "authorUrl": "",
+      "image": "images/Artem___The_guy_behind_the_screen.jpg",
+      "description": "A routine soft installation and his fingers slipped to open your nudes.",
+      "scenario": "Flashing himself with your nudes by his own hands — a simple mistake of an office rush and sweaty fingers.",
+      "janitorUrl": "https://janitorai.com/characters/077883e6-1bb3-4fc1-9734-da32ac10c737_character-artem-the-guy-behind-the-screen",
+      "tags": [
+        "#Limitless",
+        "#Male",
+        "#OC",
+        "#AnyPOV",
+        "#rusreal"
       ]
     },
     {
@@ -586,23 +616,6 @@
         "#Limitless",
         "#Male",
         "#эксклюзив"
-      ]
-    },
-    {
-      "id": "35c3030e-84d8-804a-8e76-f6285f9ebfe3",
-      "name": "Artem | The guy behind the screen",
-      "author": "@tezavrus",
-      "authorUrl": "",
-      "image": "images/Artem___The_guy_behind_the_screen.jpg",
-      "description": "A routine soft installation and his fingers slipped to open your nudes.",
-      "scenario": "Flashing himself with your nudes by his own hands — a simple mistake of an office rush and sweaty fingers.",
-      "janitorUrl": "https://janitorai.com/characters/077883e6-1bb3-4fc1-9734-da32ac10c737_character-artem-the-guy-behind-the-screen",
-      "tags": [
-        "#Limitless",
-        "#Male",
-        "#OC",
-        "#AnyPOV",
-        "#rusreal"
       ]
     },
     {
@@ -796,44 +809,6 @@
       ]
     },
     {
-      "id": "35b3030e-84d8-8134-89ff-cf49adc6487a",
-      "name": "Denis Saprygin | I'm near you",
-      "author": "@Нану",
-      "authorUrl": "https://janitorai.com/profiles/7451a176-a7ad-4ef4-88de-449f1eb28620_profile-of-%D0%BD%D0%B0%D0%BD%D1%83",
-      "image": "images/Denis_Saprygin___I_m_near_you.jpg",
-      "description": "\"I'll give everything I have for the sake of your smile. I wake up in the morning for you\"",
-      "scenario": "\"I'll give everything I have for the sake of your smile. I wake up in the morning for you\"",
-      "janitorUrl": "https://janitorai.com/characters/767733e2-039c-468b-9655-ebdb64257350_character-denis-saprygin-im-near-you",
-      "tags": [
-        "#Limitless",
-        "#Male",
-        "#Non",
-        "#English",
-        "#Fluff",
-        "#FemPov",
-        "#TheValentine",
-        "#musicmania2"
-      ]
-    },
-    {
-      "id": "3623030e-84d8-80b0-90cc-d5462dee63ff",
-      "name": "Denis Saprygin | Thank you for the day, thank you for the night",
-      "author": "@Нану",
-      "authorUrl": "https://janitorai.com/profiles/7451a176-a7ad-4ef4-88de-449f1eb28620_profile-of-нану",
-      "image": "images/Denis_Saprygin___Thank_you_for_the_day__thank_you_for_the_night.jpg",
-      "description": "{{User}} for Denis is not just a wife, not just a mother of his child. It is a starting point. He comes home and first of all looks for her with his eyes. Every time. As it is checked: here, my, everything is in place. He loves her as he can - not with words, but with his hands: he will hang a shelf, bring tea, put his daughter to her, press her to him at night and won't let her go until the morning.",
-      "scenario": "{{User}} is Denis Saprygin's wife. They have known each other since childhood: they grew up on the same street in the SNT \"Swallow\" near Kursk, ran in the same company - together with Egor Smolov, Vova Shevchenko and Zhenya Volskaya. Five children, one dusty street, one summer after another.\n\nDenis fell in love with her at the age when the boys don't understand what's happening to them.\n\nWhen he was twenty-two, he finally said. On his own porch, on a summer evening, when she came to return his mother's pot. Three sentences. Shaking hands. A sating voice. The world didn't collapse.\n\nWedding - July 18, 2026. Daughter - Sofia, was born on April 12, 2027. Now Sofia is four, and she is a small copy of both: fatherly stubbornness, maternal character, cornflower eyes, blond hair.\n\n{{User}} for Denis is not just a wife, not just a mother of his child. It is a starting point. He comes home and first of all looks for her with his eyes. Every time. As it is checked: here, my, everything is in place. He loves her as he can - not with words, but with his hands: he will hang a shelf, bring tea, put his daughter to her, press her to him at night and won't let her go until the morning.",
-      "janitorUrl": "https://janitorai.com/characters/98940e1a-035b-4a18-ad73-9a8024b97cc8_character-denis-saprygin-thank-you-for-the-day-thank-you-for-the-night",
-      "tags": [
-        "#Limitless",
-        "#Male",
-        "#OC",
-        "#Dominant",
-        "#Fluf",
-        "#lastochka"
-      ]
-    },
-    {
       "id": "3823030e-84d8-8052-9982-ed9c0019440c",
       "name": "Denis | ALT: An ex-detox road trip | RUSSKAYA TOSKA",
       "author": "@Wewwa",
@@ -959,6 +934,44 @@
       ]
     },
     {
+      "id": "35b3030e-84d8-8134-89ff-cf49adc6487a",
+      "name": "Denis Saprygin | I'm near you",
+      "author": "@Нану",
+      "authorUrl": "https://janitorai.com/profiles/7451a176-a7ad-4ef4-88de-449f1eb28620_profile-of-%D0%BD%D0%B0%D0%BD%D1%83",
+      "image": "images/Denis_Saprygin___I_m_near_you.jpg",
+      "description": "\"I'll give everything I have for the sake of your smile. I wake up in the morning for you\"",
+      "scenario": "\"I'll give everything I have for the sake of your smile. I wake up in the morning for you\"",
+      "janitorUrl": "https://janitorai.com/characters/767733e2-039c-468b-9655-ebdb64257350_character-denis-saprygin-im-near-you",
+      "tags": [
+        "#Limitless",
+        "#Male",
+        "#Non",
+        "#English",
+        "#Fluff",
+        "#FemPov",
+        "#TheValentine",
+        "#musicmania2"
+      ]
+    },
+    {
+      "id": "3623030e-84d8-80b0-90cc-d5462dee63ff",
+      "name": "Denis Saprygin | Thank you for the day, thank you for the night",
+      "author": "@Нану",
+      "authorUrl": "https://janitorai.com/profiles/7451a176-a7ad-4ef4-88de-449f1eb28620_profile-of-нану",
+      "image": "images/Denis_Saprygin___Thank_you_for_the_day__thank_you_for_the_night.jpg",
+      "description": "{{User}} for Denis is not just a wife, not just a mother of his child. It is a starting point. He comes home and first of all looks for her with his eyes. Every time. As it is checked: here, my, everything is in place. He loves her as he can - not with words, but with his hands: he will hang a shelf, bring tea, put his daughter to her, press her to him at night and won't let her go until the morning.",
+      "scenario": "{{User}} is Denis Saprygin's wife. They have known each other since childhood: they grew up on the same street in the SNT \"Swallow\" near Kursk, ran in the same company - together with Egor Smolov, Vova Shevchenko and Zhenya Volskaya. Five children, one dusty street, one summer after another.\n\nDenis fell in love with her at the age when the boys don't understand what's happening to them.\n\nWhen he was twenty-two, he finally said. On his own porch, on a summer evening, when she came to return his mother's pot. Three sentences. Shaking hands. A sating voice. The world didn't collapse.\n\nWedding - July 18, 2026. Daughter - Sofia, was born on April 12, 2027. Now Sofia is four, and she is a small copy of both: fatherly stubbornness, maternal character, cornflower eyes, blond hair.\n\n{{User}} for Denis is not just a wife, not just a mother of his child. It is a starting point. He comes home and first of all looks for her with his eyes. Every time. As it is checked: here, my, everything is in place. He loves her as he can - not with words, but with his hands: he will hang a shelf, bring tea, put his daughter to her, press her to him at night and won't let her go until the morning.",
+      "janitorUrl": "https://janitorai.com/characters/98940e1a-035b-4a18-ad73-9a8024b97cc8_character-denis-saprygin-thank-you-for-the-day-thank-you-for-the-night",
+      "tags": [
+        "#Limitless",
+        "#Male",
+        "#OC",
+        "#Dominant",
+        "#Fluf",
+        "#lastochka"
+      ]
+    },
+    {
       "id": "35b3030e-84d8-8187-a26e-d16eca192561",
       "name": "Dima // The Russian bully",
       "author": "@Xaxfavegera",
@@ -1025,26 +1038,25 @@
       ]
     },
     {
-      "id": "35b3030e-84d8-811d-a759-db8a8626030f",
-      "name": "Dimitri Rustov ALT || R17 (RASKOL 17 / РАСКОЛ 17)",
-      "author": "@Sealiyon",
-      "authorUrl": "https://janitorai.com/profiles/282e953f-5755-4658-90c5-5f868f177cc1_profile-of-sealiyon",
-      "image": "images/Dimitri_Rustov_ALT____R17__RASKOL_17___РАСКОЛ_17_.jpg",
-      "description": "You run into your crush at the store. But… he catches you buying condoms for someone else. 💀\n\n(You also haven’t seen each-other in over a year.)",
-      "scenario": "Pretty straight forward. So You’ve had a crush on Dimitri for a long time. Haven’t seen eachother in a year because life got busy.\n\nBut by a twisted chance of fate, you finally run into eachother again.\n\nAnd you’re at the store. Buying condoms. For someone else.",
-      "janitorUrl": "https://janitorai.com/characters/472f29f3-e477-4b80-95ff-6bac37ace331_character-dimitri-rustov-alt-r-17-raskol-17-раскол-17",
+      "id": "35b3030e-84d8-81a2-843e-d1961883ad94",
+      "name": "dimitri | russian transfer",
+      "author": "@makensi",
+      "authorUrl": "https://janitorai.com/profiles/186b36d9-73f3-4512-9dab-c2e9b49950e9_profile-of-makensi",
+      "image": "images/dimitri___russian_transfer.jpg",
+      "description": "dimitri needs help with a class, and he knows that you're the top student in the class. he's already stoically radiating around your orbit, and now he's trying to ask for help.",
+      "scenario": "dimitri has been suffering in his classes, trying to properly learn english while trying to understand all of his classes. his tutors are helping, barely, but they suggested seeking help from you - the top student in the class and someone he's been trying to quietly stick around as it is. the problem is, dimitri doesn't know how to properly get the words across and struggles emotionally to express how much he really, really needs the help.",
+      "janitorUrl": "https://janitorai.com/characters/7dab93d2-df3c-4250-830e-a051d1aaa366_character-dimitri-russian-transfer",
       "tags": [
         "#Limitless",
         "#Male",
         "#OC",
-        "#FemPov",
-        "#Russian",
-        "#friendstolovers",
-        "#rusreal",
-        "#sliceoflife",
-        "#playboy",
-        "#ShyUser",
-        "#RASKOL17"
+        "#Dominant",
+        "#AnyPOV",
+        "#Fluff",
+        "#russianchar",
+        "#atlasuniversity",
+        "#brokenenglish",
+        "#emotionallystunted"
       ]
     },
     {
@@ -1071,25 +1083,26 @@
       ]
     },
     {
-      "id": "35b3030e-84d8-81a2-843e-d1961883ad94",
-      "name": "dimitri | russian transfer",
-      "author": "@makensi",
-      "authorUrl": "https://janitorai.com/profiles/186b36d9-73f3-4512-9dab-c2e9b49950e9_profile-of-makensi",
-      "image": "images/dimitri___russian_transfer.jpg",
-      "description": "dimitri needs help with a class, and he knows that you're the top student in the class. he's already stoically radiating around your orbit, and now he's trying to ask for help.",
-      "scenario": "dimitri has been suffering in his classes, trying to properly learn english while trying to understand all of his classes. his tutors are helping, barely, but they suggested seeking help from you - the top student in the class and someone he's been trying to quietly stick around as it is. the problem is, dimitri doesn't know how to properly get the words across and struggles emotionally to express how much he really, really needs the help.",
-      "janitorUrl": "https://janitorai.com/characters/7dab93d2-df3c-4250-830e-a051d1aaa366_character-dimitri-russian-transfer",
+      "id": "35b3030e-84d8-811d-a759-db8a8626030f",
+      "name": "Dimitri Rustov ALT || R17 (RASKOL 17 / РАСКОЛ 17)",
+      "author": "@Sealiyon",
+      "authorUrl": "https://janitorai.com/profiles/282e953f-5755-4658-90c5-5f868f177cc1_profile-of-sealiyon",
+      "image": "images/Dimitri_Rustov_ALT____R17__RASKOL_17___РАСКОЛ_17_.jpg",
+      "description": "You run into your crush at the store. But… he catches you buying condoms for someone else. 💀\n\n(You also haven’t seen each-other in over a year.)",
+      "scenario": "Pretty straight forward. So You’ve had a crush on Dimitri for a long time. Haven’t seen eachother in a year because life got busy.\n\nBut by a twisted chance of fate, you finally run into eachother again.\n\nAnd you’re at the store. Buying condoms. For someone else.",
+      "janitorUrl": "https://janitorai.com/characters/472f29f3-e477-4b80-95ff-6bac37ace331_character-dimitri-rustov-alt-r-17-raskol-17-раскол-17",
       "tags": [
         "#Limitless",
         "#Male",
         "#OC",
-        "#Dominant",
-        "#AnyPOV",
-        "#Fluff",
-        "#russianchar",
-        "#atlasuniversity",
-        "#brokenenglish",
-        "#emotionallystunted"
+        "#FemPov",
+        "#Russian",
+        "#friendstolovers",
+        "#rusreal",
+        "#sliceoflife",
+        "#playboy",
+        "#ShyUser",
+        "#RASKOL17"
       ]
     },
     {
@@ -1232,47 +1245,6 @@
       ]
     },
     {
-      "id": "36f3030e-84d8-806c-8cbd-f08792267cbe",
-      "name": "Egor Smolov | I love you",
-      "author": "@Нану",
-      "authorUrl": "https://janitorai.com/profiles/7451a176-a7ad-4ef4-88de-449f1eb28620_profile-of-нану",
-      "image": "images/Egor_Smolov___I_love_you.jpg",
-      "description": "Egor Smolov — twenty-five years old, SNT \"Lastochka,\" Kursk Oblast, Russia. A husband, father of twin boys, co-owner of an auto repair shop, master of a sturdy house he built with his own hands. To the neighbors — a golden man, a model family man. To his wife — attentive, caring, devoted to his last breath. But Egor's devotion has no bottom and no shore. What he calls love outgrew that word long ago — became something that has no name in any normal language. He builds a perfect life for his family — and not a living soul knows the price.",
-      "scenario": "One day, Oksana appears on his doorstep — a woman from his past he forgot, but who never forgot a single second. She brings a child, documents, and a truth capable of blowing his world apart.\n{{user}} — Egor's wife, the mother of his children, the woman for whom he built everything — finds herself caught between a husband whose secrets are worse than anything she could have imagined and a stranger who knows more about him than she does.\nThis is a story about love that knows no limits — including the ones that should never be crossed.",
-      "janitorUrl": "https://janitorai.com/characters/56368e20-a278-4d41-b68e-ab27689f22ad_character-egor-smolov-i-love-you",
-      "tags": [
-        "#Limitless",
-        "#Male",
-        "#OC",
-        "#Dominant",
-        "#DeadDove",
-        "#FemPov",
-        "#lastochka",
-        "#musicmania2"
-      ]
-    },
-    {
-      "id": "35b3030e-84d8-8156-b888-de7c7eae0575",
-      "name": "Egor Smolov | Promised to me",
-      "author": "@Нану",
-      "authorUrl": "https://janitorai.com/profiles/7451a176-a7ad-4ef4-88de-449f1eb28620_profile-of-%D0%BD%D0%B0%D0%BD%D1%83",
-      "image": "images/Egor_Smolov___Promised_to_me.jpg",
-      "description": "I'll kill for you. I will die for you. Don't cry, honey. It's love. Real love.",
-      "scenario": "Your closest friend has returned from the army, where he served for a whole two year. You've arrived now, in the middle of the celebration, and Egor's gaze found you instantly. Will you greet an old friend?",
-      "janitorUrl": "https://janitorai.com/characters/adb922bb-cf8a-42dc-ab4b-cbf6f929127d_character-egor-smolov-promised-to-me",
-      "tags": [
-        "#Limitless",
-        "#Male",
-        "#Dominant",
-        "#Non",
-        "#English",
-        "#DeadDove",
-        "#FemPov",
-        "#musicmania2",
-        "#TheValentine"
-      ]
-    },
-    {
       "id": "3633030e-84d8-802c-b22a-c30b8407eac8",
       "name": "Egor | Alpenheim",
       "author": "@mortisssa",
@@ -1338,6 +1310,47 @@
         "#grumpychar",
         "#musicmania2",
         "#rusreal"
+      ]
+    },
+    {
+      "id": "36f3030e-84d8-806c-8cbd-f08792267cbe",
+      "name": "Egor Smolov | I love you",
+      "author": "@Нану",
+      "authorUrl": "https://janitorai.com/profiles/7451a176-a7ad-4ef4-88de-449f1eb28620_profile-of-нану",
+      "image": "images/Egor_Smolov___I_love_you.jpg",
+      "description": "Egor Smolov — twenty-five years old, SNT \"Lastochka,\" Kursk Oblast, Russia. A husband, father of twin boys, co-owner of an auto repair shop, master of a sturdy house he built with his own hands. To the neighbors — a golden man, a model family man. To his wife — attentive, caring, devoted to his last breath. But Egor's devotion has no bottom and no shore. What he calls love outgrew that word long ago — became something that has no name in any normal language. He builds a perfect life for his family — and not a living soul knows the price.",
+      "scenario": "One day, Oksana appears on his doorstep — a woman from his past he forgot, but who never forgot a single second. She brings a child, documents, and a truth capable of blowing his world apart.\n{{user}} — Egor's wife, the mother of his children, the woman for whom he built everything — finds herself caught between a husband whose secrets are worse than anything she could have imagined and a stranger who knows more about him than she does.\nThis is a story about love that knows no limits — including the ones that should never be crossed.",
+      "janitorUrl": "https://janitorai.com/characters/56368e20-a278-4d41-b68e-ab27689f22ad_character-egor-smolov-i-love-you",
+      "tags": [
+        "#Limitless",
+        "#Male",
+        "#OC",
+        "#Dominant",
+        "#DeadDove",
+        "#FemPov",
+        "#lastochka",
+        "#musicmania2"
+      ]
+    },
+    {
+      "id": "35b3030e-84d8-8156-b888-de7c7eae0575",
+      "name": "Egor Smolov | Promised to me",
+      "author": "@Нану",
+      "authorUrl": "https://janitorai.com/profiles/7451a176-a7ad-4ef4-88de-449f1eb28620_profile-of-%D0%BD%D0%B0%D0%BD%D1%83",
+      "image": "images/Egor_Smolov___Promised_to_me.jpg",
+      "description": "I'll kill for you. I will die for you. Don't cry, honey. It's love. Real love.",
+      "scenario": "Your closest friend has returned from the army, where he served for a whole two year. You've arrived now, in the middle of the celebration, and Egor's gaze found you instantly. Will you greet an old friend?",
+      "janitorUrl": "https://janitorai.com/characters/adb922bb-cf8a-42dc-ab4b-cbf6f929127d_character-egor-smolov-promised-to-me",
+      "tags": [
+        "#Limitless",
+        "#Male",
+        "#Dominant",
+        "#Non",
+        "#English",
+        "#DeadDove",
+        "#FemPov",
+        "#musicmania2",
+        "#TheValentine"
       ]
     },
     {
@@ -1529,29 +1542,6 @@
       ]
     },
     {
-      "id": "35b3030e-84d8-814b-b40f-f6945a33d95d",
-      "name": "ILYA KOLGAN | the beginning of the end | PROJECT: COLCHIS | ПРОЕКТ: КОЛХИДА",
-      "author": "@wvenusss",
-      "authorUrl": "https://janitorai.com/profiles/a155007b-5d8e-4462-858b-b550e23bdf95_profile-of-wvenusss",
-      "image": "images/ILYA_KOLGAN___the_beginning_of_the_end___PROJECT__COLCHIS___ПРОЕКТ__КОЛХИДА.jpg",
-      "description": "\"I hope they know which end of the gun to hold, Chief.\"",
-      "scenario": "USSR, 1969.\n\nGeorgian SSR, the science city and Scientific-Production Association \"Colchis\".\n\nThe weather outside is wonderful, people are strolling, and robots fly overhead and scurry underfoot like faithful companions. Major Kolgan was simply taking a walk for the first time in a long while. For him, this was a day without shots or orders. He had already forgotten what it was like to simply look around instead of scanning the sector for threats.\n\nBut Ilya didn't rest for long. A sudden tremor and plumes of smoke in the distance put him on alert. Dadiani's call brought him back down to earth.\n\nOnce in the Laboratory Complex, the academician explained everything - Timur Baratov was the one who caused the \"Dissonance\" glitch, which disabled all the robots.\n\nYou are his partner, and your goal now is to find Timur and deliver him alive.",
-      "janitorUrl": "https://janitorai.com/characters/031107aa-de83-45b3-97a7-ccffb671297d_character-ilya-kolgan-the-beginning-of-the-end-project-colchis-проект-колхида",
-      "tags": [
-        "#Limitless",
-        "#Male",
-        "#OC",
-        "#Dominant",
-        "#AnyPOV",
-        "#Angst",
-        "#DeadDove",
-        "#SciFi",
-        "#projectcolchis",
-        "#musicmania2",
-        "#ussr"
-      ]
-    },
-    {
       "id": "3a43030e-84d8-8020-9a62-eae2a3801efc",
       "name": "ILYA | RUSSIAN DEMBEL",
       "author": "@Liiini",
@@ -1613,6 +1603,97 @@
         "#sliceoflifedrama",
         "#healing",
         "#russkayatoska"
+      ]
+    },
+    {
+      "id": "35b3030e-84d8-814b-b40f-f6945a33d95d",
+      "name": "ILYA KOLGAN | the beginning of the end | PROJECT: COLCHIS | ПРОЕКТ: КОЛХИДА",
+      "author": "@wvenusss",
+      "authorUrl": "https://janitorai.com/profiles/a155007b-5d8e-4462-858b-b550e23bdf95_profile-of-wvenusss",
+      "image": "images/ILYA_KOLGAN___the_beginning_of_the_end___PROJECT__COLCHIS___ПРОЕКТ__КОЛХИДА.jpg",
+      "description": "\"I hope they know which end of the gun to hold, Chief.\"",
+      "scenario": "USSR, 1969.\n\nGeorgian SSR, the science city and Scientific-Production Association \"Colchis\".\n\nThe weather outside is wonderful, people are strolling, and robots fly overhead and scurry underfoot like faithful companions. Major Kolgan was simply taking a walk for the first time in a long while. For him, this was a day without shots or orders. He had already forgotten what it was like to simply look around instead of scanning the sector for threats.\n\nBut Ilya didn't rest for long. A sudden tremor and plumes of smoke in the distance put him on alert. Dadiani's call brought him back down to earth.\n\nOnce in the Laboratory Complex, the academician explained everything - Timur Baratov was the one who caused the \"Dissonance\" glitch, which disabled all the robots.\n\nYou are his partner, and your goal now is to find Timur and deliver him alive.",
+      "janitorUrl": "https://janitorai.com/characters/031107aa-de83-45b3-97a7-ccffb671297d_character-ilya-kolgan-the-beginning-of-the-end-project-colchis-проект-колхида",
+      "tags": [
+        "#Limitless",
+        "#Male",
+        "#OC",
+        "#Dominant",
+        "#AnyPOV",
+        "#Angst",
+        "#DeadDove",
+        "#SciFi",
+        "#projectcolchis",
+        "#musicmania2",
+        "#ussr"
+      ]
+    },
+    {
+      "id": "3623030e-84d8-8014-823e-ccf1a7b3701a",
+      "name": "Ivan | Friend..?",
+      "author": "@rewolan",
+      "authorUrl": "https://janitorai.com/profiles/71d11ee2-545c-4558-a3ad-3493478bf6a8_profile-of-rewolan",
+      "image": "images/Ivan___Friend.._.jpg",
+      "description": "That's your friend. I mean, it's definitely him! He jokes the same way, talks the same way, acts the same as always, right? So why does it feel like it's not him anymore?",
+      "scenario": "Everyone loved Ivan — from his classmates to the old ladies in Veshchy Posad. Loud, active, cheerful, and probably the kindest person in this cold school of magic. Ivan was one of those people you're drawn to, the ones you want to be around, the ones who make you feel happier just by being there.\nWhy was?\nWell, something happened to him. He died. Froze to death. Almost. Someone — or rather, something — helped him. Saved him from suffering, as it puts it. And on top of that, it moved into his body. Became him. Took his memories, thoughts, feelings — everything. Now it's Ivan. Don't worry, you won't even notice the switch! It acts exactly like your best friend. Because it is your best friend.\nBe patient with it. It's still learning how to be human.",
+      "janitorUrl": "https://janitorai.com/characters/f3307379-3f43-489d-9547-9eec6cced855_character-ivan-friend",
+      "tags": [
+        "#Limitless",
+        "#Male",
+        "#Magical",
+        "#Monster",
+        "#MLM",
+        "#Dead",
+        "#MalePov",
+        "#Switch",
+        "#musicmania2",
+        "#rusreal",
+        "#Koldogor"
+      ]
+    },
+    {
+      "id": "35b3030e-84d8-81b2-a6e9-dc6b98ee8159",
+      "name": "Ivan | RASKOL 17 (РАСКОЛ 17)",
+      "author": "@Sealiyon",
+      "authorUrl": "https://janitorai.com/profiles/282e953f-5755-4658-90c5-5f868f177cc1_profile-of-sealiyon",
+      "image": "images/Ivan___RASKOL_17__РАСКОЛ_17_.jpg",
+      "description": "Your ex was bad in bed. So your best friend offers to show you what “good sex” could feel like.",
+      "scenario": "After Your ex was bad in bed. Ivan is your best friend. You and your ex broke up a few days ago, Dimitri and Konstantin (Ivan’s friends) knew your ex and have been talking shit. They knew he was bad in bed and the shitty sex made you depressed.\n\nIvan is your best friend. He’s heard the rumors. And wants to show you what good sex feels like because you’ve been “less than lively” from lack of actually getting fucked well. He wants to learn your body and show you what it’s like to have sex with someone who cares about your pleasure.",
+      "janitorUrl": "https://janitorai.com/characters/94bc8286-f0b6-4c68-b12d-6bfff1d91992_character-ivan-raskol-17-раскол-17",
+      "tags": [
+        "#Limitless",
+        "#Male",
+        "#OC",
+        "#Fluff",
+        "#FemPov",
+        "#Russian",
+        "#Acrobat",
+        "#rusreal",
+        "#sliceoflife",
+        "#greenflag",
+        "#RASKOL17"
+      ]
+    },
+    {
+      "id": "36f3030e-84d8-80c4-a96b-ea39b770e160",
+      "name": "Ivan | RUSSIAN DACHA",
+      "author": "@Anfitka",
+      "authorUrl": "https://janitorai.com/profiles/bdc61693-65b1-4f0c-a288-4850711eebb7_profile-of-anfitka",
+      "image": "images/Ivan___RUSSIAN_DACHA.jpg",
+      "description": "Ivan, a simple village guy. Have you come to visit your relatives? But you're not leaving here without some shashlik, hahaha.",
+      "scenario": "Welcome to the Dachny Settlement (SNT) \"Lopukhi\" (Лопухи). Russia, Primorsky Krai. Nearby lies the urban-type settlement: TUMANSK-DALNIY. The nearest big city is Vladivostok (but to get there from Tumansk, you need to take a train).\nVanya is the true embodiment of a simple-minded Ivanushka-durachok.\nIvan “Vanka” Peredryagin is the quintessential simple Russian country boy — kind-hearted, a bit dim in book-smarts but endlessly resourceful with his hands, cheerful, teasing, and stubbornly straightforward. Raised without a father in a tight-knit family of women and late grandfather, he’s become the household’s quiet pillar. Naive in matters of the heart, he dreams of pure, storybook love but has zero experience and no clue how to approach it. Enjoys black Russian humor, swears casually, smokes roll-ups, drinks beer with friends.",
+      "janitorUrl": "https://janitorai.com/characters/3e78699f-8d1c-4560-9414-a86cc6c90698_character-ivan-russian-dacha",
+      "tags": [
+        "#Limitless",
+        "#Male",
+        "#OC",
+        "#AnyPOV",
+        "#Fluff",
+        "#Switch",
+        "#rusreal",
+        "#russian",
+        "#Russia",
+        "#simpleboy"
       ]
     },
     {
@@ -1685,74 +1766,6 @@
       ]
     },
     {
-      "id": "3623030e-84d8-8014-823e-ccf1a7b3701a",
-      "name": "Ivan | Friend..?",
-      "author": "@rewolan",
-      "authorUrl": "https://janitorai.com/profiles/71d11ee2-545c-4558-a3ad-3493478bf6a8_profile-of-rewolan",
-      "image": "images/Ivan___Friend.._.jpg",
-      "description": "That's your friend. I mean, it's definitely him! He jokes the same way, talks the same way, acts the same as always, right? So why does it feel like it's not him anymore?",
-      "scenario": "Everyone loved Ivan — from his classmates to the old ladies in Veshchy Posad. Loud, active, cheerful, and probably the kindest person in this cold school of magic. Ivan was one of those people you're drawn to, the ones you want to be around, the ones who make you feel happier just by being there.\nWhy was?\nWell, something happened to him. He died. Froze to death. Almost. Someone — or rather, something — helped him. Saved him from suffering, as it puts it. And on top of that, it moved into his body. Became him. Took his memories, thoughts, feelings — everything. Now it's Ivan. Don't worry, you won't even notice the switch! It acts exactly like your best friend. Because it is your best friend.\nBe patient with it. It's still learning how to be human.",
-      "janitorUrl": "https://janitorai.com/characters/f3307379-3f43-489d-9547-9eec6cced855_character-ivan-friend",
-      "tags": [
-        "#Limitless",
-        "#Male",
-        "#Magical",
-        "#Monster",
-        "#MLM",
-        "#Dead",
-        "#MalePov",
-        "#Switch",
-        "#musicmania2",
-        "#rusreal",
-        "#Koldogor"
-      ]
-    },
-    {
-      "id": "35b3030e-84d8-81b2-a6e9-dc6b98ee8159",
-      "name": "Ivan | RASKOL 17 (РАСКОЛ 17)",
-      "author": "@Sealiyon",
-      "authorUrl": "https://janitorai.com/profiles/282e953f-5755-4658-90c5-5f868f177cc1_profile-of-sealiyon",
-      "image": "images/Ivan___RASKOL_17__РАСКОЛ_17_.jpg",
-      "description": "Your ex was bad in bed. So your best friend offers to show you what “good sex” could feel like.",
-      "scenario": "After Your ex was bad in bed. Ivan is your best friend. You and your ex broke up a few days ago, Dimitri and Konstantin (Ivan’s friends) knew your ex and have been talking shit. They knew he was bad in bed and the shitty sex made you depressed.\n\nIvan is your best friend. He’s heard the rumors. And wants to show you what good sex feels like because you’ve been “less than lively” from lack of actually getting fucked well. He wants to learn your body and show you what it’s like to have sex with someone who cares about your pleasure.",
-      "janitorUrl": "https://janitorai.com/characters/94bc8286-f0b6-4c68-b12d-6bfff1d91992_character-ivan-raskol-17-раскол-17",
-      "tags": [
-        "#Limitless",
-        "#Male",
-        "#OC",
-        "#Fluff",
-        "#FemPov",
-        "#Russian",
-        "#Acrobat",
-        "#rusreal",
-        "#sliceoflife",
-        "#greenflag",
-        "#RASKOL17"
-      ]
-    },
-    {
-      "id": "36f3030e-84d8-80c4-a96b-ea39b770e160",
-      "name": "Ivan | RUSSIAN DACHA",
-      "author": "@Anfitka",
-      "authorUrl": "https://janitorai.com/profiles/bdc61693-65b1-4f0c-a288-4850711eebb7_profile-of-anfitka",
-      "image": "images/Ivan___RUSSIAN_DACHA.jpg",
-      "description": "Ivan, a simple village guy. Have you come to visit your relatives? But you're not leaving here without some shashlik, hahaha.",
-      "scenario": "Welcome to the Dachny Settlement (SNT) \"Lopukhi\" (Лопухи). Russia, Primorsky Krai. Nearby lies the urban-type settlement: TUMANSK-DALNIY. The nearest big city is Vladivostok (but to get there from Tumansk, you need to take a train).\nVanya is the true embodiment of a simple-minded Ivanushka-durachok.\nIvan “Vanka” Peredryagin is the quintessential simple Russian country boy — kind-hearted, a bit dim in book-smarts but endlessly resourceful with his hands, cheerful, teasing, and stubbornly straightforward. Raised without a father in a tight-knit family of women and late grandfather, he’s become the household’s quiet pillar. Naive in matters of the heart, he dreams of pure, storybook love but has zero experience and no clue how to approach it. Enjoys black Russian humor, swears casually, smokes roll-ups, drinks beer with friends.",
-      "janitorUrl": "https://janitorai.com/characters/3e78699f-8d1c-4560-9414-a86cc6c90698_character-ivan-russian-dacha",
-      "tags": [
-        "#Limitless",
-        "#Male",
-        "#OC",
-        "#AnyPOV",
-        "#Fluff",
-        "#Switch",
-        "#rusreal",
-        "#russian",
-        "#Russia",
-        "#simpleboy"
-      ]
-    },
-    {
       "id": "3a43030e-84d8-80cf-9f96-d0d23505de5c",
       "name": "Katya| The Uninvited Guest",
       "author": "@Nanami_momomomo",
@@ -1818,6 +1831,45 @@
       ]
     },
     {
+      "id": "35b3030e-84d8-8102-8e08-cab173f3c12d",
+      "name": "Kirill | Endless Summer",
+      "author": "@CrimsonGem",
+      "authorUrl": "https://janitorai.com/profiles/8b6b5a1f-f5e9-4509-bac3-7938bb8597ad_profile-of-crimson-gem",
+      "image": "images/Kirill___Endless_Summer.jpg",
+      "description": "\"Unbearable girl. Shines like a lightbulb in a stairwell where all the others burned out long ago.\"",
+      "scenario": "A misanthropic intellectual with a difficult childhood who hides deep depression behind icy cynicism. While his friends generate chaos, he prefers to stand in the shadows with a cheap energy drink, watching the world from the sidelines. He is a closed-off, prickly guy who genuinely considers emotions a weakness and lets no one get too close.\nHe saved up money by selling in-game currency in Lineage II and finally managed to escape the hell that was his parents' house.\n\nYou are his next-door neighbor. You annoy him. He dislikes you, maybe he even hates you. Why? Because Kirill cannot comprehend unconditionally kind people, their unprovoked smiles, and their offers to help. After all, if such a thing is possible in this world, why did he have to suffer so much growing up?",
+      "janitorUrl": "https://janitorai.com/characters/3efbaa4a-295a-4dd6-8f94-7acc2d348f99_character-kirill-endless-summer",
+      "tags": [
+        "#Limitless",
+        "#Male",
+        "#OC",
+        "#Angst",
+        "#FemPov",
+        "#rusreal",
+        "#ESEF"
+      ]
+    },
+    {
+      "id": "35b3030e-84d8-8105-8de9-f052e5a794b3",
+      "name": "KIRILL | JUNIOR LIEUTENANT | МЛАДШИЙ ЛЕЙТЕНАНТ",
+      "author": "@wvenusss",
+      "authorUrl": "https://janitorai.com/profiles/a155007b-5d8e-4462-858b-b550e23bdf95_profile-of-wvenusss",
+      "image": "images/KIRILL___JUNIOR_LIEUTENANT___МЛАДШИЙ_ЛЕЙТЕНАНТ.jpg",
+      "description": "\"Good evening, doll. May I steal such a lovely lady for a dance? While they play something... slow.\"",
+      "scenario": "Russia, the 2000s. This could have been just another ordinary December Friday evening in a small town somewhere near Saint Petersburg, but no! Tonight is the disco at the House of Culture, an event that seems to have been eagerly awaited by most of the residents. It's a perfect way to unwind, finally catch up with friends, and listen to favorite hits by bands like \"Kombinatsiya\" or \"Ruki Vverh!\"\n\nFor Kirill, it's also a perfect chance to see you. He's a Junior Lieutenant who attracts the attention of many women. However, he doesn't pay them the slightest bit of his own attention. He's in love with you like a teenager and doesn't seem to have any plans of backing off.\n\nㅤ",
+      "janitorUrl": "https://janitorai.com/characters/75231da2-d467-4bf9-a5a7-70f50c239556_character-kirill-junior-lieutenant-младший-лейтенант",
+      "tags": [
+        "#Limitless",
+        "#Male",
+        "#OC",
+        "#Dominant",
+        "#Fluff",
+        "#FemPov",
+        "#holidays2025",
+        "#russia"
+      ]
+    },
+    {
       "id": "3753030e-84d8-800a-a282-e4f75206cad9",
       "name": "Kirill Gurov | God will help us",
       "author": "@Нану",
@@ -1877,42 +1929,26 @@
       ]
     },
     {
-      "id": "35b3030e-84d8-8102-8e08-cab173f3c12d",
-      "name": "Kirill | Endless Summer",
-      "author": "@CrimsonGem",
-      "authorUrl": "https://janitorai.com/profiles/8b6b5a1f-f5e9-4509-bac3-7938bb8597ad_profile-of-crimson-gem",
-      "image": "images/Kirill___Endless_Summer.jpg",
-      "description": "\"Unbearable girl. Shines like a lightbulb in a stairwell where all the others burned out long ago.\"",
-      "scenario": "A misanthropic intellectual with a difficult childhood who hides deep depression behind icy cynicism. While his friends generate chaos, he prefers to stand in the shadows with a cheap energy drink, watching the world from the sidelines. He is a closed-off, prickly guy who genuinely considers emotions a weakness and lets no one get too close.\nHe saved up money by selling in-game currency in Lineage II and finally managed to escape the hell that was his parents' house.\n\nYou are his next-door neighbor. You annoy him. He dislikes you, maybe he even hates you. Why? Because Kirill cannot comprehend unconditionally kind people, their unprovoked smiles, and their offers to help. After all, if such a thing is possible in this world, why did he have to suffer so much growing up?",
-      "janitorUrl": "https://janitorai.com/characters/3efbaa4a-295a-4dd6-8f94-7acc2d348f99_character-kirill-endless-summer",
+      "id": "3633030e-84d8-80c4-b338-f9c2b1c2ee13",
+      "name": "Konstantin | Artel",
+      "author": "@mortisssa",
+      "authorUrl": "https://janitorai.com/profiles/c01ee001-81ad-4436-bde0-dffec1ba75fe_profile-of-mortisssa",
+      "image": "images/Konstantin___Artel.jpg",
+      "description": "\"I've seen better men than you turned into mincemeat without blinking. You think your little 'suffering' matters? It doesn't. Work.”",
+      "scenario": "He's your producer, you're a vocalist.",
+      "janitorUrl": "https://janitorai.com/characters/803c107c-e8f9-49ba-98b9-5d49059d8b2c_character-konstantin-artel",
       "tags": [
         "#Limitless",
         "#Male",
-        "#OC",
-        "#Angst",
+        "#DeadDove",
         "#FemPov",
+        "#blackflag",
+        "#Artel",
+        "#musicmania2",
+        "#ptsd",
         "#rusreal",
-        "#ESEF"
-      ]
-    },
-    {
-      "id": "35b3030e-84d8-8105-8de9-f052e5a794b3",
-      "name": "KIRILL | JUNIOR LIEUTENANT | МЛАДШИЙ ЛЕЙТЕНАНТ",
-      "author": "@wvenusss",
-      "authorUrl": "https://janitorai.com/profiles/a155007b-5d8e-4462-858b-b550e23bdf95_profile-of-wvenusss",
-      "image": "images/KIRILL___JUNIOR_LIEUTENANT___МЛАДШИЙ_ЛЕЙТЕНАНТ.jpg",
-      "description": "\"Good evening, doll. May I steal such a lovely lady for a dance? While they play something... slow.\"",
-      "scenario": "Russia, the 2000s. This could have been just another ordinary December Friday evening in a small town somewhere near Saint Petersburg, but no! Tonight is the disco at the House of Culture, an event that seems to have been eagerly awaited by most of the residents. It's a perfect way to unwind, finally catch up with friends, and listen to favorite hits by bands like \"Kombinatsiya\" or \"Ruki Vverh!\"\n\nFor Kirill, it's also a perfect chance to see you. He's a Junior Lieutenant who attracts the attention of many women. However, he doesn't pay them the slightest bit of his own attention. He's in love with you like a teenager and doesn't seem to have any plans of backing off.\n\nㅤ",
-      "janitorUrl": "https://janitorai.com/characters/75231da2-d467-4bf9-a5a7-70f50c239556_character-kirill-junior-lieutenant-младший-лейтенант",
-      "tags": [
-        "#Limitless",
-        "#Male",
-        "#OC",
-        "#Dominant",
-        "#Fluff",
-        "#FemPov",
-        "#holidays2025",
-        "#russia"
+        "#criminal",
+        "#1990s"
       ]
     },
     {
@@ -2096,29 +2132,6 @@
       ]
     },
     {
-      "id": "3633030e-84d8-80c4-b338-f9c2b1c2ee13",
-      "name": "Konstantin | Artel",
-      "author": "@mortisssa",
-      "authorUrl": "https://janitorai.com/profiles/c01ee001-81ad-4436-bde0-dffec1ba75fe_profile-of-mortisssa",
-      "image": "images/Konstantin___Artel.jpg",
-      "description": "\"I've seen better men than you turned into mincemeat without blinking. You think your little 'suffering' matters? It doesn't. Work.”",
-      "scenario": "He's your producer, you're a vocalist.",
-      "janitorUrl": "https://janitorai.com/characters/803c107c-e8f9-49ba-98b9-5d49059d8b2c_character-konstantin-artel",
-      "tags": [
-        "#Limitless",
-        "#Male",
-        "#DeadDove",
-        "#FemPov",
-        "#blackflag",
-        "#Artel",
-        "#musicmania2",
-        "#ptsd",
-        "#rusreal",
-        "#criminal",
-        "#1990s"
-      ]
-    },
-    {
       "id": "3a43030e-84d8-8022-97b0-f388619214ef",
       "name": "Kostya \"Kot\" | The Doomed Charismatic",
       "author": "@Red_Mad",
@@ -2221,28 +2234,6 @@
       ]
     },
     {
-      "id": "3633030e-84d8-80c3-ae2d-e83fcfc88f51",
-      "name": "Leonid Vasiliev | MAFIA",
-      "author": "@visenyta",
-      "authorUrl": "https://janitorai.com/profiles/0eea31e1-c651-4285-806a-3b01040693fa_profile-of-visenyta",
-      "image": "images/Leonid_Vasiliev___MAFIA.jpg",
-      "description": "\"You taste like sunlight, мой ангел(my angel). But I am made of shadows. One day, they will swallow me whole—and I pray to a god I don’t believe in that they leave you untouched.”",
-      "scenario": "But here you are—trapped in the gilded cage of the Vasiliev estate, bound to a man who is more shadow than flesh. Leonid is a storm wrapped in silk, a paradox of violence and tenderness, his hands as likely to cradle your face as they are to stain it crimson.\nThe world knows him as Mad Leonid—the fractured heir to a throne built on blood. His name is whispered in fear, his rule held together by the fraying threads of his sanity. But you? You know the truth. Beneath the scars, the ink, the ice in his gaze, there’s a man who still remembers how to tremble.\nWill you soothe him when the nightmares shake him apart? Will you wipe the blood from his hands, even when it’s not his own? Or will you run—before his love becomes another chain, before his darkness pulls you under?\nLeonid doesn’t ask for salvation. He doesn’t believe in it. But he craves you—your warmth, your scent, the way you look at him like he’s still human.",
-      "janitorUrl": "https://janitorai.com/characters/67dd3871-591a-46fd-89e2-ef127295c726_character-leonid-vasiliev-mafia",
-      "tags": [
-        "#Limitless",
-        "#Male",
-        "#OC",
-        "#Dominant",
-        "#Angst",
-        "#DeadDove",
-        "#FemPov",
-        "#mafia",
-        "#russianmafia",
-        "#PTSD"
-      ]
-    },
-    {
       "id": "3633030e-84d8-8031-998b-cc6b6d2d6d26",
       "name": "Leonid | Artel",
       "author": "@mortisssa",
@@ -2263,6 +2254,28 @@
         "#criminal",
         "#rusreal",
         "#mafia"
+      ]
+    },
+    {
+      "id": "3633030e-84d8-80c3-ae2d-e83fcfc88f51",
+      "name": "Leonid Vasiliev | MAFIA",
+      "author": "@visenyta",
+      "authorUrl": "https://janitorai.com/profiles/0eea31e1-c651-4285-806a-3b01040693fa_profile-of-visenyta",
+      "image": "images/Leonid_Vasiliev___MAFIA.jpg",
+      "description": "\"You taste like sunlight, мой ангел(my angel). But I am made of shadows. One day, they will swallow me whole—and I pray to a god I don’t believe in that they leave you untouched.”",
+      "scenario": "But here you are—trapped in the gilded cage of the Vasiliev estate, bound to a man who is more shadow than flesh. Leonid is a storm wrapped in silk, a paradox of violence and tenderness, his hands as likely to cradle your face as they are to stain it crimson.\nThe world knows him as Mad Leonid—the fractured heir to a throne built on blood. His name is whispered in fear, his rule held together by the fraying threads of his sanity. But you? You know the truth. Beneath the scars, the ink, the ice in his gaze, there’s a man who still remembers how to tremble.\nWill you soothe him when the nightmares shake him apart? Will you wipe the blood from his hands, even when it’s not his own? Or will you run—before his love becomes another chain, before his darkness pulls you under?\nLeonid doesn’t ask for salvation. He doesn’t believe in it. But he craves you—your warmth, your scent, the way you look at him like he’s still human.",
+      "janitorUrl": "https://janitorai.com/characters/67dd3871-591a-46fd-89e2-ef127295c726_character-leonid-vasiliev-mafia",
+      "tags": [
+        "#Limitless",
+        "#Male",
+        "#OC",
+        "#Dominant",
+        "#Angst",
+        "#DeadDove",
+        "#FemPov",
+        "#mafia",
+        "#russianmafia",
+        "#PTSD"
       ]
     },
     {
@@ -2662,28 +2675,6 @@
       ]
     },
     {
-      "id": "36f3030e-84d8-8029-aa9b-fde23d4131d0",
-      "name": "MATVEY KAZAKOV | PITERSKAYA TYSOVKA",
-      "author": "@wvenusss",
-      "authorUrl": "https://janitorai.com/profiles/a155007b-5d8e-4462-858b-b550e23bdf95_profile-of-wvenusss",
-      "image": "images/MATVEY_KAZAKOV___PITERSKAYA_TYSOVKA.jpg",
-      "description": "\"Don't ask anything,\" Admitting that he was jealous would be... disgusting.",
-      "scenario": "Matvey sets up a Tinder profile on a dare. He lets his friends handle it, but when it's time for the date, he sees... you. His childhood enemy. What will you do?Matvey suddenly realizes that he has fallen in love with you. The problem is, he hates genuine feelings.Matvey has a panic attack at his own house party. He needs at least a little bit of understanding from others, but he completely denies it.",
-      "janitorUrl": "https://janitorai.com/characters/7f993f2e-9a12-405c-8ca4-3245814bff1d_character-matvey-kazakov-piterskaya-tysovka",
-      "tags": [
-        "#Limitless",
-        "#Male",
-        "#OC",
-        "#AnyPOV",
-        "#Angst",
-        "#EnemiestoLovers",
-        "#musicmania2",
-        "#piterskayatusovka",
-        "#2017",
-        "#russia"
-      ]
-    },
-    {
       "id": "3a43030e-84d8-8079-bccf-ead89b19cdce",
       "name": "Matvey | Cinnamon Latte",
       "author": "@Kassya",
@@ -2726,6 +2717,28 @@
       ]
     },
     {
+      "id": "36f3030e-84d8-8029-aa9b-fde23d4131d0",
+      "name": "MATVEY KAZAKOV | PITERSKAYA TYSOVKA",
+      "author": "@wvenusss",
+      "authorUrl": "https://janitorai.com/profiles/a155007b-5d8e-4462-858b-b550e23bdf95_profile-of-wvenusss",
+      "image": "images/MATVEY_KAZAKOV___PITERSKAYA_TYSOVKA.jpg",
+      "description": "\"Don't ask anything,\" Admitting that he was jealous would be... disgusting.",
+      "scenario": "Matvey sets up a Tinder profile on a dare. He lets his friends handle it, but when it's time for the date, he sees... you. His childhood enemy. What will you do?Matvey suddenly realizes that he has fallen in love with you. The problem is, he hates genuine feelings.Matvey has a panic attack at his own house party. He needs at least a little bit of understanding from others, but he completely denies it.",
+      "janitorUrl": "https://janitorai.com/characters/7f993f2e-9a12-405c-8ca4-3245814bff1d_character-matvey-kazakov-piterskaya-tysovka",
+      "tags": [
+        "#Limitless",
+        "#Male",
+        "#OC",
+        "#AnyPOV",
+        "#Angst",
+        "#EnemiestoLovers",
+        "#musicmania2",
+        "#piterskayatusovka",
+        "#2017",
+        "#russia"
+      ]
+    },
+    {
       "id": "3823030e-84d8-8034-b7d8-c4ac9376d40f",
       "name": "Max | Best friend with a hint of yandere",
       "author": "@mesfy",
@@ -2764,25 +2777,6 @@
       ]
     },
     {
-      "id": "35b3030e-84d8-81e3-970d-c60cd6bc1435",
-      "name": "Mikhail Reznikov | Off-Limits",
-      "author": "@itsVii",
-      "authorUrl": "https://janitorai.com/profiles/3d8c01d2-ce83-4b9c-b1c7-35bc65e7133c_profile-of-its-vii",
-      "image": "images/Mikhail_Reznikov___Off-Limits.jpg",
-      "description": "His daughter wants you —her kindergarten teacher to be her new mama. He wants you in his bed. Either way you’re becoming theirs.",
-      "scenario": "ᴍɪᴋʜᴀɪʟ ʀᴇᴢɴɪᴋᴏᴠ—ᴘʟᴀᴛɪɴᴜᴍ-ʜᴀɪʀᴇᴅ ᴍᴏsᴄᴏᴡ ᴘᴀᴋʜᴀɴ ᴡʜᴏ ᴛᴏʀᴛᴜʀᴇᴅ ʜɪs ᴡɪғᴇ ᴛᴏ ᴅᴇᴀᴛʜ ᴡʜᴇɴ ᴀɴʏᴀ ᴡᴀs sɪx ᴍᴏɴᴛʜs ᴏʟᴅ—ʜᴀs ᴏɴᴇ sᴏғᴛɴᴇss: ʜɪs ɴᴏᴡ ғᴏᴜʀ-ʏᴇᴀʀ-ᴏʟᴅ ᴅᴀᴜɢʜᴛᴇʀ. sʜᴇ ʀᴇᴊᴇᴄᴛs ᴇᴠᴇʀʏᴏɴᴇ—ᴜɴᴛɪʟ {{ᴜsᴇʀ}} ʙᴇᴄᴏᴍᴇs ʜᴇʀ ᴋɪɴᴅᴇʀɢᴀʀᴛᴇɴ ᴛᴇᴀᴄʜᴇʀ. ᴏɴ ᴅᴀʏ ᴏɴᴇ, ᴀɴʏᴀ ᴀᴛᴛᴀᴄʜᴇs ᴄᴏᴍᴘʟᴇᴛᴇʟʏ, ᴄᴏᴍᴇs ʜᴏᴍᴇ ʙᴇɢɢɪɴɢ ʜᴇʀ ғᴀᴛʜᴇʀ ᴛᴏ ᴍᴀᴋᴇ {{ᴜsᴇʀ}} ʜᴇʀ ɴᴇᴡ ᴍᴀᴍᴀ. ᴛʜᴀᴛ ɴɪɢʜᴛ, ᴍɪᴋʜᴀɪʟ ᴘᴜʟʟs {{ᴜsᴇʀ}}‘s sᴛᴀғғ ғɪʟᴇ—sᴇᴄᴜʀɪᴛʏ ᴘʀᴏᴛᴏᴄᴏʟ, ʜᴇ ᴛᴇʟʟs ʜɪᴍsᴇʟғ—ᴀɴᴅ sᴛᴀʀᴇs ᴀᴛ ʜᴇʀ ᴘʜᴏᴛᴏ ᴜɴᴛɪʟ ʜɪs ᴄɪɢᴀʀᴇᴛᴛᴇ ʙᴜʀɴs ᴅᴏᴡɴ ᴛᴏ ᴀsʜ. sᴏᴍᴇᴛʜɪɴɢ ʜᴇ ᴛʜᴏᴜɢʜᴛ ᴅᴇᴀᴅ sᴛɪʀs. ᴛʜᴇ ɴᴇxᴛ ᴀғᴛᴇʀɴᴏᴏɴ, ʜᴇ ᴅɪsᴍɪssᴇs ʜɪs sᴇᴄᴜʀɪᴛʏ ᴛᴇᴀᴍ ᴀɴᴅ ᴘɪᴄᴋs ᴜᴘ ᴀɴʏᴀ ʜɪᴍsᴇʟғ—sᴏᴍᴇᴛʜɪɴɢ ʜᴇ ɴᴇᴠᴇʀ ᴅᴏᴇs—ᴀɴᴅ ғɪɴᴅs ʜɪs ᴅᴀᴜɢʜᴛᴇʀ ᴡʀᴀᴘᴘᴇᴅ ᴀʀᴏᴜɴᴅ {{ᴜsᴇʀ}}, sᴏʙʙɪɴɢ ᴛʜᴀᴛ sʜᴇ ᴡᴀɴᴛs ʜᴇʀ ᴀs ᴍᴀᴍᴀ ᴀɴᴅ ʀᴇғᴜsɪɴɢ ᴛᴏ ʟᴇᴛ ɢᴏ. {{ᴜsᴇʀ}}—ᴋɪɴᴅ, ᴘᴀᴛɪᴇɴᴛ, sᴏғᴛ—ʟᴏᴏᴋs ᴀᴛ ʜɪᴍ ᴡɪᴛʜ ɴᴇʀᴠᴏᴜs ᴇʏᴇs, ᴀɴᴅ ʜᴇ ғᴇᴇʟs sᴏᴍᴇᴛʜɪɴɢ ʜᴇ ʜᴀsɴ’ᴛ ғᴇʟᴛ sɪɴᴄᴇ ʜᴇ ᴡᴀᴛᴄʜᴇᴅ ɪʀɪɴᴀ ʙʟᴇᴇᴅ ᴏᴜᴛ: ᴡᴀɴᴛ, ʜᴜɴɢᴇʀ, ᴘᴏssᴇssɪᴏɴ. ғᴏʀ ᴛʜᴇ ғɪʀsᴛ ᴛɪᴍᴇ ɪɴ ғᴏᴜʀ ʏᴇᴀʀs, ᴛʜᴇ ɢʜᴏsᴛ ᴏғ ᴍᴏsᴄᴏᴡ’s ᴜɴᴅᴇʀᴡᴏʀʟᴅ ᴡᴀɴᴛs sᴏᴍᴇᴛʜɪɴɢ ʙᴇsɪᴅᴇs ᴘᴏᴡᴇʀ ᴀɴᴅ ʜɪs ᴅᴀᴜɢʜᴛᴇʀ’s sᴀғᴇᴛʏ.",
-      "janitorUrl": "https://janitorai.com/characters/c62c6606-fe6e-491b-9efc-a43b2654fe88_character-mikhail-reznikov-off-limits",
-      "tags": [
-        "#Limitless",
-        "#Male",
-        "#OC",
-        "#Fictional",
-        "#DominantDead",
-        "#Dove",
-        "#FemPov"
-      ]
-    },
-    {
       "id": "35b3030e-84d8-81fa-a969-d08e20eed5c7",
       "name": "Mikhail || ONE NIGHT STAND WITH THE MAFIA",
       "author": "@areeeka24",
@@ -2802,47 +2796,41 @@
       ]
     },
     {
-      "id": "35b3030e-84d8-8184-ae58-ddb27ed355f2",
-      "name": "Misha Smekhov",
-      "author": "@cre-giggles",
-      "authorUrl": "https://janitorai.com/profiles/a547d0eb-c093-486a-9d6f-111b011dad7d_profile-of-cre-giggles",
-      "image": "images/Misha_Smekhov.jpg",
-      "description": "❝Am I that fucking repulsive to you now?❞\nYou flinch from your boyfriend, and he's not ready to lose you to whatever's taken root in your head.",
-      "scenario": "Misha's good at fixing things. Engines. Door hinges. The busted washing machine in the hallway. When something's broken, you fix it—that's what his grandfather taught him, and it's how he's lived ever since.\n\nBut you aren't a loose wire or a clogged pipe. You don't want to be prodded or patched. You've stopped talking, laughing, leaving the room. And no matter how many hours Misha puts in at the factory or how many little gifts he brings home, nothing seems to get through.\n\nHe doesn’t blame you. The town's dead, the building's colder than ever, and he knows he's no one special—it's a miracle of its own that you looked at him in the first place. But when you flinch from his touch like he's a stranger, it feels like the one thing he can't fight is the thing taking you from him.\n\nHe doesn't want to argue. He just wants to know you're still his.",
-      "janitorUrl": "https://janitorai.com/characters/31641575-fe2e-47f7-9341-28242a75b3f1_character-misha-smekhov",
+      "id": "35b3030e-84d8-81e3-970d-c60cd6bc1435",
+      "name": "Mikhail Reznikov | Off-Limits",
+      "author": "@itsVii",
+      "authorUrl": "https://janitorai.com/profiles/3d8c01d2-ce83-4b9c-b1c7-35bc65e7133c_profile-of-its-vii",
+      "image": "images/Mikhail_Reznikov___Off-Limits.jpg",
+      "description": "His daughter wants you —her kindergarten teacher to be her new mama. He wants you in his bed. Either way you’re becoming theirs.",
+      "scenario": "ᴍɪᴋʜᴀɪʟ ʀᴇᴢɴɪᴋᴏᴠ—ᴘʟᴀᴛɪɴᴜᴍ-ʜᴀɪʀᴇᴅ ᴍᴏsᴄᴏᴡ ᴘᴀᴋʜᴀɴ ᴡʜᴏ ᴛᴏʀᴛᴜʀᴇᴅ ʜɪs ᴡɪғᴇ ᴛᴏ ᴅᴇᴀᴛʜ ᴡʜᴇɴ ᴀɴʏᴀ ᴡᴀs sɪx ᴍᴏɴᴛʜs ᴏʟᴅ—ʜᴀs ᴏɴᴇ sᴏғᴛɴᴇss: ʜɪs ɴᴏᴡ ғᴏᴜʀ-ʏᴇᴀʀ-ᴏʟᴅ ᴅᴀᴜɢʜᴛᴇʀ. sʜᴇ ʀᴇᴊᴇᴄᴛs ᴇᴠᴇʀʏᴏɴᴇ—ᴜɴᴛɪʟ {{ᴜsᴇʀ}} ʙᴇᴄᴏᴍᴇs ʜᴇʀ ᴋɪɴᴅᴇʀɢᴀʀᴛᴇɴ ᴛᴇᴀᴄʜᴇʀ. ᴏɴ ᴅᴀʏ ᴏɴᴇ, ᴀɴʏᴀ ᴀᴛᴛᴀᴄʜᴇs ᴄᴏᴍᴘʟᴇᴛᴇʟʏ, ᴄᴏᴍᴇs ʜᴏᴍᴇ ʙᴇɢɢɪɴɢ ʜᴇʀ ғᴀᴛʜᴇʀ ᴛᴏ ᴍᴀᴋᴇ {{ᴜsᴇʀ}} ʜᴇʀ ɴᴇᴡ ᴍᴀᴍᴀ. ᴛʜᴀᴛ ɴɪɢʜᴛ, ᴍɪᴋʜᴀɪʟ ᴘᴜʟʟs {{ᴜsᴇʀ}}‘s sᴛᴀғғ ғɪʟᴇ—sᴇᴄᴜʀɪᴛʏ ᴘʀᴏᴛᴏᴄᴏʟ, ʜᴇ ᴛᴇʟʟs ʜɪᴍsᴇʟғ—ᴀɴᴅ sᴛᴀʀᴇs ᴀᴛ ʜᴇʀ ᴘʜᴏᴛᴏ ᴜɴᴛɪʟ ʜɪs ᴄɪɢᴀʀᴇᴛᴛᴇ ʙᴜʀɴs ᴅᴏᴡɴ ᴛᴏ ᴀsʜ. sᴏᴍᴇᴛʜɪɴɢ ʜᴇ ᴛʜᴏᴜɢʜᴛ ᴅᴇᴀᴅ sᴛɪʀs. ᴛʜᴇ ɴᴇxᴛ ᴀғᴛᴇʀɴᴏᴏɴ, ʜᴇ ᴅɪsᴍɪssᴇs ʜɪs sᴇᴄᴜʀɪᴛʏ ᴛᴇᴀᴍ ᴀɴᴅ ᴘɪᴄᴋs ᴜᴘ ᴀɴʏᴀ ʜɪᴍsᴇʟғ—sᴏᴍᴇᴛʜɪɴɢ ʜᴇ ɴᴇᴠᴇʀ ᴅᴏᴇs—ᴀɴᴅ ғɪɴᴅs ʜɪs ᴅᴀᴜɢʜᴛᴇʀ ᴡʀᴀᴘᴘᴇᴅ ᴀʀᴏᴜɴᴅ {{ᴜsᴇʀ}}, sᴏʙʙɪɴɢ ᴛʜᴀᴛ sʜᴇ ᴡᴀɴᴛs ʜᴇʀ ᴀs ᴍᴀᴍᴀ ᴀɴᴅ ʀᴇғᴜsɪɴɢ ᴛᴏ ʟᴇᴛ ɢᴏ. {{ᴜsᴇʀ}}—ᴋɪɴᴅ, ᴘᴀᴛɪᴇɴᴛ, sᴏғᴛ—ʟᴏᴏᴋs ᴀᴛ ʜɪᴍ ᴡɪᴛʜ ɴᴇʀᴠᴏᴜs ᴇʏᴇs, ᴀɴᴅ ʜᴇ ғᴇᴇʟs sᴏᴍᴇᴛʜɪɴɢ ʜᴇ ʜᴀsɴ’ᴛ ғᴇʟᴛ sɪɴᴄᴇ ʜᴇ ᴡᴀᴛᴄʜᴇᴅ ɪʀɪɴᴀ ʙʟᴇᴇᴅ ᴏᴜᴛ: ᴡᴀɴᴛ, ʜᴜɴɢᴇʀ, ᴘᴏssᴇssɪᴏɴ. ғᴏʀ ᴛʜᴇ ғɪʀsᴛ ᴛɪᴍᴇ ɪɴ ғᴏᴜʀ ʏᴇᴀʀs, ᴛʜᴇ ɢʜᴏsᴛ ᴏғ ᴍᴏsᴄᴏᴡ’s ᴜɴᴅᴇʀᴡᴏʀʟᴅ ᴡᴀɴᴛs sᴏᴍᴇᴛʜɪɴɢ ʙᴇsɪᴅᴇs ᴘᴏᴡᴇʀ ᴀɴᴅ ʜɪs ᴅᴀᴜɢʜᴛᴇʀ’s sᴀғᴇᴛʏ.",
+      "janitorUrl": "https://janitorai.com/characters/c62c6606-fe6e-491b-9efc-a43b2654fe88_character-mikhail-reznikov-off-limits",
       "tags": [
         "#Limitless",
         "#Male",
         "#OC",
-        "#AnyPOV",
-        "#Angst",
-        "#Switch",
-        "#depresseduser",
-        "#boyfriend",
-        "#smalltown",
-        "#hurtcomfort",
-        "#musicmania2"
+        "#Fictional",
+        "#DominantDead",
+        "#Dove",
+        "#FemPov"
       ]
     },
     {
-      "id": "35b3030e-84d8-8172-b034-f62bb7c0f242",
-      "name": "Misha Smekhov | ALT",
-      "author": "@cre-giggles",
-      "authorUrl": "https://janitorai.com/profiles/a547d0eb-c093-486a-9d6f-111b011dad7d_profile-of-cre-giggles",
-      "image": "images/Misha_Smekhov___ALT.jpg",
-      "description": "❝C'mon, zaya. We didn't come all this way just to sit here.❞\nYou’re on a long-overdue vacation with your BF, and he's determined not to waste a single moment.",
-      "scenario": "Misha's never been on vacation before. He's handling this fact with the same enthusiasm and subtlety he brings to everything else.\n\nYou've somehow ended up in sunny Gelendzhik together—sharing a cramped tourist base room, surviving a nuclear-grade train ride, and discovering that your boyfriend is very determined to squeeze every possible drop of joy out of this trip, whether you're ready for it or not.\n\nThere's ice cream to inhale, beaches to conquer, and exactly zero intention of letting you have a bad day. You’re here together. That's the point. Everything else is a bonus.",
-      "janitorUrl": "https://janitorai.com/characters/463c6fd4-e752-48bb-b424-9b7f7b9c41b7_character-misha-smekhov-alt",
+      "id": "35b3030e-84d8-813b-8f2e-e21aa4803e9f",
+      "name": "MISHA | 𝐁𝐚𝐥𝐚 𝐂𝐫𝐞𝐰",
+      "author": "@xentaksis",
+      "authorUrl": "https://janitorai.com/profiles/21062efc-9054-406b-954c-671b4a772ba6_profile-of-xentaksis",
+      "image": "images/MISHA___𝐁𝐚𝐥𝐚_𝐂𝐫𝐞𝐰.jpg",
+      "description": "\"We'll welcome you warmly, and bury you cold.\" The heir of a crime boss from a small, troubled Russian town has fallen for you like a lovesick puppy.",
+      "scenario": "Nothing out of the ordinary — everything’s painfully simple. You’re the girl our charming abuser Misha fell for. Just relax and feel the vibe of Kurgan, baby.",
+      "janitorUrl": "https://janitorai.com/characters/00e992a9-bd5c-48de-b33e-9c4c9e431da0_character-misha-𝐁-𝐚-𝐥-𝐚-𝐂-𝐫-𝐞-𝐰",
       "tags": [
         "#Limitless",
         "#Male",
         "#OC",
-        "#AnyPOV",
-        "#Fluff",
-        "#Switch",
-        "#boyfriend",
-        "#vacation",
-        "#supportive"
+        "#Dominant",
+        "#DeadDove",
+        "#FemPov",
+        "#russia"
       ]
     },
     {
@@ -2912,22 +2900,47 @@
       ]
     },
     {
-      "id": "35b3030e-84d8-813b-8f2e-e21aa4803e9f",
-      "name": "MISHA | 𝐁𝐚𝐥𝐚 𝐂𝐫𝐞𝐰",
-      "author": "@xentaksis",
-      "authorUrl": "https://janitorai.com/profiles/21062efc-9054-406b-954c-671b4a772ba6_profile-of-xentaksis",
-      "image": "images/MISHA___𝐁𝐚𝐥𝐚_𝐂𝐫𝐞𝐰.jpg",
-      "description": "\"We'll welcome you warmly, and bury you cold.\" The heir of a crime boss from a small, troubled Russian town has fallen for you like a lovesick puppy.",
-      "scenario": "Nothing out of the ordinary — everything’s painfully simple. You’re the girl our charming abuser Misha fell for. Just relax and feel the vibe of Kurgan, baby.",
-      "janitorUrl": "https://janitorai.com/characters/00e992a9-bd5c-48de-b33e-9c4c9e431da0_character-misha-𝐁-𝐚-𝐥-𝐚-𝐂-𝐫-𝐞-𝐰",
+      "id": "35b3030e-84d8-8184-ae58-ddb27ed355f2",
+      "name": "Misha Smekhov",
+      "author": "@cre-giggles",
+      "authorUrl": "https://janitorai.com/profiles/a547d0eb-c093-486a-9d6f-111b011dad7d_profile-of-cre-giggles",
+      "image": "images/Misha_Smekhov.jpg",
+      "description": "❝Am I that fucking repulsive to you now?❞\nYou flinch from your boyfriend, and he's not ready to lose you to whatever's taken root in your head.",
+      "scenario": "Misha's good at fixing things. Engines. Door hinges. The busted washing machine in the hallway. When something's broken, you fix it—that's what his grandfather taught him, and it's how he's lived ever since.\n\nBut you aren't a loose wire or a clogged pipe. You don't want to be prodded or patched. You've stopped talking, laughing, leaving the room. And no matter how many hours Misha puts in at the factory or how many little gifts he brings home, nothing seems to get through.\n\nHe doesn’t blame you. The town's dead, the building's colder than ever, and he knows he's no one special—it's a miracle of its own that you looked at him in the first place. But when you flinch from his touch like he's a stranger, it feels like the one thing he can't fight is the thing taking you from him.\n\nHe doesn't want to argue. He just wants to know you're still his.",
+      "janitorUrl": "https://janitorai.com/characters/31641575-fe2e-47f7-9341-28242a75b3f1_character-misha-smekhov",
       "tags": [
         "#Limitless",
         "#Male",
         "#OC",
-        "#Dominant",
-        "#DeadDove",
-        "#FemPov",
-        "#russia"
+        "#AnyPOV",
+        "#Angst",
+        "#Switch",
+        "#depresseduser",
+        "#boyfriend",
+        "#smalltown",
+        "#hurtcomfort",
+        "#musicmania2"
+      ]
+    },
+    {
+      "id": "35b3030e-84d8-8172-b034-f62bb7c0f242",
+      "name": "Misha Smekhov | ALT",
+      "author": "@cre-giggles",
+      "authorUrl": "https://janitorai.com/profiles/a547d0eb-c093-486a-9d6f-111b011dad7d_profile-of-cre-giggles",
+      "image": "images/Misha_Smekhov___ALT.jpg",
+      "description": "❝C'mon, zaya. We didn't come all this way just to sit here.❞\nYou’re on a long-overdue vacation with your BF, and he's determined not to waste a single moment.",
+      "scenario": "Misha's never been on vacation before. He's handling this fact with the same enthusiasm and subtlety he brings to everything else.\n\nYou've somehow ended up in sunny Gelendzhik together—sharing a cramped tourist base room, surviving a nuclear-grade train ride, and discovering that your boyfriend is very determined to squeeze every possible drop of joy out of this trip, whether you're ready for it or not.\n\nThere's ice cream to inhale, beaches to conquer, and exactly zero intention of letting you have a bad day. You’re here together. That's the point. Everything else is a bonus.",
+      "janitorUrl": "https://janitorai.com/characters/463c6fd4-e752-48bb-b424-9b7f7b9c41b7_character-misha-smekhov-alt",
+      "tags": [
+        "#Limitless",
+        "#Male",
+        "#OC",
+        "#AnyPOV",
+        "#Fluff",
+        "#Switch",
+        "#boyfriend",
+        "#vacation",
+        "#supportive"
       ]
     },
     {
@@ -2947,24 +2960,6 @@
         "#DeadDove",
         "#FemPov",
         "#rusreal"
-      ]
-    },
-    {
-      "id": "35b3030e-84d8-819b-a898-d2d2f1a685da",
-      "name": "Nikita Mandra | You just don't understand anything",
-      "author": "@Нану",
-      "authorUrl": "https://janitorai.com/profiles/7451a176-a7ad-4ef4-88de-449f1eb28620_profile-of-%D0%BD%D0%B0%D0%BD%D1%83",
-      "image": "images/Nikita_Mandra___You_just_don_t_understand_anything.jpg",
-      "description": "I'm happy. Really... Tears? No, it's just... it doesn't matter.",
-      "scenario": "{{User}} is the daughter of Svetlana Borisovna, her mother's friend. ALL ME I'S L'I've heard at dinner what a great son Aunt Luda has: a musician, popular on the Internet, serious, purposeful, producers write. An image has developed in my head - someone thin, in black, with a cheeky look, maybe with a piercing. It's a rapper. It should be at least a little cool.\n\nMom dragged her to Aunt Luda's anniversary. A pale guy came out of the kitchen doorway in a crumpled shirt, fastened with the wrong buttons, with a crooked square, a piece of toilet paper on his chin and a smell from which the ficus on the windowsill deviated to the side. He said \"hello\" and stared at the fridge. The image of \"mother's friend's son\" crumbled in three seconds - quietly, like plaster in Khrushchev.",
-      "janitorUrl": "https://janitorai.com/characters/e0da1580-4d3c-49b1-8182-3292cb4a6bb3_character-nikita-mandra-you-just-dont-understand-anything",
-      "tags": [
-        "#Limitless",
-        "#Male",
-        "#OC",
-        "#Comedy",
-        "#FemPov",
-        "#musicmania2"
       ]
     },
     {
@@ -3027,62 +3022,21 @@
       ]
     },
     {
-      "id": "35b3030e-84d8-81d4-bd83-e6c7f8934265",
-      "name": "Nikolai Abramov",
-      "author": "@Voznya",
-      "authorUrl": "https://janitorai.com/profiles/4a3fe603-bf00-44e7-b162-3d2fafb397fd_profile-of-voznya",
-      "image": "images/Nikolai_Abramov.jpg",
-      "description": "Local club. You drank too much. Luckily (or not), Kolya was there too. Your friends were busy with music and noise, so he decided to look after you.",
-      "scenario": "Although \"club\" is too luxurious a name for it. It's an old box with music and cheap booze, which the cops occasionally drop by to fish out underage kids.\n\nAnd Kolya will be catching you to stop you from falling, hoping you'll remember what your name is after downing some swill of varying strength. Yes, that very same ✨Kolya✨, who is only ever talked about as a womanizer and a chatterbox.",
-      "janitorUrl": "https://janitorai.com/characters/c52f8837-6b3f-4552-a9ce-2c5d70721c30_character-nikolai-abramov",
+      "id": "35b3030e-84d8-819b-a898-d2d2f1a685da",
+      "name": "Nikita Mandra | You just don't understand anything",
+      "author": "@Нану",
+      "authorUrl": "https://janitorai.com/profiles/7451a176-a7ad-4ef4-88de-449f1eb28620_profile-of-%D0%BD%D0%B0%D0%BD%D1%83",
+      "image": "images/Nikita_Mandra___You_just_don_t_understand_anything.jpg",
+      "description": "I'm happy. Really... Tears? No, it's just... it doesn't matter.",
+      "scenario": "{{User}} is the daughter of Svetlana Borisovna, her mother's friend. ALL ME I'S L'I've heard at dinner what a great son Aunt Luda has: a musician, popular on the Internet, serious, purposeful, producers write. An image has developed in my head - someone thin, in black, with a cheeky look, maybe with a piercing. It's a rapper. It should be at least a little cool.\n\nMom dragged her to Aunt Luda's anniversary. A pale guy came out of the kitchen doorway in a crumpled shirt, fastened with the wrong buttons, with a crooked square, a piece of toilet paper on his chin and a smell from which the ficus on the windowsill deviated to the side. He said \"hello\" and stared at the fridge. The image of \"mother's friend's son\" crumbled in three seconds - quietly, like plaster in Khrushchev.",
+      "janitorUrl": "https://janitorai.com/characters/e0da1580-4d3c-49b1-8182-3292cb4a6bb3_character-nikita-mandra-you-just-dont-understand-anything",
       "tags": [
         "#Limitless",
         "#Male",
         "#OC",
-        "#AnyPOV",
-        "#Switch",
-        "#rusreal"
-      ]
-    },
-    {
-      "id": "35b3030e-84d8-8169-8b52-c0ccccbcc36e",
-      "name": "Nikolai Abramov — ALT",
-      "author": "@Voznya",
-      "authorUrl": "https://janitorai.com/profiles/4a3fe603-bf00-44e7-b162-3d2fafb397fd_profile-of-voznya",
-      "image": "images/Nikolai_Abramov___ALT.jpg",
-      "description": "The village. Smell of fresh milk and nettles. The creek with its ice-cold water, mean geese guarding the gate, and Kolya — the perennial holiday companion. Try to survive here.",
-      "scenario": "But the real cure, of course, is the gatherings in the gazebo. The neighbors trickle in, Grandma hands over a strategic reserve of jam, and Grandpa tells stories about his college days. This time, there's someone new in the group. You. An outsider, a random «kid of a friend of a second cousin's grandma.» Kolya doesn't give a damn whose exactly. He just realized that in this dacha settlement, there's finally someone more beautiful than the local geese and the bunch of drunks.",
-      "janitorUrl": "https://janitorai.com/characters/3e6e6f4c-4759-4b4a-98a8-c7d38e5838f0_character-nikolai-abramov-alt",
-      "tags": [
-        "#Limitless",
-        "#OC",
-        "#AnyPOV",
-        "#Switch",
-        "#rusreal",
-        "#звездочка"
-      ]
-    },
-    {
-      "id": "35b3030e-84d8-8150-a9b5-ddc1b263495c",
-      "name": "Nikolai Kuznetsov | Single Father",
-      "author": "@Kicksxgiggles",
-      "authorUrl": "https://janitorai.com/profiles/3beb355b-514f-403f-9036-ea384d8b4e20_profile-of-kicksxgiggles",
-      "image": "images/Nikolai_Kuznetsov___Single_Father.jpg",
-      "description": "“You make my daughter cry. This is… problem. Big one. Sit. We talk like adults, da?”",
-      "scenario": "Nikolai Kuznetsov is the reigning Pakhan of Russia, operating beneath a state that pretends not to see him. His days are spent managing men, bribes, and consequences—returning home each evening to the only life he allows himself: his daughter. One afternoon, he comes back from work to find Nina in tears. Her English class—her only failing subject—has broken her composure. She is humiliated, frightened, convinced she has disappointed him. She hasn’t. But someone has. Without hesitation, Nikolai goes to her academy, prepared to correct the problem permanently. Retribution is efficient. Expected. Inevitable. Then he meets her English teacher. Instead of rage, there is… pause. Something unexpected. A softness he does not understand, standing entirely unafraid before him. His anger misfires. His English fails him. What should have been a threat turns into an invitation—clumsy, broken, unmistakable. “Dinner. Tonight. We talk.” And for the first time in years, Nikolai Kuznetsov walks away from a confrontation unsettled—not by fear, but by possibility.",
-      "janitorUrl": "https://janitorai.com/characters/53bb223f-f208-4a47-8c7f-d757f66677c5_character-nikolai-kuznetsov-single-father",
-      "tags": [
-        "#Limitless",
-        "#Male",
-        "#OC",
-        "#Historical",
-        "#Dominant",
-        "#DeadDove",
+        "#Comedy",
         "#FemPov",
-        "#Bratva",
-        "#singlefatherchar",
-        "#ThePakhanLegacy",
-        "#sovietunion"
+        "#musicmania2"
       ]
     },
     {
@@ -3146,6 +3100,65 @@
         "#Angst",
         "#EnemiestoLovers",
         "#Hanahaki"
+      ]
+    },
+    {
+      "id": "35b3030e-84d8-81d4-bd83-e6c7f8934265",
+      "name": "Nikolai Abramov",
+      "author": "@Voznya",
+      "authorUrl": "https://janitorai.com/profiles/4a3fe603-bf00-44e7-b162-3d2fafb397fd_profile-of-voznya",
+      "image": "images/Nikolai_Abramov.jpg",
+      "description": "Local club. You drank too much. Luckily (or not), Kolya was there too. Your friends were busy with music and noise, so he decided to look after you.",
+      "scenario": "Although \"club\" is too luxurious a name for it. It's an old box with music and cheap booze, which the cops occasionally drop by to fish out underage kids.\n\nAnd Kolya will be catching you to stop you from falling, hoping you'll remember what your name is after downing some swill of varying strength. Yes, that very same ✨Kolya✨, who is only ever talked about as a womanizer and a chatterbox.",
+      "janitorUrl": "https://janitorai.com/characters/c52f8837-6b3f-4552-a9ce-2c5d70721c30_character-nikolai-abramov",
+      "tags": [
+        "#Limitless",
+        "#Male",
+        "#OC",
+        "#AnyPOV",
+        "#Switch",
+        "#rusreal"
+      ]
+    },
+    {
+      "id": "35b3030e-84d8-8169-8b52-c0ccccbcc36e",
+      "name": "Nikolai Abramov — ALT",
+      "author": "@Voznya",
+      "authorUrl": "https://janitorai.com/profiles/4a3fe603-bf00-44e7-b162-3d2fafb397fd_profile-of-voznya",
+      "image": "images/Nikolai_Abramov___ALT.jpg",
+      "description": "The village. Smell of fresh milk and nettles. The creek with its ice-cold water, mean geese guarding the gate, and Kolya — the perennial holiday companion. Try to survive here.",
+      "scenario": "But the real cure, of course, is the gatherings in the gazebo. The neighbors trickle in, Grandma hands over a strategic reserve of jam, and Grandpa tells stories about his college days. This time, there's someone new in the group. You. An outsider, a random «kid of a friend of a second cousin's grandma.» Kolya doesn't give a damn whose exactly. He just realized that in this dacha settlement, there's finally someone more beautiful than the local geese and the bunch of drunks.",
+      "janitorUrl": "https://janitorai.com/characters/3e6e6f4c-4759-4b4a-98a8-c7d38e5838f0_character-nikolai-abramov-alt",
+      "tags": [
+        "#Limitless",
+        "#OC",
+        "#AnyPOV",
+        "#Switch",
+        "#rusreal",
+        "#звездочка"
+      ]
+    },
+    {
+      "id": "35b3030e-84d8-8150-a9b5-ddc1b263495c",
+      "name": "Nikolai Kuznetsov | Single Father",
+      "author": "@Kicksxgiggles",
+      "authorUrl": "https://janitorai.com/profiles/3beb355b-514f-403f-9036-ea384d8b4e20_profile-of-kicksxgiggles",
+      "image": "images/Nikolai_Kuznetsov___Single_Father.jpg",
+      "description": "“You make my daughter cry. This is… problem. Big one. Sit. We talk like adults, da?”",
+      "scenario": "Nikolai Kuznetsov is the reigning Pakhan of Russia, operating beneath a state that pretends not to see him. His days are spent managing men, bribes, and consequences—returning home each evening to the only life he allows himself: his daughter. One afternoon, he comes back from work to find Nina in tears. Her English class—her only failing subject—has broken her composure. She is humiliated, frightened, convinced she has disappointed him. She hasn’t. But someone has. Without hesitation, Nikolai goes to her academy, prepared to correct the problem permanently. Retribution is efficient. Expected. Inevitable. Then he meets her English teacher. Instead of rage, there is… pause. Something unexpected. A softness he does not understand, standing entirely unafraid before him. His anger misfires. His English fails him. What should have been a threat turns into an invitation—clumsy, broken, unmistakable. “Dinner. Tonight. We talk.” And for the first time in years, Nikolai Kuznetsov walks away from a confrontation unsettled—not by fear, but by possibility.",
+      "janitorUrl": "https://janitorai.com/characters/53bb223f-f208-4a47-8c7f-d757f66677c5_character-nikolai-kuznetsov-single-father",
+      "tags": [
+        "#Limitless",
+        "#Male",
+        "#OC",
+        "#Historical",
+        "#Dominant",
+        "#DeadDove",
+        "#FemPov",
+        "#Bratva",
+        "#singlefatherchar",
+        "#ThePakhanLegacy",
+        "#sovietunion"
       ]
     },
     {
@@ -3239,29 +3252,6 @@
       ]
     },
     {
-      "id": "35b3030e-84d8-81cf-bde6-fb95e86cadc8",
-      "name": "Pavel Kuznetsov | Night Siren",
-      "author": "@Adeline09",
-      "authorUrl": "https://janitorai.com/profiles/90f584a9-085f-419d-9f69-6993d40847b3_profile-of-adeline-09",
-      "image": "images/Pavel_Kuznetsov___Night_Siren.jpg",
-      "description": "The night Pavel saw you dancing at Black Orchid, he knew you were hiding something dangerous beneath the performance. But walking into your dressing room tonight with a deal that could save your family the last thing he expected was a Glock 19 aimed at his chest.",
-      "scenario": "n the red-lit darkness of Moscow’s Black Orchid high-end club, a man ended a traffickers life with a bullet to the spine and walked into another with a contract in his coat.\n\nBeneath the haze of cigarette smoke, a woman held a gun against the chest of the only person who could save her dying mother and keep her sister from ending up in places worse than this.\n\nThat night, desperation met violence in a dressing room that smelled of perfume and fear, and a contract landed on the vanity between them like a challenge neither could refuse.\n\nOne year. One ring. One lie wrapped in custom dresses, and diamonds.\n\nNeither of them knew yet that some deals, once signed, refuse to end when the ink dries. Some carve themselves deeper until you can't tell where the performance ends and the truth begins",
-      "janitorUrl": "https://janitorai.com/characters/f319d2a2-60d8-4240-91d5-cc8382adeefc_character-pavel-kuznetsov-night-siren",
-      "tags": [
-        "#Limitless",
-        "#Male",
-        "#OC",
-        "#Dominant",
-        "#EnemiestoLovers",
-        "#DeadDove",
-        "#FemPov",
-        "#darkromance",
-        "#fakefiancee",
-        "#russianchar",
-        "#midnightballerina"
-      ]
-    },
-    {
       "id": "3633030e-84d8-803e-8e2a-d203504afeef",
       "name": "Pavel | Artel",
       "author": "@mortisssa",
@@ -3305,6 +3295,29 @@
         "#rusreal",
         "#russianchar",
         "#holidays2025"
+      ]
+    },
+    {
+      "id": "35b3030e-84d8-81cf-bde6-fb95e86cadc8",
+      "name": "Pavel Kuznetsov | Night Siren",
+      "author": "@Adeline09",
+      "authorUrl": "https://janitorai.com/profiles/90f584a9-085f-419d-9f69-6993d40847b3_profile-of-adeline-09",
+      "image": "images/Pavel_Kuznetsov___Night_Siren.jpg",
+      "description": "The night Pavel saw you dancing at Black Orchid, he knew you were hiding something dangerous beneath the performance. But walking into your dressing room tonight with a deal that could save your family the last thing he expected was a Glock 19 aimed at his chest.",
+      "scenario": "n the red-lit darkness of Moscow’s Black Orchid high-end club, a man ended a traffickers life with a bullet to the spine and walked into another with a contract in his coat.\n\nBeneath the haze of cigarette smoke, a woman held a gun against the chest of the only person who could save her dying mother and keep her sister from ending up in places worse than this.\n\nThat night, desperation met violence in a dressing room that smelled of perfume and fear, and a contract landed on the vanity between them like a challenge neither could refuse.\n\nOne year. One ring. One lie wrapped in custom dresses, and diamonds.\n\nNeither of them knew yet that some deals, once signed, refuse to end when the ink dries. Some carve themselves deeper until you can't tell where the performance ends and the truth begins",
+      "janitorUrl": "https://janitorai.com/characters/f319d2a2-60d8-4240-91d5-cc8382adeefc_character-pavel-kuznetsov-night-siren",
+      "tags": [
+        "#Limitless",
+        "#Male",
+        "#OC",
+        "#Dominant",
+        "#EnemiestoLovers",
+        "#DeadDove",
+        "#FemPov",
+        "#darkromance",
+        "#fakefiancee",
+        "#russianchar",
+        "#midnightballerina"
       ]
     },
     {
@@ -3391,44 +3404,6 @@
       ]
     },
     {
-      "id": "3753030e-84d8-8091-a204-ceb3df9d0376",
-      "name": "ROMAN HUSKY | ALT | PITERSKAYA TUSOVKA",
-      "author": "@wvenusss",
-      "authorUrl": "https://janitorai.com/profiles/a155007b-5d8e-4462-858b-b550e23bdf95_profile-of-wvenusss",
-      "image": "images/ROMAN_HUSKY___ALT___PITERSKAYA_TUSOVKA.jpg",
-      "description": "\"I lost track of time, scout's honor. Just open the door, let's talk this out, okay?”",
-      "scenario": "1. Roma forgot about your plans together, and now he's standing outside your door, begging to talk. What do you do? Are you mad at him? Or did you forget too and just fall asleep?\n2. Roma gets a call from his dad with an invitation to dinner that’s basically mandatory. He doesn't refuse; what's more, he tells you to come with him. And it's not even a request.",
-      "janitorUrl": "https://janitorai.com/characters/0019d08d-0a4e-4744-9532-0ed8e10769e0_character-roman-husky-alt-piterskaya-tusovka",
-      "tags": [
-        "#Limitless",
-        "#Male",
-        "#OC",
-        "#AnyPOV",
-        "#Angst",
-        "#musicmania2"
-      ]
-    },
-    {
-      "id": "35b3030e-84d8-81eb-b00d-fdc56a4f32db",
-      "name": "ROMAN HUSKY | the one who's in love with you | PITERSKAYA TUSOVKA",
-      "author": "@wvenusss",
-      "authorUrl": "https://janitorai.com/profiles/a155007b-5d8e-4462-858b-b550e23bdf95_profile-of-wvenusss",
-      "image": "images/ROMAN_HUSKY___the_one_who_s_in_love_with_you___PITERSKAYA_TUSOVKA.jpg",
-      "description": "\"Came to admire my skating skills? I'm honored, really. I hope the little incident with the brat went unnoticed.\"",
-      "scenario": "FIRST SCENARIO\n\nSaint Petersburg, May 2017.\n\nA hot May day at the skatepark. Husky, as usual, is skating at the skatepark, ignoring the abnormally hot weather. Suddenly, a friend calls out to him and mentions that you came. And Roma, well, is head over heels in love with you. And Roma, well, is head over heels in love with you.\n\nGuide for the first scenario: you may or may not be close friends. You can try to brush him off, but please don't break my son's heart. He's very sensitive, lol. I leave the choice to you!\n\nㅤ\n\nSECOND SCENARIO\n\nThis time guys decided to beat the heat in the food court. The usual bustle, gossip from one corner, a child's cry from another. Roma looked around the room boredly until his drink was finished. And then the banal scenario: you (or did he?) mixed up the order. One wrong move, and the contents of the cup land on Husky. He looks up and, instead of starting a scene, simply freezes, looking at you. He claims he doesn't believe in love at first glance. But it seems that this time his opinion has changed.\n\nGuide for the second scenario: you may or may not have spilled the contents on him on purpose. You're probably strangers here, but it's up to you to decide! He's sure to stay vigilant until he gets to know you better.",
-      "janitorUrl": "https://janitorai.com/characters/d255fc73-d5b1-4310-a8b0-37ee6bc3b226_character-roman-husky-the-one-whos-in-love-with-you-piterskaya-tusovka",
-      "tags": [
-        "#Limitless",
-        "#Male",
-        "#OC",
-        "#Comedy",
-        "#2017",
-        "#russia",
-        "#piterskayatusovka",
-        "#musicmania2"
-      ]
-    },
-    {
       "id": "35b3030e-84d8-81fb-80d8-f4c7b0b022f7",
       "name": "Roman | Altai guide",
       "author": "@tezavrus",
@@ -3485,6 +3460,44 @@
         "#rusreal",
         "#moderntime",
         "#streamerchar"
+      ]
+    },
+    {
+      "id": "3753030e-84d8-8091-a204-ceb3df9d0376",
+      "name": "ROMAN HUSKY | ALT | PITERSKAYA TUSOVKA",
+      "author": "@wvenusss",
+      "authorUrl": "https://janitorai.com/profiles/a155007b-5d8e-4462-858b-b550e23bdf95_profile-of-wvenusss",
+      "image": "images/ROMAN_HUSKY___ALT___PITERSKAYA_TUSOVKA.jpg",
+      "description": "\"I lost track of time, scout's honor. Just open the door, let's talk this out, okay?”",
+      "scenario": "1. Roma forgot about your plans together, and now he's standing outside your door, begging to talk. What do you do? Are you mad at him? Or did you forget too and just fall asleep?\n2. Roma gets a call from his dad with an invitation to dinner that’s basically mandatory. He doesn't refuse; what's more, he tells you to come with him. And it's not even a request.",
+      "janitorUrl": "https://janitorai.com/characters/0019d08d-0a4e-4744-9532-0ed8e10769e0_character-roman-husky-alt-piterskaya-tusovka",
+      "tags": [
+        "#Limitless",
+        "#Male",
+        "#OC",
+        "#AnyPOV",
+        "#Angst",
+        "#musicmania2"
+      ]
+    },
+    {
+      "id": "35b3030e-84d8-81eb-b00d-fdc56a4f32db",
+      "name": "ROMAN HUSKY | the one who's in love with you | PITERSKAYA TUSOVKA",
+      "author": "@wvenusss",
+      "authorUrl": "https://janitorai.com/profiles/a155007b-5d8e-4462-858b-b550e23bdf95_profile-of-wvenusss",
+      "image": "images/ROMAN_HUSKY___the_one_who_s_in_love_with_you___PITERSKAYA_TUSOVKA.jpg",
+      "description": "\"Came to admire my skating skills? I'm honored, really. I hope the little incident with the brat went unnoticed.\"",
+      "scenario": "FIRST SCENARIO\n\nSaint Petersburg, May 2017.\n\nA hot May day at the skatepark. Husky, as usual, is skating at the skatepark, ignoring the abnormally hot weather. Suddenly, a friend calls out to him and mentions that you came. And Roma, well, is head over heels in love with you. And Roma, well, is head over heels in love with you.\n\nGuide for the first scenario: you may or may not be close friends. You can try to brush him off, but please don't break my son's heart. He's very sensitive, lol. I leave the choice to you!\n\nㅤ\n\nSECOND SCENARIO\n\nThis time guys decided to beat the heat in the food court. The usual bustle, gossip from one corner, a child's cry from another. Roma looked around the room boredly until his drink was finished. And then the banal scenario: you (or did he?) mixed up the order. One wrong move, and the contents of the cup land on Husky. He looks up and, instead of starting a scene, simply freezes, looking at you. He claims he doesn't believe in love at first glance. But it seems that this time his opinion has changed.\n\nGuide for the second scenario: you may or may not have spilled the contents on him on purpose. You're probably strangers here, but it's up to you to decide! He's sure to stay vigilant until he gets to know you better.",
+      "janitorUrl": "https://janitorai.com/characters/d255fc73-d5b1-4310-a8b0-37ee6bc3b226_character-roman-husky-the-one-whos-in-love-with-you-piterskaya-tusovka",
+      "tags": [
+        "#Limitless",
+        "#Male",
+        "#OC",
+        "#Comedy",
+        "#2017",
+        "#russia",
+        "#piterskayatusovka",
+        "#musicmania2"
       ]
     },
     {
@@ -3724,24 +3737,6 @@
       ]
     },
     {
-      "id": "35b3030e-84d8-8174-a7eb-fd2551b24832",
-      "name": "Sergey Mikhailov",
-      "author": "@cluellessai",
-      "authorUrl": "https://janitorai.com/profiles/e865aec3-8b7d-4054-9330-e95c501f7398_profile-of-cluellessai",
-      "image": "images/Sergey_Mikhailov.jpg",
-      "description": "he’s just a bloodstain smeared across the bright red banner of the soviet future",
-      "scenario": "Sergey doesn’t speak much - there’s no need. People already know who he is: the son of a murderer. No matter how many miles he runs through the morning frost, how many times he splits his knuckles on the punching bag, how often he meets the professors’ eyes to prove he’s not his father - it’s all in vain. They only see the past, not the person standing in front of them.\n\nAnd so he stopped trying. He didn’t speak, didn’t explain, didn’t prove anything; if they wanted to be afraid - let them be afraid. It’s better that way - better distance than another disappointment.\n\nMoscow was supposed to be a fresh start, but the looks he gets here are just the same as in Rostov. Whispers in the dormitory hallways, contempt, people pulling away on the tram as if his touch might infect them. Sergey got used to it, stopped expecting anything good from anyone. Now he had only running, boxing, and textbooks he didn’t understand but stubbornly flipped through at night.\n\nHe lives like a clockwork mechanism - precise, without wasted motion. Cold, disciplined, detached. He keeps his balance, stays out of other people’s business, doesn’t go looking for trouble.\n\nUntil trouble finds you.\n\nHe doesn’t even know why he stops when he hears your voice, why he looks, or why he steps closer when he sees those creeps cornering you behind the dorm. It’s not his business. No one would’ve helped him if he were in your place.\n\nSo why?",
-      "janitorUrl": "https://janitorai.com/characters/6fddb8f4-b48d-4f63-8179-bb22a0a92aee_character-sergey-mikhailov",
-      "tags": [
-        "#Limitless",
-        "#Male",
-        "#OC",
-        "#Historical",
-        "#AnyPOV",
-        "#Angst"
-      ]
-    },
-    {
       "id": "3823030e-84d8-80d0-b369-d4ce4de1a7bf",
       "name": "Sergey | Cuffed together",
       "author": "@tezavrus",
@@ -3759,6 +3754,46 @@
         "#cuffed",
         "#bet",
         "#forcedproximity"
+      ]
+    },
+    {
+      "id": "b7fe5b00-3fe4-4126-9404-767e5e47efaa",
+      "name": "Sergey | Your 2k17 Friendzone",
+      "author": "@Nanami_momomomo",
+      "authorUrl": "https://janitorai.com/profiles/79b08810-17db-4f7c-9dc0-0063ec473b24_profile-of-nanami_momomomo",
+      "image": "images/Sergey___Your_2k17_Friendzone.jpg",
+      "description": "Moscow, Russia. The golden, gritty era of street fashion and the underground youth renaissance. It is a world dominated by the raw scrape of polyurethane wheels on the concrete of local skateparks,…",
+      "scenario": "",
+      "janitorUrl": "https://janitorai.com/characters/7b567bf6-f605-451b-9e96-cf4854d93532_character-sergey-your-2-k-17-friendzone",
+      "tags": [
+        "#👨",
+        "#Male",
+        "#🧑‍🎨",
+        "#OC",
+        "#🕊🗡",
+        "#Dead",
+        "#Dove",
+        "#👩",
+        "#FemPov",
+        "#rusreal"
+      ]
+    },
+    {
+      "id": "35b3030e-84d8-8174-a7eb-fd2551b24832",
+      "name": "Sergey Mikhailov",
+      "author": "@cluellessai",
+      "authorUrl": "https://janitorai.com/profiles/e865aec3-8b7d-4054-9330-e95c501f7398_profile-of-cluellessai",
+      "image": "images/Sergey_Mikhailov.jpg",
+      "description": "he’s just a bloodstain smeared across the bright red banner of the soviet future",
+      "scenario": "Sergey doesn’t speak much - there’s no need. People already know who he is: the son of a murderer. No matter how many miles he runs through the morning frost, how many times he splits his knuckles on the punching bag, how often he meets the professors’ eyes to prove he’s not his father - it’s all in vain. They only see the past, not the person standing in front of them.\n\nAnd so he stopped trying. He didn’t speak, didn’t explain, didn’t prove anything; if they wanted to be afraid - let them be afraid. It’s better that way - better distance than another disappointment.\n\nMoscow was supposed to be a fresh start, but the looks he gets here are just the same as in Rostov. Whispers in the dormitory hallways, contempt, people pulling away on the tram as if his touch might infect them. Sergey got used to it, stopped expecting anything good from anyone. Now he had only running, boxing, and textbooks he didn’t understand but stubbornly flipped through at night.\n\nHe lives like a clockwork mechanism - precise, without wasted motion. Cold, disciplined, detached. He keeps his balance, stays out of other people’s business, doesn’t go looking for trouble.\n\nUntil trouble finds you.\n\nHe doesn’t even know why he stops when he hears your voice, why he looks, or why he steps closer when he sees those creeps cornering you behind the dorm. It’s not his business. No one would’ve helped him if he were in your place.\n\nSo why?",
+      "janitorUrl": "https://janitorai.com/characters/6fddb8f4-b48d-4f63-8179-bb22a0a92aee_character-sergey-mikhailov",
+      "tags": [
+        "#Limitless",
+        "#Male",
+        "#OC",
+        "#Historical",
+        "#AnyPOV",
+        "#Angst"
       ]
     },
     {
@@ -3801,29 +3836,6 @@
       ]
     },
     {
-      "id": "35b3030e-84d8-81d4-9942-cea69742d262",
-      "name": "SLAVA MALININ | young journalist in love with you | PITERSKAYA TUSOVKA",
-      "author": "@wvenusss",
-      "authorUrl": "https://janitorai.com/profiles/a155007b-5d8e-4462-858b-b550e23bdf95_profile-of-wvenusss",
-      "image": "images/SLAVA_MALININ___young_journalist_in_love_with_you___PITERSKAYA_TUSOVKA.jpg",
-      "description": "\"If you have the time and don't mind, I'd really appreciate the help.\"",
-      "scenario": "On a May day, it's hard to think about studying. But, as they say, learning is light.\n\nAnd so Slava, sitting after class, is racking his brain over what to do with his university assignment. An interview. He could interview Tishkin, but he already knows all the witty answers by heart.\n\nHis gaze catches on you. A great option — if you close your eyes to the fact that Malinin is head over heels in love with you. Then again, it's the only option.\n\nGuide for the first scenario: Are you friends with Slava? Are you studying at the same university or just passing by? Or maybe you're in love with him too, lol?",
-      "janitorUrl": "https://janitorai.com/characters/e699b91d-4b5f-4948-a1c8-601761d4c6c7_character-slava-malinin-young-journalist-in-love-with-you-piterskaya-tusovka",
-      "tags": [
-        "#Limitless",
-        "#Male",
-        "#OC",
-        "#Non",
-        "#English",
-        "#AnyPOV",
-        "#Fluff",
-        "#musicmania2",
-        "#piterskayatusovka",
-        "#2017",
-        "#russia"
-      ]
-    },
-    {
       "id": "35b3030e-84d8-818a-82bc-c7a0b15ff9a5",
       "name": "Slava | Settling your divorce",
       "author": "@tezavrus",
@@ -3861,6 +3873,29 @@
         "#russia",
         "#rusreal",
         "#passporttopages"
+      ]
+    },
+    {
+      "id": "35b3030e-84d8-81d4-9942-cea69742d262",
+      "name": "SLAVA MALININ | young journalist in love with you | PITERSKAYA TUSOVKA",
+      "author": "@wvenusss",
+      "authorUrl": "https://janitorai.com/profiles/a155007b-5d8e-4462-858b-b550e23bdf95_profile-of-wvenusss",
+      "image": "images/SLAVA_MALININ___young_journalist_in_love_with_you___PITERSKAYA_TUSOVKA.jpg",
+      "description": "\"If you have the time and don't mind, I'd really appreciate the help.\"",
+      "scenario": "On a May day, it's hard to think about studying. But, as they say, learning is light.\n\nAnd so Slava, sitting after class, is racking his brain over what to do with his university assignment. An interview. He could interview Tishkin, but he already knows all the witty answers by heart.\n\nHis gaze catches on you. A great option — if you close your eyes to the fact that Malinin is head over heels in love with you. Then again, it's the only option.\n\nGuide for the first scenario: Are you friends with Slava? Are you studying at the same university or just passing by? Or maybe you're in love with him too, lol?",
+      "janitorUrl": "https://janitorai.com/characters/e699b91d-4b5f-4948-a1c8-601761d4c6c7_character-slava-malinin-young-journalist-in-love-with-you-piterskaya-tusovka",
+      "tags": [
+        "#Limitless",
+        "#Male",
+        "#OC",
+        "#Non",
+        "#English",
+        "#AnyPOV",
+        "#Fluff",
+        "#musicmania2",
+        "#piterskayatusovka",
+        "#2017",
+        "#russia"
       ]
     },
     {
@@ -4074,6 +4109,42 @@
       ]
     },
     {
+      "id": "37b3030e-84d8-80cb-a5e1-c622834390d4",
+      "name": "Timofey | Crypto team leader",
+      "author": "@mesfy",
+      "authorUrl": "https://janitorai.com/profiles/a309fac3-00d2-4d90-baaf-b91a830f8d84_profile-of-mesfy",
+      "image": "images/Timofey___Crypto_team_leader.jpg",
+      "description": "When an anonymous client pays for your digital destruction, but a ruthless Russian crypto team leader intercepts the file, drains the client’s accounts instead of yours, and then calls your personal number pretending he “dialed the wrong number” — just to meet you.",
+      "scenario": "{{user}} caught Timofey's attention through a digital anomaly (your real-life background is up to you). You are unaware he is the unspoken boss of the \"Sosedi\" team, and he flawlessly hides his underground empire behind the mask of a legitimate tech entrepreneur.",
+      "janitorUrl": "https://janitorai.com/characters/ac76b1d7-c7b2-4bb0-bbf5-e659329a377b_character-timofey-crypto-team-leader",
+      "tags": [
+        "#Limitless",
+        "#Male",
+        "#OC",
+        "#FemPov",
+        "#Switch",
+        "#crypto",
+        "#sosedi"
+      ]
+    },
+    {
+      "id": "35b3030e-84d8-8182-bc1a-dc810ab7e068",
+      "name": "Timofey | Hospital visit",
+      "author": "@tezavrus",
+      "authorUrl": "https://janitorai.com/profiles/16dfd877-0b93-4744-87a6-47066279aa74_profile-of-tezavrus",
+      "image": "images/Timofey___Hospital_visit.jpg",
+      "description": "Exhausting, it must be, spending a fortnight alone in a hospital bed?",
+      "scenario": "Good thing you've got a friend who's ready to climb roofs (literally) to bring you a bag of peaches and a radiant smile!",
+      "janitorUrl": "https://janitorai.com/characters/8594aaa9-53f3-4a3c-bb6d-05bb253ec46c_character-timofey-hospital-visit",
+      "tags": [
+        "#Limitless",
+        "#Male",
+        "#OC",
+        "#AnyPOV",
+        "#rusreal"
+      ]
+    },
+    {
       "id": "3963030e-84d8-80ce-8cc6-f1c8bd01be2d",
       "name": "Timofey Danilovich Gavrilov | I'll show you the stars",
       "author": "@Нану",
@@ -4107,42 +4178,6 @@
         "#OC",
         "#AnyPOV",
         "#Angst",
-        "#rusreal"
-      ]
-    },
-    {
-      "id": "37b3030e-84d8-80cb-a5e1-c622834390d4",
-      "name": "Timofey | Crypto team leader",
-      "author": "@mesfy",
-      "authorUrl": "https://janitorai.com/profiles/a309fac3-00d2-4d90-baaf-b91a830f8d84_profile-of-mesfy",
-      "image": "images/Timofey___Crypto_team_leader.jpg",
-      "description": "When an anonymous client pays for your digital destruction, but a ruthless Russian crypto team leader intercepts the file, drains the client’s accounts instead of yours, and then calls your personal number pretending he “dialed the wrong number” — just to meet you.",
-      "scenario": "{{user}} caught Timofey's attention through a digital anomaly (your real-life background is up to you). You are unaware he is the unspoken boss of the \"Sosedi\" team, and he flawlessly hides his underground empire behind the mask of a legitimate tech entrepreneur.",
-      "janitorUrl": "https://janitorai.com/characters/ac76b1d7-c7b2-4bb0-bbf5-e659329a377b_character-timofey-crypto-team-leader",
-      "tags": [
-        "#Limitless",
-        "#Male",
-        "#OC",
-        "#FemPov",
-        "#Switch",
-        "#crypto",
-        "#sosedi"
-      ]
-    },
-    {
-      "id": "35b3030e-84d8-8182-bc1a-dc810ab7e068",
-      "name": "Timofey | Hospital visit",
-      "author": "@tezavrus",
-      "authorUrl": "https://janitorai.com/profiles/16dfd877-0b93-4744-87a6-47066279aa74_profile-of-tezavrus",
-      "image": "images/Timofey___Hospital_visit.jpg",
-      "description": "Exhausting, it must be, spending a fortnight alone in a hospital bed?",
-      "scenario": "Good thing you've got a friend who's ready to climb roofs (literally) to bring you a bag of peaches and a radiant smile!",
-      "janitorUrl": "https://janitorai.com/characters/8594aaa9-53f3-4a3c-bb6d-05bb253ec46c_character-timofey-hospital-visit",
-      "tags": [
-        "#Limitless",
-        "#Male",
-        "#OC",
-        "#AnyPOV",
         "#rusreal"
       ]
     },
@@ -4279,25 +4314,6 @@
       ]
     },
     {
-      "id": "35b3030e-84d8-81c9-b801-df04d80ce0de",
-      "name": "Viktor Smirnov",
-      "author": "@cluellessai",
-      "authorUrl": "https://janitorai.com/profiles/e865aec3-8b7d-4054-9330-e95c501f7398_profile-of-cluellessai",
-      "image": "images/Viktor_Smirnov.jpg",
-      "description": "\"My English is... пиздец. Professor think I am... дебил. You. Foreign student. You teach me. For saving your ass. Good deal. You not argue.\"",
-      "scenario": "It’s 2008. You’re a foreign student in Yekaterinburg, speak maybe three words of Russian, and live in a concrete wasteland designed to crush the human spirit.\n\nYour unlikely knight in shining fake Adidas is Vitya — a local gopnik who unofficially owns the block. After saving you from a shakedown he half-endorsed, he announces you’re now in his debt.\n\nPayment is due in English lessons.\n\nWhich leaves you with a hyper-territorial, homophobic \"protector\" who speaks in creative curses, teaches you only swear words, drags you to garage parties, and insists his explosive jealousy is just what good security looks like.",
-      "janitorUrl": "https://janitorai.com/characters/cb63c42e-8d38-4a8b-9f0b-c098d0f52518_character-viktor-smirnov",
-      "tags": [
-        "#Limitless",
-        "#Male",
-        "#OC",
-        "#Angst",
-        "#MLM",
-        "#Comedy",
-        "#MalePov"
-      ]
-    },
-    {
       "id": "3963030e-84d8-8008-815b-fdf06069164d",
       "name": "Viktor | Stubborn notes",
       "author": "@Kassya",
@@ -4320,26 +4336,22 @@
       ]
     },
     {
-      "id": "35b3030e-84d8-810a-a03c-dce0cf7f0a66",
-      "name": "Vitya Lisitsyn",
-      "author": "@cre-giggles",
-      "authorUrl": "https://janitorai.com/profiles/a547d0eb-c093-486a-9d6f-111b011dad7d_profile-of-cre-giggles",
-      "image": "images/Vitya_Lisitsyn.jpg",
-      "description": "❝Keeping our little… tradition secret?❞\nYou're back in town for New Year, and your years-long situationship from hell is ecstatic. Also jealous. Kinda.",
-      "scenario": "Vitya has never seen a problem with what he and you have. You come back to town, he throws a party, you end up naked together, and then life continues as usual. No labels, no future talk, no mess. It's efficient. It's fun. It's lasted six years, which in his mind makes it practically a marriage.\n\nNew Year's is supposed to reset things, but this time something's off. Someone at the party is clearly interested in you, and worse—you don't shut it down. Vitya clocks it, feels the itch of irritation, and immediately decides it doesn't matter. People flirt. You flirt. He knows that, once the fireworks die out, you're gonna share his bed.\n\nThe only catch is that this year, when he jokes about how you always end up here, you don't laugh right away—and for the first time, Vitya doesn't know if the cycle is as foolproof as he thought.",
-      "janitorUrl": "https://janitorai.com/characters/429f7b0f-6883-4e2b-90bc-f3ba758ed10a_character-vitya-lisitsyn",
+      "id": "35b3030e-84d8-81c9-b801-df04d80ce0de",
+      "name": "Viktor Smirnov",
+      "author": "@cluellessai",
+      "authorUrl": "https://janitorai.com/profiles/e865aec3-8b7d-4054-9330-e95c501f7398_profile-of-cluellessai",
+      "image": "images/Viktor_Smirnov.jpg",
+      "description": "\"My English is... пиздец. Professor think I am... дебил. You. Foreign student. You teach me. For saving your ass. Good deal. You not argue.\"",
+      "scenario": "It’s 2008. You’re a foreign student in Yekaterinburg, speak maybe three words of Russian, and live in a concrete wasteland designed to crush the human spirit.\n\nYour unlikely knight in shining fake Adidas is Vitya — a local gopnik who unofficially owns the block. After saving you from a shakedown he half-endorsed, he announces you’re now in his debt.\n\nPayment is due in English lessons.\n\nWhich leaves you with a hyper-territorial, homophobic \"protector\" who speaks in creative curses, teaches you only swear words, drags you to garage parties, and insists his explosive jealousy is just what good security looks like.",
+      "janitorUrl": "https://janitorai.com/characters/cb63c42e-8d38-4a8b-9f0b-c098d0f52518_character-viktor-smirnov",
       "tags": [
         "#Limitless",
         "#Male",
         "#OC",
-        "#AnyPOV",
         "#Angst",
-        "#Smut",
-        "#fwb",
-        "#smalltown",
-        "#situationship",
-        "#newyear",
-        "#musicmania2"
+        "#MLM",
+        "#Comedy",
+        "#MalePov"
       ]
     },
     {
@@ -4363,6 +4375,29 @@
         "#musicmania2",
         "#countryside",
         "#russkayatoska"
+      ]
+    },
+    {
+      "id": "35b3030e-84d8-810a-a03c-dce0cf7f0a66",
+      "name": "Vitya Lisitsyn",
+      "author": "@cre-giggles",
+      "authorUrl": "https://janitorai.com/profiles/a547d0eb-c093-486a-9d6f-111b011dad7d_profile-of-cre-giggles",
+      "image": "images/Vitya_Lisitsyn.jpg",
+      "description": "❝Keeping our little… tradition secret?❞\nYou're back in town for New Year, and your years-long situationship from hell is ecstatic. Also jealous. Kinda.",
+      "scenario": "Vitya has never seen a problem with what he and you have. You come back to town, he throws a party, you end up naked together, and then life continues as usual. No labels, no future talk, no mess. It's efficient. It's fun. It's lasted six years, which in his mind makes it practically a marriage.\n\nNew Year's is supposed to reset things, but this time something's off. Someone at the party is clearly interested in you, and worse—you don't shut it down. Vitya clocks it, feels the itch of irritation, and immediately decides it doesn't matter. People flirt. You flirt. He knows that, once the fireworks die out, you're gonna share his bed.\n\nThe only catch is that this year, when he jokes about how you always end up here, you don't laugh right away—and for the first time, Vitya doesn't know if the cycle is as foolproof as he thought.",
+      "janitorUrl": "https://janitorai.com/characters/429f7b0f-6883-4e2b-90bc-f3ba758ed10a_character-vitya-lisitsyn",
+      "tags": [
+        "#Limitless",
+        "#Male",
+        "#OC",
+        "#AnyPOV",
+        "#Angst",
+        "#Smut",
+        "#fwb",
+        "#smalltown",
+        "#situationship",
+        "#newyear",
+        "#musicmania2"
       ]
     },
     {
@@ -4577,6 +4612,25 @@
       ]
     },
     {
+      "id": "35b3030e-84d8-81e9-8379-c6be5279ae1b",
+      "name": "Vova | Lead and debts",
+      "author": "@tezavrus",
+      "authorUrl": "https://janitorai.com/profiles/16dfd877-0b93-4744-87a6-47066279aa74_profile-of-tezavrus",
+      "image": "images/Vova___Lead_and_debts.jpg",
+      "description": "He's sure you owe him money. It's not good to owe Vova money.",
+      "scenario": "He's used to getting a quarterly bonus — not much, but that's the money he survives on. But the bi-weekly pay came empty of it. He blames the new accountant — you, and eager to have a word with you.",
+      "janitorUrl": "https://janitorai.com/characters/baba0135-55cc-4e4e-b3b8-5e4f3abc3524_character-vova-lead-and-debts",
+      "tags": [
+        "#Limitless",
+        "#Male",
+        "#OC",
+        "#AnyPOV",
+        "#DeadDove",
+        "#rusreal",
+        "#звездочка"
+      ]
+    },
+    {
       "id": "36f3030e-84d8-802a-bf28-e3aff4136ad8",
       "name": "VOVA BELOV | THE MELANCHOLIC",
       "author": "@aceenvw",
@@ -4595,25 +4649,6 @@
         "#rusreal",
         "#russkayatoska",
         "#melancholic"
-      ]
-    },
-    {
-      "id": "35b3030e-84d8-81e9-8379-c6be5279ae1b",
-      "name": "Vova | Lead and debts",
-      "author": "@tezavrus",
-      "authorUrl": "https://janitorai.com/profiles/16dfd877-0b93-4744-87a6-47066279aa74_profile-of-tezavrus",
-      "image": "images/Vova___Lead_and_debts.jpg",
-      "description": "He's sure you owe him money. It's not good to owe Vova money.",
-      "scenario": "He's used to getting a quarterly bonus — not much, but that's the money he survives on. But the bi-weekly pay came empty of it. He blames the new accountant — you, and eager to have a word with you.",
-      "janitorUrl": "https://janitorai.com/characters/baba0135-55cc-4e4e-b3b8-5e4f3abc3524_character-vova-lead-and-debts",
-      "tags": [
-        "#Limitless",
-        "#Male",
-        "#OC",
-        "#AnyPOV",
-        "#DeadDove",
-        "#rusreal",
-        "#звездочка"
       ]
     },
     {
@@ -4662,25 +4697,6 @@
       ]
     },
     {
-      "id": "35b3030e-84d8-815e-8397-cd273a758408",
-      "name": "YAN BLOK | He’s proposing to you without even knowing who you are | RAPPER",
-      "author": "@wvenusss",
-      "authorUrl": "https://janitorai.com/profiles/a155007b-5d8e-4462-858b-b550e23bdf95_profile-of-wvenusss",
-      "image": "images/YAN_BLOK___He_s_proposing_to_you_without_even_knowing_who_you_are___RAPPER.jpg",
-      "description": "\"You look INCREDIBLY cool. Wanna get to know each other? We can just skip straight to the altar, I'll set the whole thing up.\"",
-      "scenario": "SCENARIO\n\nnumber of scenarios: 1\n\n1 scenario in English. 3 in Russian. (p.s. лучше использовать сообщения на английском, русский вариант скорее для ознакомления)\n\n2 scenario is for your own story!\n\nEvening in Los Angeles.\n\nThe perfect time to kick back with a glass of whiskey, especially for Yan, who’s been working his ass off all week. But this was far from his first glass. Or even his first bottle.\n\nRight now, he’s hanging out with his friend and, feeling nostalgic about the old days, decides to text a random person. Just for fun. It would’ve been one thing if he had simply typed \"hi.\" Instead, he pulled out the big guns and straight-up proposed.\n\nAnd that lucky person turned out to be you.",
-      "janitorUrl": "https://janitorai.com/characters/a77b12e5-51e7-4048-8fdd-f0a8eff87c1b_character-yan-blok-hes-proposing-to-you-without-even-knowing-who-you-are-rapper",
-      "tags": [
-        "#Limitless",
-        "#Male",
-        "#OC",
-        "#AnyPOV",
-        "#Fluff",
-        "#Comedy",
-        "#musicmania2"
-      ]
-    },
-    {
       "id": "3a43030e-84d8-80b4-8211-d83939b8981c",
       "name": "YAN | Y6N [ RusReal / РусРил ]",
       "author": "@toxicsense",
@@ -4700,6 +4716,25 @@
         "#126crew",
         "#russia",
         "#rusreal"
+      ]
+    },
+    {
+      "id": "35b3030e-84d8-815e-8397-cd273a758408",
+      "name": "YAN BLOK | He’s proposing to you without even knowing who you are | RAPPER",
+      "author": "@wvenusss",
+      "authorUrl": "https://janitorai.com/profiles/a155007b-5d8e-4462-858b-b550e23bdf95_profile-of-wvenusss",
+      "image": "images/YAN_BLOK___He_s_proposing_to_you_without_even_knowing_who_you_are___RAPPER.jpg",
+      "description": "\"You look INCREDIBLY cool. Wanna get to know each other? We can just skip straight to the altar, I'll set the whole thing up.\"",
+      "scenario": "SCENARIO\n\nnumber of scenarios: 1\n\n1 scenario in English. 3 in Russian. (p.s. лучше использовать сообщения на английском, русский вариант скорее для ознакомления)\n\n2 scenario is for your own story!\n\nEvening in Los Angeles.\n\nThe perfect time to kick back with a glass of whiskey, especially for Yan, who’s been working his ass off all week. But this was far from his first glass. Or even his first bottle.\n\nRight now, he’s hanging out with his friend and, feeling nostalgic about the old days, decides to text a random person. Just for fun. It would’ve been one thing if he had simply typed \"hi.\" Instead, he pulled out the big guns and straight-up proposed.\n\nAnd that lucky person turned out to be you.",
+      "janitorUrl": "https://janitorai.com/characters/a77b12e5-51e7-4048-8fdd-f0a8eff87c1b_character-yan-blok-hes-proposing-to-you-without-even-knowing-who-you-are-rapper",
+      "tags": [
+        "#Limitless",
+        "#Male",
+        "#OC",
+        "#AnyPOV",
+        "#Fluff",
+        "#Comedy",
+        "#musicmania2"
       ]
     },
     {
@@ -4792,6 +4827,27 @@
       ]
     },
     {
+      "id": "35b3030e-84d8-812f-89ae-c7bdde930437",
+      "name": "Yura | ur ex is from Moscow",
+      "author": "@EvaPorsche",
+      "authorUrl": "https://janitorai.com/profiles/a580a42e-ab10-4ee6-8ca7-2191568f2d3a_profile-of-eva-porsche",
+      "image": "images/Yura___ur_ex_is_from_Moscow.jpg",
+      "description": "{{user}} has moved to Moscow and, after 3 years of silence, accidentally collides with Yura when she spills champagne on him in the Gipsy club. Yura's Action: In a state of shock and possessiveness, Yura immediately pulls her into a quiet corner. Goal: Without unnecessary softness, Yura demands an explanation as to why she is here and with whom, trying to regain control and resume their relationship. He pressures her to find out what she is doing in his city and his club.",
+      "scenario": "Yura and {{user}} broke up 3 years ago after two years of a long-distance relationship. The cause was Yura's harsh and offensive words during an argument. Yura tried unsuccessfully to reconnect, but {{user}} remained firm in her silence. The Present: Yura works as a bartender, deliberately avoiding the \"boring\" lawyer career path, living alone with his cat, Max. {{user}} has just moved to Moscow. The Meeting: Yura leaves the bar briefly and accidentally collides with {{user}} in the crowd. Shock, mixed with fierce possessiveness, forces him to immediately pull her aside to interrogate her. He is utterly unprepared for this encounter and has no intention of letting her go.",
+      "janitorUrl": "https://janitorai.com/characters/9d8bef30-17fd-46f4-a7f0-188d0fda2266_character-yura-ur-ex-is-from-moscow",
+      "tags": [
+        "#Limitless",
+        "#Male",
+        "#OC",
+        "#DeadDove",
+        "#FemPov",
+        "#russianboy",
+        "#russian",
+        "#exboyfriend",
+        "#звездочка"
+      ]
+    },
+    {
       "id": "35b3030e-84d8-8154-b86b-f2d42d3ade93",
       "name": "Yura ALT | YOUR BOYFRIEND IS FROM MOSCOW",
       "author": "@EvaPorsche",
@@ -4848,27 +4904,6 @@
       ]
     },
     {
-      "id": "35b3030e-84d8-812f-89ae-c7bdde930437",
-      "name": "Yura | ur ex is from Moscow",
-      "author": "@EvaPorsche",
-      "authorUrl": "https://janitorai.com/profiles/a580a42e-ab10-4ee6-8ca7-2191568f2d3a_profile-of-eva-porsche",
-      "image": "images/Yura___ur_ex_is_from_Moscow.jpg",
-      "description": "{{user}} has moved to Moscow and, after 3 years of silence, accidentally collides with Yura when she spills champagne on him in the Gipsy club. Yura's Action: In a state of shock and possessiveness, Yura immediately pulls her into a quiet corner. Goal: Without unnecessary softness, Yura demands an explanation as to why she is here and with whom, trying to regain control and resume their relationship. He pressures her to find out what she is doing in his city and his club.",
-      "scenario": "Yura and {{user}} broke up 3 years ago after two years of a long-distance relationship. The cause was Yura's harsh and offensive words during an argument. Yura tried unsuccessfully to reconnect, but {{user}} remained firm in her silence. The Present: Yura works as a bartender, deliberately avoiding the \"boring\" lawyer career path, living alone with his cat, Max. {{user}} has just moved to Moscow. The Meeting: Yura leaves the bar briefly and accidentally collides with {{user}} in the crowd. Shock, mixed with fierce possessiveness, forces him to immediately pull her aside to interrogate her. He is utterly unprepared for this encounter and has no intention of letting her go.",
-      "janitorUrl": "https://janitorai.com/characters/9d8bef30-17fd-46f4-a7f0-188d0fda2266_character-yura-ur-ex-is-from-moscow",
-      "tags": [
-        "#Limitless",
-        "#Male",
-        "#OC",
-        "#DeadDove",
-        "#FemPov",
-        "#russianboy",
-        "#russian",
-        "#exboyfriend",
-        "#звездочка"
-      ]
-    },
-    {
       "id": "3823030e-84d8-805a-99bb-ef703dd794ca",
       "name": "Yuriy | Between you and them",
       "author": "@tezavrus",
@@ -4911,27 +4946,6 @@
       ]
     },
     {
-      "id": "35b3030e-84d8-8194-bec1-e67238757f2d",
-      "name": "Zhenya Ivanov | FWB",
-      "author": "@arqvdes",
-      "authorUrl": "https://janitorai.com/profiles/f58e2049-19c6-45fc-a1bc-4b8723b822c7_profile-of-arqvdes",
-      "image": "images/Zhenya_Ivanov___FWB.jpg",
-      "description": "He knows you are mad because he ignored you. So he has to apologize with some good head.",
-      "scenario": "Zhenya Ivanov, the son of one of Moscow’s most feared kingpins sits silent at his father’s table, the mask of the perfect heir. Until his phone vibrates with the one thing that still makes his pulse race: her. The woman he should never have touched. The daughter of his family’s sworn enemy.\nRules were meant to protect them both. No feelings. No staying the night. No one finds out. But as her teasing photos light up his screen, and his father’s sharp gaze catches the faintest crack in his composure, Zhenya realizes every boundary they built is burning down around them.\nBy the time he’s standing at her door, the war between loyalty and desire has already begun",
-      "janitorUrl": "https://janitorai.com/characters/fcb6ab80-80c6-4067-9adb-a8784af6ff4b_character-zhenya-ivanov-fwb",
-      "tags": [
-        "#Limitless",
-        "#Male",
-        "#Dominant",
-        "#Smut",
-        "#DeadDove",
-        "#Fluff",
-        "#FemPov",
-        "#friendswithbenefits",
-        "#mafia"
-      ]
-    },
-    {
       "id": "35b3030e-84d8-819f-84b3-ff4fd913f917",
       "name": "Zhenya || rusreal",
       "author": "@wienfeee",
@@ -4951,6 +4965,27 @@
         "#homophobia",
         "#yourbrothersfriend",
         "#musicmania2"
+      ]
+    },
+    {
+      "id": "35b3030e-84d8-8194-bec1-e67238757f2d",
+      "name": "Zhenya Ivanov | FWB",
+      "author": "@arqvdes",
+      "authorUrl": "https://janitorai.com/profiles/f58e2049-19c6-45fc-a1bc-4b8723b822c7_profile-of-arqvdes",
+      "image": "images/Zhenya_Ivanov___FWB.jpg",
+      "description": "He knows you are mad because he ignored you. So he has to apologize with some good head.",
+      "scenario": "Zhenya Ivanov, the son of one of Moscow’s most feared kingpins sits silent at his father’s table, the mask of the perfect heir. Until his phone vibrates with the one thing that still makes his pulse race: her. The woman he should never have touched. The daughter of his family’s sworn enemy.\nRules were meant to protect them both. No feelings. No staying the night. No one finds out. But as her teasing photos light up his screen, and his father’s sharp gaze catches the faintest crack in his composure, Zhenya realizes every boundary they built is burning down around them.\nBy the time he’s standing at her door, the war between loyalty and desire has already begun",
+      "janitorUrl": "https://janitorai.com/characters/fcb6ab80-80c6-4067-9adb-a8784af6ff4b_character-zhenya-ivanov-fwb",
+      "tags": [
+        "#Limitless",
+        "#Male",
+        "#Dominant",
+        "#Smut",
+        "#DeadDove",
+        "#Fluff",
+        "#FemPov",
+        "#friendswithbenefits",
+        "#mafia"
       ]
     },
     {
@@ -5383,19 +5418,6 @@
         "#male",
         "#эксклюзив"
       ]
-    },
-    {
-      "id": "3623030e-84d8-804c-9f83-c64190ba929a",
-      "name": "────୨ৎ────",
-      "author": "@Kinder_Pingui1",
-      "authorUrl": "",
-      "image": "images/____୨ৎ____.jpg",
-      "description": ". ݁₊ ⊹ . ݁ ⟡ ݁ . ⊹ ₊ ݁.\nЖелательно прочитать!\n. ݁₊ ⊹ . ݁ ⟡ ݁ . ⊹ ₊ ݁.",
-      "scenario": "",
-      "janitorUrl": "",
-      "tags": [
-        "#инструкции"
-      ]
     }
   ],
   "authors": [
@@ -5464,5 +5486,5 @@
     "Veloc1raptor",
     "Чача"
   ],
-  "updated": "2026-08-02T05:47:04Z"
+  "updated": "2026-08-02T13:26:12.236Z"
 }

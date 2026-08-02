@@ -592,7 +592,7 @@ function switchTab(tab,btn){
   document.querySelectorAll(".tab-btn").forEach(b=>b.classList.remove("active"));
   if(btn)btn.classList.add("active");
 }
-function dlCard(e,src,name){if(e)e.stopPropagation();if(!src)return;const a=document.createElement("a");a.href=src;a.download=name.replace(/[^\w\-]/g,"_")+".jpg";document.body.appendChild(a);a.click();document.body.removeChild(a);}
+function dlCard(e,src,name){if(e)e.stopPropagation();if(!src)return;let fn=(name||"card").replace(/[\p{Extended_Pictographic}‍️]/gu,"").replace(/[\\/:*?"<>|]+/g,"-").replace(/\s+/g," ").trim();if(!fn||/^[\s_.\-]*$/.test(fn))fn="card";const a=document.createElement("a");a.href=src;a.download=fn+".png";document.body.appendChild(a);a.click();document.body.removeChild(a);}
 function openSidebar(){document.getElementById("sidebar").classList.add("open");document.getElementById("sidebar-overlay").classList.add("show");}
 function closeSidebar(){document.getElementById("sidebar").classList.remove("open");document.getElementById("sidebar-overlay").classList.remove("show");}
 function esc(s){return String(s).replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;").replace(/"/g,"&quot;");}

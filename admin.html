@@ -105,6 +105,10 @@
 
     <label>Короткое описание для каталога <span class="hint">— 1–2 предложения, показывается на карточке сайта</span></label>
     <textarea id="f_shortDesc" style="min-height:60px" placeholder="Охранник, который спасает тебя от троих пьяных…"></textarea>
+    <div style="margin-top:8px">
+      <button type="button" class="btn ghost small" id="btnEnrich">✨ Обработать ИИ (описание + сценарий)</button>
+      <span class="hint" id="enrichNote"></span>
+    </div>
 
     <label>Описание для карточки (очищенное)
       <span class="hint">— это зашивается в .png и уходит в модель. HTML/мусор уже убран.</span>
@@ -178,6 +182,30 @@ $('f_imageFile').addEventListener('change',e=>{const file=e.target.files[0];if(!
 $('btnClean').onclick=()=>{const before=$('f_cardDesc').value;const after=cleanDescription(before);$('f_cardDesc').value=after;updateTok();const tb=estTokens(before),ta=estTokens(after);$('cleanNote').textContent=tb>ta?`убрано ~${tb-ta} токенов (${Math.round((1-ta/tb)*100||0)}%)`:'уже чисто';};
 $('f_cardDesc').addEventListener('input',updateTok);
 $('f_tags').addEventListener('input',renderTags);
+
+/* ── обработка ИИ: короткое описание + сценарий через LinkAPI ───────── */
+$('btnEnrich').onclick=async()=>{
+  const cfg=loadCfg();
+  if(!cfg.endpoint||!cfg.secret){toast('Сначала заполни ⚙️ Подключение',false);$('cfgBox').open=true;return;}
+  const btn=$('btnEnrich');btn.disabled=true;const was=btn.textContent;btn.textContent='✨ Думаю…';$('enrichNote').textContent='';
+  try{
+    const url=cfg.endpoint.replace(/add-bot\s*$/,'enrich');
+    const r=await fetch(url,{method:'POST',headers:{'Content-Type':'application/json','x-add-secret':cfg.secret},body:JSON.stringify({
+      name:$('f_name').value.trim(),
+      description:$('f_cardDesc').value.trim(),
+      personality:$('f_personality').value.trim(),
+      scenario:$('f_scenario').value.trim(),
+      first_mes:$('f_firstMes').value.trim(),
+      tags:parseTags($('f_tags').value),
+    })});
+    const j=await r.json().catch(()=>({}));
+    if(!r.ok||j.ok===false)throw new Error(j.error||('HTTP '+r.status));
+    if(j.shortDescription)$('f_shortDesc').value=j.shortDescription;
+    if(j.scenario)$('f_scenario').value=j.scenario;
+    $('enrichNote').textContent='готово ('+(j.model||'ИИ')+') — проверь и поправь при желании';
+  }catch(e){toast('ИИ: '+e.message,false);}
+  btn.disabled=false;btn.textContent=was;
+};
 
 /* ── приём данных со сборщика (userscript) через #d=<base64 utf8 json> ─ */
 function b64ToJson(b64){try{const bin=atob(b64.replace(/-/g,'+').replace(/_/g,'/'));const bytes=Uint8Array.from(bin,c=>c.charCodeAt(0));return JSON.parse(new TextDecoder().decode(bytes));}catch(e){return null;}}

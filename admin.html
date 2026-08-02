@@ -133,6 +133,7 @@
       <summary>Дополнительно (сценарий, приветствие, personality — для карточки)</summary>
       <label>Сценарий</label>
       <textarea id="f_scenario" style="min-height:70px"></textarea>
+      <div style="margin:6px 0 4px"><button type="button" class="btn ghost small" id="btnScenario">✨ Сгенерировать сценарий ИИ</button> <span class="hint" id="scenNote"></span></div>
       <label>Первое сообщение (first_mes)</label>
       <textarea id="f_firstMes" style="min-height:70px"></textarea>
       <label>Другие приветствия (интро) <span class="hint">— каждое отдельно, разделяй строкой из дефисов <code>---</code>. Уйдут в карточку как alternate greetings.</span></label>
@@ -268,27 +269,35 @@ $('btnClean').onclick=()=>{const before=$('f_cardDesc').value;const after=cleanD
 $('f_cardDesc').addEventListener('input',updateTok);
 $('f_tags').addEventListener('input',renderTags);
 
-/* ── обработка ИИ: короткое описание + сценарий через LinkAPI ───────── */
-$('btnEnrich').onclick=async()=>{
+/* ── обработка ИИ через LinkAPI (общий вызов) ───────────────────────── */
+async function callEnrich(){
   const cfg=loadCfg();
-  if(!cfg.endpoint||!cfg.secret){toast('Сначала заполни ⚙️ Подключение',false);$('cfgBox').open=true;return;}
+  if(!cfg.endpoint||!cfg.secret){toast('Сначала заполни ⚙️ Подключение',false);$('cfgBox').open=true;return null;}
+  const url=cfg.endpoint.replace(/add-bot\s*$/,'enrich');
+  const r=await fetch(url,{method:'POST',headers:{'Content-Type':'application/json','x-add-secret':cfg.secret},body:JSON.stringify({
+    name:$('f_name').value.trim(),
+    description:$('f_cardDesc').value.trim(),
+    personality:$('f_personality').value.trim(),
+    scenario:$('f_scenario').value.trim(),
+    first_mes:$('f_firstMes').value.trim(),
+    tags:parseTags($('f_tags').value),
+  })});
+  const j=await r.json().catch(()=>({}));
+  if(!r.ok||j.ok===false)throw new Error(j.error||('HTTP '+r.status));
+  return j;
+}
+// описание + сценарий сразу
+$('btnEnrich').onclick=async()=>{
   const btn=$('btnEnrich');btn.disabled=true;const was=btn.textContent;btn.textContent='✨ Думаю…';$('enrichNote').textContent='';
-  try{
-    const url=cfg.endpoint.replace(/add-bot\s*$/,'enrich');
-    const r=await fetch(url,{method:'POST',headers:{'Content-Type':'application/json','x-add-secret':cfg.secret},body:JSON.stringify({
-      name:$('f_name').value.trim(),
-      description:$('f_cardDesc').value.trim(),
-      personality:$('f_personality').value.trim(),
-      scenario:$('f_scenario').value.trim(),
-      first_mes:$('f_firstMes').value.trim(),
-      tags:parseTags($('f_tags').value),
-    })});
-    const j=await r.json().catch(()=>({}));
-    if(!r.ok||j.ok===false)throw new Error(j.error||('HTTP '+r.status));
-    if(j.shortDescription)$('f_shortDesc').value=j.shortDescription;
-    if(j.scenario)$('f_scenario').value=j.scenario;
-    $('enrichNote').textContent='готово ('+(j.model||'ИИ')+') — проверь и поправь при желании';
-  }catch(e){toast('ИИ: '+e.message,false);}
+  try{const j=await callEnrich();if(j){if(j.shortDescription)$('f_shortDesc').value=j.shortDescription;if(j.scenario)$('f_scenario').value=j.scenario;$('enrichNote').textContent='готово ('+(j.model||'ИИ')+') — проверь и поправь';}}
+  catch(e){toast('ИИ: '+e.message,false);}
+  btn.disabled=false;btn.textContent=was;
+};
+// только сценарий
+$('btnScenario').onclick=async()=>{
+  const btn=$('btnScenario');btn.disabled=true;const was=btn.textContent;btn.textContent='✨ Думаю…';$('scenNote').textContent='';
+  try{const j=await callEnrich();if(j&&j.scenario){$('f_scenario').value=j.scenario;$('scenNote').textContent='готово ('+(j.model||'ИИ')+')';}else if(j)$('scenNote').textContent='модель не вернула сценарий';}
+  catch(e){toast('ИИ: '+e.message,false);}
   btn.disabled=false;btn.textContent=was;
 };
 

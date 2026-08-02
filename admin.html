@@ -122,6 +122,8 @@
       <textarea id="f_scenario" style="min-height:70px"></textarea>
       <label>Первое сообщение (first_mes)</label>
       <textarea id="f_firstMes" style="min-height:70px"></textarea>
+      <label>Другие приветствия (интро) <span class="hint">— каждое отдельно, разделяй строкой из дефисов <code>---</code>. Уйдут в карточку как alternate greetings.</span></label>
+      <textarea id="f_altGreets" style="min-height:90px" placeholder="Приветствие 2&#10;---&#10;Приветствие 3"></textarea>
       <label>Personality</label>
       <textarea id="f_personality" style="min-height:70px"></textarea>
     </details>
@@ -194,6 +196,7 @@ function prefill(d){
   $('f_shortDesc').value=d.shortDescription|| (cleaned.split('\n').find(l=>l.length>20)||'').slice(0,200);
   $('f_scenario').value=d.scenario||'';
   $('f_firstMes').value=d.first_mes||d.firstMes||'';
+  $('f_altGreets').value=(Array.isArray(d.alternate_greetings)?d.alternate_greetings:[]).filter(Boolean).join('\n---\n');
   $('f_personality').value=d.personality||'';
   const tb=estTokens(rawDesc),ta=estTokens(cleaned);
   if(tb>ta)$('cleanNote').textContent=`при загрузке убрано ~${tb-ta} токенов (${Math.round((1-ta/tb)*100)}%)`;
@@ -229,6 +232,7 @@ $('btnSave').onclick=async()=>{
       personality:$('f_personality').value.trim(),
       scenario:$('f_scenario').value.trim(),
       first_mes:$('f_firstMes').value.trim(),
+      alternate_greetings:$('f_altGreets').value.split(/\n-{3,}\n/).map(s=>s.trim()).filter(Boolean),
       tags:parseTags($('f_tags').value).map(t=>t.replace(/^#/,'')),
       creator:$('f_author').value.trim().replace(/^@/,''),
     },

@@ -1,0 +1,253 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Добавить бота · rusreal</title>
+<style>
+  :root{
+    --bg:#171012; --panel:#211619; --panel2:#2b1e22; --line:#3d2c31;
+    --text:#f1e2d2; --muted:#b79a86; --accent:#caa98c; --accent2:#a8865f;
+    --ok:#7fae6b; --err:#d67a6a; --warn:#d8b25a;
+  }
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--bg);color:var(--text);
+    font:15px/1.5 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif}
+  .wrap{max-width:820px;margin:0 auto;padding:24px 18px 80px}
+  h1{font-size:22px;margin:0 0 4px}
+  .sub{color:var(--muted);margin:0 0 20px;font-size:13px}
+  .card{background:var(--panel);border:1px solid var(--line);border-radius:16px;
+    padding:18px;margin-bottom:16px}
+  label{display:block;font-weight:600;margin:14px 0 6px;font-size:13px}
+  .hint{font-weight:400;color:var(--muted);font-size:12px}
+  input[type=text],input[type=url],textarea{width:100%;background:var(--panel2);
+    border:1px solid var(--line);color:var(--text);border-radius:10px;padding:10px 12px;
+    font:inherit;resize:vertical}
+  input:focus,textarea:focus{outline:none;border-color:var(--accent)}
+  textarea{min-height:90px}
+  .row{display:flex;gap:12px;flex-wrap:wrap}
+  .row>div{flex:1;min-width:220px}
+  .btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;
+    border:0;border-radius:12px;padding:12px 16px;font:600 15px inherit;cursor:pointer}
+  .btn.primary{background:linear-gradient(180deg,var(--accent),var(--accent2));color:#2a1a10;width:100%;font-size:16px;padding:15px}
+  .btn.ghost{background:var(--panel2);color:var(--text);border:1px solid var(--line)}
+  .btn.small{padding:7px 11px;font-size:12px;border-radius:9px}
+  .btn:disabled{opacity:.5;cursor:default}
+  .preview{display:flex;gap:14px;align-items:flex-start}
+  .preview img{width:120px;height:auto;border-radius:12px;border:1px solid var(--line);background:var(--panel2);object-fit:cover}
+  .tokline{font-size:12px;color:var(--muted);margin-top:6px}
+  .save-pill{color:var(--ok)}
+  .tags{display:flex;flex-wrap:wrap;gap:6px;margin-top:8px}
+  .tag{background:var(--panel2);border:1px solid var(--line);border-radius:20px;
+    padding:3px 10px;font-size:12px;color:var(--accent)}
+  details{margin-top:10px;border-top:1px solid var(--line);padding-top:10px}
+  summary{cursor:pointer;color:var(--muted);font-size:13px;font-weight:600}
+  .status{position:fixed;left:0;right:0;bottom:0;padding:14px 18px;text-align:center;
+    font-weight:600;transform:translateY(100%);transition:.25s}
+  .status.show{transform:none}
+  .status.ok{background:#243b1e;color:#c8e6b6}
+  .status.err{background:#3b1e1e;color:#e6b6b6}
+  .cfg{font-size:12px}
+  .badge{display:inline-block;font-size:11px;padding:2px 8px;border-radius:20px;background:var(--panel2);color:var(--muted);border:1px solid var(--line)}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <h1>➕ Добавить бота на сайт</h1>
+  <p class="sub">Проверь данные и нажми «Сохранить». Появится в каталоге после пересборки сайта. <span id="mode" class="badge">ручной ввод</span></p>
+
+  <!-- Настройки подключения -->
+  <details class="card cfg" id="cfgBox">
+    <summary>⚙️ Подключение (нужно один раз)</summary>
+    <label>Адрес функции Vercel <span class="hint">(например https://rusreal-add-proxy.vercel.app/api/add-bot)</span></label>
+    <input type="url" id="cfgEndpoint" placeholder="https://….vercel.app/api/add-bot">
+    <label>Секретный ключ <span class="hint">(тот же, что задашь в переменных Vercel — ADD_SECRET)</span></label>
+    <input type="text" id="cfgSecret" placeholder="секрет">
+    <div style="margin-top:12px"><button class="btn ghost small" id="cfgSave">Сохранить настройки</button> <span id="cfgState" class="hint"></span></div>
+  </details>
+
+  <form id="form" class="card" autocomplete="off">
+    <div class="row">
+      <div>
+        <label>Имя бота *</label>
+        <input type="text" id="f_name" required placeholder="Иван | Artel">
+      </div>
+      <div>
+        <label>Автор <span class="hint">(@ник)</span></label>
+        <input type="text" id="f_author" placeholder="@nickname">
+      </div>
+    </div>
+
+    <div class="row">
+      <div>
+        <label>Ссылка на профиль автора</label>
+        <input type="url" id="f_authorUrl" placeholder="https://janitorai.com/profiles/…">
+      </div>
+      <div>
+        <label>Ссылка на бота (Janitor) <span class="hint">— пусто, если бота там нет</span></label>
+        <input type="url" id="f_janitorUrl" placeholder="https://janitorai.com/characters/…">
+      </div>
+    </div>
+
+    <label>Картинка-карточка</label>
+    <div class="preview">
+      <img id="f_imgPreview" alt="нет картинки" src="">
+      <div style="flex:1">
+        <input type="url" id="f_imageUrl" placeholder="URL аватара (заполнится автоматически)">
+        <div style="margin:8px 0" class="hint">или загрузи файл вручную (для ботов не с Janitor):</div>
+        <input type="file" id="f_imageFile" accept="image/*">
+      </div>
+    </div>
+
+    <label>Теги</label>
+    <input type="text" id="f_tags" placeholder="#rusreal #Male #Dominant  (через пробел или запятую)">
+    <div class="tags" id="tagPreview"></div>
+
+    <label>Короткое описание для каталога <span class="hint">— 1–2 предложения, показывается на карточке сайта</span></label>
+    <textarea id="f_shortDesc" style="min-height:60px" placeholder="Охранник, который спасает тебя от троих пьяных…"></textarea>
+
+    <label>Описание для карточки (очищенное)
+      <span class="hint">— это зашивается в .png и уходит в модель. HTML/мусор уже убран.</span>
+    </label>
+    <textarea id="f_cardDesc" style="min-height:160px"></textarea>
+    <div class="tokline" id="tokLine"></div>
+    <div style="margin-top:8px">
+      <button type="button" class="btn ghost small" id="btnClean">🧹 Очистить HTML заново</button>
+      <span class="hint" id="cleanNote"></span>
+    </div>
+
+    <details>
+      <summary>Дополнительно (сценарий, приветствие, personality — для карточки)</summary>
+      <label>Сценарий</label>
+      <textarea id="f_scenario" style="min-height:70px"></textarea>
+      <label>Первое сообщение (first_mes)</label>
+      <textarea id="f_firstMes" style="min-height:70px"></textarea>
+      <label>Personality</label>
+      <textarea id="f_personality" style="min-height:70px"></textarea>
+    </details>
+  </form>
+
+  <button class="btn primary" id="btnSave">💾 Сохранить на сайт</button>
+</div>
+
+<div class="status" id="status"></div>
+
+<script>
+/* ── чистилка описания (та же, что в userscript и на сервере) ────────── */
+const PROMO_RE=/(spotify\.com|open\.spotify|drive\.google|docs\.google|t\.me\/|telegram|discord\.gg|discord\.com|patreon|ko-fi|boosty|pinterest|youtu\.?be|other bots?:|my other|masterlist|carrd\.co|linktr\.ee)/i;
+const BOILER_RE=/^(welcome to|tags?:|anypov|malepov|fempov|любой пов|proofread by|dividers? by|template by|art by|credit)/i;
+function decodeEntities(s){const n={amp:'&',lt:'<',gt:'>',quot:'"',apos:"'",nbsp:' ',mdash:'—',ndash:'–',hellip:'…',laquo:'«',raquo:'»',ldquo:'“',rdquo:'”',lsquo:'‘',rsquo:'’',copy:'©',trade:'™',reg:'®',bull:'•',middot:'·',deg:'°'};
+  return s.replace(/&#x([0-9a-fA-F]+);/g,(_,h)=>String.fromCodePoint(parseInt(h,16))).replace(/&#(\d+);/g,(_,d)=>String.fromCodePoint(parseInt(d,10))).replace(/&([a-zA-Z]+);/g,(m,k)=>k in n?n[k]:m);}
+function isDecorative(l){const t=l.trim();if(!t)return false;const m=t.replace(/[^\p{L}\p{N}]/gu,'');if(!m)return true;if(m.length<=2&&t.length>=4)return true;return false;}
+function cleanDescription(input,opts={}){const aggressive=opts.aggressive!==false;if(!input)return '';let s=String(input);
+  s=s.replace(/<(script|style|svg|picture|iframe)[\s\S]*?<\/\1>/gi,'');
+  s=s.replace(/<img\b[^>]*>/gi,'');
+  s=s.replace(/<a\b([^>]*)>([\s\S]*?)<\/a>/gi,(m,a,txt)=>{const h=(a.match(/href\s*=\s*["']([^"']*)["']/i)||[])[1]||'';if(aggressive&&h&&PROMO_RE.test(h))return '';return txt;});
+  s=s.replace(/<\s*br\s*\/?>/gi,'\n').replace(/<\s*li[^>]*>/gi,'\n- ').replace(/<\s*hr\s*\/?>/gi,'\n');
+  s=s.replace(/<\/(p|div|h[1-6]|li|ul|ol|blockquote|tr|section)\s*>/gi,'\n');
+  s=s.replace(/<[^>]+>/g,'');
+  s=decodeEntities(s);
+  s=s.replace(/ /g,' ').replace(/[ \t]+/g,' ').replace(/\r/g,'');
+  let lines=s.split('\n').map(l=>l.trim()).filter(l=>{if(isDecorative(l))return false;if(aggressive&&l&&PROMO_RE.test(l))return false;if(aggressive&&l&&BOILER_RE.test(l))return false;return true;});
+  const out=[];for(const l of lines){if(l===''&&out[out.length-1]==='')continue;out.push(l);}return out.join('\n').trim();}
+const estTokens=s=>Math.round((s||'').length/4);
+
+/* ── утилиты ────────────────────────────────────────────────────────── */
+const $=id=>document.getElementById(id);
+function parseTags(str){return (str||'').split(/[\s,]+/).map(t=>t.trim()).filter(Boolean).map(t=>'#'+t.replace(/^#+/,''));}
+function renderTags(){const box=$('tagPreview');box.innerHTML='';parseTags($('f_tags').value).forEach(t=>{const s=document.createElement('span');s.className='tag';s.textContent=t;box.appendChild(s);});}
+function updateTok(){const c=$('f_cardDesc').value;$('tokLine').textContent=`Сейчас: ${c.length} символов ≈ ${estTokens(c)} токенов`;}
+function toast(msg,ok){const s=$('status');s.textContent=msg;s.className='status show '+(ok?'ok':'err');if(ok)setTimeout(()=>s.classList.remove('show'),4000);}
+
+/* ── настройки подключения (localStorage) ───────────────────────────── */
+const CFG_KEY='rusreal_admin_cfg';
+function loadCfg(){try{return JSON.parse(localStorage.getItem(CFG_KEY))||{};}catch(e){return {};}}
+function saveCfg(){const c={endpoint:$('cfgEndpoint').value.trim(),secret:$('cfgSecret').value.trim()};localStorage.setItem(CFG_KEY,JSON.stringify(c));$('cfgState').textContent='сохранено ✓';setTimeout(()=>$('cfgState').textContent='',2000);}
+(function initCfg(){const c=loadCfg();$('cfgEndpoint').value=c.endpoint||'';$('cfgSecret').value=c.secret||'';if(!c.endpoint)$('cfgBox').open=true;})();
+$('cfgSave').onclick=saveCfg;
+
+/* ── превью картинки ────────────────────────────────────────────────── */
+let uploadedImageBase64=null;
+$('f_imageUrl').addEventListener('input',()=>{const u=$('f_imageUrl').value.trim();if(u){$('f_imgPreview').src=u;uploadedImageBase64=null;}});
+$('f_imageFile').addEventListener('change',e=>{const file=e.target.files[0];if(!file)return;const r=new FileReader();r.onload=()=>{uploadedImageBase64=r.result;$('f_imgPreview').src=r.result;};r.readAsDataURL(file);});
+
+/* ── очистка по кнопке ──────────────────────────────────────────────── */
+$('btnClean').onclick=()=>{const before=$('f_cardDesc').value;const after=cleanDescription(before);$('f_cardDesc').value=after;updateTok();const tb=estTokens(before),ta=estTokens(after);$('cleanNote').textContent=tb>ta?`убрано ~${tb-ta} токенов (${Math.round((1-ta/tb)*100||0)}%)`:'уже чисто';};
+$('f_cardDesc').addEventListener('input',updateTok);
+$('f_tags').addEventListener('input',renderTags);
+
+/* ── приём данных со сборщика (userscript) через #d=<base64 utf8 json> ─ */
+function b64ToJson(b64){try{const bin=atob(b64.replace(/-/g,'+').replace(/_/g,'/'));const bytes=Uint8Array.from(bin,c=>c.charCodeAt(0));return JSON.parse(new TextDecoder().decode(bytes));}catch(e){return null;}}
+function prefill(d){
+  $('mode').textContent='с Janitor';
+  $('f_name').value=d.name||'';
+  $('f_author').value=d.author||'';
+  $('f_authorUrl').value=d.authorUrl||'';
+  $('f_janitorUrl').value=d.janitorUrl||'';
+  $('f_imageUrl').value=d.imageUrl||'';
+  if(d.imageUrl)$('f_imgPreview').src=d.imageUrl;
+  $('f_tags').value=(d.tags||[]).join(' ');
+  const rawDesc=d.description||'';
+  const cleaned=cleanDescription(rawDesc);
+  $('f_cardDesc').value=cleaned;
+  // короткое описание: первая содержательная строка очищенного
+  $('f_shortDesc').value=d.shortDescription|| (cleaned.split('\n').find(l=>l.length>20)||'').slice(0,200);
+  $('f_scenario').value=d.scenario||'';
+  $('f_firstMes').value=d.first_mes||d.firstMes||'';
+  $('f_personality').value=d.personality||'';
+  const tb=estTokens(rawDesc),ta=estTokens(cleaned);
+  if(tb>ta)$('cleanNote').textContent=`при загрузке убрано ~${tb-ta} токенов (${Math.round((1-ta/tb)*100)}%)`;
+  renderTags();updateTok();
+}
+(function initData(){
+  const h=location.hash||'';
+  const m=h.match(/[#&]d=([^&]+)/);
+  if(m){const d=b64ToJson(decodeURIComponent(m[1]));if(d){prefill(d);history.replaceState(null,'',location.pathname+location.search);return;}}
+  renderTags();updateTok();
+})();
+
+/* ── сохранение ─────────────────────────────────────────────────────── */
+$('btnSave').onclick=async()=>{
+  const cfg=loadCfg();
+  if(!cfg.endpoint||!cfg.secret){toast('Сначала заполни ⚙️ Подключение',false);$('cfgBox').open=true;return;}
+  const name=$('f_name').value.trim();
+  if(!name){toast('Впиши имя бота',false);return;}
+  if(!$('f_imageUrl').value.trim() && !uploadedImageBase64){toast('Нужна картинка (URL или файл)',false);return;}
+  const payload={
+    bot:{
+      name,
+      author:$('f_author').value.trim(),
+      authorUrl:$('f_authorUrl').value.trim(),
+      janitorUrl:$('f_janitorUrl').value.trim(),
+      description:$('f_shortDesc').value.trim(),
+      scenario:$('f_scenario').value.trim(),
+      tags:parseTags($('f_tags').value),
+    },
+    card:{
+      name,
+      description:$('f_cardDesc').value.trim(),
+      personality:$('f_personality').value.trim(),
+      scenario:$('f_scenario').value.trim(),
+      first_mes:$('f_firstMes').value.trim(),
+      tags:parseTags($('f_tags').value).map(t=>t.replace(/^#/,'')),
+      creator:$('f_author').value.trim().replace(/^@/,''),
+    },
+    imageUrl:$('f_imageUrl').value.trim()||null,
+    imageBase64:uploadedImageBase64||null,
+  };
+  const btn=$('btnSave');btn.disabled=true;btn.textContent='Сохраняю…';
+  try{
+    const r=await fetch(cfg.endpoint,{method:'POST',headers:{'Content-Type':'application/json','x-add-secret':cfg.secret},body:JSON.stringify(payload)});
+    const j=await r.json().catch(()=>({}));
+    if(!r.ok||j.ok===false)throw new Error(j.error||('HTTP '+r.status));
+    toast('✅ '+(j.message||'Добавлено! Сайт обновится через минуту'),true);
+    btn.textContent='✅ Готово';
+    setTimeout(()=>{btn.disabled=false;btn.textContent='💾 Сохранить ещё одного';},1500);
+  }catch(e){
+    toast('Ошибка: '+e.message,false);
+    btn.disabled=false;btn.textContent='💾 Сохранить на сайт';
+  }
+};
+</script>
+</body>
+</html>

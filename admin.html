@@ -66,6 +66,15 @@
     <div style="margin-top:12px"><button class="btn ghost small" id="cfgSave">Сохранить настройки</button> <span id="cfgState" class="hint"></span></div>
   </details>
 
+  <!-- Редактирование существующего -->
+  <details class="card" id="editBox">
+    <summary>✏️ Редактировать бота, который уже на сайте</summary>
+    <label>Найди и выбери <span class="hint">— подтянет все данные в форму ниже, включая описание из карточки</span></label>
+    <input type="text" id="editSearch" placeholder="поиск по имени или автору…">
+    <select id="editSelect" size="8" style="width:100%;margin-top:8px;background:var(--panel2);border:1px solid var(--line);color:var(--text);border-radius:10px;padding:6px"></select>
+    <div style="margin-top:10px"><button type="button" class="btn ghost small" id="editLoad">Загрузить в форму</button> <span id="editNote" class="hint"></span></div>
+  </details>
+
   <form id="form" class="card" autocomplete="off">
     <div class="row">
       <div>
@@ -161,7 +170,8 @@ function makeBlurb(text){const line=(text||'').split('\n').find(l=>l.trim().leng
 
 /* ── утилиты ────────────────────────────────────────────────────────── */
 const $=id=>document.getElementById(id);
-function parseTags(str){return (str||'').split(/[\s,]+/).map(t=>t.trim()).filter(Boolean).map(t=>'#'+t.replace(/^#+/,''));}
+function stripEmoji(s){return (s||'').replace(/[\p{Extended_Pictographic}‍️\u{1F3FB}-\u{1F3FF}⃣]/gu,'').trim();}
+function parseTags(str){return (str||'').split(/[\s,]+/).map(t=>stripEmoji(t).replace(/^#+/,'').trim()).filter(Boolean).map(t=>'#'+t);}
 function renderTags(){const box=$('tagPreview');box.innerHTML='';parseTags($('f_tags').value).forEach(t=>{const s=document.createElement('span');s.className='tag';s.textContent=t;box.appendChild(s);});}
 function updateTok(){const c=$('f_cardDesc').value;$('tokLine').textContent=`Сейчас: ${c.length} символов ≈ ${estTokens(c)} токенов`;}
 function toast(msg,ok){const s=$('status');s.textContent=msg;s.className='status show '+(ok?'ok':'err');if(ok)setTimeout(()=>s.classList.remove('show'),4000);}
@@ -173,10 +183,85 @@ function saveCfg(){const c={endpoint:$('cfgEndpoint').value.trim(),secret:$('cfg
 (function initCfg(){const c=loadCfg();$('cfgEndpoint').value=c.endpoint||'';$('cfgSecret').value=c.secret||'';if(!c.endpoint)$('cfgBox').open=true;})();
 $('cfgSave').onclick=saveCfg;
 
-/* ── превью картинки ────────────────────────────────────────────────── */
+/* ── состояние ──────────────────────────────────────────────────────── */
 let uploadedImageBase64=null;
+let editingId=null;   // id редактируемого бота (для замены на сервере)
+
+/* ── чтение карточки, зашитой в PNG (chara-чанк) ────────────────────── */
+const LATIN1=new TextDecoder('latin1');
+function b64utf8ToJson(b64){try{const bin=atob((b64||'').replace(/[^A-Za-z0-9+/=]/g,''));const by=Uint8Array.from(bin,c=>c.charCodeAt(0));return JSON.parse(new TextDecoder('utf-8').decode(by));}catch(e){return null;}}
+function extractChara(bytes){
+  if(!bytes||bytes.length<8)return null;
+  let i=8,result=null;
+  while(i+8<=bytes.length){
+    const len=((bytes[i]<<24)|(bytes[i+1]<<16)|(bytes[i+2]<<8)|bytes[i+3])>>>0;
+    const type=LATIN1.decode(bytes.subarray(i+4,i+8));
+    const ds=i+8,data=bytes.subarray(ds,ds+len);
+    if(type==='tEXt'||type==='iTXt'){
+      const z=data.indexOf(0);
+      if(z>0 && /^chara/i.test(LATIN1.decode(data.subarray(0,z)))){
+        let payload=null;
+        if(type==='tEXt'){payload=data.subarray(z+1);}
+        else{let p=z+1;const comp=data[p];p+=2;let z2=data.indexOf(0,p);p=z2+1;let z3=data.indexOf(0,p);p=z3+1;if(comp===0)payload=data.subarray(p);}
+        if(payload){const parsed=b64utf8ToJson(LATIN1.decode(payload));if(parsed)result=parsed;}
+      }
+    }
+    if(type==='IEND')break;
+    i=ds+len+4;
+  }
+  return result;
+}
+function applyCardFields(parsed,opt={}){
+  const d=(parsed&&parsed.data)?parsed.data:parsed; if(!d)return false;
+  if(opt.fillName!==false && d.name && !$('f_name').value)$('f_name').value=d.name;
+  if(d.description)$('f_cardDesc').value=d.description;
+  if(d.personality)$('f_personality').value=d.personality;
+  if(d.scenario && !$('f_scenario').value.trim())$('f_scenario').value=d.scenario;
+  if((d.first_mes||d.first_message)&&!$('f_firstMes').value.trim())$('f_firstMes').value=d.first_mes||d.first_message;
+  const ag=d.alternate_greetings||[];
+  if(Array.isArray(ag)&&ag.length&&!$('f_altGreets').value.trim())$('f_altGreets').value=ag.filter(Boolean).join('\n---\n');
+  if(Array.isArray(d.tags)&&d.tags.length&&!$('f_tags').value.trim())$('f_tags').value=d.tags.map(t=>String(t).replace(/^#/,'')).join(' ');
+  if(d.creator&&!$('f_author').value)$('f_author').value='@'+String(d.creator).replace(/^@/,'');
+  if(!$('f_shortDesc').value.trim())$('f_shortDesc').value=makeBlurb(cleanDescription(d.description||''));
+  renderTags();updateTok();
+  return true;
+}
+
+/* ── превью + загрузка своей карточки ───────────────────────────────── */
 $('f_imageUrl').addEventListener('input',()=>{const u=$('f_imageUrl').value.trim();if(u){$('f_imgPreview').src=u;uploadedImageBase64=null;}});
-$('f_imageFile').addEventListener('change',e=>{const file=e.target.files[0];if(!file)return;const r=new FileReader();r.onload=()=>{uploadedImageBase64=r.result;$('f_imgPreview').src=r.result;};r.readAsDataURL(file);});
+$('f_imageFile').addEventListener('change',e=>{
+  const file=e.target.files[0];if(!file)return;
+  const r=new FileReader();r.onload=()=>{uploadedImageBase64=r.result;$('f_imgPreview').src=r.result;};r.readAsDataURL(file);
+  const rb=new FileReader();rb.onload=()=>{try{const parsed=extractChara(new Uint8Array(rb.result));if(parsed&&applyCardFields(parsed))toast('Данные из карточки подставлены — проверь',true);}catch(err){}};rb.readAsArrayBuffer(file);
+});
+
+/* ── редактирование существующего бота ──────────────────────────────── */
+let EXISTING=[];
+async function loadExisting(){if(EXISTING.length)return EXISTING;try{const r=await fetch('bots.json',{cache:'no-store'});const j=await r.json();EXISTING=(j.bots||[]).filter(b=>b&&b.name&&!b.isWelcome);}catch(e){$('editNote').textContent='не удалось загрузить список';}return EXISTING;}
+function renderEditList(){const q=($('editSearch').value||'').trim().toLowerCase();const sel=$('editSelect');sel.innerHTML='';EXISTING.map((b,idx)=>[b,idx]).filter(([b])=>!q||(b.name||'').toLowerCase().includes(q)||(b.author||'').toLowerCase().includes(q)).slice(0,400).forEach(([b,idx])=>{const o=document.createElement('option');o.value=idx;o.textContent=b.name+(b.author?(' — '+b.author):'');sel.appendChild(o);});}
+$('editBox').addEventListener('toggle',async()=>{if($('editBox').open){await loadExisting();renderEditList();}});
+$('editSearch').addEventListener('input',renderEditList);
+$('editLoad').onclick=async()=>{const v=$('editSelect').value;if(v==='')return;const bot=EXISTING[+v];if(bot)await fillFromExisting(bot);};
+async function fillFromExisting(bot){
+  editingId=bot.id||null;uploadedImageBase64=null;
+  $('mode').textContent='редактирование';
+  $('f_name').value=bot.name||'';
+  $('f_author').value=bot.author||'';
+  $('f_authorUrl').value=bot.authorUrl||'';
+  $('f_janitorUrl').value=bot.janitorUrl||'';
+  $('f_tags').value=(bot.tags||[]).map(t=>String(t).replace(/^#/,'')).join(' ');
+  $('f_shortDesc').value=bot.description||'';
+  $('f_scenario').value=bot.scenario||'';
+  $('f_cardDesc').value='';$('f_firstMes').value='';$('f_altGreets').value='';$('f_personality').value='';
+  const imgAbs=bot.image?new URL(bot.image,location.href).href:'';
+  $('f_imageUrl').value=imgAbs;if(imgAbs)$('f_imgPreview').src=imgAbs;
+  renderTags();updateTok();
+  $('editNote').textContent='читаю карточку…';
+  try{const r=await fetch(imgAbs,{cache:'no-store'});const parsed=extractChara(new Uint8Array(await r.arrayBuffer()));if(parsed)applyCardFields(parsed,{fillName:false});$('editNote').textContent='загружено ✓ — правь и сохраняй';}
+  catch(e){$('editNote').textContent='из bots.json загружено (полную карточку прочитать не вышло)';}
+  $('editBox').open=false;
+  const f=$('form');if(f)window.scrollTo({top:f.offsetTop-20,behavior:'smooth'});
+}
 
 /* ── очистка по кнопке ──────────────────────────────────────────────── */
 $('btnClean').onclick=()=>{const before=$('f_cardDesc').value;const after=cleanDescription(before);$('f_cardDesc').value=after;updateTok();const tb=estTokens(before),ta=estTokens(after);$('cleanNote').textContent=tb>ta?`убрано ~${tb-ta} токенов (${Math.round((1-ta/tb)*100||0)}%)`:'уже чисто';};
@@ -210,6 +295,7 @@ $('btnEnrich').onclick=async()=>{
 /* ── приём данных со сборщика (userscript) через #d=<base64 utf8 json> ─ */
 function b64ToJson(b64){try{const bin=atob(b64.replace(/-/g,'+').replace(/_/g,'/'));const bytes=Uint8Array.from(bin,c=>c.charCodeAt(0));return JSON.parse(new TextDecoder().decode(bytes));}catch(e){return null;}}
 function prefill(d){
+  editingId=null;
   $('mode').textContent='с Janitor';
   $('f_name').value=d.name||'';
   $('f_author').value=d.author||'';
@@ -247,6 +333,7 @@ $('btnSave').onclick=async()=>{
   if(!$('f_imageUrl').value.trim() && !uploadedImageBase64){toast('Нужна картинка (URL или файл)',false);return;}
   const payload={
     bot:{
+      id:editingId||undefined,
       name,
       author:$('f_author').value.trim(),
       authorUrl:$('f_authorUrl').value.trim(),

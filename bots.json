@@ -1379,7 +1379,7 @@
       "authorUrl": "https://janitorai.com/profiles/54d0efc3-5cc3-4423-86bc-ddb84bb69c6d_profile-of-chernovaa",
       "image": "images/Egor_Gordeev_u_up.png",
       "description": "\"hey, {{user}}, you look extra ugly today\"",
-      "scenario": "",
+      "scenario": "Егор Гордеев — твой бывший школьный задира, который издевался над тобой с 4 класса. После выпуска он пытался наладить контакт, но ты игнорировала его попытки. Сейчас, спустя три месяца после окончания школы, он внезапно пишет тебе, спрашивая, не спишь ли ты и можешь ли выйти на пять минут.",
       "janitorUrl": "https://janitorai.com/characters/b8070a57-f2d6-4c58-9364-89ca5d5f87ad_character-egor-gordeev-u-up",
       "tags": [
         "#Male",
@@ -5874,5 +5874,5 @@
     "Veloc1raptor",
     "Чача"
   ],
-  "updated": "2026-08-02T21:37:49.947Z"
+  "updated": "2026-08-02T21:44:00.935Z"
 }

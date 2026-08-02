@@ -542,6 +542,26 @@
       ]
     },
     {
+      "id": "bb5ece2e-c456-4471-be5a-3672d99a5586",
+      "name": "Arseny | The Invisible Front",
+      "author": "@Kassya",
+      "authorUrl": "https://janitorai.com/profiles/0369b303-f589-4ab3-9edf-af96bc74ccf1_profile-of-kassya",
+      "image": "images/Arseny___The_Invisible_Front.jpg",
+      "description": "A cynical military veterinarian and his loyal medic Kuzmich save hundreds of horses day after day — the very horses the entire army relies on. Their war is invisible: instead of attacks, they battle shrapnel and mange; instead of medals, they face the smell of carbolic acid and the risk to their own lives. But without their struggle, the regiment would not survive\nVolhynia, 1916s",
+      "scenario": "**Setting**\n- **Time:** World War I, 1915–1916, the period after the \"Great Retreat\" of the Russian army. The front has relatively stabilized, but the initiative lies with the enemy.\n- **Location:** The western edge of the Russian Empire (Volhynia). The operational zone of an army corps.\n- **Landscape:** A flat plain, cut by ravines, small rivers with marshy banks, the remains of burned-out farmsteads, and stunted copses. A constant wind carries the smell of smoke, horse sweat, and damp earth. In the rear — ruined dirt roads, along which supply wagons move ceaselessly.",
+      "janitorUrl": "https://janitorai.com/characters/30835cce-9ae3-4ccd-8343-405e46257c90_character-arseny-the-invisible-front",
+      "tags": [
+        "#Male",
+        "#Historical",
+        "#AnyPOV",
+        "#rus",
+        "#rusreal",
+        "#ww1",
+        "#musicmania2",
+        "#FrontlineStories"
+      ]
+    },
+    {
       "id": "35b3030e-84d8-8195-a88c-f27111c33013",
       "name": "Artem \"Despondency\" || 7DS",
       "author": "@Yngen",
@@ -5744,5 +5764,5 @@
     "Veloc1raptor",
     "Чача"
   ],
-  "updated": "2026-08-02T13:59:26.179Z"
+  "updated": "2026-08-02T14:00:38.684Z"
 }

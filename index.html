@@ -592,7 +592,8 @@ function switchTab(tab,btn){
   document.querySelectorAll(".tab-btn").forEach(b=>b.classList.remove("active"));
   if(btn)btn.classList.add("active");
 }
-function dlCard(e,src,name){if(e)e.stopPropagation();if(!src)return;let fn=(name||"card").replace(/[\p{Extended_Pictographic}‍️]/gu,"").replace(/[\\/:*?"<>|]+/g,"-").replace(/\s+/g," ").trim();if(!fn||/^[\s_.\-]*$/.test(fn))fn="card";const a=document.createElement("a");a.href=src;a.download=fn+".png";document.body.appendChild(a);a.click();document.body.removeChild(a);}
+function translit(s){const m={а:"a",б:"b",в:"v",г:"g",д:"d",е:"e",ё:"e",ж:"zh",з:"z",и:"i",й:"y",к:"k",л:"l",м:"m",н:"n",о:"o",п:"p",р:"r",с:"s",т:"t",у:"u",ф:"f",х:"kh",ц:"ts",ч:"ch",ш:"sh",щ:"shch",ъ:"",ы:"y",ь:"",э:"e",ю:"yu",я:"ya"};return (s||"").replace(/[а-яё]/gi,c=>{const l=c.toLowerCase(),r=m[l]||"";return c===l?r:r.charAt(0).toUpperCase()+r.slice(1);});}
+function dlCard(e,src,name){if(e)e.stopPropagation();if(!src)return;let fn=translit(name||"card").replace(/[\p{Extended_Pictographic}‍️]/gu,"").replace(/[^A-Za-z0-9 ._-]+/g,"-").replace(/[-\s]+/g," ").trim();if(!fn||/^[\s_.\-]*$/.test(fn))fn="card";const a=document.createElement("a");a.href=src;a.download=fn+".png";document.body.appendChild(a);a.click();document.body.removeChild(a);}
 function openSidebar(){document.getElementById("sidebar").classList.add("open");document.getElementById("sidebar-overlay").classList.add("show");}
 function closeSidebar(){document.getElementById("sidebar").classList.remove("open");document.getElementById("sidebar-overlay").classList.remove("show");}
 function esc(s){return String(s).replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;").replace(/"/g,"&quot;");}

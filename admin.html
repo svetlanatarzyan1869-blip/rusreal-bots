@@ -153,6 +153,7 @@ function cleanDescription(input,opts={}){const aggressive=opts.aggressive!==fals
   let lines=s.split('\n').map(l=>l.trim()).filter(l=>{if(isDecorative(l))return false;if(aggressive&&l&&PROMO_RE.test(l))return false;if(aggressive&&l&&BOILER_RE.test(l))return false;return true;});
   const out=[];for(const l of lines){if(l===''&&out[out.length-1]==='')continue;out.push(l);}return out.join('\n').trim();}
 const estTokens=s=>Math.round((s||'').length/4);
+function makeBlurb(text){const line=(text||'').split('\n').find(l=>l.trim().length>20)||'';return line.length<=200?line.trim():line.slice(0,200).replace(/\s+\S*$/,'')+'…';}
 
 /* ── утилиты ────────────────────────────────────────────────────────── */
 const $=id=>document.getElementById(id);
@@ -193,7 +194,7 @@ function prefill(d){
   const cleaned=cleanDescription(rawDesc);
   $('f_cardDesc').value=cleaned;
   // короткое описание: первая содержательная строка очищенного
-  $('f_shortDesc').value=d.shortDescription|| (cleaned.split('\n').find(l=>l.length>20)||'').slice(0,200);
+  $('f_shortDesc').value=(d.shortDescription&&d.shortDescription.length>20)?d.shortDescription:makeBlurb(cleaned);
   $('f_scenario').value=d.scenario||'';
   $('f_firstMes').value=d.first_mes||d.firstMes||'';
   $('f_altGreets').value=(Array.isArray(d.alternate_greetings)?d.alternate_greetings:[]).filter(Boolean).join('\n---\n');

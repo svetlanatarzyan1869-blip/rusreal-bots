@@ -329,7 +329,7 @@ const WELCOME={id:"welcome",isWelcome:true,name:"────୨ৎ────"
 
 let ALL_BOTS=[],ALL_AUTHORS=[],ALL_TAGS=[],UNIVERSES=[];
 let activeAuthor=null,activeTags=new Set(),searchQuery="",sortMode="new";
-let activeUniverse=null,favOnly=false,LATEST_DAY="";
+let activeUniverse=null,favOnly=false,NEW_DAYS=new Set();
 let currentPage=1,perPage=50,filteredBots=[];
 let openPanel=null;
 
@@ -368,7 +368,7 @@ function renderUniverseBar(){
 function selectUniverse(u){activeUniverse=activeUniverse===u?null:u;renderUniverseBar();applyFilters();}
 
 // ── дата добавления / NEW ──
-function isNew(b){return !!(b.addedAt&&LATEST_DAY&&String(b.addedAt).slice(0,10)===LATEST_DAY);}
+function isNew(b){return !!(b.addedAt&&NEW_DAYS.has(String(b.addedAt).slice(0,10)));}
 function sortRest(rest,mode){
   rest.sort((a,b)=>{
     if(mode==="new"){const ta=Date.parse(a.addedAt||0)||0,tb=Date.parse(b.addedAt||0)||0;if(ta!==tb)return tb-ta;return sortKey(a.name).localeCompare(sortKey(b.name),"ru");}
@@ -387,7 +387,7 @@ async function init(){
       .filter(b=>(b.janitorUrl||b.image)&&(b.description||b.tags&&b.tags.length))
       .map(b=>({...b,author:normAuthor(b.author),tags:sortedTags(b.tags.map(t=>t[0]+t.slice(1).toLowerCase()))}));
     UNIVERSES=computeUniverses(raw);
-    LATEST_DAY=raw.reduce((m,b)=>{const d=b.addedAt?String(b.addedAt).slice(0,10):"";return d>m?d:m;},"");
+    NEW_DAYS=new Set([...new Set(raw.map(b=>b.addedAt?String(b.addedAt).slice(0,10):"").filter(Boolean))].sort().reverse().slice(0,2));
     sortRest(raw,sortMode);
     ALL_BOTS=[WELCOME,...raw];
     const authSet=new Set(raw.map(b=>b.author).filter(a=>a&&a!=="Unknown"));

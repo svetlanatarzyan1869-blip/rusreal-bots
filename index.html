@@ -128,6 +128,15 @@ body{background:var(--bg);color:var(--text);font-family:'Inter',sans-serif;font-
 .card-author-badge{position:absolute;bottom:7px;left:8px;font-size:9px;color:rgba(200,192,180,.5);background:rgba(15,15,18,.65);padding:2px 7px;border-radius:8px;letter-spacing:.04em;pointer-events:none}
 .card-dl{opacity:0;transition:opacity .2s;position:absolute;bottom:8px;right:8px;background:rgba(20,20,24,.82);border:1px solid rgba(200,192,180,.14);color:#c8c0b4;border-radius:18px;padding:5px 10px;font-size:9.5px;letter-spacing:.06em;cursor:pointer;font-family:inherit;display:flex;align-items:center;gap:4px;backdrop-filter:blur(4px)}
 .card-dl:hover{background:rgba(20,20,24,.96)}
+.card-new{position:absolute;top:7px;left:7px;background:var(--accent);color:#fff;font-size:8.5px;font-weight:600;letter-spacing:.08em;padding:2px 6px;border-radius:7px;pointer-events:none;box-shadow:0 1px 4px rgba(0,0,0,.4);z-index:2}
+.card-fav{position:absolute;top:5px;right:6px;background:rgba(20,20,24,.55);border:none;color:#e8d9a0;font-size:15px;line-height:1;width:26px;height:26px;border-radius:50%;cursor:pointer;display:flex;align-items:center;justify-content:center;backdrop-filter:blur(3px);transition:transform .12s,background .15s;padding:0;z-index:2}
+.card-fav:hover{background:rgba(20,20,24,.85);transform:scale(1.12)}
+.card-fav.on{color:#f2c94c}
+#universe-bar{display:flex;flex-wrap:wrap;gap:6px;align-items:center;max-width:1400px;margin:0 auto;padding:2px 20px 6px}
+.uni-label{font-size:10px;color:var(--text-dim);letter-spacing:.06em;margin-right:2px}
+.uni-chip{font-size:10px;padding:3px 10px;background:var(--tag-bg);color:var(--tag-color);border:1px solid var(--tag-border);border-radius:12px;cursor:pointer;letter-spacing:.03em;transition:.15s;white-space:nowrap}
+.uni-chip:hover{border-color:var(--accent)}
+.uni-chip.active{background:var(--accent);color:#fff;border-color:var(--accent)}
 .card-info{padding:9px 2px 4px}
 .card-name{font-family:var(--serif);font-size:13.5px;font-weight:500;color:var(--text);line-height:1.3;letter-spacing:.01em;min-height:36px;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
 .card-divider{height:1px;background:linear-gradient(90deg,var(--accent) 0%,transparent 72%);margin:5px 0 6px}
@@ -245,9 +254,13 @@ body{background:var(--bg);color:var(--text);font-family:'Inter',sans-serif;font-
 
   <!-- Сортировка -->
   <select id="sort-select" onchange="applySort()">
+    <option value="new">🆕 сначала новые</option>
     <option value="az">А → Я</option>
     <option value="za">Я → А</option>
   </select>
+
+  <!-- Избранное -->
+  <button class="hbtn" id="fav-toggle" onclick="toggleFavOnly()" title="показать избранное" style="font-size:15px;padding:4px 7px">☆</button>
 
   <!-- Случайный бот -->
   <button class="hbtn" onclick="openRandom()" title="случайный бот" style="font-size:16px;padding:4px 6px">🎲</button>
@@ -268,6 +281,8 @@ body{background:var(--bg);color:var(--text);font-family:'Inter',sans-serif;font-
   <span class="pills-label">фильтры:</span>
   <div id="pills-inner"></div>
 </div>
+
+<div id="universe-bar"></div>
 
 <main id="main">
   <div id="loading"><div class="spinner"></div><div class="loading-text">загрузка ботов...</div></div>
@@ -312,10 +327,56 @@ function sortKey(s){return s.replace(/^[@#]/,"").toLowerCase();}
 
 const WELCOME={id:"welcome",isWelcome:true,name:"────୨ৎ────",author:"Светлячок",image:"images/welcome.jpg",description:"Всем привет, любители русреала! Нажми чтобы узнать о сайте.",janitorUrl:"",authorUrl:"https://t.me/+H-HIp1UP1BxiZGUy",tags:[]};
 
-let ALL_BOTS=[],ALL_AUTHORS=[],ALL_TAGS=[];
-let activeAuthor=null,activeTags=new Set(),searchQuery="",sortMode="az";
+let ALL_BOTS=[],ALL_AUTHORS=[],ALL_TAGS=[],UNIVERSES=[];
+let activeAuthor=null,activeTags=new Set(),searchQuery="",sortMode="new";
+let activeUniverse=null,favOnly=false;
 let currentPage=1,perPage=50,filteredBots=[];
 let openPanel=null;
+
+// ── Избранное (localStorage) ──
+const FAV_KEY="rusreal_favs";
+function loadFavs(){try{return new Set(JSON.parse(localStorage.getItem(FAV_KEY))||[]);}catch(e){return new Set();}}
+let FAVS=loadFavs();
+function botKey(b){return b.id||b.name;}
+function isFav(b){return FAVS.has(botKey(b));}
+function toggleFav(ev,key){ev.stopPropagation();if(FAVS.has(key))FAVS.delete(key);else FAVS.add(key);localStorage.setItem(FAV_KEY,JSON.stringify([...FAVS]));if(favOnly)applyFilters();else renderPage();updateFavToggle();}
+function toggleFavAt(ev,idx){const b=filteredBots[idx];if(b)toggleFav(ev,botKey(b));}
+function updateFavToggle(){const b=document.getElementById("fav-toggle");if(!b)return;b.textContent=favOnly?"★":"☆";b.style.color=favOnly?"var(--accent)":"";b.title=favOnly?"показаны избранные":"показать избранное";}
+function toggleFavOnly(){favOnly=!favOnly;updateFavToggle();applyFilters();}
+
+// ── Вселенные (серии) — определяем по повторяющемуся хвосту имени ──
+function universeOf(name){
+  const parts=String(name).split(/\s*\|\|?\s*|\s+—\s+/).map(s=>s.trim()).filter(Boolean);
+  if(parts.length<2)return null;
+  let u=parts[parts.length-1].replace(/\s*\([^)]*\)\s*/g,"").replace(/[?!.]+$/,"").trim();
+  if(u.length<2||u.length>40||/^\d+$/.test(u))return null;
+  if(/^(alt|oc|nsfw|sfw|rus|eng|18\+|new|reboot)$/i.test(u))return null;
+  return u;
+}
+function computeUniverses(bots){
+  const freq={};
+  bots.forEach(b=>{const u=universeOf(b.name);if(u){b._universe=u;freq[u]=(freq[u]||0)+1;}});
+  return Object.keys(freq).filter(u=>freq[u]>=2).sort((a,b)=>freq[b]-freq[a]||a.localeCompare(b,"ru"));
+}
+function renderUniverseBar(){
+  const bar=document.getElementById("universe-bar");
+  if(!UNIVERSES.length){bar.style.display="none";return;}
+  bar.style.display="flex";
+  bar.innerHTML=`<span class="uni-label">вселенные:</span>`+
+    UNIVERSES.map(u=>`<span class="uni-chip ${activeUniverse===u?"active":""}" onclick="selectUniverse('${esc(u).replace(/'/g,"\\'")}')">${esc(u)}</span>`).join("");
+}
+function selectUniverse(u){activeUniverse=activeUniverse===u?null:u;renderUniverseBar();applyFilters();}
+
+// ── дата добавления / NEW ──
+function isNew(b){if(!b.addedAt)return false;const t=Date.parse(b.addedAt);return isFinite(t)&&(Date.now()-t)<14*864e5;}
+function sortRest(rest,mode){
+  rest.sort((a,b)=>{
+    if(mode==="new"){const ta=Date.parse(a.addedAt||0)||0,tb=Date.parse(b.addedAt||0)||0;if(ta!==tb)return tb-ta;return sortKey(a.name).localeCompare(sortKey(b.name),"ru");}
+    const cmp=sortKey(a.name).localeCompare(sortKey(b.name),"ru");
+    return mode==="az"?cmp:-cmp;
+  });
+  return rest;
+}
 
 async function init(){
   try{
@@ -325,7 +386,8 @@ async function init(){
       .filter(b=>!b.tags||!b.tags.some(t=>t.toLowerCase().includes('инструкц')))
       .filter(b=>(b.janitorUrl||b.image)&&(b.description||b.tags&&b.tags.length))
       .map(b=>({...b,author:normAuthor(b.author),tags:sortedTags(b.tags.map(t=>t[0]+t.slice(1).toLowerCase()))}));
-    raw.sort((a,b)=>sortKey(a.name).localeCompare(sortKey(b.name),"ru"));
+    UNIVERSES=computeUniverses(raw);
+    sortRest(raw,sortMode);
     ALL_BOTS=[WELCOME,...raw];
     const authSet=new Set(raw.map(b=>b.author).filter(a=>a&&a!=="Unknown"));
     ALL_AUTHORS=[...authSet].sort((a,b)=>sortKey(a).localeCompare(sortKey(b),"ru"));
@@ -333,6 +395,7 @@ async function init(){
     document.getElementById("loading").style.display="none";
     document.getElementById("grid").style.display="grid";
     renderAuthorSidebar();renderFilterList("tags",ALL_TAGS);renderFilterList("authors",ALL_AUTHORS);
+    renderUniverseBar();updateFavToggle();document.getElementById("sort-select").value=sortMode;
     applyFilters();
     const saved=localStorage.getItem("theme")||"dark";
     document.documentElement.setAttribute("data-theme",saved);
@@ -368,11 +431,7 @@ function openRandom(){
 function applySort(){
   sortMode=document.getElementById("sort-select").value;
   const welcome=ALL_BOTS[0];
-  const rest=ALL_BOTS.slice(1);
-  rest.sort((a,b)=>{
-    const cmp=sortKey(a.name).localeCompare(sortKey(b.name),"ru");
-    return sortMode==="az"?cmp:-cmp;
-  });
+  const rest=sortRest(ALL_BOTS.slice(1),sortMode);
   ALL_BOTS=[welcome,...rest];
   applyFilters();
 }
@@ -422,11 +481,13 @@ function applyFilters(){
   const rest=ALL_BOTS.filter(b=>{
     if(b.isWelcome)return false;
     if(activeAuthor&&b.author!==activeAuthor)return false;
+    if(activeUniverse&&b._universe!==activeUniverse)return false;
+    if(favOnly&&!isFav(b))return false;
     if(activeTags.size&&![...activeTags].every(t=>b.tags.includes(t)))return false;
     if(searchQuery)return b.name.toLowerCase().includes(searchQuery)||b.author.toLowerCase().includes(searchQuery)||b.description.toLowerCase().includes(searchQuery)||b.tags.some(t=>t.toLowerCase().includes(searchQuery));
     return true;
   });
-  const hasFilter=activeAuthor||activeTags.size||searchQuery;
+  const hasFilter=activeAuthor||activeTags.size||searchQuery||activeUniverse||favOnly;
   filteredBots=hasFilter?rest:[WELCOME,...rest];
   currentPage=1;renderPage();updateCount();updatePills();
   document.querySelectorAll(".author-item").forEach(el=>el.classList.toggle("active",el.dataset.author===activeAuthor));
@@ -463,6 +524,8 @@ function renderPage(){
         ${imgHtml}
         <div class="card-placeholder" style="${phStyle}">${b.name[0]||"?"}</div>
         <div class="card-author-badge">${esc(b.author)}</div>
+        ${isNew(b)?'<div class="card-new">NEW</div>':""}
+        <button class="card-fav ${isFav(b)?"on":""}" onclick="toggleFavAt(event,${idx})" title="в избранное">${isFav(b)?"★":"☆"}</button>
         <button class="card-dl" onclick="dlCard(event,'${b.image||""}','${esc(b.name)}')">
           <svg width="10" height="10" viewBox="0 0 10 10" fill="none"><path d="M5 1v5M5 6L2.5 3.5M5 6L7.5 3.5" stroke="currentColor" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round"/><path d="M1 8.5h8" stroke="currentColor" stroke-width="1.3" stroke-linecap="round"/></svg>скачать
         </button>

@@ -4620,7 +4620,7 @@
       "name": "Stas | Emo Boy",
       "author": "@rewolan",
       "authorUrl": "https://janitorai.com/profiles/71d11ee2-545c-4558-a3ad-3493478bf6a8_profile-of-rewolan",
-      "image": "images/Stas___Emo_Boy.jpg",
+      "image": "images/Stas_Emo_Boy.png",
       "description": "Stas hates people. He's angry, cocky, and rude. And he hates you. But he still brings you medicine and makes sure you don't get trampled at a concert.",
       "scenario": "1. You got sick and haven't been to university for four days, so Stas, after squeezing the info out of the class rep, shows up at your place with medicine and chicken broth.\n\n2. You run into each other at the My Chemical Romance concert. Stas pulls you closer to him to shield you from the crowd.\n\n3. Same scenarios, but in Russian.",
       "janitorUrl": "https://janitorai.com/characters/d5bf1dcc-0e71-4b0a-af49-22cb8070df43_character-stas-emo-boy",
@@ -4638,7 +4638,7 @@
         "#rusreal"
       ],
       "addedAt": "2026-07-25T17:32:15Z",
-      "light": true
+      "light": false
     },
     {
       "id": "36f3030e-84d8-8094-88f1-f3f727562f48",
@@ -6437,5 +6437,5 @@
     "Veloc1raptor",
     "Чача"
   ],
-  "updated": "2026-08-04T18:11:41.187Z"
+  "updated": "2026-08-04T18:14:09.648Z"
 }

@@ -2135,7 +2135,7 @@
       "name": "Kazimir Morozov | MAFIA",
       "author": "@arqvdes",
       "authorUrl": "https://janitorai.com/profiles/f58e2049-19c6-45fc-a1bc-4b8723b822c7_profile-of-arqvdes",
-      "image": "images/Kazimir_Morozov___MAFIA.jpg",
+      "image": "images/Kazimir_Morozov_MAFIA.png",
       "description": "\"I can't pretend to not care anymore.\"",
       "scenario": "In the shadowed intimacy of the theater, where the orchestra roared like waves crashing against the cliffs, Kazimir Morozov saw nothing but her. She, the woman who had haunted his every thought for three agonizing years, commanded the stage as if it were her kingdom. To everyone else, she was a prima ballerina, perfection incarnate. To him, she was salvation—and torment.\n\nHidden in the anonymity of his private box, Kazimir had been her silent benefactor, her unseen guardian. Every gilded donation, every lavish gala, every whispered word of influence had been for her. She didn’t know it, of course. She didn’t even know he existed. But that didn’t matter—until tonight.\n\nWhen she fell, the world kept spinning, oblivious. But Kazimir saw it—her faltering step, her masked pain. He saw her rise with stubborn pride, dismissing the injury no one else noticed. It struck him like a blade to the chest. For the first time, he left the shadows.",
       "janitorUrl": "https://janitorai.com/characters/360107f1-f990-4cea-a0ae-c9fa75a1b688_character-kazimir-morozov-mafia",
@@ -2153,7 +2153,7 @@
         "#russian"
       ],
       "addedAt": "2026-06-19T12:55:40Z",
-      "light": true
+      "light": false
     },
     {
       "id": "35b3030e-84d8-818e-927c-c2423813af9f",
@@ -6437,5 +6437,5 @@
     "Veloc1raptor",
     "Чача"
   ],
-  "updated": "2026-08-04T18:20:37.917Z"
+  "updated": "2026-08-04T18:21:34.770Z"
 }

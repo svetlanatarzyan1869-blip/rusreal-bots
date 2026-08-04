@@ -65,6 +65,9 @@ body{background:var(--bg);color:var(--text);font-family:'Inter',sans-serif;font-
 #header{position:sticky;top:0;z-index:30;border-bottom:1px solid var(--border);padding:11px 20px;background:var(--header-bg);backdrop-filter:blur(12px);display:flex;align-items:center;gap:10px;flex-wrap:wrap}
 .hbtn{background:none;border:none;color:var(--text-dim);cursor:pointer;padding:4px;flex-shrink:0;transition:color .15s;line-height:0;border-radius:8px}
 .hbtn:hover{color:var(--text)}
+.light-btn{background:none;border:1px solid var(--tag-border);color:var(--text-dim);cursor:pointer;padding:5px 11px;border-radius:14px;font-family:inherit;font-size:11.5px;letter-spacing:.03em;white-space:nowrap;transition:.15s;flex-shrink:0}
+.light-btn:hover{border-color:var(--accent);color:var(--text)}
+.light-btn.active{background:linear-gradient(180deg,#e8b23a,#d1922a);border-color:#d1922a;color:#3a2a10;font-weight:500}
 .logo{font-family:var(--serif);font-size:20px;font-weight:500;color:var(--text);letter-spacing:.09em;flex-shrink:0;user-select:none}
 .search-wrap{position:relative;flex:1;min-width:160px;max-width:380px}
 .search-wrap svg{position:absolute;left:12px;top:50%;transform:translateY(-50%);color:var(--text-mute);pointer-events:none}
@@ -259,6 +262,9 @@ body{background:var(--bg);color:var(--text);font-family:'Inter',sans-serif;font-
     <option value="za">Я → А</option>
   </select>
 
+  <!-- Не хтонь -->
+  <button class="light-btn" id="light-toggle" onclick="toggleLightOnly()" title="только «не хтонь» — без мрака, грусти и боли">☀️ не хтонь</button>
+
   <!-- Избранное -->
   <button class="hbtn" id="fav-toggle" onclick="toggleFavOnly()" title="показать избранное" style="font-size:15px;padding:4px 7px">☆</button>
 
@@ -329,7 +335,7 @@ const WELCOME={id:"welcome",isWelcome:true,name:"────୨ৎ────"
 
 let ALL_BOTS=[],ALL_AUTHORS=[],ALL_TAGS=[],UNIVERSES=[];
 let activeAuthor=null,activeTags=new Set(),searchQuery="",sortMode="new";
-let activeUniverse=null,favOnly=false,NEW_DAYS=new Set();
+let activeUniverse=null,favOnly=false,lightOnly=false,NEW_DAYS=new Set();
 let currentPage=1,perPage=50,filteredBots=[];
 let openPanel=null;
 
@@ -343,6 +349,8 @@ function toggleFav(ev,key){ev.stopPropagation();if(FAVS.has(key))FAVS.delete(key
 function toggleFavAt(ev,idx){const b=filteredBots[idx];if(b)toggleFav(ev,botKey(b));}
 function updateFavToggle(){const b=document.getElementById("fav-toggle");if(!b)return;b.textContent=favOnly?"★":"☆";b.style.color=favOnly?"var(--accent)":"";b.title=favOnly?"показаны избранные":"показать избранное";}
 function toggleFavOnly(){favOnly=!favOnly;updateFavToggle();applyFilters();}
+function updateLightToggle(){const b=document.getElementById("light-toggle");if(b)b.classList.toggle("active",lightOnly);}
+function toggleLightOnly(){lightOnly=!lightOnly;updateLightToggle();applyFilters();}
 
 // ── Вселенные (серии) — определяем по повторяющемуся хвосту имени ──
 function universeOf(name){
@@ -484,11 +492,12 @@ function applyFilters(){
     if(activeAuthor&&b.author!==activeAuthor)return false;
     if(activeUniverse&&b._universe!==activeUniverse)return false;
     if(favOnly&&!isFav(b))return false;
+    if(lightOnly&&b.light!==true)return false;
     if(activeTags.size&&![...activeTags].every(t=>b.tags.includes(t)))return false;
     if(searchQuery)return b.name.toLowerCase().includes(searchQuery)||b.author.toLowerCase().includes(searchQuery)||b.description.toLowerCase().includes(searchQuery)||b.tags.some(t=>t.toLowerCase().includes(searchQuery));
     return true;
   });
-  const hasFilter=activeAuthor||activeTags.size||searchQuery||activeUniverse||favOnly;
+  const hasFilter=activeAuthor||activeTags.size||searchQuery||activeUniverse||favOnly||lightOnly;
   filteredBots=hasFilter?rest:[WELCOME,...rest];
   currentPage=1;renderPage();updateCount();updatePills();
   document.querySelectorAll(".author-item").forEach(el=>el.classList.toggle("active",el.dataset.author===activeAuthor));

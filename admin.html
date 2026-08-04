@@ -75,6 +75,15 @@
     <div style="margin-top:10px"><button type="button" class="btn ghost small" id="editLoad">Загрузить в форму</button> <span id="editNote" class="hint"></span></div>
   </details>
 
+  <!-- ИИ-разметка хтонь / не хтонь -->
+  <details class="card" id="classifyBox">
+    <summary>☀️ ИИ-разметка «хтонь / не хтонь»</summary>
+    <p class="hint" style="margin:8px 0">Модель пройдётся по всем ботам и проставит метку «не хтонь». Потом любой вердикт можно поправить вручную — через «Редактировать бота» галочкой ниже.</p>
+    <button type="button" class="btn ghost small" id="btnClassify">Разметить всех</button>
+    <label style="display:inline-flex;align-items:center;gap:6px;margin-left:10px;font-weight:400;font-size:12px"><input type="checkbox" id="classifyForce" style="width:auto"> перепройти уже размеченных заново</label>
+    <div id="classifyNote" class="hint" style="margin-top:10px"></div>
+  </details>
+
   <form id="form" class="card" autocomplete="off">
     <div class="row">
       <div>
@@ -111,6 +120,10 @@
     <label>Теги</label>
     <input type="text" id="f_tags" placeholder="#rusreal #Male #Dominant  (через пробел или запятую)">
     <div class="tags" id="tagPreview"></div>
+
+    <label style="display:flex;align-items:center;gap:8px;cursor:pointer;margin-top:14px;font-weight:400">
+      <input type="checkbox" id="f_light" style="width:auto"> ☀️ <b>Не хтонь</b> — светлый сюжет, без мрака/грусти/боли
+    </label>
 
     <label>Короткое описание для каталога <span class="hint">— 1–2 предложения, показывается на карточке сайта</span></label>
     <textarea id="f_shortDesc" style="min-height:60px" placeholder="Охранник, который спасает тебя от троих пьяных…"></textarea>
@@ -251,6 +264,7 @@ async function fillFromExisting(bot){
   $('f_authorUrl').value=bot.authorUrl||'';
   $('f_janitorUrl').value=bot.janitorUrl||'';
   $('f_tags').value=(bot.tags||[]).map(t=>String(t).replace(/^#/,'')).join(' ');
+  $('f_light').checked=bot.light===true;
   $('f_shortDesc').value=bot.description||'';
   $('f_scenario').value=bot.scenario||'';
   $('f_cardDesc').value='';$('f_firstMes').value='';$('f_altGreets').value='';$('f_personality').value='';
@@ -301,6 +315,27 @@ $('btnScenario').onclick=async()=>{
   btn.disabled=false;btn.textContent=was;
 };
 
+/* ── ИИ-разметка хтонь/не-хтонь (цикл вызовов classify-all) ──────────── */
+$('btnClassify').onclick=async()=>{
+  const cfg=loadCfg();
+  if(!cfg.endpoint||!cfg.secret){toast('Сначала заполни ⚙️ Подключение',false);$('cfgBox').open=true;return;}
+  const url=cfg.endpoint.replace(/add-bot\s*$/,'classify-all');
+  const force=$('classifyForce').checked;
+  const btn=$('btnClassify');btn.disabled=true;const was=btn.textContent;btn.textContent='размечаю…';
+  let total=0,offset=0;
+  try{
+    for(let i=0;i<60;i++){
+      const r=await fetch(url,{method:'POST',headers:{'Content-Type':'application/json','x-add-secret':cfg.secret},body:JSON.stringify({force,offset})});
+      const j=await r.json().catch(()=>({}));
+      if(!r.ok||j.ok===false)throw new Error(j.error||('HTTP '+r.status));
+      total+=j.classified||0;offset=j.nextOffset||0;
+      $('classifyNote').textContent='обработано '+total+', осталось ~'+(j.remaining||0)+'…';
+      if((j.remaining||0)===0){$('classifyNote').textContent='Готово ✓ размечено '+total+' ('+(j.model||'ИИ')+'). Сайт обновится через минуту.';break;}
+    }
+  }catch(e){toast('Разметка: '+e.message,false);}
+  btn.disabled=false;btn.textContent=was;
+};
+
 /* ── приём данных со сборщика (userscript) через #d=<base64 utf8 json> ─ */
 function b64ToJson(b64){try{const bin=atob(b64.replace(/-/g,'+').replace(/_/g,'/'));const bytes=Uint8Array.from(bin,c=>c.charCodeAt(0));return JSON.parse(new TextDecoder().decode(bytes));}catch(e){return null;}}
 function prefill(d){
@@ -313,6 +348,7 @@ function prefill(d){
   $('f_imageUrl').value=d.imageUrl||'';
   if(d.imageUrl)$('f_imgPreview').src=d.imageUrl;
   $('f_tags').value=(d.tags||[]).join(' ');
+  $('f_light').checked=!!d.light;
   const rawDesc=d.description||'';
   const cleaned=cleanDescription(rawDesc);
   $('f_cardDesc').value=cleaned;
@@ -350,6 +386,7 @@ $('btnSave').onclick=async()=>{
       description:$('f_shortDesc').value.trim(),
       scenario:$('f_scenario').value.trim(),
       tags:parseTags($('f_tags').value),
+      light:$('f_light').checked,
     },
     card:{
       name,

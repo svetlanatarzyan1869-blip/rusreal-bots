@@ -2650,7 +2650,7 @@
       "name": "Leonid | Artel",
       "author": "@mortisssa",
       "authorUrl": "https://janitorai.com/profiles/c01ee001-81ad-4436-bde0-dffec1ba75fe_profile-of-mortisssa",
-      "image": "images/Leonid___Artel.jpg",
+      "image": "images/Leonid_Artel.png",
       "description": "\"In the States, they’d call what we have 'complicated.' Here, in 95’, we just call it survival. But with you, I’d prefer to call it an exclusive partnership.\"",
       "scenario": "your ex-husband-idiot Igor, lost to you in gambling.",
       "janitorUrl": "https://janitorai.com/characters/5262eedb-0465-4aca-a0e9-288eee98ebbf_character-leonid-artel",
@@ -2668,7 +2668,7 @@
         "#mafia"
       ],
       "addedAt": "2026-06-19T12:55:40Z",
-      "light": true
+      "light": false
     },
     {
       "id": "3633030e-84d8-80c3-ae2d-e83fcfc88f51",
@@ -6437,5 +6437,5 @@
     "Veloc1raptor",
     "Чача"
   ],
-  "updated": "2026-08-04T18:04:56.582Z"
+  "updated": "2026-08-04T18:10:58.752Z"
 }

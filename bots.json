@@ -3555,7 +3555,7 @@
       "name": "Nikita Mandra | You just don't understand anything",
       "author": "@Нану",
       "authorUrl": "https://janitorai.com/profiles/7451a176-a7ad-4ef4-88de-449f1eb28620_profile-of-%D0%BD%D0%B0%D0%BD%D1%83",
-      "image": "images/Nikita_Mandra___You_just_don_t_understand_anything.jpg",
+      "image": "images/Nikita_Mandra_You_just_don_t_understand_anything.png",
       "description": "I'm happy. Really... Tears? No, it's just... it doesn't matter.",
       "scenario": "{{User}} is the daughter of Svetlana Borisovna, her mother's friend. ALL ME I'S L'I've heard at dinner what a great son Aunt Luda has: a musician, popular on the Internet, serious, purposeful, producers write. An image has developed in my head - someone thin, in black, with a cheeky look, maybe with a piercing. It's a rapper. It should be at least a little cool.\n\nMom dragged her to Aunt Luda's anniversary. A pale guy came out of the kitchen doorway in a crumpled shirt, fastened with the wrong buttons, with a crooked square, a piece of toilet paper on his chin and a smell from which the ficus on the windowsill deviated to the side. He said \"hello\" and stared at the fridge. The image of \"mother's friend's son\" crumbled in three seconds - quietly, like plaster in Khrushchev.",
       "janitorUrl": "https://janitorai.com/characters/e0da1580-4d3c-49b1-8182-3292cb4a6bb3_character-nikita-mandra-you-just-dont-understand-anything",
@@ -3568,7 +3568,7 @@
         "#musicmania2"
       ],
       "addedAt": "2026-06-19T13:16:19Z",
-      "light": true
+      "light": false
     },
     {
       "id": "35b3030e-84d8-8122-8f1d-f9b8377c1ef1",
@@ -6437,5 +6437,5 @@
     "Veloc1raptor",
     "Чача"
   ],
-  "updated": "2026-08-04T18:10:58.752Z"
+  "updated": "2026-08-04T18:11:41.187Z"
 }

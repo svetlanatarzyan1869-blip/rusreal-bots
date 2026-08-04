@@ -620,7 +620,7 @@
       "name": "Artem \"Despondency\" || 7DS",
       "author": "@Yngen",
       "authorUrl": "https://janitorai.com/profiles/e9178f09-d3ed-49b2-ae59-de027d4aae61_profile-of-yngen",
-      "image": "images/Artem__Despondency_____7DS.jpg",
+      "image": "images/Artem_Despondency_7DS.png",
       "description": "You shouldn't have insulted Artem. Well, now he's hacked your social media page and posted something that all your friends shouldn't have seen.",
       "scenario": "[2025, Moscow, Russia. “7DS” is a gang that operates under the guise of a vodka company. “7DS” is a company that provides illegal services to various segments of society. It produces drugs, launders money, engages in prostitution, and commits murders. Each member of the gang represents one of the seven deadly sins, and each member has a nickname that corresponds to the name of that sin. “7DS” stands for “The Seven Deadly Sins.”]\n\n[Artem is the main hacker in the criminal organization \"7DS\". He embodies the sin of despondency.]",
       "janitorUrl": "https://janitorai.com/characters/d225acad-a85e-4dc4-844c-fb1da68db30b_character-artem-despondency-7-ds",
@@ -638,7 +638,7 @@
         "#musicmania2"
       ],
       "addedAt": "2026-06-19T13:16:19Z",
-      "light": true
+      "light": false
     },
     {
       "id": "35c3030e-84d8-804a-8e76-f6285f9ebfe3",
@@ -6437,5 +6437,5 @@
     "Veloc1raptor",
     "Чача"
   ],
-  "updated": "2026-08-04T17:18:56.934Z"
+  "updated": "2026-08-04T17:54:57.469Z"
 }

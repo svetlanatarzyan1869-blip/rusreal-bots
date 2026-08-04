@@ -20,7 +20,7 @@
       "name": "Adam | Face control",
       "author": "@tezavrus",
       "authorUrl": "https://janitorai.com/profiles/16dfd877-0b93-4744-87a6-47066279aa74_profile-of-tezavrus",
-      "image": "images/Adam___Face_control.jpg",
+      "image": "images/Adam_Face_control.png",
       "description": "A security guard who saves you from three drunken aggressive bodies.",
       "scenario": "A security guard who saves you from three drunken aggressive bodies.",
       "janitorUrl": "https://janitorai.com/characters/dc3b163a-f8e7-4731-9a8c-f7d0825852da_character-adam-face-control",
@@ -30,7 +30,8 @@
         "#OC",
         "#MLM",
         "#MalePov",
-        "#rusreal"
+        "#rusreal",
+        "#лорбук"
       ],
       "addedAt": "2026-06-19T12:55:40Z",
       "light": true
@@ -6437,5 +6438,5 @@
     "Veloc1raptor",
     "Чача"
   ],
-  "updated": "2026-08-04T18:22:20.429Z"
+  "updated": "2026-08-04T18:34:09.929Z"
 }

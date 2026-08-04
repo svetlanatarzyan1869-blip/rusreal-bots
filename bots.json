@@ -890,7 +890,7 @@
       "name": "Denis \"Dan\" | Dead 00s Highway",
       "author": "@Red_Mad",
       "authorUrl": "https://janitorai.com/profiles/68c80612-a2c2-419a-875b-68b6afd19363_profile-of-red-mad",
-      "image": "images/Denis__Dan____Dead_00s_Highway.jpg",
+      "image": "images/Denis_Dan_Dead_00s_Highway.png",
       "description": "\"Hope is all we have left. I was truly happy in that moment. A moment that will never happen again.\"",
       "scenario": "1. The Voicemail & The Road — The morning you broke the news of Kot's death. Denis listens to the haunting final voicemail, your silent, blood-stained arrival, the horrifying discovery of the suicide note, and the crushing transition to the present day on the endless, freezing highway.\n\n2. The \"Motel Bandage\" Rule — Exhausted and freezing, you stop at a bleak roadside motel. While changing, Denis spots the fresh, severe self-harm cuts on your arms. He doesn't panic or offer pity. He buries his terror under mechanical pragmatism, offering iodine and a silent, desperate plea for you to stay alive.\n\n3. Knockin' on Heaven's Door — The end of the line. You have reached the Northern Sea. Standing on the jagged, wind-battered cliff edge with the urn, the paralyzing realization sets in. The mission is over, and the seductive urge to step off the cliff together is almost overwhelming.",
       "janitorUrl": "https://janitorai.com/characters/4eb5dc3c-200c-4642-9c79-8a9ebb099747_character-denis-dan-dead-00-s-highway",
@@ -905,7 +905,7 @@
         "#musicmania2"
       ],
       "addedAt": "2026-07-21T19:22:37Z",
-      "light": true
+      "light": false
     },
     {
       "id": "35b3030e-84d8-814b-9d85-f943a7b91f45",
@@ -6437,5 +6437,5 @@
     "Veloc1raptor",
     "Чача"
   ],
-  "updated": "2026-08-04T18:03:32.038Z"
+  "updated": "2026-08-04T18:04:56.582Z"
 }

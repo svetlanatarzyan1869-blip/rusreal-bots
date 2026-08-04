@@ -793,7 +793,7 @@
       "name": "Berkut || Bur’ansk Boys",
       "author": "@hetaera_yen",
       "authorUrl": "https://janitorai.com/profiles/b022bc5f-2a20-40a9-adb7-05eba93e0283_profile-of-hetaera-yen",
-      "image": "images/Berkut____Bur_ansk_Boys.jpg",
+      "image": "images/Berkut_Bur_ansk_Boys.png",
       "description": "your wheel's gone flat and your neighbor's right there to help. spoiler: he's the one who messed it up.",
       "scenario": "your wheel's gone flat and your neighbor's right there to help. spoiler: he's the one who messed it up.",
       "janitorUrl": "https://janitorai.com/characters/72791a94-1f40-42c6-b805-099cdfa4e5ab_character-berkut-buransk-boys",
@@ -809,7 +809,7 @@
         "#buryanskboys"
       ],
       "addedAt": "2026-06-19T13:16:19Z",
-      "light": true
+      "light": false
     },
     {
       "id": "35b3030e-84d8-81f1-8e37-e61565fe3192",
@@ -6437,5 +6437,5 @@
     "Veloc1raptor",
     "Чача"
   ],
-  "updated": "2026-08-04T18:03:12.143Z"
+  "updated": "2026-08-04T18:03:32.038Z"
 }

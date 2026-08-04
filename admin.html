@@ -331,6 +331,7 @@ $('btnClassify').onclick=async()=>{
       total+=j.classified||0;offset=j.nextOffset||0;
       $('classifyNote').textContent='обработано '+total+', осталось ~'+(j.remaining||0)+'…';
       if((j.remaining||0)===0){$('classifyNote').textContent='Готово ✓ размечено '+total+' ('+(j.model||'ИИ')+'). Сайт обновится через минуту.';break;}
+      await new Promise(res=>setTimeout(res,800));
     }
   }catch(e){toast('Разметка: '+e.message,false);}
   btn.disabled=false;btn.textContent=was;

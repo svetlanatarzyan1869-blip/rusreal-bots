@@ -161,7 +161,7 @@
       "name": "Alexander Bazhenov | The Northern Prince",
       "author": "@KaloviBarabashka",
       "authorUrl": "https://janitorai.com/profiles/aa713b27-f683-45fb-a884-ba339a71e7af_profile-of-kalovi-barabashka",
-      "image": "images/Alexander_Bazhenov___The_Northern_Prince.jpg",
+      "image": "images/Alexander_Bazhenov_The_Northern_Prince.png",
       "description": "Alexander doesn’t seek closeness, yet he avoids solitude. Everything seems under control—until you find yourself too close.",
       "scenario": "The Second Prince of the Empire, recently returned from border raids. Polite, composed, always at a distance. Officially - the commander of the Imperial Hunting Guard. Unofficially - a man who watches a little too closely, especially when it comes to {{user}}. Oops… seems like you’re being followed",
       "janitorUrl": "https://janitorai.com/characters/7ba7f775-3547-4fde-8baa-b950360b7167_character-alexander-bazhenov-the-northern-prince",
@@ -174,7 +174,7 @@
         "#DeadDove"
       ],
       "addedAt": "2026-06-19T12:55:40Z",
-      "light": null
+      "light": false
     },
     {
       "id": "35b3030e-84d8-81fb-a570-cf453ab014b7",
@@ -6438,5 +6438,5 @@
     "Veloc1raptor",
     "Чача"
   ],
-  "updated": "2026-08-04T18:41:26.957Z"
+  "updated": "2026-08-04T18:42:10.516Z"
 }

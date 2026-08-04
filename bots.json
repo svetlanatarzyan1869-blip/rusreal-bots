@@ -4030,7 +4030,8 @@
         "#hiking",
         "#Altai"
       ],
-      "addedAt": "2026-06-19T13:16:19Z"
+      "addedAt": "2026-06-19T13:16:19Z",
+      "light": true
     },
     {
       "id": "37b3030e-84d8-80f4-a133-dcd9e1edcc61",
@@ -4049,7 +4050,8 @@
         "#hacker",
         "#sosedi"
       ],
-      "addedAt": "2026-06-19T12:55:40Z"
+      "addedAt": "2026-06-19T12:55:40Z",
+      "light": null
     },
     {
       "id": "35b3030e-84d8-8195-a8ec-e67210f4cf0d",
@@ -4072,7 +4074,8 @@
         "#moderntime",
         "#streamerchar"
       ],
-      "addedAt": "2026-06-19T13:16:19Z"
+      "addedAt": "2026-06-19T13:16:19Z",
+      "light": false
     },
     {
       "id": "3753030e-84d8-8091-a204-ceb3df9d0376",
@@ -4091,7 +4094,8 @@
         "#Angst",
         "#musicmania2"
       ],
-      "addedAt": "2026-06-19T12:55:40Z"
+      "addedAt": "2026-06-19T12:55:40Z",
+      "light": null
     },
     {
       "id": "35b3030e-84d8-81eb-b00d-fdc56a4f32db",
@@ -4112,7 +4116,8 @@
         "#piterskayatusovka",
         "#musicmania2"
       ],
-      "addedAt": "2026-06-19T13:16:19Z"
+      "addedAt": "2026-06-19T13:16:19Z",
+      "light": true
     },
     {
       "id": "35b3030e-84d8-818f-a806-d148e34e71f2",
@@ -4137,7 +4142,8 @@
         "#Delinquent",
         "#rusreal"
       ],
-      "addedAt": "2026-06-19T13:16:19Z"
+      "addedAt": "2026-06-19T13:16:19Z",
+      "light": false
     },
     {
       "id": "36f3030e-84d8-8000-8690-f6f5433aa83a",
@@ -4156,7 +4162,8 @@
         "#Angst",
         "#rusreal"
       ],
-      "addedAt": "2026-06-19T12:55:40Z"
+      "addedAt": "2026-06-19T12:55:40Z",
+      "light": false
     },
     {
       "id": "18f2a7aa-e077-469e-b1c7-e8bdb98a8c39",
@@ -4173,7 +4180,8 @@
         "#AnyPOV",
         "#rusreal"
       ],
-      "addedAt": "2026-08-02T16:44:08+03:00"
+      "addedAt": "2026-08-02T16:44:08+03:00",
+      "light": null
     },
     {
       "id": "3823030e-84d8-802f-bd47-c78b55f578a7",
@@ -4192,7 +4200,8 @@
         "#musicmania2",
         "#ampersand"
       ],
-      "addedAt": "2026-06-19T12:55:40Z"
+      "addedAt": "2026-06-19T12:55:40Z",
+      "light": true
     },
     {
       "id": "3963030e-84d8-80fb-b608-fed55d8df7e3",
@@ -4215,7 +4224,8 @@
         "#russianchar",
         "#yearningchar"
       ],
-      "addedAt": "2026-07-07T19:58:15Z"
+      "addedAt": "2026-07-07T19:58:15Z",
+      "light": null
     },
     {
       "id": "3823030e-84d8-80b4-857d-c16f68d4f6a8",
@@ -4235,7 +4245,8 @@
         "#rusreal",
         "#PostApocalyptic"
       ],
-      "addedAt": "2026-06-19T12:55:40Z"
+      "addedAt": "2026-06-19T12:55:40Z",
+      "light": false
     },
     {
       "id": "37c3030e-84d8-80b5-91bd-c3b9c036f893",
@@ -4258,7 +4269,8 @@
         "#rusreal",
         "#police"
       ],
-      "addedAt": "2026-06-19T12:55:40Z"
+      "addedAt": "2026-06-19T12:55:40Z",
+      "light": false
     },
     {
       "id": "3633030e-84d8-805a-877b-dbda8441b0af",
@@ -4282,7 +4294,8 @@
         "#couple",
         "#mafiaboyfriend"
       ],
-      "addedAt": "2026-06-19T12:55:40Z"
+      "addedAt": "2026-06-19T12:55:40Z",
+      "light": false
     },
     {
       "id": "36f3030e-84d8-80d6-8d39-ebeff7715b0c",
@@ -4305,7 +4318,8 @@
         "#Russian",
         "#russia"
       ],
-      "addedAt": "2026-06-19T12:55:40Z"
+      "addedAt": "2026-06-19T12:55:40Z",
+      "light": false
     },
     {
       "id": "36f3030e-84d8-8071-9f41-dee9b7f06cce",
@@ -4329,7 +4343,8 @@
         "#Russian",
         "#russia"
       ],
-      "addedAt": "2026-06-19T12:55:40Z"
+      "addedAt": "2026-06-19T12:55:40Z",
+      "light": false
     },
     {
       "id": "35b3030e-84d8-8107-93dd-f5b6b9b957b6",
@@ -4353,7 +4368,8 @@
         "#agegap",
         "#obsessivelove"
       ],
-      "addedAt": "2026-06-19T13:16:19Z"
+      "addedAt": "2026-06-19T13:16:19Z",
+      "light": false
     },
     {
       "id": "3633030e-84d8-80ef-bc7c-fe2a3b879993",
@@ -4376,7 +4392,8 @@
         "#holidays2025",
         "#christmas"
       ],
-      "addedAt": "2026-06-19T12:55:40Z"
+      "addedAt": "2026-06-19T12:55:40Z",
+      "light": false
     },
     {
       "id": "3823030e-84d8-80d0-b369-d4ce4de1a7bf",
@@ -4397,7 +4414,8 @@
         "#bet",
         "#forcedproximity"
       ],
-      "addedAt": "2026-06-19T12:55:40Z"
+      "addedAt": "2026-06-19T12:55:40Z",
+      "light": null
     },
     {
       "id": "b7fe5b00-3fe4-4126-9404-767e5e47efaa",
@@ -4416,7 +4434,8 @@
         "#FemPov",
         "#rusreal"
       ],
-      "addedAt": "2026-08-03T00:46:17+03:00"
+      "addedAt": "2026-08-03T00:46:17+03:00",
+      "light": false
     },
     {
       "id": "35b3030e-84d8-8174-a7eb-fd2551b24832",
@@ -4435,7 +4454,8 @@
         "#AnyPOV",
         "#Angst"
       ],
-      "addedAt": "2026-06-19T13:16:19Z"
+      "addedAt": "2026-06-19T13:16:19Z",
+      "light": false
     },
     {
       "id": "35b3030e-84d8-8193-9673-ca94b6482515",
@@ -4458,7 +4478,8 @@
         "#drug",
         "#russianboy"
       ],
-      "addedAt": "2026-06-19T13:16:19Z"
+      "addedAt": "2026-06-19T13:16:19Z",
+      "light": false
     },
     {
       "id": "3773030e-84d8-808c-9c06-d8a044ff2e95",
@@ -4476,7 +4497,8 @@
         "#AnyPOV",
         "#rusreal"
       ],
-      "addedAt": "2026-06-19T12:55:40Z"
+      "addedAt": "2026-06-19T12:55:40Z",
+      "light": true
     },
     {
       "id": "35b3030e-84d8-818a-82bc-c7a0b15ff9a5",
@@ -4494,7 +4516,8 @@
         "#AnyPOV",
         "#rusreal"
       ],
-      "addedAt": "2026-06-19T13:16:19Z"
+      "addedAt": "2026-06-19T13:16:19Z",
+      "light": null
     },
     {
       "id": "3a43030e-84d8-8046-866f-e4acb0beabdb",
@@ -4518,7 +4541,8 @@
         "#rusreal",
         "#passporttopages"
       ],
-      "addedAt": "2026-07-21T18:50:53Z"
+      "addedAt": "2026-07-21T18:50:53Z",
+      "light": true
     },
     {
       "id": "35b3030e-84d8-81d4-9942-cea69742d262",
@@ -4542,7 +4566,8 @@
         "#2017",
         "#russia"
       ],
-      "addedAt": "2026-06-19T13:16:19Z"
+      "addedAt": "2026-06-19T13:16:19Z",
+      "light": true
     },
     {
       "id": "3a43030e-84d8-8076-a1ca-d88d0d2680da",
@@ -6328,5 +6353,5 @@
     "Veloc1raptor",
     "Чача"
   ],
-  "updated": "2026-08-04T17:15:51.568Z"
+  "updated": "2026-08-04T17:16:24.981Z"
 }

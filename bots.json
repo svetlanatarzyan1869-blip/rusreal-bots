@@ -816,7 +816,7 @@
       "name": "BORIS GROMOV | Ex prisoner",
       "author": "@Acele",
       "authorUrl": "https://janitorai.com/profiles/1c9810fe-e5ea-4c98-8afa-82d3c2287ce1_profile-of-acele",
-      "image": "images/BORIS_GROMOV___Ex_prisoner.jpg",
+      "image": "images/BORIS_GROMOV_Ex_prisoner.png",
       "description": "\"Эй, is everything okay? Did these motherfuckers do anything to you?\"",
       "scenario": "An ex-prisoner who got out of prison a few days ago saved you from stupid bumpkins",
       "janitorUrl": "https://janitorai.com/characters/47a32fc6-eb8c-4ae4-83e8-bac916e2243b_character-boris-gromov-ex-prisoner",
@@ -833,7 +833,7 @@
         "#firstmeet"
       ],
       "addedAt": "2026-06-19T13:16:19Z",
-      "light": true
+      "light": false
     },
     {
       "id": "37c3030e-84d8-8033-8ff2-d5d5f49f358c",
@@ -6437,5 +6437,5 @@
     "Veloc1raptor",
     "Чача"
   ],
-  "updated": "2026-08-04T17:54:57.469Z"
+  "updated": "2026-08-04T18:02:32.731Z"
 }

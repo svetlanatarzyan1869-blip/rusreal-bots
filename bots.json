@@ -4928,7 +4928,7 @@
       "name": "Vadim \"Old man\" || Gopnik",
       "author": "@Yngen",
       "authorUrl": "https://janitorai.com/profiles/e9178f09-d3ed-49b2-ae59-de027d4aae61_profile-of-yngen",
-      "image": "images/Vadim__Old_man_____Gopnik.jpg",
+      "image": "images/Vadim_Old_man_Gopnik.png",
       "description": "Vadim is the authority of the neighborhood, a man who makes his own rules. He was raised by his grandparents from childhood — his father was in prison, his mother ran away. He dropped out of school, got into shady business from a young age: car thefts, illegal schemes, street fights. He has a reputation for being tough, vindictive, and ruthless.",
       "scenario": "1 message: He walks to your house with a makeshift bouquet of stolen flowers tied together with a torn T-shirt, a predatory smile on his face and mad love burning in his eyes. 2 message: The same thing, but the message is in Russian.",
       "janitorUrl": "https://janitorai.com/characters/5cad1e4e-f285-46de-b37b-5e96ffae8567_character-vadim-old-man-gopnik",
@@ -4942,7 +4942,7 @@
         "#musicmania2"
       ],
       "addedAt": "2026-06-19T13:16:19Z",
-      "light": true
+      "light": false
     },
     {
       "id": "35c3030e-84d8-802d-a04c-c81dd3baa208",
@@ -6437,5 +6437,5 @@
     "Veloc1raptor",
     "Чача"
   ],
-  "updated": "2026-08-04T18:14:09.648Z"
+  "updated": "2026-08-04T18:15:17.731Z"
 }

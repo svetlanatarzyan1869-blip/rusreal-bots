@@ -5075,7 +5075,7 @@
       "name": "Viktor Smirnov",
       "author": "@cluellessai",
       "authorUrl": "https://janitorai.com/profiles/e865aec3-8b7d-4054-9330-e95c501f7398_profile-of-cluellessai",
-      "image": "images/Viktor_Smirnov.jpg",
+      "image": "images/Viktor_Smirnov.png",
       "description": "\"My English is... пиздец. Professor think I am... дебил. You. Foreign student. You teach me. For saving your ass. Good deal. You not argue.\"",
       "scenario": "It’s 2008. You’re a foreign student in Yekaterinburg, speak maybe three words of Russian, and live in a concrete wasteland designed to crush the human spirit.\n\nYour unlikely knight in shining fake Adidas is Vitya — a local gopnik who unofficially owns the block. After saving you from a shakedown he half-endorsed, he announces you’re now in his debt.\n\nPayment is due in English lessons.\n\nWhich leaves you with a hyper-territorial, homophobic \"protector\" who speaks in creative curses, teaches you only swear words, drags you to garage parties, and insists his explosive jealousy is just what good security looks like.",
       "janitorUrl": "https://janitorai.com/characters/cb63c42e-8d38-4a8b-9f0b-c098d0f52518_character-viktor-smirnov",
@@ -5089,7 +5089,7 @@
         "#MalePov"
       ],
       "addedAt": "2026-06-19T13:16:19Z",
-      "light": true
+      "light": false
     },
     {
       "id": "3a43030e-84d8-8028-a1a9-f504d078f599",
@@ -6437,5 +6437,5 @@
     "Veloc1raptor",
     "Чача"
   ],
-  "updated": "2026-08-04T18:16:04.575Z"
+  "updated": "2026-08-04T18:17:16.595Z"
 }

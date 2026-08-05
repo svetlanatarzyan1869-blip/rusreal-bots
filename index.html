@@ -363,12 +363,15 @@ function universeOf(name){
 }
 // ручные вселенные по ключевому слову (в имени ИЛИ описании) — для тех, что не в конце имени
 const MANUAL_UNIVERSES=[
-  {name:"Агаповка",test:b=>/агаповк/i.test((b.name||"")+" "+(b.description||""))},
+  {name:"Агаповка",test:b=>/агаповк/i.test((b.name||"")+" "+(b.description||""))||/калашников/i.test(b.name||"")},
 ];
 function computeUniverses(bots){
   const freq={};
-  bots.forEach(b=>{const u=universeOf(b.name);if(u){b._universe=u;freq[u]=(freq[u]||0)+1;}});
+  bots.forEach(b=>{b._universe=undefined;const u=universeOf(b.name);if(u)freq[u]=(freq[u]||0)+1;});
   const auto=Object.keys(freq).filter(u=>freq[u]>=2).sort((a,b)=>freq[b]-freq[a]||a.localeCompare(b,"ru"));
+  const autoSet=new Set(auto);
+  // _universe ставим только для настоящих (повторяющихся) вселенных
+  bots.forEach(b=>{const u=universeOf(b.name);if(u&&autoSet.has(u))b._universe=u;});
   const manual=[];
   MANUAL_UNIVERSES.forEach(m=>{
     let c=0;

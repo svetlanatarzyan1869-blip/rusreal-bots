@@ -358,27 +358,30 @@ function universeOf(name){
   if(parts.length<2)return null;
   let u=parts[parts.length-1].replace(/\s*\([^)]*\)\s*/g,"").replace(/[?!.]+$/,"").trim();
   if(u.length<2||u.length>40||/^\d+$/.test(u))return null;
-  if(/^(alt|oc|nsfw|sfw|rus|eng|18\+|new|reboot)$/i.test(u))return null;
+  if(/^(alt|oc|nsfw|sfw|rus|eng|18\+|new|reboot|gopnik|гопник)$/i.test(u))return null;
+  if(/раскол|raskol|schism\s*17|\br17\b/i.test(u))return null;   // RASKOL 17 собирается вручную (много вариантов)
   return u;
 }
 // ручные вселенные по ключевому слову (в имени ИЛИ описании) — для тех, что не в конце имени
 const MANUAL_UNIVERSES=[
+  {name:"RASKOL 17",test:b=>/раскол|raskol|schism\s*17|\br17\b/i.test(b.name||"")},
   {name:"Агаповка",test:b=>/агаповк/i.test((b.name||"")+" "+(b.description||""))||/калашников/i.test(b.name||"")},
 ];
 function computeUniverses(bots){
-  const freq={};
-  bots.forEach(b=>{b._universe=undefined;const u=universeOf(b.name);if(u)freq[u]=(freq[u]||0)+1;});
-  const auto=Object.keys(freq).filter(u=>freq[u]>=2).sort((a,b)=>freq[b]-freq[a]||a.localeCompare(b,"ru"));
-  const autoSet=new Set(auto);
-  // _universe ставим только для настоящих (повторяющихся) вселенных
-  bots.forEach(b=>{const u=universeOf(b.name);if(u&&autoSet.has(u))b._universe=u;});
+  const freq={},display={};
+  bots.forEach(b=>{b._universe=undefined;const u=universeOf(b.name);if(u){const k=u.toLowerCase();freq[k]=(freq[k]||0)+1;if(!display[k])display[k]=u;}});
+  const autoKeys=Object.keys(freq).filter(k=>freq[k]>=2).sort((a,b)=>freq[b]-freq[a]||a.localeCompare(b,"ru"));
+  const autoSet=new Set(autoKeys);
+  // _universe ставим только для настоящих (повторяющихся) вселенных, без учёта регистра
+  bots.forEach(b=>{const u=universeOf(b.name);if(u&&autoSet.has(u.toLowerCase()))b._universe=display[u.toLowerCase()];});
+  const auto=autoKeys.map(k=>display[k]);
   const manual=[];
   MANUAL_UNIVERSES.forEach(m=>{
     let c=0;
     bots.forEach(b=>{if(m.test(b)){if(!b._universe)b._universe=m.name;if(b._universe===m.name)c++;}});
     if(c>=1)manual.push(m.name);
   });
-  return [...manual,...auto];   // ручные — впереди
+  return [...new Set([...manual,...auto])];   // ручные — впереди, без дублей
 }
 function renderUniverseBar(){
   const bar=document.getElementById("universe-bar");

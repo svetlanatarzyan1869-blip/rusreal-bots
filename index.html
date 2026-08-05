@@ -368,20 +368,21 @@ const MANUAL_UNIVERSES=[
   {name:"Агаповка",test:b=>/агаповк/i.test((b.name||"")+" "+(b.description||""))||/калашников/i.test(b.name||"")},
 ];
 function computeUniverses(bots){
+  // частота авто-хвостов (без учёта регистра) — какие суффиксы считать настоящей серией
   const freq={},display={};
-  bots.forEach(b=>{b._universe=undefined;const u=universeOf(b.name);if(u){const k=u.toLowerCase();freq[k]=(freq[k]||0)+1;if(!display[k])display[k]=u;}});
-  const autoKeys=Object.keys(freq).filter(k=>freq[k]>=2).sort((a,b)=>freq[b]-freq[a]||a.localeCompare(b,"ru"));
-  const autoSet=new Set(autoKeys);
-  // _universe ставим только для настоящих (повторяющихся) вселенных, без учёта регистра
-  bots.forEach(b=>{const u=universeOf(b.name);if(u&&autoSet.has(u.toLowerCase()))b._universe=display[u.toLowerCase()];});
-  const auto=autoKeys.map(k=>display[k]);
-  const manual=[];
-  MANUAL_UNIVERSES.forEach(m=>{
-    let c=0;
-    bots.forEach(b=>{if(m.test(b)){if(!b._universe)b._universe=m.name;if(b._universe===m.name)c++;}});
-    if(c>=1)manual.push(m.name);
+  bots.forEach(b=>{const u=universeOf(b.name);if(u){const k=u.toLowerCase();freq[k]=(freq[k]||0)+1;if(!display[k])display[k]=u;}});
+  const autoReal=new Set(Object.keys(freq).filter(k=>freq[k]>=2));
+  // эффективная вселенная бота: явное поле universe > ручной шаблон > авто-серия
+  const count={};
+  bots.forEach(b=>{
+    let uni=null;
+    if(b.universe&&String(b.universe).trim())uni=String(b.universe).trim();
+    if(!uni){for(const m of MANUAL_UNIVERSES){if(m.test(b)){uni=m.name;break;}}}
+    if(!uni){const u=universeOf(b.name);if(u&&autoReal.has(u.toLowerCase()))uni=display[u.toLowerCase()];}
+    b._universe=uni;
+    if(uni)count[uni]=(count[uni]||0)+1;
   });
-  return [...new Set([...manual,...auto])];   // ручные — впереди, без дублей
+  return Object.keys(count).sort((a,b)=>count[b]-count[a]||a.localeCompare(b,"ru"));
 }
 function renderUniverseBar(){
   const bar=document.getElementById("universe-bar");

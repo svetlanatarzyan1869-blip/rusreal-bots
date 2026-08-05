@@ -125,6 +125,10 @@
       <input type="checkbox" id="f_light" style="width:auto"> ☀️ <b>Не хтонь</b> — светлый сюжет, без мрака/грусти/боли
     </label>
 
+    <label>Вселенная / серия <span class="hint">— выбери из списка или впиши новую. Пусто = определится автоматически по имени</span></label>
+    <input type="text" id="f_universe" list="universeList" placeholder="напр. Bur'ansk Boys">
+    <datalist id="universeList"></datalist>
+
     <label>Короткое описание для каталога <span class="hint">— 1–2 предложения, показывается на карточке сайта</span></label>
     <textarea id="f_shortDesc" style="min-height:60px" placeholder="Охранник, который спасает тебя от троих пьяных…"></textarea>
     <div style="margin-top:8px">
@@ -181,6 +185,17 @@ function cleanDescription(input,opts={}){const aggressive=opts.aggressive!==fals
   const out=[];for(const l of lines){if(l===''&&out[out.length-1]==='')continue;out.push(l);}return out.join('\n').trim();}
 const estTokens=s=>Math.round((s||'').length/4);
 function makeBlurb(text){const line=(text||'').split('\n').find(l=>l.trim().length>20)||'';return line.length<=200?line.trim():line.slice(0,200).replace(/\s+\S*$/,'')+'…';}
+
+/* ── вселенные: список для выпадашки (та же логика, что на сайте) ─────── */
+function uniOf(name){const p=String(name).split(/\s*\|\|?\s*|\s+—\s+/).map(s=>s.trim()).filter(Boolean);if(p.length<2)return null;let u=p[p.length-1].replace(/\s*\([^)]*\)\s*/g,"").replace(/[?!.]+$/,"").trim();if(u.length<2||u.length>40||/^\d+$/.test(u))return null;if(/^(alt|oc|nsfw|sfw|rus|eng|18\+|new|reboot|gopnik|гопник)$/i.test(u))return null;if(/раскол|raskol|schism\s*17|\br17\b/i.test(u))return null;return u;}
+const UNI_MANUAL=[{name:"RASKOL 17",test:b=>/раскол|raskol|schism\s*17|\br17\b/i.test(b.name||"")},{name:"Агаповка",test:b=>/агаповк/i.test((b.name||"")+" "+(b.description||""))||/калашников/i.test(b.name||"")}];
+function universeNames(bots){
+  const freq={},disp={};bots.forEach(b=>{const u=uniOf(b.name);if(u){const k=u.toLowerCase();freq[k]=(freq[k]||0)+1;if(!disp[k])disp[k]=u;}});
+  const real=new Set(Object.keys(freq).filter(k=>freq[k]>=2));const set=new Set();
+  bots.forEach(b=>{if(b.universe&&String(b.universe).trim())set.add(String(b.universe).trim());for(const m of UNI_MANUAL)if(m.test(b))set.add(m.name);const u=uniOf(b.name);if(u&&real.has(u.toLowerCase()))set.add(disp[u.toLowerCase()]);});
+  return [...set].sort((a,b)=>a.localeCompare(b,"ru"));
+}
+async function fillUniverseList(){try{const bots=await loadExisting();const dl=$('universeList');dl.innerHTML='';universeNames(bots).forEach(u=>{const o=document.createElement('option');o.value=u;dl.appendChild(o);});}catch(e){}}
 
 /* ── утилиты ────────────────────────────────────────────────────────── */
 const $=id=>document.getElementById(id);
@@ -265,6 +280,7 @@ async function fillFromExisting(bot){
   $('f_janitorUrl').value=bot.janitorUrl||'';
   $('f_tags').value=(bot.tags||[]).map(t=>String(t).replace(/^#/,'')).join(' ');
   $('f_light').checked=bot.light===true;
+  $('f_universe').value=bot.universe||'';
   $('f_shortDesc').value=bot.description||'';
   $('f_scenario').value=bot.scenario||'';
   $('f_cardDesc').value='';$('f_firstMes').value='';$('f_altGreets').value='';$('f_personality').value='';
@@ -350,6 +366,7 @@ function prefill(d){
   if(d.imageUrl)$('f_imgPreview').src=d.imageUrl;
   $('f_tags').value=(d.tags||[]).join(' ');
   $('f_light').checked=!!d.light;
+  $('f_universe').value=d.universe||'';
   const rawDesc=d.description||'';
   const cleaned=cleanDescription(rawDesc);
   $('f_cardDesc').value=cleaned;
@@ -369,6 +386,7 @@ function prefill(d){
   if(m){const d=b64ToJson(decodeURIComponent(m[1]));if(d){prefill(d);history.replaceState(null,'',location.pathname+location.search);return;}}
   renderTags();updateTok();
 })();
+fillUniverseList();
 
 /* ── сохранение ─────────────────────────────────────────────────────── */
 $('btnSave').onclick=async()=>{
@@ -388,6 +406,7 @@ $('btnSave').onclick=async()=>{
       scenario:$('f_scenario').value.trim(),
       tags:parseTags($('f_tags').value),
       light:$('f_light').checked,
+      universe:$('f_universe').value.trim(),
     },
     card:{
       name,

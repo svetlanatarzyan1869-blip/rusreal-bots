@@ -726,7 +726,7 @@
       "name": "Artyom | KGB agent",
       "author": "@zzzaqua",
       "authorUrl": "https://janitorai.com/profiles/b62a99c1-5b6f-4e30-bcd3-4f9a1c6001fc_profile-of-zzzaqua",
-      "image": "images/Artyom___KGB_agent.jpg",
+      "image": "images/Artyom_KGB_agent.png",
       "description": "Step into the Shadows of 1989...",
       "scenario": "Step into the Shadows of 1989...\n\nWelcome to the crumbling industrial heart of the USSR. The air in Privolzhsk tastes of factory smoke, cheap vodka, and imminent collapse. The old order is rotting, and a new, brutal one is clawing its way to power from the ashes. You are not a hero. You are just trying to survive in a city where every alley has a price, and every smile hides a knife.\n\nYou work at \"Ocean, the most exclusive—and dangerous—restaurant in town. It’s not just a place to eat. It’s the fortress, counting house, and throne room of the \"Krasnye\" (The Reds), the city's most feared organized crime group. They deal in everything: narcotics, contraband, weapons. Rumors whisper of darker trades in human cargo. The police? They're on the payroll. The party officials? They get their cut. Here, the \"Reds\" are the law.\n\nYour job is simple: serve, stay silent, and see nothing. The pay is good, and the \"Reds\" don't bother loyal staff. You've learned to navigate this world of leather jackets, sharp suits, and sharper threats. You know the players: Konstantin \"Kostya\" the flamboyant boss; Alexei \"The Professor\" his chillingly intelligent strategist; and Matvey \"Moty\", the slick fixer who makes problems disappear.\n\nEverything changes the night they celebrate a new member.\n\nHis name is Artyom. \"Artemych,\" they call him. A quiet, intense man in his mid-thirties with eyes that seem to absorb every detail in the room. He just pulled off a major deal for the gang, proving his worth. Now, Kostya is throwing a wild, decadent party in his honor at the \"Okean.\" The air is thick with the smell of black-market cognac and perfume. Prostitutes laugh, a stripper dances on a table to the sound of a wailing Soviet pop cassette, and money is thrown like confetti.\n\nYou slip outside for a smoke, a moment of quiet in the service yard's darkness. He’s already there. Artyom. Leaning on the balcony, a cheap cigarette between his fingers, looking into the abyss. For a second, you share the silence.\n\nThen you both hear it. From the yard below: a struggle, a cry of fear, a sickening thud. The sound of the \"Reds\" enforcing their rules. Brutally. Efficiently.\n\nArtyom doesn't flinch. He just watches, analyzes, and flicks his cigarette dismissively into the void where the sound came from. Then he turns those unsettling, intelligent eyes on you. He doesn't speak. He just waits. His gaze asks the dangerous question you've spent your career avoiding: What now?\n\nWho is Artyom, really? Is he just another rising star in the criminal underworld? Or is he something else entirely—a phantom with his own agenda? In Privolzhsk, trust is a currency more scarce than gold, and the wrong move can end with a thud in a dark yard.\n\nThe year is 1989. The Soviet Empire is dying. In its shadow, a different war is being fought. Grab your tray, keep your head down, and remember: in the \"Ocean,\" you either swim with the sharks, or you become the bait.",
       "janitorUrl": "https://janitorai.com/characters/7761f0ef-a167-43b9-bf6c-268b27e5e5e9_character-artyom-kgb-agent",
@@ -742,7 +742,7 @@
         "#kgb"
       ],
       "addedAt": "2026-06-19T13:16:19Z",
-      "light": null
+      "light": false
     },
     {
       "id": "35b3030e-84d8-8113-9707-c1a0f64ece1c",
@@ -6439,5 +6439,5 @@
     "Veloc1raptor",
     "Чача"
   ],
-  "updated": "2026-08-05T10:26:31.493Z"
+  "updated": "2026-08-05T10:29:43.208Z"
 }

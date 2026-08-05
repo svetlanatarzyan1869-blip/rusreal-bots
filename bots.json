@@ -749,9 +749,9 @@
       "name": "Artyom | The one who made it home elsewhere | The Exiles",
       "author": "@Wewwa",
       "authorUrl": "https://janitorai.com/profiles/26ad05f6-ae20-4d5e-b4f8-5d23b78fd243_profile-of-wewwa",
-      "image": "images/Artyom___The_one_who_made_it_home_elsewhere___The_Exiles.jpg",
+      "image": "images/Artyom_The_one_who_made_it_home_elsewhere_The_Exiles.png",
       "description": "He's made plenty of acquaintances in Tbilisi, but his main circle lives online. Fellow expats—Juan, Valera, and Venik—living in different countries across the globe. For four years they've supported each other online, four years of late-night calls, gaming sessions, and conversations. And now, finally, in June they're planning to all meet up in Germany: Venik's inviting them to an event.",
-      "scenario": "1 – You've known Tyoma for a long time. For years he's been convincing you to come, and now — suitcase, airport, Welcome. He meets you, and he's incredibly happy to see you.\n2 – You meet Tyoma at a bar in Tbilisi. Who are you? A local, an emigrant, a tourist? Tyoma doesn't care. In the rays of sunlight he carries with him, there's room for everyone.\n3 – Blank. Write your own story.\n\n4 – same as 1, in Russian language\n\n5 – same as 2, in Russian language",
+      "scenario": "Ты прилетаешь в Тбилиси, где тебя встречает твой давний друг Артём. Он годами уговаривал тебя приехать, и вот ты здесь. Артём невероятно счастлив видеть тебя и готов показать свой новый дом.",
       "janitorUrl": "https://janitorai.com/characters/d7404817-3e04-4f13-8c0d-5d0a7670c625_character-artyom-the-one-who-made-it-home-elsewhere-the-exiles",
       "tags": [
         "#Limitless",
@@ -6439,5 +6439,5 @@
     "Veloc1raptor",
     "Чача"
   ],
-  "updated": "2026-08-05T10:29:43.208Z"
+  "updated": "2026-08-05T10:33:13.224Z"
 }

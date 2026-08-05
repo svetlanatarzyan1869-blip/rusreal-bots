@@ -705,13 +705,12 @@
       "id": "35b3030e-84d8-81da-bb34-d40ee70ff2d2",
       "name": "Artyom | Endless Summer",
       "author": "@CrimsonGem",
-      "authorUrl": "https://janitorai.com/profiles/8b6b5a1f-f5e9-4509-bac3-7938bb8597ad_profile-of-crimson-gem",
+      "authorUrl": "https://janitorai.com/profiles/8b6b5a1f-f5e9-4509-bac3-7938bb8597ad_profile-of-crimsongem",
       "image": "images/Artyom_Endless_Summer.png",
       "description": "He spent so much time preparing for the important date to prove to you that he's not as irresponsible as everyone thinks. But he mixed up the dates.",
-      "scenario": "An irresponsible dreamer with his head in the clouds. The local poet who dreams of becoming a rapper and selling out stadiums, yet is completely disconnected from the harsh reality of Zapolyarny. He prefers to drift with the current, hiding from his problems behind beautiful metaphors. In everyday life, he is unbearably passive and impractical. But you are his main muse and the only anchor in this gray world.\n\nAnd for you, this guy with his thin fingers—completely unsuited for hard labor—did the impossible. For two months, he broke his back at dirty odd jobs, hauling construction materials and unloading trucks, saving every single penny. All of this just so that today, on your six-month anniversary, he could give you a worthy gift and prove that he isn't hopeless.\n\nBut there is a problem. He mixed up the dates.",
+      "scenario": "",
       "janitorUrl": "https://janitorai.com/characters/f294c4a9-a8f0-4817-9618-4649d5b4ac15_character-artyom-endless-summer",
       "tags": [
-        "#Limitless",
         "#Male",
         "#OC",
         "#FemPov",
@@ -719,7 +718,7 @@
         "#ESEF"
       ],
       "addedAt": "2026-06-19T13:16:19Z",
-      "light": true
+      "light": false
     },
     {
       "id": "35b3030e-84d8-81ca-bb2b-f4ba0286a9f4",
@@ -6439,5 +6438,5 @@
     "Veloc1raptor",
     "Чача"
   ],
-  "updated": "2026-08-05T10:26:08.006Z"
+  "updated": "2026-08-05T10:26:14.078Z"
 }

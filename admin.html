@@ -84,6 +84,14 @@
     <div id="classifyNote" class="hint" style="margin-top:10px"></div>
   </details>
 
+  <!-- Разовая чистка HTML в карточках -->
+  <details class="card" id="cleanBox">
+    <summary>🧹 Почистить HTML в карточках (разово)</summary>
+    <p class="hint" style="margin:8px 0">Пройдётся по всем карточкам и уберёт HTML/мусор из зашитых <b>description</b>, <b>personality</b> и вступительных сообщений — для тех, что грузились раньше. На сайте не видно (чистит скачиваемые карты). Идёт ~10–15 минут — не закрывай вкладку.</p>
+    <button type="button" class="btn ghost small" id="btnCleanCards">Почистить все карточки</button>
+    <div id="cleanCardsNote" class="hint" style="margin-top:10px"></div>
+  </details>
+
   <form id="form" class="card" autocomplete="off">
     <div class="row">
       <div>
@@ -350,6 +358,27 @@ $('btnClassify').onclick=async()=>{
       await new Promise(res=>setTimeout(res,800));
     }
   }catch(e){toast('Разметка: '+e.message,false);}
+  btn.disabled=false;btn.textContent=was;
+};
+
+/* ── разовая чистка HTML в карточках (цикл вызовов clean-cards) ──────── */
+$('btnCleanCards').onclick=async()=>{
+  const cfg=loadCfg();
+  if(!cfg.endpoint||!cfg.secret){toast('Сначала заполни ⚙️ Подключение',false);$('cfgBox').open=true;return;}
+  const url=cfg.endpoint.replace(/add-bot\s*$/,'clean-cards');
+  const btn=$('btnCleanCards');btn.disabled=true;const was=btn.textContent;btn.textContent='чищу…';
+  let done=0,changed=0,offset=0;
+  try{
+    for(let i=0;i<200;i++){
+      const r=await fetch(url,{method:'POST',headers:{'Content-Type':'application/json','x-add-secret':cfg.secret},body:JSON.stringify({offset})});
+      const j=await r.json().catch(()=>({}));
+      if(!r.ok||j.ok===false)throw new Error(j.error||('HTTP '+r.status));
+      done+=j.processed||0;changed+=j.changed||0;offset=j.nextOffset||offset;
+      $('cleanCardsNote').textContent='обработано '+done+' из '+(j.total||'?')+', почищено '+changed+', осталось ~'+(j.remaining||0)+'…';
+      if((j.remaining||0)===0){$('cleanCardsNote').textContent='Готово ✓ обработано '+done+', почищено '+changed+' карточек.';break;}
+      await new Promise(res=>setTimeout(res,500));
+    }
+  }catch(e){toast('Чистка: '+e.message,false);}
   btn.disabled=false;btn.textContent=was;
 };
 

@@ -2535,6 +2535,29 @@
       "light": true
     },
     {
+      "id": "ae02c672-7b07-4343-bfaf-0f5e5e8084b8",
+      "name": "Koschei the Deathless | The Dark Tsar",
+      "author": "@Nanami_momomomo",
+      "authorUrl": "https://janitorai.com/profiles/79b08810-17db-4f7c-9dc0-0063ec473b24_profile-of-nanami_momomomo",
+      "image": "images/Koschei_the_Deathless_The_Dark_Tsar.png",
+      "description": "Кощей Бессмертный — Темный Царь, владыка Нави, чье царство застыло в вечной смерти. Он правит, презирая суету смертных, и лишь ему подвластна жизнь и смерть.",
+      "scenario": "Ты — подмастерье Ягишны, и страшная Навья скверна медленно убивает тебя. Никто не может помочь, и старая ведьма отправляет ворона к Кощею Бессмертному, единственному, кто властен над смертью. Его безразличие к смертным суетам известно, но это твой последний шанс.",
+      "janitorUrl": "https://janitorai.com/characters/3f6a3ad3-bf1f-4925-a61a-befdc40d1c08_character-koschei-the-deathless-the-dark-tsar",
+      "tags": [
+        "#Male",
+        "#Magical",
+        "#Nonhuman",
+        "#Monster",
+        "#AnyPOV",
+        "#Angst",
+        "#DeadDove",
+        "#Fluff",
+        "#rusreal"
+      ],
+      "addedAt": "2026-08-16T16:23:44.516Z",
+      "light": false
+    },
+    {
       "id": "3a43030e-84d8-8022-97b0-f388619214ef",
       "name": "Kostya \"Kot\" | The Doomed Charismatic",
       "author": "@Red_Mad",
@@ -6439,5 +6462,5 @@
     "Veloc1raptor",
     "Чача"
   ],
-  "updated": "2026-08-05T10:49:43.223Z"
+  "updated": "2026-08-16T16:23:44.532Z"
 }

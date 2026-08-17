@@ -1683,7 +1683,7 @@
       "name": "FILYA EFIMOV | returning home | PITERSKAYA TUSOVKA",
       "author": "@wvenusss",
       "authorUrl": "https://janitorai.com/profiles/a155007b-5d8e-4462-858b-b550e23bdf95_profile-of-wvenusss",
-      "image": "images/FILYA_EFIMOV___returning_home___PITERSKAYA_TUSOVKA.jpg",
+      "image": "images/FILYA_EFIMOV_returning_home_PITERSKAYA_TUSOVKA.png",
       "description": "Your childhood friend (or more?) came back.",
       "scenario": "Filya returns to Saint Petersburg after three years of studying in America, without telling his friends. You are his childhood friend.\nThe same, but you are his first love.",
       "janitorUrl": "https://janitorai.com/characters/ccff2b9d-d088-4cca-b786-0936fd24490f_character-filya-efimov-returning-home-piterskaya-tusovka",
@@ -1693,7 +1693,8 @@
         "#piterskayatusovka"
       ],
       "addedAt": "2026-06-19T13:16:19Z",
-      "light": true
+      "light": false,
+      "universe": "PITERSKAYA TUSOVKA"
     },
     {
       "id": "35b3030e-84d8-81f6-adda-df7de5251244",
@@ -6471,5 +6472,5 @@
     "Veloc1raptor",
     "Чача"
   ],
-  "updated": "2026-08-17T13:49:12.847Z"
+  "updated": "2026-08-17T13:50:07.148Z"
 }

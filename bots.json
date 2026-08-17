@@ -953,7 +953,8 @@
         "#russkayatoska"
       ],
       "addedAt": "2026-06-19T12:55:40Z",
-      "light": true
+      "light": true,
+      "universe": "RUSSKAYA TOSKA"
     },
     {
       "id": "35b3030e-84d8-8103-bb3c-d21eb917ddcc",
@@ -6462,5 +6463,5 @@
     "Veloc1raptor",
     "Чача"
   ],
-  "updated": "2026-08-17T13:06:01.031Z"
+  "updated": "2026-08-17T13:07:22.682Z"
 }

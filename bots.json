@@ -1257,7 +1257,8 @@
       ],
       "addedAt": "2026-06-19T13:16:19Z",
       "light": true,
-      "universe": "RASKOL 17"
+      "universe": "RASKOL 17",
+      "noCard": true
     },
     {
       "id": "35b3030e-84d8-811d-a759-db8a8626030f",
@@ -2070,7 +2071,8 @@
         "#raskol17"
       ],
       "addedAt": "2026-06-19T13:16:19Z",
-      "light": true
+      "light": true,
+      "noCard": true
     },
     {
       "id": "35b3030e-84d8-813d-a7b2-d2f78ca49a43",
@@ -2492,7 +2494,8 @@
         "#agegap"
       ],
       "addedAt": "2026-06-19T12:55:40Z",
-      "light": false
+      "light": false,
+      "noCard": true
     },
     {
       "id": "35b3030e-84d8-81c7-a400-c41e6149805e",
@@ -2801,7 +2804,8 @@
         "#R17ChapterBots"
       ],
       "addedAt": "2026-06-19T13:16:19Z",
-      "light": null
+      "light": null,
+      "noCard": true
     },
     {
       "id": "35b3030e-84d8-81b1-8100-d7d1a3da019c",
@@ -3005,7 +3009,8 @@
         "#holidays2025"
       ],
       "addedAt": "2026-06-19T13:16:19Z",
-      "light": false
+      "light": false,
+      "noCard": true
     },
     {
       "id": "21218df6-1698-4896-b599-39f11b3b96b2",
@@ -3402,7 +3407,8 @@
         "#Crime"
       ],
       "addedAt": "2026-07-07T19:58:15Z",
-      "light": null
+      "light": null,
+      "noCard": true
     },
     {
       "id": "35b3030e-84d8-8113-8a81-c0afa8759aee",
@@ -4110,7 +4116,8 @@
         "#streamerchar"
       ],
       "addedAt": "2026-06-19T13:16:19Z",
-      "light": false
+      "light": false,
+      "noCard": true
     },
     {
       "id": "3753030e-84d8-8091-a204-ceb3df9d0376",
@@ -4428,7 +4435,8 @@
         "#christmas"
       ],
       "addedAt": "2026-06-19T12:55:40Z",
-      "light": false
+      "light": false,
+      "noCard": true
     },
     {
       "id": "3823030e-84d8-80d0-b369-d4ce4de1a7bf",
@@ -6473,5 +6481,5 @@
     "Veloc1raptor",
     "Чача"
   ],
-  "updated": "2026-08-17T14:05:16.419Z"
+  "updated": "2026-08-17T14:57:27.016Z"
 }

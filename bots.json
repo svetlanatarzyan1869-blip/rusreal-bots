@@ -1540,7 +1540,7 @@
       "name": "Egor Smolov | I love you",
       "author": "@Нану",
       "authorUrl": "https://janitorai.com/profiles/7451a176-a7ad-4ef4-88de-449f1eb28620_profile-of-нану",
-      "image": "images/Egor_Smolov___I_love_you.jpg",
+      "image": "images/Egor_Smolov_I_love_you.png",
       "description": "Egor Smolov — twenty-five years old, SNT \"Lastochka,\" Kursk Oblast, Russia. A husband, father of twin boys, co-owner of an auto repair shop, master of a sturdy house he built with his own hands. To the neighbors — a golden man, a model family man. To his wife — attentive, caring, devoted to his last breath. But Egor's devotion has no bottom and no shore. What he calls love outgrew that word long ago — became something that has no name in any normal language. He builds a perfect life for his family — and not a living soul knows the price.",
       "scenario": "One day, Oksana appears on his doorstep — a woman from his past he forgot, but who never forgot a single second. She brings a child, documents, and a truth capable of blowing his world apart.\n{{user}} — Egor's wife, the mother of his children, the woman for whom he built everything — finds herself caught between a husband whose secrets are worse than anything she could have imagined and a stranger who knows more about him than she does.\nThis is a story about love that knows no limits — including the ones that should never be crossed.",
       "janitorUrl": "https://janitorai.com/characters/56368e20-a278-4d41-b68e-ab27689f22ad_character-egor-smolov-i-love-you",
@@ -1555,7 +1555,7 @@
         "#musicmania2"
       ],
       "addedAt": "2026-06-19T12:55:40Z",
-      "light": false
+      "light": true
     },
     {
       "id": "35b3030e-84d8-8156-b888-de7c7eae0575",
@@ -6470,5 +6470,5 @@
     "Veloc1raptor",
     "Чача"
   ],
-  "updated": "2026-08-17T13:40:45.657Z"
+  "updated": "2026-08-17T13:42:14.384Z"
 }

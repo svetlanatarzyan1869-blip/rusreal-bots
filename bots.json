@@ -1238,7 +1238,7 @@
       "name": "DIMITRI RUSTOV || RASKOL 17 (РАСКОЛ 17)",
       "author": "@Sealiyon",
       "authorUrl": "https://janitorai.com/profiles/282e953f-5755-4658-90c5-5f868f177cc1_profile-of-sealiyon",
-      "image": "images/DIMITRI_RUSTOV____RASKOL_17__РАСКОЛ_17_.jpg",
+      "image": "images/DIMITRI_RUSTOV_RASKOL_17_РАСКОЛ_17.png",
       "description": "He accidentally sends you a dick pic meant for someone else—now he wants to earn your trust back\n\"Хороший урок анатомии, не так ли?\" (Good anatomy lesson, no?)",
       "scenario": "Dimitri didn’t cheat on you, technically. You’re both single and just started talking recently. You met Dimitri on Tinder a few weeks ago. It's casual. Still new. The dick pic? He meant to send it to someone else he was casually seeing from Tinder.\n\nUp till now he's played it cool, didn't rush, kept it casual. Dimitri has been honest about his intentions since day one. He download Tinder for casual hook ups. That's it. He wasn't searching for something serious.\n\nStill, he unintentionally caught feelings for you anyway. Since the day he swiped right, he's only been able to think about you. He's already been planning on asking you to be official soon. But he was still waiting, looking for the right moment to ask.\n\nBut he fucked up before he even got the chance to even try to make it official. Now he’s broken and desperate. He hopes to redeem himself, terrified he ruined his chance with the only person he actually caught feelings for.",
       "janitorUrl": "https://janitorai.com/characters/8d925cef-78e5-48b2-a570-cb685eb610b3_character-dimitri-rustov-raskol-17-раскол-17",
@@ -1256,7 +1256,8 @@
         "#raskol17"
       ],
       "addedAt": "2026-06-19T13:16:19Z",
-      "light": true
+      "light": true,
+      "universe": "RASKOL 17"
     },
     {
       "id": "35b3030e-84d8-811d-a759-db8a8626030f",
@@ -6467,5 +6468,5 @@
     "Veloc1raptor",
     "Чача"
   ],
-  "updated": "2026-08-17T13:20:37.135Z"
+  "updated": "2026-08-17T13:24:22.959Z"
 }

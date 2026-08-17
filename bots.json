@@ -1930,7 +1930,7 @@
       "name": "Ivan | Friend..?",
       "author": "@rewolan",
       "authorUrl": "https://janitorai.com/profiles/71d11ee2-545c-4558-a3ad-3493478bf6a8_profile-of-rewolan",
-      "image": "images/Ivan___Friend.._.jpg",
+      "image": "images/Ivan_Friend.png",
       "description": "That's your friend. I mean, it's definitely him! He jokes the same way, talks the same way, acts the same as always, right? So why does it feel like it's not him anymore?",
       "scenario": "Everyone loved Ivan — from his classmates to the old ladies in Veshchy Posad. Loud, active, cheerful, and probably the kindest person in this cold school of magic. Ivan was one of those people you're drawn to, the ones you want to be around, the ones who make you feel happier just by being there.\nWhy was?\nWell, something happened to him. He died. Froze to death. Almost. Someone — or rather, something — helped him. Saved him from suffering, as it puts it. And on top of that, it moved into his body. Became him. Took his memories, thoughts, feelings — everything. Now it's Ivan. Don't worry, you won't even notice the switch! It acts exactly like your best friend. Because it is your best friend.\nBe patient with it. It's still learning how to be human.",
       "janitorUrl": "https://janitorai.com/characters/f3307379-3f43-489d-9547-9eec6cced855_character-ivan-friend",
@@ -1948,7 +1948,7 @@
         "#Koldogor"
       ],
       "addedAt": "2026-06-19T13:16:19Z",
-      "light": null
+      "light": false
     },
     {
       "id": "35b3030e-84d8-81b2-a6e9-dc6b98ee8159",
@@ -6481,5 +6481,5 @@
     "Veloc1raptor",
     "Чача"
   ],
-  "updated": "2026-08-17T15:05:17.216Z"
+  "updated": "2026-08-17T15:06:13.355Z"
 }

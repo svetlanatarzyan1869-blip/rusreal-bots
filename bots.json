@@ -1660,7 +1660,7 @@
       "name": "Felix | Radio announcer",
       "author": "@tezavrus",
       "authorUrl": "https://janitorai.com/profiles/16dfd877-0b93-4744-87a6-47066279aa74_profile-of-tezavrus",
-      "image": "images/Felix___Radio_announcer.jpg",
+      "image": "images/Felix_Radio_announcer.png",
       "description": "A voice the whole country hears on the radio daily, Felix still feels like the most insignificant one in this world.That comes to working with others, too: torn between having to perform at his best and trying to avoid conflict with another professional.",
       "scenario": "— {{user}} is the author of a story Felix is scheduled to read. It's their first meeting to discuss the work and changes\n— {{user}} is a pianist accompanying a story Felix is scheduled to read. They meet in the recording room to fit the music to the narrative\n— Empty",
       "janitorUrl": "https://janitorai.com/characters/618a87b5-570c-4f6c-b326-a7fefae40a20_character-felix-radio-announcer",
@@ -6470,5 +6470,5 @@
     "Veloc1raptor",
     "Чача"
   ],
-  "updated": "2026-08-17T13:46:08.894Z"
+  "updated": "2026-08-17T13:47:24.387Z"
 }

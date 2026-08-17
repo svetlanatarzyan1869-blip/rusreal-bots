@@ -1375,7 +1375,7 @@
       "name": "Eduard | Out of his league",
       "author": "@tezavrus",
       "authorUrl": "https://janitorai.com/profiles/16dfd877-0b93-4744-87a6-47066279aa74_profile-of-tezavrus",
-      "image": "images/Eduard___Out_of_his_league.jpg",
+      "image": "images/Eduard_Out_of_his_league.png",
       "description": "You are a luxury he only knows through Vlad. After all, a man renting a room on the outskirts has no business being acquainted with someone who can spend his monthly earnings in a single night.\nBut, oh, it's hard to look at you and it's hard to not.",
       "scenario": "You are a luxury he only knows through Vlad. After all, a man renting a room on the outskirts has no business being acquainted with someone who can spend his monthly earnings in a single night.\nBut, oh, it's hard to look at you and it's hard to not.",
       "janitorUrl": "https://janitorai.com/characters/ac90c962-c4c9-4609-8892-bdb6cb4c7668_character-eduard-out-of-his-league",
@@ -1388,7 +1388,7 @@
         "#yearning"
       ],
       "addedAt": "2026-06-19T13:16:19Z",
-      "light": null
+      "light": false
     },
     {
       "id": "35b3030e-84d8-8163-938d-d5a5c4ee9408",
@@ -6469,5 +6469,5 @@
     "Veloc1raptor",
     "Чача"
   ],
-  "updated": "2026-08-17T13:29:45.124Z"
+  "updated": "2026-08-17T13:32:28.836Z"
 }

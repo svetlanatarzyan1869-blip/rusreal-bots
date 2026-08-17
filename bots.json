@@ -975,7 +975,8 @@
         "#ESEF"
       ],
       "addedAt": "2026-06-19T13:16:19Z",
-      "light": false
+      "light": false,
+      "universe": "Bur’ansk Boys"
     },
     {
       "id": "35b3030e-84d8-81db-bd93-d389c41ad6c0",
@@ -6463,5 +6464,5 @@
     "Veloc1raptor",
     "Чача"
   ],
-  "updated": "2026-08-17T13:07:22.682Z"
+  "updated": "2026-08-17T13:07:59.416Z"
 }

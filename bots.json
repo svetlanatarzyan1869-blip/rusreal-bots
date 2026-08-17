@@ -997,7 +997,8 @@
         "#ESEF"
       ],
       "addedAt": "2026-06-19T13:16:19Z",
-      "light": true
+      "light": true,
+      "universe": "Eternal Frost"
     },
     {
       "id": "3823030e-84d8-80db-b821-dfdb932ade75",
@@ -6464,5 +6465,5 @@
     "Veloc1raptor",
     "Чача"
   ],
-  "updated": "2026-08-17T13:07:59.416Z"
+  "updated": "2026-08-17T13:08:57.448Z"
 }

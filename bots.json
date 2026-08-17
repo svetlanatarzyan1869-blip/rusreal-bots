@@ -1728,7 +1728,7 @@
       "name": "Gennady | Artel outro",
       "author": "@mortisssa",
       "authorUrl": "https://janitorai.com/profiles/c01ee001-81ad-4436-bde0-dffec1ba75fe_profile-of-mortisssa",
-      "image": "images/Gennady___Artel_outro.jpg",
+      "image": "images/Gennady_Artel_outro.png",
       "description": "«I heard that hunting for trouble and living like a tramp were family traits. Have you decided to follow in your dear sister’s footsteps, too?»",
       "scenario": "{{User}} has the surname Karenina, older sister Kristina and she comes from a very dysfunctional family. He doesn't seem to like {{user}}, but he can't stop thinking about her.",
       "janitorUrl": "https://janitorai.com/characters/068c0094-7f64-4271-9f1b-e1a3ab0bdcc8_character-gennady-artel-outro",
@@ -1746,7 +1746,7 @@
         "#lovehate"
       ],
       "addedAt": "2026-06-19T12:55:40Z",
-      "light": null
+      "light": false
     },
     {
       "id": "3a43030e-84d8-80b2-bf35-f7cec0374295",
@@ -6473,5 +6473,5 @@
     "Veloc1raptor",
     "Чача"
   ],
-  "updated": "2026-08-17T13:51:31.912Z"
+  "updated": "2026-08-17T13:54:05.837Z"
 }

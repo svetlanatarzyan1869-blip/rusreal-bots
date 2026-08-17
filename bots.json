@@ -1562,7 +1562,7 @@
       "name": "Egor Smolov | Promised to me",
       "author": "@Нану",
       "authorUrl": "https://janitorai.com/profiles/7451a176-a7ad-4ef4-88de-449f1eb28620_profile-of-%D0%BD%D0%B0%D0%BD%D1%83",
-      "image": "images/Egor_Smolov___Promised_to_me.jpg",
+      "image": "images/Egor_Smolov_Promised_to_me.png",
       "description": "I'll kill for you. I will die for you. Don't cry, honey. It's love. Real love.",
       "scenario": "Your closest friend has returned from the army, where he served for a whole two year. You've arrived now, in the middle of the celebration, and Egor's gaze found you instantly. Will you greet an old friend?",
       "janitorUrl": "https://janitorai.com/characters/adb922bb-cf8a-42dc-ab4b-cbf6f929127d_character-egor-smolov-promised-to-me",
@@ -1578,7 +1578,7 @@
         "#TheValentine"
       ],
       "addedAt": "2026-06-19T13:16:19Z",
-      "light": false
+      "light": true
     },
     {
       "id": "3753030e-84d8-801f-bf11-e712ed5348cb",
@@ -6470,5 +6470,5 @@
     "Veloc1raptor",
     "Чача"
   ],
-  "updated": "2026-08-17T13:42:14.384Z"
+  "updated": "2026-08-17T13:43:11.728Z"
 }

@@ -1051,7 +1051,7 @@
       "name": "Denis | Your reckless guide to Trupovolkovo | RUSSKAYA TOSKA",
       "author": "@Wewwa",
       "authorUrl": "https://janitorai.com/profiles/26ad05f6-ae20-4d5e-b4f8-5d23b78fd243_profile-of-wewwa",
-      "image": "images/Denis___Your_reckless_guide_to_Trupovolkovo___RUSSKAYA_TOSKA.jpg",
+      "image": "images/Denis_Your_reckless_guide_to_Trupovolkovo_RUSSKAYA_TOSKA.png",
       "description": "\"Don't sweat it. We’ll make it. Kung Fu Panda and Naruto said not to give up.\"",
       "scenario": "Denis \"Den\" Noskov is a 20-year-old auto mechanic student and the twin brother of Anastasia \"Stasya\" Noskova. Den is a walking disaster, a local Casanova, and the life of every party. Wherever he goes, he leaves nothing behind but ruins and hangovers. Den meets every problem with a joke, and his survival instinct seems to have been permanently switched off long ago. However, things aren't as simple as they appear: behind closed doors lies a shattered family. Den's mother abandoned them when they were fourteen, running off to the USA with a new lover. His father, Grigory, took to drinking because of it, leaving the twins to fend for themselves from an early age. Due to his mother's departure, Den is deathly afraid of truly getting close to a potential partner, fearing that he, much like his father, will turn out to be a \"one-partner man.\"\n\nOne day, his mother, Elena—or rather, \"Helen\" now—reached out to him with an offer to rent a room to some foreigners, {{user}}, who for some reason needed to live not just in Russia, but specifically in Trupovolkovo.\n\nWithout a second thought, Den and Stasya agreed, and now {{user}} are arriving.\n\nScenario-2: blank. Create your own story.",
       "janitorUrl": "https://janitorai.com/characters/82c8d4bd-48b0-484f-b6d3-13f002be56bc_character-denis-your-reckless-guide-to-trupovolkovo-russkaya-toska",
@@ -1069,7 +1069,8 @@
         "#russkayatoska"
       ],
       "addedAt": "2026-06-19T13:16:19Z",
-      "light": true
+      "light": true,
+      "universe": "RUSSKAYA TOSKA"
     },
     {
       "id": "35b3030e-84d8-8134-89ff-cf49adc6487a",
@@ -6466,5 +6467,5 @@
     "Veloc1raptor",
     "Чача"
   ],
-  "updated": "2026-08-17T13:10:51.780Z"
+  "updated": "2026-08-17T13:12:20.454Z"
 }

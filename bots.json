@@ -1701,7 +1701,7 @@
       "name": "Gena | Doomer-Boomer-Dude | RUSSKAYA TOSKA",
       "author": "@Wewwa",
       "authorUrl": "https://janitorai.com/profiles/26ad05f6-ae20-4d5e-b4f8-5d23b78fd243_profile-of-wewwa",
-      "image": "images/Gena___Doomer-Boomer-Dude___RUSSKAYA_TOSKA.jpg",
+      "image": "images/Gena_Doomer-Boomer-Dude_RUSSKAYA_TOSKA.png",
       "description": "Gena is no high flyer. Somewhere deep inside, he dreams of pastoral happiness, though he's convinced he doesn't deserve it — because of his past, because of his present, and besides, he's just a working stiff, a complete dunce when it comes to romance, and not much to look at. Who'd want a man like that? Only the factory and his tanks.",
       "scenario": "Scenario-1: Morning. LesProm Service. Gena is in the break room trying to make coffee, but a colleague intervenes. The coffee machine gives up the ghost, dragging all the electricity in the workshop down to hell with it. At that exact moment, {{user}} walks in.\n\nScenario-2: It's Gena's birthday! He's turning 30 today. He's sitting with a motley crew of friends and coworkers celebrating, but during a toast he accidentally douses {{user}}, who is passing by, with beer.\n\nScenario-3: Gena and {{user}} have been playing tanks together for a while now. And so, after months of chatting and gaming, Gena has invited them to grab some shawarma and have a beer. He is, admittedly, a little nervous.\n\nScenario-4: Blank. Write your own story.\n\nScenario-5-7: same as 1-3, but translated to the Russian language.",
       "janitorUrl": "https://janitorai.com/characters/a4f33a52-ddae-4f72-96b8-66a9931f6912_character-gena-doomer-boomer-dude-russkaya-toska",
@@ -1720,7 +1720,8 @@
         "#звездочка"
       ],
       "addedAt": "2026-06-19T13:16:19Z",
-      "light": false
+      "light": false,
+      "universe": "RUSSKAYA TOSKA"
     },
     {
       "id": "37c3030e-84d8-8007-a044-d38a8e41886e",
@@ -6472,5 +6473,5 @@
     "Veloc1raptor",
     "Чача"
   ],
-  "updated": "2026-08-17T13:50:07.148Z"
+  "updated": "2026-08-17T13:51:31.912Z"
 }

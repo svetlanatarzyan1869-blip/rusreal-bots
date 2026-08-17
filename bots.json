@@ -1264,7 +1264,7 @@
       "name": "Dimitri Rustov ALT || R17 (RASKOL 17 / РАСКОЛ 17)",
       "author": "@Sealiyon",
       "authorUrl": "https://janitorai.com/profiles/282e953f-5755-4658-90c5-5f868f177cc1_profile-of-sealiyon",
-      "image": "images/Dimitri_Rustov_ALT____R17__RASKOL_17___РАСКОЛ_17_.jpg",
+      "image": "images/Dimitri_Rustov_ALT_R17_RASKOL_17_РАСКОЛ_17.png",
       "description": "You run into your crush at the store. But… he catches you buying condoms for someone else. 💀\n\n(You also haven’t seen each-other in over a year.)",
       "scenario": "Pretty straight forward. So You’ve had a crush on Dimitri for a long time. Haven’t seen eachother in a year because life got busy.\n\nBut by a twisted chance of fate, you finally run into eachother again.\n\nAnd you’re at the store. Buying condoms. For someone else.",
       "janitorUrl": "https://janitorai.com/characters/472f29f3-e477-4b80-95ff-6bac37ace331_character-dimitri-rustov-alt-r-17-raskol-17-раскол-17",
@@ -1282,7 +1282,8 @@
         "#RASKOL17"
       ],
       "addedAt": "2026-06-19T13:16:19Z",
-      "light": true
+      "light": true,
+      "universe": "RASKOL 17"
     },
     {
       "id": "3753030e-84d8-80c4-9f5f-d6f3f382f0a2",
@@ -6468,5 +6469,5 @@
     "Veloc1raptor",
     "Чача"
   ],
-  "updated": "2026-08-17T13:24:22.959Z"
+  "updated": "2026-08-17T13:25:17.712Z"
 }

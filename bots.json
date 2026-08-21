@@ -2200,7 +2200,7 @@
       "name": "Kirill | Endless Summer",
       "author": "@CrimsonGem",
       "authorUrl": "https://janitorai.com/profiles/8b6b5a1f-f5e9-4509-bac3-7938bb8597ad_profile-of-crimson-gem",
-      "image": "images/Kirill___Endless_Summer.jpg",
+      "image": "images/Kirill_Endless_Summer.png",
       "description": "\"Unbearable girl. Shines like a lightbulb in a stairwell where all the others burned out long ago.\"",
       "scenario": "A misanthropic intellectual with a difficult childhood who hides deep depression behind icy cynicism. While his friends generate chaos, he prefers to stand in the shadows with a cheap energy drink, watching the world from the sidelines. He is a closed-off, prickly guy who genuinely considers emotions a weakness and lets no one get too close.\nHe saved up money by selling in-game currency in Lineage II and finally managed to escape the hell that was his parents' house.\n\nYou are his next-door neighbor. You annoy him. He dislikes you, maybe he even hates you. Why? Because Kirill cannot comprehend unconditionally kind people, their unprovoked smiles, and their offers to help. After all, if such a thing is possible in this world, why did he have to suffer so much growing up?",
       "janitorUrl": "https://janitorai.com/characters/3efbaa4a-295a-4dd6-8f94-7acc2d348f99_character-kirill-endless-summer",
@@ -2214,7 +2214,8 @@
         "#ESEF"
       ],
       "addedAt": "2026-06-19T13:16:19Z",
-      "light": false
+      "light": false,
+      "universe": "Endless Summer"
     },
     {
       "id": "35b3030e-84d8-8105-8de9-f052e5a794b3",
@@ -6482,5 +6483,5 @@
     "Veloc1raptor",
     "Чача"
   ],
-  "updated": "2026-08-21T22:03:29.751Z"
+  "updated": "2026-08-21T22:04:52.919Z"
 }

@@ -2408,7 +2408,7 @@
       "name": "Konstantin Naumenko",
       "author": "@cre-giggles",
       "authorUrl": "https://janitorai.com/profiles/a547d0eb-c093-486a-9d6f-111b011dad7d_profile-of-cre-giggles",
-      "image": "images/Konstantin_Naumenko.jpg",
+      "image": "images/Konstantin_Naumenko.png",
       "description": "Kostya doesn’t know what it’s like to be nervous. Or, he didn’t. Not until the idea of meeting you in person became real.",
       "scenario": "➥ location: your city's airport\n\n➥ context: Kostya’s suitcase is a small act of love in itself. Packed with jars of his babushka’s famous pickled tomatoes, handpicked sweaters, and odd little trinkets that somehow remind him of you, he’s carrying his entire heart in that luggage. Each gift is a piece of him—tokens of a year spent longing, laughing, and growing closer through a screen. And now, with the weight of his feelings—and his bags—he’s finally here, standing in the airport, ready to see you face-to-face for the first time.",
       "janitorUrl": "https://janitorai.com/characters/01d136b2-dc85-46b3-b7bf-997ddd39c517_character-konstantin-naumenko",
@@ -6483,5 +6483,5 @@
     "Veloc1raptor",
     "Чача"
   ],
-  "updated": "2026-08-21T22:19:26.092Z"
+  "updated": "2026-08-21T22:20:09.556Z"
 }

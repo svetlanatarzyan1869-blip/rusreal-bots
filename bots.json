@@ -2792,8 +2792,8 @@
       "name": "Lev Svyatoslav — Interlude | RASKOL 17 (РАСКОЛ 17)",
       "author": "@Sealiyon",
       "authorUrl": "https://janitorai.com/profiles/282e953f-5755-4658-90c5-5f868f177cc1_profile-of-sealiyon",
-      "image": "images/Lev_Svyatoslav___Interlude___RASKOL_17__РАСКОЛ_17_.jpg",
-      "description": "The mafia got involved. Training you is now a matter of life and death.\n\nFt: Konstantin, Ivan, Dimitri, Rolan and...Leonid?!",
+      "image": "images/Lev_Svyatoslav_Interlude_RASKOL_17_РАСКОЛ_17.png",
+      "description": "The mafia got involved. Training you is now a matter of life and death.",
       "scenario": "1. Team needs to train you to prepare you to go undercover in a professional fighting standard with them,\n\n2. Get Leonid to cooperate. (Leonid lives in Thailand. He live and trains full time in Muay Thai camps for UFC fights, and also because he loves Muay Thai. By the way he hates that RASKOL 17 is here.)\n\n3. To infiltrate the Bangkok fight circuit (several arms traffickers, powerful illegal syndicates, powerful (some criminal) figures who bid on UFC fighters) and get close to Viper 6 operatives.\n\n4. Note: Lev loves Muay Thai. Let him help you.",
       "janitorUrl": "https://janitorai.com/characters/99da0e03-e04e-4eca-b93c-f9a9f88f267e_character-lev-svyatoslav-interlude-raskol-17-раскол-17",
       "tags": [
@@ -2808,8 +2808,7 @@
         "#R17ChapterBots"
       ],
       "addedAt": "2026-06-19T13:16:19Z",
-      "light": null,
-      "noCard": true
+      "light": false
     },
     {
       "id": "35b3030e-84d8-81b1-8100-d7d1a3da019c",
@@ -6485,5 +6484,5 @@
     "Veloc1raptor",
     "Чача"
   ],
-  "updated": "2026-08-21T22:37:13.125Z"
+  "updated": "2026-08-21T22:37:54.919Z"
 }

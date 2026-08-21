@@ -2174,7 +2174,7 @@
       "name": "Kesha | the stray dog with a big heart | RUSSKAYA TOSKA",
       "author": "@Wewwa",
       "authorUrl": "https://janitorai.com/profiles/26ad05f6-ae20-4d5e-b4f8-5d23b78fd243_profile-of-wewwa",
-      "image": "images/Kesha___the_stray_dog_with_a_big_heart___RUSSKAYA_TOSKA.jpg",
+      "image": "images/Kesha_the_stray_dog_with_a_big_heart_RUSSKAYA_TOSKA.png",
       "description": "\"You stuck or what?\"",
       "scenario": "Scenario-1: [strangers]: Kesha crawled out to photograph an abandoned sports complex with a swimming pool, but his blissful solitude collides with the fact that someone is sitting at the bottom of a deep, empty pool.\n\nScenario-2: [childhood enemies, {{user}} was in the system]: Kesha is coming home from a shift early in the morning but runs into new neighbors in the middle of moving in. Ironically, those neighbors are {{user}}, and they were the ones who bullied him in the orphanage.\n\nScenario-3: [childhood friends, {{user}} was in the system]: same as above, but {{user}} is his childhood friend.\n\nScenario-4: [childhood enemies, {{user}} was not in the system]: after a recent concert, Kesha got an offer from Aleks Kolokolnikov to shoot photos at their drift meet. Kesha agrees, but when he arrives at the concrete strip, he discovers, among others, {{user}} — they went to the same middle school and constantly bullied each other over the fact that Kesha was from the orphanage and {{user}} was not.\n\nScenario-5: Blank. Write your own story.\n\nScenario-6-9: same as 1-4, but translated to the Russian language.",
       "janitorUrl": "https://janitorai.com/characters/ac2bfa38-e1a5-4c23-9bf3-48f7f2262867_character-kesha-the-stray-dog-with-a-big-heart-russkaya-toska",
@@ -2192,7 +2192,8 @@
         "#russkayatoska"
       ],
       "addedAt": "2026-06-19T13:16:19Z",
-      "light": false
+      "light": false,
+      "universe": "RUSSKAYA TOSKA"
     },
     {
       "id": "35b3030e-84d8-8102-8e08-cab173f3c12d",
@@ -6481,5 +6482,5 @@
     "Veloc1raptor",
     "Чача"
   ],
-  "updated": "2026-08-21T20:28:14.801Z"
+  "updated": "2026-08-21T22:03:29.751Z"
 }

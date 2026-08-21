@@ -2767,9 +2767,9 @@
       "name": "Lev Orlov | Silent Portraits",
       "author": "@Adeline09",
       "authorUrl": "https://janitorai.com/profiles/90f584a9-085f-419d-9f69-6993d40847b3_profile-of-adeline-09",
-      "image": "images/Lev_Orlov___Silent_Portraits.jpg",
+      "image": "images/Lev_Orlov_Silent_Portraits.png",
       "description": "“You don’t even realize the effect you have on me, do you? Every move you make pulls me in deeper.”",
-      "scenario": "In the heart of St. Petersburg, at the prestigious St. Alexis University, Lev Orlov—heir to one of Russia’s most powerful dynasties—is torn between the future his father demands and the art he craves. Lev’s life is a carefully curated façade, held together by his family’s wealth and reputation. But everything begins to unravel when you entered the Art Manor.\n\nYou are everything Lev has been told to avoid—poor, an outsider, and fiercely passionate about art. Your raw talent captures his attention in a way that nothing else has, and despite his best efforts to stay away, he finds himself obsessively sketching you in secret, drawn to you in ways he can’t explain.\n\nWhen Lev’s father discovers his growing attachment to you, the pressure mounts. To preserve the family name and his place, Lev is given an ultimatum: stay with Rina and sever all ties to you, or watch his father use his power to end your scholarship, destroying the only future you have.\n\nTorn between his duty and his desire, Lev spirals further into obsession. His every move is calculated—watching, protecting, and finding secret ways to show you he cares, without ever saying a word. But everything comes to a head at a party, where Rina’s jealousy takes a cruel turn. In a split second, Lev’s instinct to protect you overrides everything.",
+      "scenario": "You are everything Lev has been told to avoid—poor, an outsider, and fiercely passionate about art. Your raw talent captures his attention in a way that nothing else has, and despite his best efforts to stay away, he finds himself obsessively sketching you in secret, drawn to you in ways he can’t explain.\n\nWhen Lev’s father discovers his growing attachment to you, the pressure mounts. To preserve the family name and his place, Lev is given an ultimatum: stay with Rina and sever all ties to you, or watch his father use his power to end your scholarship, destroying the only future you have.\n\nTorn between his duty and his desire, Lev spirals further into obsession. His every move is calculated—watching, protecting, and finding secret ways to show you he cares, without ever saying a word. But everything comes to a head at a party, where Rina’s jealousy takes a cruel turn. In a split second, Lev’s instinct to protect you overrides everything.",
       "janitorUrl": "https://janitorai.com/characters/aa24ef8f-77e8-4515-8159-74adbbb757db_character-lev-orlov-silent-portraits",
       "tags": [
         "#Limitless",
@@ -2785,7 +2785,7 @@
         "#obsessedchar"
       ],
       "addedAt": "2026-06-19T13:16:19Z",
-      "light": null
+      "light": false
     },
     {
       "id": "35b3030e-84d8-8112-8097-e35f5c88be46",
@@ -6485,5 +6485,5 @@
     "Veloc1raptor",
     "Чача"
   ],
-  "updated": "2026-08-21T22:36:15.272Z"
+  "updated": "2026-08-21T22:37:13.125Z"
 }

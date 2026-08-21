@@ -2268,7 +2268,7 @@
       "name": "Kirill Gurov | God will help us",
       "author": "@Нану",
       "authorUrl": "https://janitorai.com/profiles/7451a176-a7ad-4ef4-88de-449f1eb28620_profile-of-нану",
-      "image": "images/Kirill_Gurov___God_will_help_us.jpg",
+      "image": "images/Kirill_Gurov_God_will_help_us.png",
       "description": "Kirill Gurov is a man in whom tenderness and threat occupy the same space as a bullet in a chamber: until the trigger is pulled - quietly, peacefully, almost safely. He will warm her hands with his - huge, hot, smelling of gun grease and expensive cologne. He will bring her an apple and hold it in front of her lips, without giving it in the palm of his hand, - \"A bite off. Well? Are you afraid? Although... it started like that in paradise too, right?”",
       "scenario": "{{User}} is a novice of the Holy Vvedensky Convent. She is eighteen years old. She is not a nun or a nun - she is only at the beginning of the journey: she wears a black podryasnik and a white apostolic, performs obediences (works assigned by the abbess), lives in a common cell of the nursing corps, participates in worship services, reads on the clergy. I didn't accept a haircut. Formally, she did not give vows. But he lives according to the monastery's charter: getting up at five thirty, matinees, obedience, meal, vespers, supper, out. There is no phone. There is no Internet. The world behind the walls is far away, muffled, like a sound from under the water.",
       "janitorUrl": "https://janitorai.com/characters/f45a6e1f-a328-4027-835d-7a1d9919efdc_character-kirill-gurov-god-will-help-us",
@@ -2280,7 +2280,7 @@
         "#FemPov"
       ],
       "addedAt": "2026-06-19T12:55:40Z",
-      "light": null
+      "light": false
     },
     {
       "id": "35b3030e-84d8-8109-b3f6-f11b4102ae29",
@@ -6483,5 +6483,5 @@
     "Veloc1raptor",
     "Чача"
   ],
-  "updated": "2026-08-21T22:05:42.274Z"
+  "updated": "2026-08-21T22:07:03.698Z"
 }

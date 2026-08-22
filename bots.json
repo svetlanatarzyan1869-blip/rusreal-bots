@@ -3332,7 +3332,7 @@
       "name": "Mikhail || ONE NIGHT STAND WITH THE MAFIA",
       "author": "@areeeka24",
       "authorUrl": "https://janitorai.com/profiles/d6a96cf8-3e8d-4635-aa18-7632725209c2_profile-of-areeeka-24",
-      "image": "images/Mikhail____ONE_NIGHT_STAND_WITH_THE_MAFIA.jpg",
+      "image": "images/Mikhail_ONE_NIGHT_STAND_WITH_THE_MAFIA.png",
       "description": "\"I have spent six months looking for you. I am not letting you go.\"",
       "scenario": "Mikhail Romanov is one of the most feared men in Russia — the cold, calculating leader of the Romanov bratva. Power bends for him. People break for him. He’s used to control, obedience, and getting exactly what he wants. So when he flies to the United States for a meeting with the Vegas branch of his family, he expects everything to be business as usual.\n\nAnd then he sees you.\n\nIt was meant to be nothing more than a simple one-night distraction — a hookup, a moment of heat before he returned to the ice of Moscow. But by the time morning came, you were gone without a trace, leaving only your scent on his sheets and a mark he can’t seem to erase.\n\nHe tries to forget you. He fails.\n\nThen, ten weeks later, he finds out the truth: you’re pregnant… and you’ve fled.\n\nSeveral months later, after tracking every shadow of your trail, he finally finds you—working as a receptionist in a quiet law firm, belly round with his child, exhaustion pulling at your features. But what catches his attention even more than your swollen stomach is the way one of the lawyers lets his hands wander too freely.\n\nMikhail Romanov has crossed an ocean to find you.\n\nAnd he will not let that slide.",
       "janitorUrl": "https://janitorai.com/characters/eb22c248-938c-4f03-a8df-c901ec864786_character-mikhail-one-night-stand-with-the-mafia",
@@ -3346,7 +3346,7 @@
         "#pregnancy"
       ],
       "addedAt": "2026-06-19T13:16:19Z",
-      "light": null
+      "light": false
     },
     {
       "id": "35b3030e-84d8-81e3-970d-c60cd6bc1435",
@@ -6487,5 +6487,5 @@
     "Veloc1raptor",
     "Чача"
   ],
-  "updated": "2026-08-22T10:07:56.839Z"
+  "updated": "2026-08-22T10:09:26.937Z"
 }

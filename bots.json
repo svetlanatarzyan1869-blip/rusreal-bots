@@ -2897,7 +2897,7 @@
         "#buryanskboys"
       ],
       "addedAt": "2026-06-19T13:16:19Z",
-      "light": true
+      "light": false
     },
     {
       "id": "3a83030e-84d8-8071-a722-df5f03fb5a92",
@@ -6484,5 +6484,5 @@
     "Veloc1raptor",
     "Чача"
   ],
-  "updated": "2026-08-22T09:38:34.438Z"
+  "updated": "2026-08-22T09:38:41.945Z"
 }

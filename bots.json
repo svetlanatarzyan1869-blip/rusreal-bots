@@ -2799,7 +2799,8 @@
         "#ampersand"
       ],
       "addedAt": "2026-06-19T12:55:40Z",
-      "light": true
+      "light": true,
+      "universe": "Ampersand"
     },
     {
       "id": "3a43030e-84d8-803d-942f-c60964c440cb",
@@ -6901,5 +6902,5 @@
     "Veloc1raptor",
     "Чача"
   ],
-  "updated": "2026-08-22T20:13:09.056Z"
+  "updated": "2026-08-22T20:13:29.561Z"
 }

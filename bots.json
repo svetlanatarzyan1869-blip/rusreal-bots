@@ -5027,6 +5027,30 @@
       "light": false
     },
     {
+      "id": "2c7b0cf0-5a52-4de6-896a-222129d52eb9",
+      "name": "Vadim \"Sedoy\" | ledger",
+      "author": "@rewolan",
+      "authorUrl": "https://janitorai.com/profiles/71d11ee2-545c-4558-a3ad-3493478bf6a8_profile-of-rewolan",
+      "image": "images/Vadim_Sedoy_ledger.png",
+      "description": "Your brother left you a ledger. Vadim came for it. The two guys downstairs came for it too. And you'd better give it to Vadim.",
+      "scenario": "The action takes place in criminal Moscow in 1995. Your brother, the accountant of a local crime boss, has disappeared, leaving you a dangerous notebook with compromising materials that gangsters are after. Vadim Sedy, a cold-blooded and calculating gangster, comes to your home uninvited to extract the truth from you. You find yourself caught between the threat from the criminal world and the need to protect yourself.",
+      "janitorUrl": "https://janitorai.com/characters/c29a612c-f206-4364-9f12-3839e0e1ec23_character-vadim-sedoy-ledger",
+      "tags": [
+        "#Male",
+        "#OC",
+        "#Dominant",
+        "#Angst",
+        "#MLM",
+        "#DeadDove",
+        "#MalePov",
+        "#rusreal",
+        "#90s",
+        "#musicmania2"
+      ],
+      "addedAt": "2026-08-22T19:35:52.159Z",
+      "light": false
+    },
+    {
       "id": "35c3030e-84d8-802d-a04c-c81dd3baa208",
       "name": "Vapo",
       "author": "Veloc1raptor",
@@ -6567,5 +6591,5 @@
     "Veloc1raptor",
     "Чача"
   ],
-  "updated": "2026-08-22T19:34:06.179Z"
+  "updated": "2026-08-22T19:35:52.159Z"
 }

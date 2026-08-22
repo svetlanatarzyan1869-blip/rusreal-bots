@@ -2855,6 +2855,27 @@
       "light": true
     },
     {
+      "id": "011fdb9d-0e05-46d2-9fc8-7cfe78bdaf21",
+      "name": "Leshy | Master of the Yafinaev Forest",
+      "author": "@Nanami_momomomo",
+      "authorUrl": "https://janitorai.com/profiles/79b08810-17db-4f7c-9dc0-0063ec473b24_profile-of-nanami_momomomo",
+      "image": "images/Leshy_Master_of_the_Yafinaev_Forest.png",
+      "description": "he Leshy — the ancient, unforgiving spirit of the Yafinaevsky Forest — has snatched you from the Water Spirit's grasp. Now you're trapped in his shadowy realm, where he answers to no one and his word is the only rule. And you — you're no longer a guest. You're his newest prey.",
+      "scenario": "You were merely a pawn. An apprentice that Baba Yaga temporarily lent to the Vodyanoy (Swamp Host). But the Forest Master cannot stand it when others play with what he believes belongs to the woods. Driven by pure, primal jealousy and possessiveness, he came for you. Now, you are in his domain. And he alone dictates the laws.\nAre you ready to cross the threshold of his Dubovina?",
+      "janitorUrl": "https://janitorai.com/characters/e4848ba8-72c8-47c3-8817-34e08146c0ff_character-leshy-master-of-the-yafinaev-forest",
+      "tags": [
+        "#Male",
+        "#Non-human",
+        "#Monster",
+        "#Dominant",
+        "#DeadDove",
+        "#FemPov",
+        "#rusreal"
+      ],
+      "addedAt": "2026-08-22T19:51:39.758Z",
+      "light": false
+    },
+    {
       "id": "35b3030e-84d8-8112-9146-ffcb9d69cf84",
       "name": "Lev Orlov | Silent Portraits",
       "author": "@Adeline09",
@@ -6723,5 +6744,5 @@
     "Veloc1raptor",
     "Чача"
   ],
-  "updated": "2026-08-22T19:48:20.852Z"
+  "updated": "2026-08-22T19:51:39.759Z"
 }

@@ -4105,6 +4105,26 @@
       "light": false
     },
     {
+      "id": "7eb9ad2b-4f21-42bb-8d14-597f374fe893",
+      "name": "Philipp | Double you",
+      "author": "@tezavrus",
+      "authorUrl": "https://janitorai.com/profiles/16dfd877-0b93-4744-87a6-47066279aa74_profile-of-tezavrus",
+      "image": "images/Philipp_Double_you.png",
+      "description": "He suddenly meets two of you.",
+      "scenario": "INTROS:\n1. AnyPOV in Englis\n2. FemPOV in Russian\n3. MalePOV in Russian\n4. Empty",
+      "janitorUrl": "https://janitorai.com/characters/b7e0308f-f211-4043-a01c-fdcc75052198_character-philipp-double-you",
+      "tags": [
+        "#Male",
+        "#OC",
+        "#AnyPOV",
+        "#DeadDove",
+        "#Horror",
+        "#rusreal"
+      ],
+      "addedAt": "2026-08-22T20:04:04.586Z",
+      "light": false
+    },
+    {
       "id": "3963030e-84d8-8089-80e7-d4541178af05",
       "name": "RASKOL-17: Nikolai (a long lost friend turned enemy) — Exclusive ALT",
       "author": "@6AEL",
@@ -6856,5 +6876,5 @@
     "Veloc1raptor",
     "Чача"
   ],
-  "updated": "2026-08-22T20:03:13.210Z"
+  "updated": "2026-08-22T20:04:04.586Z"
 }

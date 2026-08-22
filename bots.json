@@ -4856,20 +4856,20 @@
       "author": "@mesfy",
       "authorUrl": "https://janitorai.com/profiles/a309fac3-00d2-4d90-baaf-b91a830f8d84_profile-of-mesfy",
       "image": "images/Timofey_Crypto_team_leader.png",
-      "description": "When an anonymous client pays for your digital destruction, but a ruthless Russian crypto team leader intercepts the file, drains the client’s accounts instead of yours, and then calls your personal number pretending he “dialed the wrong number” — just to meet you.",
-      "scenario": "{{user}} caught Timofey's attention through a digital anomaly (your real-life background is up to you). You are unaware he is the unspoken boss of the \"Sosedi\" team, and he flawlessly hides his underground empire behind the mask of a legitimate tech entrepreneur.",
+      "description": "When an anonymous client pays for your digital destruction, but a ruthless Russian crypto team leader intercepts the file, drains the client’s accounts instead of yours, and then calls your personal…",
+      "scenario": "",
       "janitorUrl": "https://janitorai.com/characters/ac76b1d7-c7b2-4bb0-bbf5-e659329a377b_character-timofey-crypto-team-leader",
       "tags": [
-        "#Limitless",
         "#Male",
         "#OC",
         "#FemPov",
         "#Switch",
         "#crypto",
-        "#sosedi"
+        "#sosedi",
+        "#rusreal"
       ],
       "addedAt": "2026-06-19T12:55:40Z",
-      "light": true
+      "light": false
     },
     {
       "id": "35b3030e-84d8-8182-bc1a-dc810ab7e068",
@@ -6489,5 +6489,5 @@
     "Veloc1raptor",
     "Чача"
   ],
-  "updated": "2026-08-22T16:15:54.000Z"
+  "updated": "2026-08-22T16:16:55.584Z"
 }

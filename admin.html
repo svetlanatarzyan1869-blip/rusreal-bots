@@ -171,6 +171,12 @@
   <button class="btn primary" id="btnSave">💾 Сохранить на сайт</button>
 </div>
 
+<div id="navBar" style="position:fixed;right:16px;bottom:74px;display:none;gap:6px;align-items:center;background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:6px 8px;box-shadow:0 4px 18px #0008;z-index:5">
+  <button type="button" class="btn ghost small" id="navPrev" title="предыдущий по алфавиту (←)">‹</button>
+  <span id="navPos" class="hint" style="min-width:64px;text-align:center;white-space:nowrap">— / —</span>
+  <button type="button" class="btn ghost small" id="navNext" title="следующий по алфавиту (→)">›</button>
+</div>
+
 <div class="status" id="status"></div>
 
 <script>
@@ -274,7 +280,26 @@ $('f_imageFile').addEventListener('change',e=>{
 
 /* ── редактирование существующего бота ──────────────────────────────── */
 let EXISTING=[];
-async function loadExisting(){if(EXISTING.length)return EXISTING;try{const r=await fetch('bots.json',{cache:'no-store'});const j=await r.json();EXISTING=(j.bots||[]).filter(b=>b&&b.name&&!b.isWelcome);}catch(e){$('editNote').textContent='не удалось загрузить список';}return EXISTING;}
+let SORTED=[], navIdx=-1;   // алфавитный список для листания ‹ ›
+function buildSorted(){SORTED=[...EXISTING].sort((a,b)=>(a.name||'').localeCompare(b.name||'','ru'));}
+async function loadExisting(){if(EXISTING.length)return EXISTING;try{const r=await fetch('bots.json',{cache:'no-store'});const j=await r.json();EXISTING=(j.bots||[]).filter(b=>b&&b.name&&!b.isWelcome);buildSorted();}catch(e){$('editNote').textContent='не удалось загрузить список';}return EXISTING;}
+async function navTo(dir){
+  if(!SORTED.length){await loadExisting();}
+  if(!SORTED.length)return;
+  let i = navIdx<0 ? (dir>0?0:SORTED.length-1) : navIdx+dir;
+  i=(i+SORTED.length)%SORTED.length;
+  await fillFromExisting(SORTED[i]);
+}
+$('navPrev').onclick=()=>navTo(-1);
+$('navNext').onclick=()=>navTo(1);
+document.addEventListener('keydown',e=>{
+  if(e.key!=='ArrowLeft'&&e.key!=='ArrowRight')return;
+  if(e.metaKey||e.ctrlKey||e.altKey)return;
+  const t=e.target,tag=(t&&t.tagName||'').toLowerCase();
+  if(tag==='input'||tag==='textarea'||tag==='select'||(t&&t.isContentEditable))return;
+  e.preventDefault();
+  navTo(e.key==='ArrowLeft'?-1:1);
+});
 function renderEditList(){const q=($('editSearch').value||'').trim().toLowerCase();const sel=$('editSelect');sel.innerHTML='';EXISTING.map((b,idx)=>[b,idx]).filter(([b])=>!q||(b.name||'').toLowerCase().includes(q)||(b.author||'').toLowerCase().includes(q)).slice(0,400).forEach(([b,idx])=>{const o=document.createElement('option');o.value=idx;o.textContent=b.name+(b.author?(' — '+b.author):'');sel.appendChild(o);});}
 $('editBox').addEventListener('toggle',async()=>{if($('editBox').open){await loadExisting();renderEditList();}});
 $('editSearch').addEventListener('input',renderEditList);
@@ -299,6 +324,7 @@ async function fillFromExisting(bot){
   try{const r=await fetch(imgAbs,{cache:'no-store'});const parsed=extractChara(new Uint8Array(await r.arrayBuffer()));if(parsed)applyCardFields(parsed,{fillName:false});$('editNote').textContent='загружено ✓ — правь и сохраняй';}
   catch(e){$('editNote').textContent='из bots.json загружено (полную карточку прочитать не вышло)';}
   $('editBox').open=false;
+  if(SORTED.length){navIdx=SORTED.findIndex(b=>b===bot||(bot.id&&b.id===bot.id)||b.name===bot.name);$('navBar').style.display='flex';$('navPos').textContent=(navIdx>=0?navIdx+1:'—')+' / '+SORTED.length;}
   const f=$('form');if(f)window.scrollTo({top:f.offsetTop-20,behavior:'smooth'});
 }
 
@@ -416,6 +442,7 @@ function prefill(d){
   renderTags();updateTok();
 })();
 fillUniverseList();
+loadExisting().then(()=>{if(SORTED.length){$('navBar').style.display='flex';$('navPos').textContent='— / '+SORTED.length;}});
 
 /* ── сохранение ─────────────────────────────────────────────────────── */
 $('btnSave').onclick=async()=>{

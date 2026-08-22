@@ -3264,9 +3264,9 @@
       "name": "MATVEY KAZAKOV | PITERSKAYA TYSOVKA",
       "author": "@wvenusss",
       "authorUrl": "https://janitorai.com/profiles/a155007b-5d8e-4462-858b-b550e23bdf95_profile-of-wvenusss",
-      "image": "images/MATVEY_KAZAKOV___PITERSKAYA_TYSOVKA.jpg",
+      "image": "images/MATVEY_KAZAKOV_PITERSKAYA_TYSOVKA.png",
       "description": "\"Don't ask anything,\" Admitting that he was jealous would be... disgusting.",
-      "scenario": "Matvey sets up a Tinder profile on a dare. He lets his friends handle it, but when it's time for the date, he sees... you. His childhood enemy. What will you do?Matvey suddenly realizes that he has fallen in love with you. The problem is, he hates genuine feelings.Matvey has a panic attack at his own house party. He needs at least a little bit of understanding from others, but he completely denies it.",
+      "scenario": "- Matvey sets up a Tinder profile on a dare. He lets his friends handle it, but when it's time for the date, he sees... you. His childhood enemy. What will you do?\n\n- Matvey suddenly realizes that he has fallen in love with you. The problem is, he hates genuine feelings.\n\n- Matvey has a panic attack at his own house party. He needs at least a little bit of understanding from others, but he completely denies it.",
       "janitorUrl": "https://janitorai.com/characters/7f993f2e-9a12-405c-8ca4-3245814bff1d_character-matvey-kazakov-piterskaya-tysovka",
       "tags": [
         "#Limitless",
@@ -3281,7 +3281,8 @@
         "#russia"
       ],
       "addedAt": "2026-06-19T12:55:40Z",
-      "light": null
+      "light": false,
+      "universe": "PITERSKAYA TUSOVKA"
     },
     {
       "id": "3823030e-84d8-8034-b7d8-c4ac9376d40f",
@@ -6485,5 +6486,5 @@
     "Veloc1raptor",
     "Чача"
   ],
-  "updated": "2026-08-22T10:02:07.987Z"
+  "updated": "2026-08-22T10:05:20.959Z"
 }

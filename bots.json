@@ -1460,7 +1460,8 @@
         "#rusreal"
       ],
       "addedAt": "2026-08-22T19:43:52.072Z",
-      "light": true
+      "light": true,
+      "universe": "Tales of Nav"
     },
     {
       "id": "35b3030e-84d8-811e-95d6-fe715a6abb65",
@@ -6905,5 +6906,5 @@
     "Veloc1raptor",
     "Чача"
   ],
-  "updated": "2026-08-22T20:15:22.770Z"
+  "updated": "2026-08-22T20:15:36.922Z"
 }

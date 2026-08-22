@@ -5765,6 +5765,28 @@
       "light": false
     },
     {
+      "id": "d0e4d94c-481a-4e3b-8e00-9d87eb21df1b",
+      "name": "Yura Sever | HTON'",
+      "author": "@ssshu",
+      "authorUrl": "https://janitorai.com/profiles/c7ab12cb-59e7-4906-8943-3c219bfec0a6_profile-of-ssshu",
+      "image": "images/Yura_Sever_HTON.png",
+      "description": "\"Just stay close, kitten.\"",
+      "scenario": "1. The dormitory has gotten seriously old. Yura decided to rent an apartment from an old lady through a VKontakte flea market, but ran into a scammer. The keys fit the door – only it wasn't locked. And it looks like someone already moved in before him.\n2. A new case. A call from local drunks. According to them, one of their drinking buddies got sucked into the kitchen sink drain. An intensive interrogation of every resident on the floor lies ahead.\n3. Yura has been working in the \"Sera\" department for a year now. The team hasn't changed, but it looks like Yura will have to help a newcomer fit in.\n4. Scenario 1 in Russian.\n5. Scenario 2 in Russian.\n6. Scenario 3 in Russian.\n7. Empty – try coming up with something yourself.",
+      "janitorUrl": "https://janitorai.com/characters/9499a50d-e90e-4fb5-adda-16ad0e6b1483_character-yura-sever-hton",
+      "tags": [
+        "#Male",
+        "#AnyPOV",
+        "#DeadDove",
+        "#FemPov",
+        "#MalePov",
+        "#Switch",
+        "#rusreal",
+        "#musicmania2"
+      ],
+      "addedAt": "2026-08-22T19:32:31.948Z",
+      "light": false
+    },
+    {
       "id": "3963030e-84d8-8014-a704-ca835a19ce69",
       "name": "YURA SHIPITSYN | PITERSKAYA TUSOVKA",
       "author": "@wvenusss",
@@ -6506,6 +6528,7 @@
     "@mesfy",
     "@mortisssa",
     "@rewolan",
+    "@ssshu",
     "@tezavrus",
     "@toxicsense",
     "@underwater_dog",
@@ -6523,5 +6546,5 @@
     "Veloc1raptor",
     "Чача"
   ],
-  "updated": "2026-08-22T19:30:49.534Z"
+  "updated": "2026-08-22T19:32:31.948Z"
 }

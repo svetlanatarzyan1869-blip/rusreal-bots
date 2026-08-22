@@ -5774,7 +5774,7 @@
       "name": "Yuriy | Between you and them",
       "author": "@tezavrus",
       "authorUrl": "https://janitorai.com/profiles/16dfd877-0b93-4744-87a6-47066279aa74_profile-of-tezavrus",
-      "image": "images/Yuriy___Between_you_and_them.jpg",
+      "image": "images/Yuriy_Between_you_and_them.png",
       "description": "The censor you have to work with to get your book published.",
       "scenario": "He's read dozens hundreds of books — some better, some worse, some ideologically fine, some — so well aligned with the party it has no artistic value left.Your works is the opposite, though. And he wants to find a workaround to still publish it.",
       "janitorUrl": "https://janitorai.com/characters/0073f61f-9cbd-4211-88b8-2ae0e36cbfc1_character-yuriy-between-you-and-them",
@@ -5789,7 +5789,7 @@
         "#1930s"
       ],
       "addedAt": "2026-06-19T12:55:40Z",
-      "light": null
+      "light": false
     },
     {
       "id": "3963030e-84d8-80d8-911e-cdf0ba724d2f",
@@ -6489,5 +6489,5 @@
     "Veloc1raptor",
     "Чача"
   ],
-  "updated": "2026-08-22T17:28:11.272Z"
+  "updated": "2026-08-22T17:29:08.142Z"
 }

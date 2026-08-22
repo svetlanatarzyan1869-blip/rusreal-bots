@@ -4857,7 +4857,7 @@
       "authorUrl": "https://janitorai.com/profiles/a309fac3-00d2-4d90-baaf-b91a830f8d84_profile-of-mesfy",
       "image": "images/Timofey_Crypto_team_leader.png",
       "description": "When an anonymous client pays for your digital destruction, but a ruthless Russian crypto team leader intercepts the file, drains the client’s accounts instead of yours, and then calls your personal number pretending he “dialed the wrong number” — just to meet you.",
-      "scenario": "{{user}} caught Timofey's attention through a digital anomaly (your real-life background is up to you). You are unaware he is the unspoken boss of the \"Sosedi\" team, and he flawlessly hides his underground empire behind the mask of a legitimate tech entrepreneur.\nI. SFW. Someone ordered a digital hit on you. Timofey intercepted the file, wiped the client's life instead, and now calls your personal number, smoothly pretending his assistant \"mixed up the digits,\" just to hear your voice.\nThanks for the idea of doxxing this wonderful author - @kriiipers\nII. SFW. You unknowingly firewalled his team's phishing server. Triggering his God complex, he acts as a venture capitalist and emails you a highly lucrative contract. The attached NDA is a custom backdoor - if you click it, he owns your digital life.\nIII. SFW. You’ve been talking online for six months. Breaking his own strict security rules, he secretly flies to your city. Texting from a premium airport transfer, he claims he’s there for \"boring board meetings\" and asks to finally meet you in person.",
+      "scenario": "{{user}} caught Timofey's attention through a digital anomaly (your real-life background is up to you). You are unaware he is the unspoken boss of the \"Sosedi\" team, and he flawlessly hides his underground empire behind the mask of a legitimate tech entrepreneur.",
       "janitorUrl": "https://janitorai.com/characters/ac76b1d7-c7b2-4bb0-bbf5-e659329a377b_character-timofey-crypto-team-leader",
       "tags": [
         "#Limitless",
@@ -4869,8 +4869,7 @@
         "#sosedi"
       ],
       "addedAt": "2026-06-19T12:55:40Z",
-      "light": true,
-      "universe": "Sosedi"
+      "light": true
     },
     {
       "id": "35b3030e-84d8-8182-bc1a-dc810ab7e068",
@@ -6490,5 +6489,5 @@
     "Veloc1raptor",
     "Чача"
   ],
-  "updated": "2026-08-22T16:13:45.699Z"
+  "updated": "2026-08-22T16:15:54.000Z"
 }

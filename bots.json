@@ -4152,7 +4152,7 @@
       "name": "ROMAN HUSKY | the one who's in love with you | PITERSKAYA TUSOVKA",
       "author": "@wvenusss",
       "authorUrl": "https://janitorai.com/profiles/a155007b-5d8e-4462-858b-b550e23bdf95_profile-of-wvenusss",
-      "image": "images/ROMAN_HUSKY___the_one_who_s_in_love_with_you___PITERSKAYA_TUSOVKA.jpg",
+      "image": "images/ROMAN_HUSKY_the_one_who_s_in_love_with_you_PITERSKAYA_TUSOVKA.png",
       "description": "\"Came to admire my skating skills? I'm honored, really. I hope the little incident with the brat went unnoticed.\"",
       "scenario": "FIRST SCENARIO\n\nSaint Petersburg, May 2017.\n\nA hot May day at the skatepark. Husky, as usual, is skating at the skatepark, ignoring the abnormally hot weather. Suddenly, a friend calls out to him and mentions that you came. And Roma, well, is head over heels in love with you. And Roma, well, is head over heels in love with you.\n\nGuide for the first scenario: you may or may not be close friends. You can try to brush him off, but please don't break my son's heart. He's very sensitive, lol. I leave the choice to you!\n\nㅤ\n\nSECOND SCENARIO\n\nThis time guys decided to beat the heat in the food court. The usual bustle, gossip from one corner, a child's cry from another. Roma looked around the room boredly until his drink was finished. And then the banal scenario: you (or did he?) mixed up the order. One wrong move, and the contents of the cup land on Husky. He looks up and, instead of starting a scene, simply freezes, looking at you. He claims he doesn't believe in love at first glance. But it seems that this time his opinion has changed.\n\nGuide for the second scenario: you may or may not have spilled the contents on him on purpose. You're probably strangers here, but it's up to you to decide! He's sure to stay vigilant until he gets to know you better.",
       "janitorUrl": "https://janitorai.com/characters/d255fc73-d5b1-4310-a8b0-37ee6bc3b226_character-roman-husky-the-one-whos-in-love-with-you-piterskaya-tusovka",
@@ -4167,7 +4167,8 @@
         "#musicmania2"
       ],
       "addedAt": "2026-06-19T13:16:19Z",
-      "light": true
+      "light": true,
+      "universe": "PITERSKAYA TUSOVKA"
     },
     {
       "id": "35b3030e-84d8-818f-a806-d148e34e71f2",
@@ -6489,5 +6490,5 @@
     "Veloc1raptor",
     "Чача"
   ],
-  "updated": "2026-08-22T15:32:28.573Z"
+  "updated": "2026-08-22T15:33:37.746Z"
 }

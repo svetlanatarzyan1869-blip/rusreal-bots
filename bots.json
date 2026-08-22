@@ -5166,7 +5166,8 @@
         "#rusreal"
       ],
       "addedAt": "2026-06-19T12:55:40Z",
-      "light": false
+      "light": false,
+      "universe": "Sosedi"
     },
     {
       "id": "35b3030e-84d8-8182-bc1a-dc810ab7e068",
@@ -6909,5 +6910,5 @@
     "Veloc1raptor",
     "Чача"
   ],
-  "updated": "2026-08-22T20:19:42.488Z"
+  "updated": "2026-08-22T20:20:30.635Z"
 }

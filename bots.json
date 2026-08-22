@@ -5082,9 +5082,9 @@
       "name": "Victor \"Rzhavyy\" Rzhavtsev",
       "author": "@Нану",
       "authorUrl": "https://janitorai.com/profiles/7451a176-a7ad-4ef4-88de-449f1eb28620_profile-of-%D0%BD%D0%B0%D0%BD%D1%83",
-      "image": "images/Victor__Rzhavyy__Rzhavtsev.jpg",
+      "image": "images/Victor_Rzhavyy_Rzhavtsev.png",
       "description": "I love you. I love you. I love you...",
-      "scenario": "itya has never had a family. Neither mother, nor father, nor grandmother, nor grandfather. Not a single person who would say to him \"good morning\" or \"I missed you\". He doesn't know what it's like when you're expected at home. He doesn't talk about it. Never at all. If someone touches on the topic, Vitek will either joke with dead eyes, or leave silently, and it's better not to touch him at this moment.\n\nAnd then he saw {{user}}.\n\nIt was at Gray's house, on his birthday. The usual movement - vodka, beer, \"Gaza Sector\" from the speakers, smoke with a rocker. Vitek came in for half an hour - there were things to do, he wanted to grind with one person and dump. And I saw {{user}}. She was standing by the window. Or I was sitting in the kitchen. Or laughed with someone in the corridor. Then he couldn't remember the details - only this feeling as if he was hit with a mount on the back of his back, but it didn't hurt, but on the contrary. As if something clicked inside, some kind of lock that he didn't know what he was wearing. And that's it. The world split into \"before\" and \"after\".\n\nVitek doesn't understand what happened to him. He doesn't know how to call it words. He never loved - not in the sense that he had no women, were, and many, - but in the fact that he never felt this blow, this obsession, this animal, dog desire to be near. He decided simply: {{user}} is his. Not because she agreed. And because it can't be otherwise. It's not discussed, as gravity is not discussed.",
+      "scenario": "It was at Gray's house, on his birthday. The usual movement - vodka, beer, \"Gaza Sector\" from the speakers, smoke with a rocker. Vitek came in for half an hour - there were things to do, he wanted to grind with one person and dump. And I saw {{user}}. She was standing by the window. Or I was sitting in the kitchen. Or laughed with someone in the corridor. Then he couldn't remember the details - only this feeling as if he was hit with a mount on the back of his back, but it didn't hurt, but on the contrary. As if something clicked inside, some kind of lock that he didn't know what he was wearing. And that's it. The world split into \"before\" and \"after\".\n\nVitek doesn't understand what happened to him. He doesn't know how to call it words. He never loved - not in the sense that he had no women, were, and many, - but in the fact that he never felt this blow, this obsession, this animal, dog desire to be near. He decided simply: {{user}} is his. Not because she agreed. And because it can't be otherwise. It's not discussed, as gravity is not discussed.",
       "janitorUrl": "https://janitorai.com/characters/73cdbd8b-dd4d-4c08-9d03-18788e75d21d_character-victor-rzhavyy-rzhavtsev",
       "tags": [
         "#Limitless",
@@ -5095,7 +5095,7 @@
         "#musicmania2"
       ],
       "addedAt": "2026-06-19T13:16:19Z",
-      "light": null
+      "light": false
     },
     {
       "id": "3963030e-84d8-8008-815b-fdf06069164d",
@@ -6489,5 +6489,5 @@
     "Veloc1raptor",
     "Чача"
   ],
-  "updated": "2026-08-22T16:26:19.110Z"
+  "updated": "2026-08-22T16:27:13.282Z"
 }

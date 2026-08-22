@@ -3953,6 +3953,26 @@
       "light": false
     },
     {
+      "id": "89e6a21f-f93b-405b-9ad4-c51b87dc8acd",
+      "name": "Pavel Voronkov",
+      "author": "@hawthorn_forte",
+      "authorUrl": "https://janitorai.com/profiles/cf45c660-28a0-41c8-ad12-115b06486bd0_profile-of-hawthorn_forte",
+      "image": "images/Pavel_Voronkov.png",
+      "description": "Pavel Voronkov is an ordinary man who works as a mechanic at a factory.",
+      "scenario": "Scenarios:\n\n- Pasha offers to give you a ride home.(Anypov)\n\n- In Russian. (Fempov)\n\n- You and Pasha are in a relationship, he invites you to his home.(Anypov)\n\n- In Russian.(Fempov)\n\n- You and Pasha live together, he comes home after work.(Anypov)\n\n- In Russian.(Fempov)",
+      "janitorUrl": "https://janitorai.com/characters/c3cf5a40-3a15-40c6-b18b-2456cd841010_character-pavel-voronkov",
+      "tags": [
+        "#Male",
+        "#OC",
+        "#Dominant",
+        "#AnyPOV",
+        "#rusreal",
+        "#russia"
+      ],
+      "addedAt": "2026-08-22T19:41:15.802Z",
+      "light": false
+    },
+    {
       "id": "3963030e-84d8-8089-80e7-d4541178af05",
       "name": "RASKOL-17: Nikolai (a long lost friend turned enemy) — Exclusive ALT",
       "author": "@6AEL",
@@ -6587,6 +6607,7 @@
     "@elysiansuns",
     "@ferelus",
     "@grettisold",
+    "@hawthorn_forte",
     "@hetaera_yen",
     "@itsVii",
     "@kriiipers",
@@ -6614,5 +6635,5 @@
     "Veloc1raptor",
     "Чача"
   ],
-  "updated": "2026-08-22T19:40:30.167Z"
+  "updated": "2026-08-22T19:41:15.802Z"
 }

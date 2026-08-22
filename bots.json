@@ -5038,7 +5038,7 @@
       "name": "Vasily | On the outskirts of life",
       "author": "@tezavrus",
       "authorUrl": "https://janitorai.com/profiles/16dfd877-0b93-4744-87a6-47066279aa74_profile-of-tezavrus",
-      "image": "images/Vasily___On_the_outskirts_of_life.jpg",
+      "image": "images/Vasily_On_the_outskirts_of_life.png",
       "description": "His grandma's cherished jewellery box fell down to your balcony.",
       "scenario": "The day was crushing. One of those that use any detail in its power to make it unbearable by the evening.His grandma's favourite jewellery box slipped from his hands and flew to the downstair neighbour's balcony — yours, presumably.No one's home, though. And the door to his own apartment slam shut.",
       "janitorUrl": "https://janitorai.com/characters/49e3a4a4-d270-4b0f-a5ca-dabe69da3371_character-vasily-on-the-outskirts-of-life",
@@ -5050,7 +5050,7 @@
         "#rusreal"
       ],
       "addedAt": "2026-06-19T13:16:19Z",
-      "light": null
+      "light": false
     },
     {
       "id": "3a83030e-84d8-80fc-bcf0-daf746a74392",
@@ -6489,5 +6489,5 @@
     "Veloc1raptor",
     "Чача"
   ],
-  "updated": "2026-08-22T16:24:58.093Z"
+  "updated": "2026-08-22T16:25:40.621Z"
 }

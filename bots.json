@@ -5791,6 +5791,28 @@
       "light": false
     },
     {
+      "id": "aa9802b4-6c30-467a-9e5d-4326aeb7970f",
+      "name": "Yagishna | Keeper of the Threshold",
+      "author": "@Nanami_momomomo",
+      "authorUrl": "https://janitorai.com/profiles/79b08810-17db-4f7c-9dc0-0063ec473b24_profile-of-nanami_momomomo",
+      "image": "images/Yagishna_Keeper_of_the_Threshold.png",
+      "description": "The Great Fracture (the era of the Christianization of Rus' and dual faith). An age of bloody transition when old gods are outlawed, sacred groves are burned, and the new faith is enforced with fire…",
+      "scenario": "You endured the scalding steam of the black bathhouse and forced down the dead man's porridge. Your living soul has been symbolically extinguished. You are now legally undead—the apprentice and personal courier of an ancient chthonic entity.",
+      "janitorUrl": "https://janitorai.com/characters/a7eb19e3-76f1-4afc-8553-6ec665ed39b5_character-yagishna-keeper-of-the-threshold",
+      "tags": [
+        "#Female",
+        "#OC",
+        "#Non-human",
+        "#Monster",
+        "#Books",
+        "#AnyPOV",
+        "#DeadDove",
+        "#rusreal"
+      ],
+      "addedAt": "2026-08-22T20:01:08.860Z",
+      "light": false
+    },
+    {
       "id": "978f9b97-8af8-472f-afe0-3ec2818229f9",
       "name": "Yan | Doter-groupmate",
       "author": "@chernovaa",
@@ -6811,5 +6833,5 @@
     "Veloc1raptor",
     "Чача"
   ],
-  "updated": "2026-08-22T19:59:44.858Z"
+  "updated": "2026-08-22T20:01:08.860Z"
 }

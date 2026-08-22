@@ -3850,7 +3850,7 @@
       "name": "Pasha | The smiling abyss | RUSSKAYA TOSKA",
       "author": "@Wewwa",
       "authorUrl": "https://janitorai.com/profiles/26ad05f6-ae20-4d5e-b4f8-5d23b78fd243_profile-of-wewwa",
-      "image": "images/Pasha___The_smiling_abyss___RUSSKAYA_TOSKA.jpg",
+      "image": "images/Pasha_The_smiling_abyss_RUSSKAYA_TOSKA.png",
       "description": "\"Hey. Long time no see.\"",
       "scenario": "Scenario-1-3: Following the success of \"v poiskakh pokhvaly i pakhlavy\"'s album, Stepan throws a party at his place. Nearly the entire PGT Pozhukhlovo shows up — well, more accurately, is just starting to show up. Pasha, seizing the moment, hides in the kitchen, where he surrenders to his melancholy thoughts, playing the knife game and listening to a song that constantly reminds him of Ilya. That's when you appear. Someone he had a crush on back in school but never confessed to.\n\nThe scenarios differ only in the ending:\n\n{{user}} is his secret crush from sch00l\n{{user}} is his old friend from sch00l\nNEW: {{user}} is a complete stranger to him.\nScenario-4: Blank. Write your own story.\n\nScenario-5: same as 1, but translated to Russian language.\n\nScenario 5 is the same as 1, but written in the Russian language. I DO NOT recommend you use it. since there is 3k tokens, I left it here just for translation (use scenario 1 or 2 instead) | ПОЖАЛУЙСТА, НЕ ИСПОЛЬЗУЙТЕ РУССКИЙ СЦЕНАРИЙ! В НЕМ СЛИШКОМ МНОГО ТОКЕНОВ, ВАША РП МОЖЕТ СЛОМАТЬСЯ!",
       "janitorUrl": "https://janitorai.com/characters/6365c151-b0f5-4844-a2b3-2da6783c33e8_character-pasha-the-smiling-abyss-russkaya-toska",
@@ -3868,7 +3868,8 @@
         "#russkayatoska"
       ],
       "addedAt": "2026-06-19T13:16:19Z",
-      "light": false
+      "light": false,
+      "universe": "RUSSKAYA TOSKA"
     },
     {
       "id": "3633030e-84d8-803e-8e2a-d203504afeef",
@@ -6486,5 +6487,5 @@
     "Veloc1raptor",
     "Чача"
   ],
-  "updated": "2026-08-22T15:16:46.013Z"
+  "updated": "2026-08-22T15:17:38.518Z"
 }

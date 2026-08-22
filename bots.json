@@ -2880,7 +2880,7 @@
       "name": "London || Bur’ansk Boys",
       "author": "@hetaera_yen",
       "authorUrl": "https://janitorai.com/profiles/b022bc5f-2a20-40a9-adb7-05eba93e0283_profile-of-hetaera-yen",
-      "image": "images/London____Bur_ansk_Boys.jpg",
+      "image": "images/London_Bur_ansk_Boys.png",
       "description": "you called your ex becouse there's no one else left to ask for help.",
       "scenario": "you called your ex becouse there's no one else left to ask for help.",
       "janitorUrl": "https://janitorai.com/characters/76ffac51-3d0f-421e-b8f1-6da878722752_character-london-buransk-boys",
@@ -2897,7 +2897,7 @@
         "#buryanskboys"
       ],
       "addedAt": "2026-06-19T13:16:19Z",
-      "light": false
+      "light": true
     },
     {
       "id": "3a83030e-84d8-8071-a722-df5f03fb5a92",
@@ -6484,5 +6484,5 @@
     "Veloc1raptor",
     "Чача"
   ],
-  "updated": "2026-08-21T22:47:34.595Z"
+  "updated": "2026-08-22T09:38:34.438Z"
 }

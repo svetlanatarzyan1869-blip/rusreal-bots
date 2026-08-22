@@ -910,6 +910,29 @@
       "light": false
     },
     {
+      "id": "5823431d-9bfb-4c90-90f5-94e0bcfa9761",
+      "name": "Demian | 126 Records",
+      "author": "@toxicsense",
+      "authorUrl": "https://janitorai.com/profiles/eac346c8-973f-4a33-b542-b10bf7026ff6_profile-of-toxicsense",
+      "image": "images/Demian_126_Records.png",
+      "description": "Blonde, sleepy-eyed, permanently unimpressed. Makes beats for a label that launders money through them. Wipes traffic cameras for a living. Rides a matte-black R1 like he's got nothing to lose — and on Kulakova, nobody calls him Demian.\nHe's not looking for company. He's definitely not looking for you.",
+      "scenario": "Kulakova Avenue. One in the morning.\nThe grid is paired, and Demian doesn't have a second. Fifty thousand rubles on the line. Not for the thrill — the fifth of the month is two days out, and that's exactly the amount he's short. Twenty hours without sleep, two days without going home, and home isn't an option while his father is on day three of a bottle.\n\nSpeakers dumped straight onto the asphalt, bass in your ribs, burnt rubber and gasoline in the air. The crowd behind the tape is too drunk to be useful. And then he sees you — the girl who held a door for him at a gas station at four in the morning and didn't stare at his neck. That's the entire résumé he's going on. A spare helmet. Instructions delivered like you're supposed to already know them: where I go, you go — not earlier, not harder. Panic weighs more than you do.\n\nThen the flag drops, and the streetlights stretch into one yellow line.\n\nTwo greetings available.\nGreeting 1 — English.\nGreeting 2 — the same scene in Russian.",
+      "janitorUrl": "https://janitorai.com/characters/654a60a8-761d-40cb-9aac-6908ee7aac08_character-demian-126-records",
+      "tags": [
+        "#Male",
+        "#OC",
+        "#Angst",
+        "#DeadDove",
+        "#FemPov",
+        "#126crew",
+        "#russia",
+        "#rusreal",
+        "#musicmania2"
+      ],
+      "addedAt": "2026-08-22T20:03:13.210Z",
+      "light": false
+    },
+    {
       "id": "3a43030e-84d8-80e4-93d8-c639f8967200",
       "name": "Denis \"Dan\" | Dead 00s Highway",
       "author": "@Red_Mad",
@@ -6833,5 +6856,5 @@
     "Veloc1raptor",
     "Чача"
   ],
-  "updated": "2026-08-22T20:01:08.860Z"
+  "updated": "2026-08-22T20:03:13.210Z"
 }

@@ -3301,7 +3301,8 @@
         "#sosedi"
       ],
       "addedAt": "2026-06-19T12:55:40Z",
-      "light": false
+      "light": false,
+      "universe": "Sosedi"
     },
     {
       "id": "35b3030e-84d8-8143-bd47-dc960f5c9e69",
@@ -6486,5 +6487,5 @@
     "Veloc1raptor",
     "Чача"
   ],
-  "updated": "2026-08-22T10:06:00.124Z"
+  "updated": "2026-08-22T10:06:15.238Z"
 }

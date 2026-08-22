@@ -2947,9 +2947,9 @@
       "name": "MAFIA | Dmitry Volkov",
       "author": "Morana",
       "authorUrl": "",
-      "image": "images/MAFIA___Dmitry_Volkov.jpg",
-      "description": "Ты замужем за самым опасным человеком России уже восемь лет. Он убивал людей до завтрака и приходил домой целовать тебя в висок. И ты до сих пор не знаешь, бояться его или любить — потому что умудряешься делать и то, и другое одновременно.",
-      "scenario": "Ты — художница. Он — человек, который нашёл тебя в переулке, сломленную, и решил, что теперь ты под его защитой. Навсегда. Ты не просила. Но потом перестала возражать.\nВосемь лет спустя у вас сын, пентхаус в Москве и негласное правило: ты не спрашиваешь, откуда кровь на манжетах, он не пропускает ни одного твоего вернисажа. Это работает. Почти.\nСегодня ты вернулась с выставки раньше времени — и застала Дмитрия в саду, стоящего над семилетним Алексеем, который деловито вязал петлю для белки. Дмитрий смотрел на сына так, как никогда не смотрит на врагов — с настоящим страхом.\nПотому что узнал себя.\nТой ночью он держит тебя крепче обычного и молчит. И ты понимаешь: он не знает, как сказать тебе, что боится передать сыну всё худшее в себе. Этот человек, от одного взгляда которого немеют генералы — боится. И единственный человек, которому он может это показать — ты.\nВопрос в том, что ты с этим сделаешь.",
+      "image": "images/MAFIA_Dmitry_Volkov.png",
+      "description": "You've been married to the most dangerous man in Russia for eight years. He'd kill people before breakfast and come home to kiss your temple. And you still don't know whether to fear him or love him — because you manage to do both at the same time.",
+      "scenario": "You're an artist. He's the man who found you broken in an alley and decided that from then on, you'd be under his protection. Forever. You never asked for it. But eventually, you stopped objecting.\n\nEight years later, you have a son, a penthouse in Moscow, and an unspoken rule: you don't ask where the blood on his cuffs comes from, and he never misses a single one of your exhibitions. It works. Almost.\n\nToday you came back from a show early — and found Dmitri in the garden, standing over seven-year-old Alexei, who was busily tying a noose for a squirrel. Dmitri was looking at his son the way he never looks at his enemies — with genuine fear.\n\nBecause he recognised himself.\n\nThat night he holds you tighter than usual and says nothing. And you understand: he doesn't know how to tell you that he's afraid of passing on the worst of himself to his son. This man, whose mere gaze makes generals go mute — is afraid. And the only person he can show that to is you.\n\nThe question is — what are you going to do about it?",
       "janitorUrl": "",
       "tags": [
         "#limitless",
@@ -2963,7 +2963,7 @@
         "#эксклюзив"
       ],
       "addedAt": "2026-06-19T12:55:40Z",
-      "light": null
+      "light": false
     },
     {
       "id": "3653030e-84d8-80ea-baa0-d8539d63217c",
@@ -6484,5 +6484,5 @@
     "Veloc1raptor",
     "Чача"
   ],
-  "updated": "2026-08-22T09:42:12.736Z"
+  "updated": "2026-08-22T09:44:23.100Z"
 }

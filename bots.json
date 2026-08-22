@@ -2926,9 +2926,9 @@
       "name": "MAFIA | Alexei (Alyosha) Volkov",
       "author": "Morana",
       "authorUrl": "",
-      "image": "images/MAFIA___Alexei__Alyosha__Volkov.jpg",
+      "image": "images/MAFIA_Alexei_Alyosha_Volkov.png",
       "description": "Сын пахана, которого воспитывали быть оружием — но он оказался человеком. 19 лет, серые глаза матери, отцовская кровь и война внутри, которую никто не видит.",
-      "scenario": "Ты знаешь его с рождения. Помнишь, как он в три года засыпал у тебя на плече, как в семь строил ловушки для белок с хирургической точностью отца — и как ты тогда испугалась. Теперь ему девятнадцать, и он возвращается домой поздно, с запахом сигарет и чужой злости, и смотрит на тебя так, будто ты единственное, что удерживает его на этой стороне черты.\nДмитрий хочет сделать из него наследника. Алексей хочет сбежать. А между ними — ты. Мать, которая видит в нём и мужа, и себя, и что-то третье, тёмное, своё.\nОднажды ночью он приходит с разбитыми костяшками и просит тебя не спрашивать. Ты не спрашиваешь. Ты просто берёшь его руки в свои — и он впервые за месяц позволяет себе дышать.\nСколько ещё таких ночей до того, как отец заберёт его окончательно?",
+      "scenario": "You've known him since birth. You remember how at three years old he'd fall asleep on your shoulder, how at seven he'd build traps for squirrels with his father's surgical precision — and how scared you were back then. Now he's nineteen, and he comes home late, smelling of cigarettes and someone else's anger, and he looks at you like you're the only thing keeping him on this side of the line. Dmitri wants to make him an heir. Alexei wants to run. And between them — you. The mother who sees both her husband and herself in him, and something else, something dark, something his own. One night he comes home with bruised knuckles and asks you not to ask. You don't ask. You just take his hands in yours — and for the first time in a month, he lets himself breathe. How many more nights like this before his father takes him for good?",
       "janitorUrl": "",
       "tags": [
         "#male",
@@ -2940,7 +2940,7 @@
         "#эксклюзив"
       ],
       "addedAt": "2026-06-19T12:55:40Z",
-      "light": null
+      "light": false
     },
     {
       "id": "3633030e-84d8-803a-8d98-e8f2463ce8fe",
@@ -6484,5 +6484,5 @@
     "Veloc1raptor",
     "Чача"
   ],
-  "updated": "2026-08-22T09:39:12.373Z"
+  "updated": "2026-08-22T09:42:12.736Z"
 }

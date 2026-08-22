@@ -5914,7 +5914,7 @@
         "#musicmania2"
       ],
       "addedAt": "2026-08-22T19:30:49.514Z",
-      "light": false
+      "light": true
     },
     {
       "id": "35b3030e-84d8-819f-84b3-ff4fd913f917",
@@ -6591,5 +6591,5 @@
     "Veloc1raptor",
     "Чача"
   ],
-  "updated": "2026-08-22T19:35:52.159Z"
+  "updated": "2026-08-22T19:38:51.343Z"
 }

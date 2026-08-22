@@ -4259,9 +4259,9 @@
       "name": "RUSSIAN HUBBY || Demidov Mikhail",
       "author": "@kriiipers",
       "authorUrl": "https://janitorai.com/profiles/1cb8b6db-09a2-4637-9ccf-49fb4b9e5d6c_profile-of-kriiipers",
-      "image": "images/RUSSIAN_HUBBY____Demidov_Mikhail.jpg",
+      "image": "images/RUSSIAN_HUBBY_Demidov_Mikhail.png",
       "description": "\"Are you aware of who you've arrested?\"\nYou, the wife of an oligarch, have been brought to the police station. Now, your loving husband will deal with the idiots who threw you behind bars.",
-      "scenario": "Plans for an evening at a restaurant overlooking Red Square and a suite at the Four Seasons collapsed in an instant because you broke the traffic rules a little bit.But you didn't kill anyone, right? However, you were detained anyway. The result: a cold cage in a shabby police precinct.But for Mikhail there is nothing more important than you. Abandoning his reports, he drops everything and bursts into that station alongside his lawyer. One word from him, and the people who hauled you into the precinct will lose their jobs. Your husband, who dotes on you endlessly, won't let anyone so much as look at you the wrong way. And as a consolation, he will buy you a brand-new fleet of cars.",
+      "scenario": "Mikhail Demidov is your husband — powerful, wealthy, the heir to a Moscow construction empire. You're in a police station cell for a minor traffic violation. It should be a simple matter. But Mikhail doesn't do simple. He drops everything—meetings, deals, the entire weight of his empire—and comes for you. Not just to bail you out. To make an example of anyone who dared lay a hand on you. He will burn the precinct to the ground if that's what it takes. Because you're his. And no one touches what's his.",
       "janitorUrl": "https://janitorai.com/characters/bc4235de-ccbf-4960-bcfa-caacc2a8c9a9_character-russian-hubby-demidov-mikhail",
       "tags": [
         "#Limitless",
@@ -4276,7 +4276,7 @@
         "#yearningchar"
       ],
       "addedAt": "2026-07-07T19:58:15Z",
-      "light": null
+      "light": false
     },
     {
       "id": "3823030e-84d8-80b4-857d-c16f68d4f6a8",
@@ -6490,5 +6490,5 @@
     "Veloc1raptor",
     "Чача"
   ],
-  "updated": "2026-08-22T15:40:22.875Z"
+  "updated": "2026-08-22T15:41:24.886Z"
 }

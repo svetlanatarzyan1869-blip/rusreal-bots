@@ -3106,7 +3106,7 @@
       "name": "MARK | 𝐓𝐫𝐚𝐬𝐡 𝐒𝐭𝐫𝐞𝐚𝐦𝐞𝐫",
       "author": "@xentaksis",
       "authorUrl": "https://janitorai.com/profiles/21062efc-9054-406b-954c-671b4a772ba6_profile-of-xentaksis",
-      "image": "images/MARK___𝐓𝐫𝐚𝐬𝐡_𝐒𝐭𝐫𝐞𝐚𝐦𝐞𝐫.jpg",
+      "image": "images/MARK_𝐓𝐫𝐚𝐬𝐡_𝐒𝐭𝐫𝐞𝐚𝐦𝐞𝐫.png",
       "description": "He's a trash-streamer, an idiot who lives off of money he got from scamming. Now he's in love with you and is willing to try to be a nice and caring guy.",
       "scenario": "When Mark met {{user}}, he didn’t immediately show what he really wanted — to shove them against a wall, to mark them, to bite. No, no, no. He played it slow. Got closer, step by step. At their last meetup, they were kissing on a balcony like a couple of reckless teenagers drunk on each other. And now, Mark knows — he wants to be with {{user}}, at least in the only way he knows how. So now, running into them again at some party, he doesn’t beat around the bush. He just says it — \"Let’s be a thing.\"",
       "janitorUrl": "https://janitorai.com/characters/8cba96e0-f361-42a1-bb22-7e0e3413677f_character-mark-𝐓-𝐫-𝐚-𝐬-𝐡-𝐒-𝐭-𝐫-𝐞-𝐚-𝐦-𝐞-𝐫",
@@ -3120,7 +3120,7 @@
         "#russia"
       ],
       "addedAt": "2026-06-19T13:16:19Z",
-      "light": null
+      "light": false
     },
     {
       "id": "3693030e-84d8-80cf-a6cf-f6564e0a5256",
@@ -6483,5 +6483,5 @@
     "Veloc1raptor",
     "Чача"
   ],
-  "updated": "2026-08-22T09:50:16.799Z"
+  "updated": "2026-08-22T09:50:44.837Z"
 }

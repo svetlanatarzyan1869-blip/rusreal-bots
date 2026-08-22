@@ -4304,7 +4304,7 @@
       "name": "Sasha | Police Officer",
       "author": "@rewolan",
       "authorUrl": "https://janitorai.com/profiles/71d11ee2-545c-4558-a3ad-3493478bf6a8_profile-of-rewolan",
-      "image": "images/Sasha___Police_Officer.jpg",
+      "image": "images/Sasha_Police_Officer.png",
       "description": "Life just keeps throwing you together. First you get hauled to the station, then you're sitting on a bench all beaten up, and now you're trying to jump off a bridge. What's your problem?",
       "scenario": "1. Theft\nYou're brought to the station. You stole something insignificant. Sasha has to have a talk with you, and he's in a very good mood.\n\n2. Neighbor\nSasha is walking home from work and notices you, his neighbor, sitting on a bench near the entrance, all beaten up. He crouches down in front of you and tries to find out what happened and who did it.\n\n3. Bridge\nHis shift ended late, and Sasha decides to take the bridge. There he spots you, standing on the other side of the railing, about to jump. He runs toward you shouting, \"Stop! Police!\" and you'd better climb back over.\n\n4-6. Russian Language\nSame scenarios, but in Russian.",
       "janitorUrl": "https://janitorai.com/characters/8aabd73c-6ae3-43c5-8c07-fff8170b485b_character-sasha-police-officer",
@@ -6490,5 +6490,5 @@
     "Veloc1raptor",
     "Чача"
   ],
-  "updated": "2026-08-22T15:42:28.782Z"
+  "updated": "2026-08-22T15:43:29.370Z"
 }

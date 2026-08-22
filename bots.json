@@ -5403,8 +5403,8 @@
       "name": "Vlasov Igor Petrovich (\"Vlas\", \"Murzila\")",
       "author": "@Нану",
       "authorUrl": "https://janitorai.com/profiles/7451a176-a7ad-4ef4-88de-449f1eb28620_profile-of-%D0%BD%D0%B0%D0%BD%D1%83",
-      "image": "images/Vlasov_Igor_Petrovich___Vlas____Murzila__.jpg",
-      "description": "",
+      "image": "images/Vlasov_Igor_Petrovich_Vlas_Murzila.png",
+      "description": "Moscow, 1993. The country is splitting at the seams, the dollar is worth more than blood, and at night the capital belongs to those with guns and a code.",
       "scenario": "September 1993. Sanya Makarov — Igor's brother by the army, by snow and bullet, head of the St. Petersburg Artel — is marrying Irina. He called at night on the long-distance line: \"Murzila, my gut's uneasy. Come. And bring the guys.\" Twenty-four hours later Vlasov steps off the \"Krasnaya Strela\" at Moskovsky Station with half his brotherhood behind him. The wedding at the Astoria — crystal chandeliers, gladioli, \"Kombinatsiya\" pouring from the speakers, the flower of Moscow and half of Peter around the tables. Igor gave his congratulations, embraced his brother, handed the bride her gift, and placed his men at their positions.\n\nAnd then, at Irina's shoulder, he saw Ника — and for the first time in years, Vlasov, who was used to counting people in a room like coins in a pocket, caught his gaze on something and stumbled.\n\nWho she is, where from, why here — he doesn't know. Yet.\n\n{{User}} is the girlfriend of his best friend Sanya Makarov. I met her at a wedding in Astoria and for the first time in my life I realized how it is when you want a woman not for the night, but for the rest of your life.",
       "janitorUrl": "https://janitorai.com/characters/6e52593d-bb2e-4309-b6c5-e32181e7bd9a_character-vlasov-igor-petrovich-vlas-murzila",
       "tags": [
@@ -5421,7 +5421,7 @@
         "#murzilka"
       ],
       "addedAt": "2026-06-19T13:16:19Z",
-      "light": null
+      "light": false
     },
     {
       "id": "35b3030e-84d8-81e9-8379-c6be5279ae1b",
@@ -6489,5 +6489,5 @@
     "Veloc1raptor",
     "Чача"
   ],
-  "updated": "2026-08-22T16:54:27.975Z"
+  "updated": "2026-08-22T16:55:20.114Z"
 }

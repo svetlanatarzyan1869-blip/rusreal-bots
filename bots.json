@@ -2376,7 +2376,8 @@
         "#RASKOL17"
       ],
       "addedAt": "2026-06-19T13:16:19Z",
-      "light": false
+      "light": false,
+      "noCard": true
     },
     {
       "id": "3633030e-84d8-8043-8c9e-de6ec2b4af3c",
@@ -2448,7 +2449,8 @@
         "#RASKOL17"
       ],
       "addedAt": "2026-07-21T18:50:53Z",
-      "light": true
+      "light": true,
+      "noCard": true
     },
     {
       "id": "35b3030e-84d8-8166-9ff9-e44b369b4d10",
@@ -2524,7 +2526,8 @@
       ],
       "addedAt": "2026-06-19T13:16:19Z",
       "light": true,
-      "universe": "RASKOL 17"
+      "universe": "RASKOL 17",
+      "noCard": true
     },
     {
       "id": "35b3030e-84d8-81e5-a810-f0e3f76a2fce",
@@ -2549,7 +2552,8 @@
         "#RASKOL17"
       ],
       "addedAt": "2026-06-19T13:16:19Z",
-      "light": true
+      "light": true,
+      "noCard": true
     },
     {
       "id": "ae02c672-7b07-4343-bfaf-0f5e5e8084b8",
@@ -2808,7 +2812,8 @@
         "#R17ChapterBots"
       ],
       "addedAt": "2026-06-19T13:16:19Z",
-      "light": false
+      "light": false,
+      "noCard": true
     },
     {
       "id": "35b3030e-84d8-81b1-8100-d7d1a3da019c",
@@ -3012,7 +3017,8 @@
         "#holidays2025"
       ],
       "addedAt": "2026-06-19T13:16:19Z",
-      "light": false
+      "light": false,
+      "noCard": true
     },
     {
       "id": "21218df6-1698-4896-b599-39f11b3b96b2",
@@ -3970,7 +3976,8 @@
       ],
       "addedAt": "2026-08-22T15:22:56.594Z",
       "light": false,
-      "universe": "RASKOL 17"
+      "universe": "RASKOL 17",
+      "noCard": true
     },
     {
       "id": "98fb5881-409d-478d-873d-ebec910a125a",
@@ -3993,7 +4000,8 @@
         "#R17BLUEPRINT"
       ],
       "addedAt": "2026-08-02T16:38:06+03:00",
-      "light": true
+      "light": true,
+      "noCard": true
     },
     {
       "id": "35b3030e-84d8-812a-a7a1-fe6ea31636d1",
@@ -4125,7 +4133,8 @@
         "#streamerchar"
       ],
       "addedAt": "2026-06-19T13:16:19Z",
-      "light": false
+      "light": false,
+      "noCard": true
     },
     {
       "id": "3753030e-84d8-8091-a204-ceb3df9d0376",
@@ -4444,7 +4453,8 @@
         "#christmas"
       ],
       "addedAt": "2026-06-19T12:55:40Z",
-      "light": false
+      "light": false,
+      "noCard": true
     },
     {
       "id": "3823030e-84d8-80d0-b369-d4ce4de1a7bf",
@@ -5609,7 +5619,8 @@
         "#holidays2025"
       ],
       "addedAt": "2026-06-19T12:55:40Z",
-      "light": false
+      "light": false,
+      "noCard": true
     },
     {
       "id": "35b3030e-84d8-8108-9fce-ff5d149727f5",

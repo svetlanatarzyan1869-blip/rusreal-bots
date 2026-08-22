@@ -5521,7 +5521,7 @@
       "name": "Yan | Doter-groupmate",
       "author": "@chernovaa",
       "authorUrl": "https://janitorai.com/profiles/54d0efc3-5cc3-4423-86bc-ddb84bb69c6d_profile-of-chernovaa",
-      "image": "images/Yan___Doter-groupmate.jpg",
+      "image": "images/Yan_Doter-groupmate.png",
       "description": "\"The fuck did you drag yourself in here for, tell the professor she can go fuck herself too, now get the hell out\"",
       "scenario": "your professor has decided to pair you up for a VERY mandatory project required for admission to exams.",
       "janitorUrl": "https://janitorai.com/characters/7d704473-617d-485d-b75a-ab7e23c45dae_character-yan-doter-groupmate",
@@ -5540,7 +5540,7 @@
         "#dota"
       ],
       "addedAt": "2026-08-02T16:45:28+03:00",
-      "light": null
+      "light": false
     },
     {
       "id": "3a43030e-84d8-80b4-8211-d83939b8981c",
@@ -6489,5 +6489,5 @@
     "Veloc1raptor",
     "Чача"
   ],
-  "updated": "2026-08-22T17:06:11.923Z"
+  "updated": "2026-08-22T17:07:33.202Z"
 }

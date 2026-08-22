@@ -4396,6 +4396,27 @@
       "light": false
     },
     {
+      "id": "7e4a4054-890f-4483-9aab-4b499a7cae48",
+      "name": "Ruslan Glushakov | \"Legitimate\" Businessman",
+      "author": "@Red_Mad",
+      "authorUrl": "https://janitorai.com/profiles/68c80612-a2c2-419a-875b-68b6afd19363_profile-of-red_mad",
+      "image": "images/Ruslan_Glushakov_Legitimate_Businessman.png",
+      "description": "\"Clean people come in two varieties: either they have absolutely nothing to lose, or they are very, very expensive. I spent two months trying to figure out which category you belong to. And I found nothing. But only ghosts have nothing.\"",
+      "scenario": "1. The Legal Warfare — Alina begs for your help with the divorce. You build a legally impenetrable wall, bypassing Ruslan's corrupt judges. Fascinated by your flawlessly scrubbed past and street-smart efficiency, Ruslan waits in his armored sedan at dawn just to observe the anomaly who dared to cross him.\n2. Paper for Paper — Vanya's paranoia boils over. Ruslan's bodyguard hands you surveillance photos as a quiet threat. You respond by having your own shadow contacts photograph Ruslan's highly classified safehouse. Impressed by the checkmate, Ruslan meets you on the freezing street to acknowledge an equal.\n3. The River Embankment — Suffocating under Vanya's infantile jealousy, you leave the apartment at 4 AM just to breathe. You retreat to a desolate river embankment. Ruslan steps out of the freezing fog, offering Anatoly’s vintage cigarette case and a quiet, cynical observation about the collar you are voluntarily wearing.\n4. The Boiler Room — Escaping another of Vanya's hysterical interrogations, you retreat to a hidden, underground grey-zone bar. Ruslan is already sitting in the shadows, hiding from his own empty penthouse. He flips your frantically buzzing phone face-down, offering you a drink and a sanctuary.\n5. Severed Ties — The divorce is finalized. You've disappeared for a week, leaving Vanya to tear the city apart. You arrive at a grey STO garage to drop off the last apartment keys. Ruslan, having refused to track you out of respect, is waiting in the dark to see if you'd return to the shadows on your own.",
+      "janitorUrl": "https://janitorai.com/characters/d929e767-41e6-4c1d-ad8b-6d75c097d61a_character-ruslan-glushakov-legitimate-businessman",
+      "tags": [
+        "#Male",
+        "#OC",
+        "#MLM",
+        "#DeadDove",
+        "#MalePov",
+        "#rusreal",
+        "#musicmania2"
+      ],
+      "addedAt": "2026-08-22T19:54:22.263Z",
+      "light": false
+    },
+    {
       "id": "3823030e-84d8-802f-bd47-c78b55f578a7",
       "name": "Ruslan Igorevich Morozov | Don't come near me",
       "author": "@Нану",
@@ -6744,5 +6765,5 @@
     "Veloc1raptor",
     "Чача"
   ],
-  "updated": "2026-08-22T19:51:39.759Z"
+  "updated": "2026-08-22T19:54:22.264Z"
 }

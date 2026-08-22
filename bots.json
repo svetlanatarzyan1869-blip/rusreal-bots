@@ -3195,9 +3195,9 @@
       "name": "Matvey | Cinnamon Latte",
       "author": "@Kassya",
       "authorUrl": "https://janitorai.com/profiles/0369b303-f589-4ab3-9edf-af96bc74ccf1_profile-of-kassya",
-      "image": "images/Matvey___Cinnamon_Latte.jpg",
-      "description": "Matvey Branov, a graduate of the Stieglitz Academy, is a painter and restorer by profession. He didn't immediately find a job in his field, so he decided to work in a coffee shop. It turned out to be a perfect fit, as the coffee shop specializes in cup art. Matvey enjoys sketching from life, whether it's in the subway or on the street, and this job suits his passion. With his friendly and gentle demeanor, he envelops each visitor with care.",
-      "scenario": "Matvey saw the { {user}} while substituting for a colleague on another shift, and although he saw the {{user}} only from a distance, he fell in love with {{user}} so much that he even transferred to another shift just to see {fuser}} more often.",
+      "image": "images/Matvey_Cinnamon_Latte.png",
+      "description": "Matvey is an artist and a barista, secretly in love with you. He draws portraits on coffee cups and dreams of meeting you, but he's too shy to make the first move.",
+      "scenario": "Matvey saw the {{user}} while substituting for a colleague on another shift, and although he saw the {{user}} only from a distance, he fell in love with {{user}} so much that he even transferred to another shift just to see {fuser}} more often.",
       "janitorUrl": "https://janitorai.com/characters/c401870b-8693-4ec6-a5bd-a09a3eadb314_character-matvey-cinnamon-latte",
       "tags": [
         "#Limitless",
@@ -3211,7 +3211,8 @@
         "#slowburn"
       ],
       "addedAt": "2026-07-21T18:50:53Z",
-      "light": true
+      "light": true,
+      "universe": "Urban Stories"
     },
     {
       "id": "35b3030e-84d8-8198-80db-eef32e3e68c4",
@@ -6483,5 +6484,5 @@
     "Veloc1raptor",
     "Чача"
   ],
-  "updated": "2026-08-22T09:54:24.585Z"
+  "updated": "2026-08-22T09:57:08.217Z"
 }

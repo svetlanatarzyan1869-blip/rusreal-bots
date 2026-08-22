@@ -4221,7 +4221,7 @@
       "name": "Ruslan | Needing you back",
       "author": "@tezavrus",
       "authorUrl": "https://janitorai.com/profiles/16dfd877-0b93-4744-87a6-47066279aa74_profile-of-tezavrus",
-      "image": "images/Ruslan___Needing_you_back.jpg",
+      "image": "images/Ruslan_Needing_you_back.png",
       "description": "Your ex who doesn't believe you could dump him.",
       "scenario": "— he's calling you drunk confessing all his lies\n— he's helping you move out, hoping his 'good behaviour' will make you change your mind\n— you just had your 'farewell' sex, but he sees it as a reconciliation\n— Empty",
       "janitorUrl": "https://janitorai.com/characters/d7e39b54-3a15-4b34-9c3e-fd51c3b540bf_character-ruslan-needing-you-back",
@@ -4232,7 +4232,7 @@
         "#rusreal"
       ],
       "addedAt": "2026-08-02T16:44:08+03:00",
-      "light": null
+      "light": false
     },
     {
       "id": "3823030e-84d8-802f-bd47-c78b55f578a7",
@@ -6490,5 +6490,5 @@
     "Veloc1raptor",
     "Чача"
   ],
-  "updated": "2026-08-22T15:38:50.678Z"
+  "updated": "2026-08-22T15:39:20.563Z"
 }

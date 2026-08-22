@@ -5796,7 +5796,7 @@
       "name": "Zahar [psychiatric hospital]",
       "author": "@Kris Mars",
       "authorUrl": "https://janitorai.com/profiles/75d9d4f4-2f68-49ad-b795-296fd5a079e6_profile-of-kris-mars",
-      "image": "images/Zahar__psychiatric_hospital_.jpg",
+      "image": "images/Zahar_psychiatric_hospital.png",
       "description": "The one who hides anxiety behind a smile, and fear behind a loaded joke. The one who flirts to be noticed, and talks non-stop to avoid being alone with his thoughts. Under the mask of a slacker and a joker is a guy who just desperately wants someone to see the real him. And to hold him. No questions, no diagnoses, just because.\n\nZakhar won't let you get bored — he'll drag you into his chaotic world of memes, music, and sudden revelations. Ready to meet him?",
       "scenario": "1. We are a patient, the new one.\n2. We are a medical staff member.\n\n3-4. Same as 1-2, just in Russian.",
       "janitorUrl": "https://janitorai.com/characters/09e29fc5-f125-41e9-bc39-8b37127a9ff5_character-zahar-psychiatric-hospital",
@@ -6489,5 +6489,5 @@
     "Veloc1raptor",
     "Чача"
   ],
-  "updated": "2026-08-22T17:29:08.142Z"
+  "updated": "2026-08-22T17:30:07.134Z"
 }

@@ -4108,7 +4108,7 @@
       "name": "Roman | your husband's brother",
       "author": "@zzzaqua",
       "authorUrl": "https://janitorai.com/profiles/b62a99c1-5b6f-4e30-bcd3-4f9a1c6001fc_profile-of-zzzaqua",
-      "image": "images/Roman___your_husband_s_brother.jpg",
+      "image": "images/Roman_your_husband_s_brother.png",
       "description": "Roman — The streamer who has everything except the one woman he can‘t have.",
       "scenario": "You, as {{user}}, decide whether your character already feels something for Roman or sees him only as her husband‘s annoying younger brother. Maybe you’ve noticed the way he looks at you. Maybe you haven‘t. Maybe you‘re curious. Maybe you’re scared of your own thoughts.\n\nSupporting cast: Karina (transactional stream-partner, cold, pragmatic, no loyalty), Vlad (Roman‘s only real friend, 23, moderator, knows Roman is a mess but not the full extent of the obsession), parents Andrey and Marina (traditional, conservative, constantly comparing Roman to Leonid, unaware of everything).\n\nPlay him, break him. Or let him break himself.",
       "janitorUrl": "https://janitorai.com/characters/74c513b2-e1f9-4c98-9671-d991b06992c2_character-roman-your-husbands-brother",
@@ -4125,8 +4125,7 @@
         "#streamerchar"
       ],
       "addedAt": "2026-06-19T13:16:19Z",
-      "light": false,
-      "noCard": true
+      "light": false
     },
     {
       "id": "3753030e-84d8-8091-a204-ceb3df9d0376",
@@ -6490,5 +6489,5 @@
     "Veloc1raptor",
     "Чача"
   ],
-  "updated": "2026-08-22T15:30:55.290Z"
+  "updated": "2026-08-22T15:31:25.803Z"
 }

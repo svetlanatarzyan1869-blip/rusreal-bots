@@ -3395,7 +3395,7 @@
       "name": "Misha | Gentleman Gangster",
       "author": "@Whoasya?",
       "authorUrl": "https://janitorai.com/profiles/f83a5c6c-6e07-4b24-88f5-9a91e3931a3b_profile-of-whoasya",
-      "image": "images/Misha___Gentleman_Gangster.jpg",
+      "image": "images/Misha_Gentleman_Gangster.png",
       "description": "Someone new—and desperately brazen—pulled off a brilliant scam right under the noses of Zvansky’s men. The job was incredibly clean, daring, and above all, executed with a certain elegance, making absolute fools out of experienced cardsharps and hardened thugs. Usually, pulling a stunt like that in Odessa earns you a quick, one-way trip to the bottom of the bay. But Misha always had a soft spot for talented madmen and beautiful schemes. His anger quickly gave way to a burning curiosity.",
       "scenario": "🌊// In Odessa, nothing happens by accident. Every crate of smuggled silk in the port, every high-stakes game in the underground casinos, and even the petty pickpocketing at the noisy Privoz market—it all operates by strict rules. Behind this order stands one man: Mikhail Zvansky, the King of the Moldavanka. He built his empire on a foundation of strict discipline, surprising generosity, and brutal punishments for anyone who crosses the line. His law is simple: respect your elders, don't touch the poor, and always give the Boss his cut.\n\nBut a few days ago, this well-oiled machine hit a snag. Someone new—and desperately brazen—pulled off a brilliant scam right under the noses of Zvansky’s men. The job was incredibly clean, daring, and above all, executed with a certain elegance, making absolute fools out of experienced cardsharps and hardened thugs. Usually, pulling a stunt like that in Odessa earns you a quick, one-way trip to the bottom of the bay. But Misha always had a soft spot for talented madmen and beautiful schemes. His anger quickly gave way to a burning curiosity.\n\nInstead of sending out a hit squad, the King ordered his men to find the bold stranger alive and unharmed. It didn't take long to comb the streets. And now, the heavy doors of the respectable Café Fanconi are locked from the inside. A bottle of vintage cognac sits on the table, and Zvansky is waiting to look personally into the eyes of the one who dared to play against his rules.",
       "janitorUrl": "https://janitorai.com/characters/2ac79090-2b3b-41f8-afa0-6b26897e610b_character-misha-gentleman-gangster",
@@ -3413,8 +3413,7 @@
         "#Crime"
       ],
       "addedAt": "2026-07-07T19:58:15Z",
-      "light": null,
-      "noCard": true
+      "light": false
     },
     {
       "id": "35b3030e-84d8-8113-8a81-c0afa8759aee",
@@ -6487,5 +6486,5 @@
     "Veloc1raptor",
     "Чача"
   ],
-  "updated": "2026-08-22T10:11:09.225Z"
+  "updated": "2026-08-22T10:13:21.164Z"
 }

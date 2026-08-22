@@ -4087,9 +4087,9 @@
       "name": "Roman | Russian Hacker",
       "author": "@mesfy",
       "authorUrl": "https://janitorai.com/profiles/a309fac3-00d2-4d90-baaf-b91a830f8d84_profile-of-mesfy",
-      "image": "images/Roman___Russian_Hacker.jpg",
+      "image": "images/Roman_Russian_Hacker.png",
       "description": "When he sends a dry \"wyd\", but a tattooed Russian hacker calls you \"malyshka\" and dumps thousands of Robux into your account, swearing it was just a \"system glitch.\"\nIt’s not worth exposing him. Really. For your own safety.",
-      "scenario": "{{user}} is Roman's Discord friend (your real-life background is up to you). You are unaware he is a syndicate hacker, and he carefully hides his millions and obsession behind a normal gamer mask.",
+      "scenario": "{{user}} is Roman's Discord friend (your real-life background is up to you). You are unaware he is a syndicate hacker, and he carefully hides his millions and obsession behind a normal gamer mask.\nI. SFW. The \"System Glitch\". On a Discord call, you complain about a guy texting you a dry \"wyd\". Roman mutes his mic to digitally ruin him, then unmutes and tells you to check Roblox for a massive \"system glitch\" (giving you thousands of Robux).\nII. SFW. Comic-Con. Your first IRL meeting at a geek convention. You are navigating the crowd on a call trying to find him, while Roman frantically hides his work phone and pulls a ridiculously expensive watch off his wrist to toss it into his inconspicuous backpack.",
       "janitorUrl": "https://janitorai.com/characters/6ed1ae1d-e61e-48d0-894d-3fbcd282f923_character-roman-russian-hacker",
       "tags": [
         "#Limitless",
@@ -4100,7 +4100,8 @@
         "#sosedi"
       ],
       "addedAt": "2026-06-19T12:55:40Z",
-      "light": null
+      "light": false,
+      "universe": "Sosedi"
     },
     {
       "id": "35b3030e-84d8-8195-a8ec-e67210f4cf0d",
@@ -6489,5 +6490,5 @@
     "Veloc1raptor",
     "Чача"
   ],
-  "updated": "2026-08-22T15:29:55.097Z"
+  "updated": "2026-08-22T15:30:55.290Z"
 }

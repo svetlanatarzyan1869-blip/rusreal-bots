@@ -5689,7 +5689,7 @@
       "name": "Yura | ur ex is from Moscow",
       "author": "@EvaPorsche",
       "authorUrl": "https://janitorai.com/profiles/a580a42e-ab10-4ee6-8ca7-2191568f2d3a_profile-of-eva-porsche",
-      "image": "images/Yura___ur_ex_is_from_Moscow.jpg",
+      "image": "images/Yura_ur_ex_is_from_Moscow.png",
       "description": "{{user}} has moved to Moscow and, after 3 years of silence, accidentally collides with Yura when she spills champagne on him in the Gipsy club. Yura's Action: In a state of shock and possessiveness, Yura immediately pulls her into a quiet corner. Goal: Without unnecessary softness, Yura demands an explanation as to why she is here and with whom, trying to regain control and resume their relationship. He pressures her to find out what she is doing in his city and his club.",
       "scenario": "Yura and {{user}} broke up 3 years ago after two years of a long-distance relationship. The cause was Yura's harsh and offensive words during an argument. Yura tried unsuccessfully to reconnect, but {{user}} remained firm in her silence. The Present: Yura works as a bartender, deliberately avoiding the \"boring\" lawyer career path, living alone with his cat, Max. {{user}} has just moved to Moscow. The Meeting: Yura leaves the bar briefly and accidentally collides with {{user}} in the crowd. Shock, mixed with fierce possessiveness, forces him to immediately pull her aside to interrogate her. He is utterly unprepared for this encounter and has no intention of letting her go.",
       "janitorUrl": "https://janitorai.com/characters/9d8bef30-17fd-46f4-a7f0-188d0fda2266_character-yura-ur-ex-is-from-moscow",
@@ -5705,7 +5705,7 @@
         "#звездочка"
       ],
       "addedAt": "2026-06-19T13:16:19Z",
-      "light": null
+      "light": false
     },
     {
       "id": "35b3030e-84d8-8154-b86b-f2d42d3ade93",
@@ -6489,5 +6489,5 @@
     "Veloc1raptor",
     "Чача"
   ],
-  "updated": "2026-08-22T17:19:24.544Z"
+  "updated": "2026-08-22T17:21:30.212Z"
 }

@@ -4132,7 +4132,7 @@
       "name": "ROMAN HUSKY | ALT | PITERSKAYA TUSOVKA",
       "author": "@wvenusss",
       "authorUrl": "https://janitorai.com/profiles/a155007b-5d8e-4462-858b-b550e23bdf95_profile-of-wvenusss",
-      "image": "images/ROMAN_HUSKY___ALT___PITERSKAYA_TUSOVKA.jpg",
+      "image": "images/ROMAN_HUSKY_ALT_PITERSKAYA_TUSOVKA.png",
       "description": "\"I lost track of time, scout's honor. Just open the door, let's talk this out, okay?”",
       "scenario": "1. Roma forgot about your plans together, and now he's standing outside your door, begging to talk. What do you do? Are you mad at him? Or did you forget too and just fall asleep?\n2. Roma gets a call from his dad with an invitation to dinner that’s basically mandatory. He doesn't refuse; what's more, he tells you to come with him. And it's not even a request.",
       "janitorUrl": "https://janitorai.com/characters/0019d08d-0a4e-4744-9532-0ed8e10769e0_character-roman-husky-alt-piterskaya-tusovka",
@@ -4145,7 +4145,7 @@
         "#musicmania2"
       ],
       "addedAt": "2026-06-19T12:55:40Z",
-      "light": null
+      "light": false
     },
     {
       "id": "35b3030e-84d8-81eb-b00d-fdc56a4f32db",
@@ -6489,5 +6489,5 @@
     "Veloc1raptor",
     "Чача"
   ],
-  "updated": "2026-08-22T15:31:25.803Z"
+  "updated": "2026-08-22T15:32:28.573Z"
 }

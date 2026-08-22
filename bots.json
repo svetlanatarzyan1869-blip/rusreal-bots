@@ -4646,7 +4646,7 @@
       "name": "Stanislav | Artel",
       "author": "@mortisssa",
       "authorUrl": "https://janitorai.com/profiles/c01ee001-81ad-4436-bde0-dffec1ba75fe_profile-of-mortisssa",
-      "image": "images/Stanislav___Artel.jpg",
+      "image": "images/Stanislav_Artel.png",
       "description": "\"Look at those lights. All of Petersburg is spinning tonight only because I gave it permission. For you, of course.\"",
       "scenario": "he's trying to drag you to bed. {{user}} is not very coded, but it's assumed that you're stupid, innocent and poor, and also from another city (because you live in a women's dormitory of the University).",
       "janitorUrl": "https://janitorai.com/characters/b5f931ab-3746-484c-858e-783d6de1e9b5_character-stanislav-artel",
@@ -4664,7 +4664,7 @@
         "#1990s"
       ],
       "addedAt": "2026-06-19T12:55:40Z",
-      "light": null
+      "light": false
     },
     {
       "id": "3a83030e-84d8-8074-8b6d-d620e41058c5",
@@ -6489,5 +6489,5 @@
     "Veloc1raptor",
     "Чача"
   ],
-  "updated": "2026-08-22T16:03:01.289Z"
+  "updated": "2026-08-22T16:03:32.803Z"
 }

@@ -5440,7 +5440,8 @@
         "#GoldenStrings"
       ],
       "addedAt": "2026-07-07T19:58:15Z",
-      "light": true
+      "light": true,
+      "universe": "Golden Strings"
     },
     {
       "id": "35b3030e-84d8-81c9-b801-df04d80ce0de",
@@ -6907,5 +6908,5 @@
     "Veloc1raptor",
     "Чача"
   ],
-  "updated": "2026-08-22T20:15:51.095Z"
+  "updated": "2026-08-22T20:18:08.680Z"
 }

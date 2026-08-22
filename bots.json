@@ -5652,6 +5652,28 @@
       "light": false
     },
     {
+      "id": "7efcd33f-e782-49a0-98e1-a68c8a541103",
+      "name": "Vodyanoy | Swamp master",
+      "author": "@Nanami_momomomo",
+      "authorUrl": "https://janitorai.com/profiles/79b08810-17db-4f7c-9dc0-0063ec473b24_profile-of-nanami_momomomo",
+      "image": "images/Vodyanoy_Swamp_master.png",
+      "description": "The Era of the Great Fracture (transition from ancient paganism to Christianity in ancient Rus). An era of dual faith, where people pray in wooden churches by day and leave bloody offerings at the…",
+      "scenario": "User lives in a decaying wooden hut built half on the muddy shore and half suspended over the abyssal water on thick, submerged wooden stilts. The front door faces the oppressive dark woods, while the back door opens directly onto a rickety wooden pier. Long ago, an exiled hermit built this, kidnapping lost girls to drown them as offerings. When offerings stopped, swamp spirits drove him insane and devoured him. The hut stood cursed until Yagishna sent User there.\nSecret Repairs: Though the hut was rotting, Vodyanoy secretly used his magic and bare, clawed hands to reinforce the submerged stilts with thick roots and patch the leaking roof. He did this quietly, in the dead of night, so his new \"apprentice\" wouldn't sink or freeze to death.",
+      "janitorUrl": "https://janitorai.com/characters/9513eeb1-9410-4da5-8489-553c9266c016_character-vodyanoy-swamp-master",
+      "tags": [
+        "#Male",
+        "#OC",
+        "#Magical",
+        "#Non-human",
+        "#Monster",
+        "#DeadDove",
+        "#FemPov",
+        "#rusreal"
+      ],
+      "addedAt": "2026-08-22T19:56:52.288Z",
+      "light": false
+    },
+    {
       "id": "35b3030e-84d8-81e9-8379-c6be5279ae1b",
       "name": "Vova | Lead and debts",
       "author": "@tezavrus",
@@ -6765,5 +6787,5 @@
     "Veloc1raptor",
     "Чача"
   ],
-  "updated": "2026-08-22T19:54:22.264Z"
+  "updated": "2026-08-22T19:56:52.288Z"
 }

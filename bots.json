@@ -4556,7 +4556,7 @@
       "name": "Slava | Settling your divorce",
       "author": "@tezavrus",
       "authorUrl": "https://janitorai.com/profiles/16dfd877-0b93-4744-87a6-47066279aa74_profile-of-tezavrus",
-      "image": "images/Slava___Settling_your_divorce.jpg",
+      "image": "images/Slava_Settling_your_divorce.png",
       "description": "Where could a strictly professional relationship lead?",
       "scenario": "1. AnyPOV in English — divorce consultation\n2. AnyPOV in Russian — консультация по бракоразводному процессу\n3. AnyPOV in English — secretary position interview\n4. AnyPOV in Russian — собеседование на позицию секретаря",
       "janitorUrl": "https://janitorai.com/characters/6df9dbef-899a-4c2c-9e25-fb570e4682b7_character-slava-settling-your-divorce",
@@ -4568,7 +4568,7 @@
         "#rusreal"
       ],
       "addedAt": "2026-06-19T13:16:19Z",
-      "light": null
+      "light": false
     },
     {
       "id": "3a43030e-84d8-8046-866f-e4acb0beabdb",
@@ -6489,5 +6489,5 @@
     "Veloc1raptor",
     "Чача"
   ],
-  "updated": "2026-08-22T15:58:01.444Z"
+  "updated": "2026-08-22T15:58:58.733Z"
 }

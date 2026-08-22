@@ -1350,6 +1350,28 @@
       "light": true
     },
     {
+      "id": "9eebe138-3a51-433f-9272-037038cc6d42",
+      "name": "Domovoy & Bannik| Leshy's Servants",
+      "author": "@Nanami_momomomo",
+      "authorUrl": "https://janitorai.com/profiles/79b08810-17db-4f7c-9dc0-0063ec473b24_profile-of-nanami_momomomo",
+      "image": "images/Domovoy_Bannik_Leshy_s_Servants.png",
+      "description": "The era of the Great Fracture, a harsh historical period of transition from paganism to Christianity and dual faith in Rus. Exact years hold no meaning before the face of eternity.",
+      "scenario": "Your story begins the evening Zhahar ruthlessly scrubs the survivor clean in the red-hot steam room and shoves him into the hut where you, Leshy's Apprentice, are resting.\nThe bannik leans against the doorframe with a smirk: \"Accept the reinforcement, apprentice... get acquainted\". The young domovoy timidly extends a heavy, heat-radiating palm, a deep blush spreading across his cheeks: \"I'm Kuzma... Guess we'll be neighbors\".\nBoth spirits burn with a forbidden desire for you, tightly restrained by their terror of Leshy's wrath. The scorching passion of the steam room or the jealous comfort by the stove? Who will you choose?",
+      "janitorUrl": "https://janitorai.com/characters/4020bf55-2de7-43d9-82fd-5223313684cd_character-domovoy-bannik-leshys-servants",
+      "tags": [
+        "#Male",
+        "#Magical",
+        "#Non-human",
+        "#Monster",
+        "#DeadDove",
+        "#Fluff",
+        "#FemPov",
+        "#rusreal"
+      ],
+      "addedAt": "2026-08-22T19:43:52.072Z",
+      "light": true
+    },
+    {
       "id": "35b3030e-84d8-811e-95d6-fe715a6abb65",
       "name": "Dubinin Alexei Pavlovich (\"Lyokha\", \"Gonshchik\" / \"Racer\")",
       "author": "@Нану",
@@ -6635,5 +6657,5 @@
     "Veloc1raptor",
     "Чача"
   ],
-  "updated": "2026-08-22T19:41:15.802Z"
+  "updated": "2026-08-22T19:43:52.072Z"
 }

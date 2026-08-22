@@ -5827,6 +5827,29 @@
       "light": false
     },
     {
+      "id": "52a9031b-bf4a-43d4-9c32-44dbec914dcf",
+      "name": "Zhenya | train attendant",
+      "author": "@rewolan",
+      "authorUrl": "https://janitorai.com/profiles/71d11ee2-545c-4558-a3ad-3493478bf6a8_profile-of-rewolan",
+      "image": "images/Zhenya_train_attendant.png",
+      "description": "Winter. A train. You're the new trainee. Zhenya is your mentor. All around you is just the Moscow–Adler route, passengers, and that endless atmosphere that can easily tip into something romantic.",
+      "scenario": "Russia, Moscow-Adler, 2005\n1. Five minutes until departure. You're running late, and Zhenya is not happy about it.\n2. Eight conscript soldiers pile into your car. They're drinking, singing, completely off-key, and it's past midnight.\n3. Zhenya's come down with something, but there's no way in hell he's handing over the reins to you.\n4–6: Same scenarios, but in Russian.\n7. Empty scenario.",
+      "janitorUrl": "https://janitorai.com/characters/6f24e8b9-7e50-4da2-9cb6-fa0e20a7bf8b_character-zhenya-train-attendant",
+      "tags": [
+        "#Male",
+        "#OC",
+        "#Angst",
+        "#MLM",
+        "#MalePov",
+        "#Switch",
+        "#rusreal",
+        "#atmosphere",
+        "#musicmania2"
+      ],
+      "addedAt": "2026-08-22T19:30:49.514Z",
+      "light": false
+    },
+    {
       "id": "35b3030e-84d8-819f-84b3-ff4fd913f917",
       "name": "Zhenya || rusreal",
       "author": "@wienfeee",
@@ -6500,5 +6523,5 @@
     "Veloc1raptor",
     "Чача"
   ],
-  "updated": "2026-08-22T17:59:17.243Z"
+  "updated": "2026-08-22T19:30:49.534Z"
 }

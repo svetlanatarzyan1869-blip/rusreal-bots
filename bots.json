@@ -5496,10 +5496,10 @@
       "name": "Welcome to St. Petersburg",
       "author": "@Kris Mars",
       "authorUrl": "https://janitorai.com/profiles/75d9d4f4-2f68-49ad-b795-296fd5a079e6_profile-of-kris-mars",
-      "image": "images/Welcome_to_St._Petersburg.jpg",
-      "description": "The Inevitability of a Petersburg May",
-      "scenario": "The Inevitability of a Petersburg May\nKirill wasn't specifically looking for a meeting with you. He's not really looking for much in this life, except maybe some silence and a lighter that doesn't die in the wind from the bay. But Petersburg is a sticky, cramped city: no matter which scenario you choose, your paths will cross. Whether in the venomous comment sections of VKontakte, or in the semi-darkness of a creaky communal apartment corridor — this city will force a collision.\nWelcome to Petersburg. It doesn't let go, and in every rain, you'll find yourself coming back to these embankments, even if you swore to yourself you'd never look at that grey water again.",
-      "janitorUrl": "https://janitorai.com/profiles/75d9d4f4-2f68-49ad-b795-296fd5a079e6_profile-of-kris-mars",
+      "image": "images/Welcome_to_St._Petersburg.png",
+      "description": "Kirill wasn't specifically looking for a meeting with you. He's not really looking for much in this life, except maybe some silence and a lighter that doesn't die in the wind from the bay. But Petersburg is a sticky, cramped city: no matter which scenario you choose, your paths will cross. Whether in the venomous comment sections of VKontakte, or in the semi-darkness of a creaky communal apartment corridor — this city will force a collision.\n\nOne ticket to St. Petersburg, please.",
+      "scenario": "Two situations are available on the menu (Scenarios 1-2 in English, 4-5 are their Russian analogues):\n(Scenarios 1 and 4): An internet argument in a public page about the \"romance of roofs\" turned into a real-life meeting. Kirill is waiting for you by the archway, ready to prove that there's only rust, a fear of heights, and a view of grey smokestacks.\n· (Scenarios 2 and 5): You're the new tenant in Communal Apartment. Kirill meets you in the hallway cluttered with old wardrobes, and he's clearly not thrilled that the periphery of space has been disturbed without \"approval from the local population.\"",
+      "janitorUrl": "https://janitorai.com/characters/b595eba6-37fa-4389-aa4e-b535c7a42d89_character-welcome-to-st-petersburg",
       "tags": [
         "#Limitless",
         "#Male",
@@ -6489,5 +6489,5 @@
     "Veloc1raptor",
     "Чача"
   ],
-  "updated": "2026-08-22T17:03:27.986Z"
+  "updated": "2026-08-22T17:06:11.923Z"
 }

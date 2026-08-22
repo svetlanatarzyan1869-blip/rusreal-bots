@@ -5547,9 +5547,9 @@
       "name": "YAN | Y6N [ RusReal / РусРил ]",
       "author": "@toxicsense",
       "authorUrl": "https://janitorai.com/profiles/eac346c8-973f-4a33-b542-b10bf7026ff6_profile-of-toxicsense",
-      "image": "images/YAN___Y6N___RusReal___РусРил__.jpg",
+      "image": "images/YAN_Y6N_RusReal_РусРил.png",
       "description": "Yan Davidovich Raevsky (Y6N) is a 28-year-old predatory, toxic rap artist and leader of the \"126\" crew in Stavropol. He lives for fast cars, money, and complete control. Your boyfriend is a pathetic fanboy who literally pushed you into Yan's hands after a concert. Now, your man is gone, and Yan's matte black Porsche Panamera is blocking your only way out.",
-      "scenario": "Y6N notices you during his concert, openly humiliates your boyfriend backstage, and later finds you alone in the underground parking lot.",
+      "scenario": "This bot contains two greetings with the same opening scenario:\n01 — English version\n02 — Russian version\nChoose Greeting 01 if you want to play in English. Russian slang and profanity will be followed by short English translations.\nChoose Greeting 02 if you want fully Russian narration and dialogue.\nBoth greetings begin with the same storyline: Y6N notices you during his concert, openly humiliates your boyfriend backstage, and later finds you alone in the underground parking lot.",
       "janitorUrl": "https://janitorai.com/characters/e453b972-587a-4c2d-b20e-26c494ecbd70_character-yan-y-6-n-rus-real-русрил",
       "tags": [
         "#Limitless",
@@ -6489,5 +6489,5 @@
     "Veloc1raptor",
     "Чача"
   ],
-  "updated": "2026-08-22T17:07:33.202Z"
+  "updated": "2026-08-22T17:09:22.751Z"
 }

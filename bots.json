@@ -3951,9 +3951,9 @@
       "name": "RASKOL-17: Nikolai (a long lost friend turned enemy) — Exclusive ALT",
       "author": "@6AEL",
       "authorUrl": "https://janitorai.com/profiles/282e953f-5755-4658-90c5-5f868f177cc1_profile-of-6-ael",
-      "image": null,
+      "image": "images/RASKOL-17_Nikolai_a_long_lost_friend_turned_enemy_Exclusive_ALT.png",
       "description": "He’s a scorned past “friend” of Rolan and Lev from RASKOL-17. (Who obviously, are clearly no longer his friends.)",
-      "scenario": "You’re in RASKOL-17. He’s forced to collaborate with them again. He hates them, and he hates you too by proxy.",
+      "scenario": "",
       "janitorUrl": "https://janitorai.com/characters/93d949d2-9fa5-4ae0-8b2d-e00e4eb5a81f_character-raskol-17-nikolai-a-long-lost-friend-turned-enemy-exclusive-alt",
       "tags": [
         "#Limitless",
@@ -3968,7 +3968,9 @@
         "#RASKOL17",
         "#R17ChapterBots"
       ],
-      "light": null
+      "addedAt": "2026-08-22T15:22:56.594Z",
+      "light": false,
+      "universe": "RASKOL 17"
     },
     {
       "id": "98fb5881-409d-478d-873d-ebec910a125a",
@@ -6487,5 +6489,5 @@
     "Veloc1raptor",
     "Чача"
   ],
-  "updated": "2026-08-22T15:20:50.297Z"
+  "updated": "2026-08-22T15:22:56.595Z"
 }

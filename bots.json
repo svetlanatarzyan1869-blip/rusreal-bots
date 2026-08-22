@@ -5147,7 +5147,7 @@
       "name": "Vitya | I thought you had forgotten me | RUSSKAYA TOSKA",
       "author": "@Wewwa",
       "authorUrl": "https://janitorai.com/profiles/26ad05f6-ae20-4d5e-b4f8-5d23b78fd243_profile-of-wewwa",
-      "image": "images/Vitya___I_thought_you_had_forgotten_me___RUSSKAYA_TOSKA.jpg",
+      "image": "images/Vitya_I_thought_you_had_forgotten_me_RUSSKAYA_TOSKA.png",
       "description": "\"Sometimes I thought... that you'd never come back at all.\"",
       "scenario": "01 · Vitya lingers under the apple trees, watching {{user}} walk into Aglaya Petrovna's house. When they notice him, he shyly calls out their name.\n02 · {{user}} is sorting through their grandmother's things and finds a yellowed child's drawing in the dresser: a red-haired boy, crooked letters spelling \"my friend Vitya.\" At that moment, someone knocks on the window.\n03 · Night. Sleep won't come in the empty house. Beyond the vegetable gardens, at the edge of the forest, a campfire is burning. Vitya isn't the least bit surprised that {{user}} came.\n04 · Vitya and {{user}} are sitting by the river. Stuck in Vitya's head is the song \"Zabyto\" (\"Forgotten\") by Elli na Makovom Pole.\n05 · Blank. Write your own story.\n06–09 · Same as 1–4, but written in Russian.",
       "janitorUrl": "https://janitorai.com/characters/ecf68cd1-3ee5-4112-9b66-23e0ce772354_character-vitya-i-thought-you-had-forgotten-me-russkaya-toska",
@@ -5165,7 +5165,7 @@
         "#russkayatoska"
       ],
       "addedAt": "2026-07-21T18:50:53Z",
-      "light": null
+      "light": false
     },
     {
       "id": "35b3030e-84d8-810a-a03c-dce0cf7f0a66",
@@ -6489,5 +6489,5 @@
     "Veloc1raptor",
     "Чача"
   ],
-  "updated": "2026-08-22T16:29:05.141Z"
+  "updated": "2026-08-22T16:29:48.466Z"
 }

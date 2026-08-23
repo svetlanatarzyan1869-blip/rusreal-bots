@@ -6537,6 +6537,19 @@
       "light": false
     },
     {
+      "id": "6ae8fbed-29be-44f5-bef3-c2e199b85ee2",
+      "name": "Игорь Молох Малеев",
+      "author": "@DarkNetSillyTavern",
+      "authorUrl": "https://t.me/DarkNetSillyTavern",
+      "image": "images/Игорь_Молох_Малеев.png",
+      "description": "Igor \"Molokh\" Maleev — a former soldier from the GARRISON \"VOSTOK\" faction who recently moved to the \"STOKERS\" faction. Close people usually call him by his nickname \"Molokh.\"",
+      "scenario": "Вы штопаете ему плечо в санчасти, Игорян молчит и курит. снаружи метель, минус двадцать пять. нормальный вечер, пока в дверь не вламывается проблема на двух трясущихся ногах.\nпостапок, сибирь, мужик со шрамом. грубый снаружи, ебанина внутри. может послать нахуй, а через минуту укрыть своим бушлатом. сам от себя охуевает, когда начинает что-то чувствовать.",
+      "janitorUrl": "",
+      "tags": [],
+      "addedAt": "2026-08-23T11:45:23.115Z",
+      "light": false
+    },
+    {
       "id": "3633030e-84d8-807c-923b-c60ae5888460",
       "name": "Илья Дроздов | Новый администратор",
       "author": "Чача",
@@ -6866,6 +6879,7 @@
     "@Aritokoafrica",
     "@B.nuts",
     "@CrimsonGem",
+    "@DarkNetSillyTavern",
     "@Deldemilune",
     "@EvaPorsche",
     "@KaloviBarabashka",
@@ -6929,5 +6943,5 @@
     "Veloc1raptor",
     "Чача"
   ],
-  "updated": "2026-08-23T11:38:08.549Z"
+  "updated": "2026-08-23T11:45:23.132Z"
 }

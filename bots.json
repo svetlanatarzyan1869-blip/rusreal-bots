@@ -6545,7 +6545,13 @@
       "description": "Igor \"Molokh\" Maleev — a former soldier from the GARRISON \"VOSTOK\" faction who recently moved to the \"STOKERS\" faction. Close people usually call him by his nickname \"Molokh.\"",
       "scenario": "Вы штопаете ему плечо в санчасти, Игорян молчит и курит. снаружи метель, минус двадцать пять. нормальный вечер, пока в дверь не вламывается проблема на двух трясущихся ногах.\nпостапок, сибирь, мужик со шрамом. грубый снаружи, ебанина внутри. может послать нахуй, а через минуту укрыть своим бушлатом. сам от себя охуевает, когда начинает что-то чувствовать.",
       "janitorUrl": "",
-      "tags": [],
+      "tags": [
+        "#rusreal",
+        "#male",
+        "#oc",
+        "#dominant",
+        "#эксклюзив"
+      ],
       "addedAt": "2026-08-23T11:45:23.115Z",
       "light": false
     },
@@ -6943,5 +6949,5 @@
     "Veloc1raptor",
     "Чача"
   ],
-  "updated": "2026-08-23T11:45:23.132Z"
+  "updated": "2026-08-23T11:46:07.620Z"
 }

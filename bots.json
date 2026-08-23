@@ -6326,6 +6326,24 @@
       "light": true
     },
     {
+      "id": "a869653d-0a51-44c4-9897-9d96552b3b2f",
+      "name": "Алексей Бирюк",
+      "author": "@DarkNetSillyTavern",
+      "authorUrl": "https://t.me/DarkNetSillyTavern",
+      "image": "images/Алексей_Бирюк.png",
+      "description": "Alexei \"Biryuk\" Bogdanov is a village hunter of the unclean creatures (нечисть) from the village of Berezovka (Берёзовка). Those close to him usually call him by his nickname, \"Biryuk\" (Бирюк).",
+      "scenario": "1. Колядки, гадание в бане.\n2. Иван купала, пускаем венки и вброс от нпс про папоротник.\n3. Короткое, про сватовство.\n4. Уже сами себе что-то придумаете, я там накидала пару вариантов.",
+      "janitorUrl": "",
+      "tags": [
+        "#rusreal",
+        "#male",
+        "#OC",
+        "#эксклюзив"
+      ],
+      "addedAt": "2026-08-23T11:47:56.752Z",
+      "light": false
+    },
+    {
       "id": "3633030e-84d8-800a-8d9a-f4030d5f2aed",
       "name": "Алексей Карпик | Одноклассник",
       "author": "Чача",
@@ -6949,5 +6967,5 @@
     "Veloc1raptor",
     "Чача"
   ],
-  "updated": "2026-08-23T11:46:07.620Z"
+  "updated": "2026-08-23T11:47:56.753Z"
 }

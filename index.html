@@ -67,6 +67,12 @@ body{background:var(--bg);color:var(--text);font-family:'Inter',sans-serif;font-
 .author-item:hover,.author-item.active{color:var(--text);background:rgba(130,36,36,.06);border-left-color:var(--accent)}
 
 /* Header */
+#hero{position:relative;width:100%;height:290px;line-height:0;background:var(--bg);overflow:hidden}
+#hero img{width:100%;height:100%;object-fit:cover;object-position:center 32%;display:block}
+/* нижний край обложки статично растворяется в фоне */
+#hero::after{content:"";position:absolute;left:0;right:0;bottom:0;height:42%;background:linear-gradient(to bottom,rgba(0,0,0,0) 0%,var(--bg) 96%);pointer-events:none}
+/* при скролле вся обложка плавно перетекает в цвет фона */
+#hero-fade{position:absolute;inset:0;background:var(--bg);opacity:0;pointer-events:none;will-change:opacity}
 #header{position:sticky;top:0;z-index:30;border-bottom:1px solid var(--border);padding:11px 20px;background:var(--header-bg);backdrop-filter:blur(12px);display:flex;align-items:center;gap:10px;flex-wrap:wrap}
 .hbtn{background:none;border:none;color:var(--text-dim);cursor:pointer;padding:4px;flex-shrink:0;transition:color .15s;line-height:0;border-radius:8px}
 .hbtn:hover{color:var(--text)}
@@ -224,6 +230,11 @@ body{background:var(--bg);color:var(--text);font-family:'Inter',sans-serif;font-
 </style>
 </head>
 <body>
+
+<div id="hero">
+  <img src="images/hero.png" alt="русреал — каталог ботов">
+  <div id="hero-fade"></div>
+</div>
 
 <div id="sidebar-overlay" onclick="closeSidebar()"></div>
 <div id="sidebar">
@@ -730,5 +741,24 @@ init();
 </script>
 <noscript><div><img src="https://mc.yandex.ru/watch/109999818" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
 <!-- /Yandex.Metrika counter -->
+
+<script>
+/* обложка плавно перетекает в фон при прокрутке */
+(function(){
+  var hero=document.getElementById('hero'), fade=document.getElementById('hero-fade');
+  if(!hero||!fade)return;
+  var ticking=false;
+  function update(){
+    ticking=false;
+    var h=hero.offsetHeight||1;
+    var p=Math.min(1,Math.max(0,(window.pageYOffset||document.documentElement.scrollTop)/(h*0.9)));
+    fade.style.opacity=p.toFixed(3);
+  }
+  function onScroll(){if(!ticking){ticking=true;requestAnimationFrame(update);}}
+  window.addEventListener('scroll',onScroll,{passive:true});
+  window.addEventListener('resize',onScroll);
+  update();
+})();
+</script>
 </body>
 </html>

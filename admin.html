@@ -169,6 +169,8 @@
   </form>
 
   <button class="btn primary" id="btnSave">💾 Сохранить на сайт</button>
+  <button class="btn" id="btnDelete" style="display:none;width:100%;margin-top:10px;background:transparent;border:1px solid var(--err);color:var(--err)">🗑 Удалить бота с сайта</button>
+  <div id="deleteNote" class="hint" style="text-align:center;margin-top:6px"></div>
 </div>
 
 <div id="navBar" style="position:fixed;right:16px;bottom:74px;display:none;gap:6px;align-items:center;background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:6px 8px;box-shadow:0 4px 18px #0008;z-index:5">
@@ -229,6 +231,7 @@ $('cfgSave').onclick=saveCfg;
 /* ── состояние ──────────────────────────────────────────────────────── */
 let uploadedImageBase64=null;
 let editingId=null;   // id редактируемого бота (для замены на сервере)
+let currentEditBot=null;   // текущий загруженный бот (для удаления)
 
 /* ── чтение карточки, зашитой в PNG (chara-чанк) ────────────────────── */
 const LATIN1=new TextDecoder('latin1');
@@ -305,7 +308,8 @@ $('editBox').addEventListener('toggle',async()=>{if($('editBox').open){await loa
 $('editSearch').addEventListener('input',renderEditList);
 $('editLoad').onclick=async()=>{const v=$('editSelect').value;if(v==='')return;const bot=EXISTING[+v];if(bot)await fillFromExisting(bot);};
 async function fillFromExisting(bot){
-  editingId=bot.id||null;uploadedImageBase64=null;
+  editingId=bot.id||null;currentEditBot=bot;uploadedImageBase64=null;
+  $('btnDelete').style.display='';$('deleteNote').textContent='';
   $('mode').textContent='редактирование';
   $('f_name').value=bot.name||'';
   $('f_author').value=bot.author||'';
@@ -411,7 +415,8 @@ $('btnCleanCards').onclick=async()=>{
 /* ── приём данных со сборщика (userscript) через #d=<base64 utf8 json> ─ */
 function b64ToJson(b64){try{const bin=atob(b64.replace(/-/g,'+').replace(/_/g,'/'));const bytes=Uint8Array.from(bin,c=>c.charCodeAt(0));return JSON.parse(new TextDecoder().decode(bytes));}catch(e){return null;}}
 function prefill(d){
-  editingId=null;
+  editingId=null;currentEditBot=null;
+  $('btnDelete').style.display='none';$('deleteNote').textContent='';
   $('mode').textContent='с Janitor';
   $('f_name').value=d.name||'';
   $('f_author').value=d.author||'';
@@ -488,6 +493,37 @@ $('btnSave').onclick=async()=>{
   }catch(e){
     toast('Ошибка: '+e.message,false);
     btn.disabled=false;btn.textContent='💾 Сохранить на сайт';
+  }
+};
+
+/* ── удаление бота ──────────────────────────────────────────────────── */
+$('btnDelete').onclick=async()=>{
+  const cfg=loadCfg();
+  if(!cfg.endpoint||!cfg.secret){toast('Сначала заполни ⚙️ Подключение',false);$('cfgBox').open=true;return;}
+  const bot=currentEditBot;
+  if(!bot){toast('Сначала загрузи бота через «Редактировать»',false);return;}
+  const nm=bot.name||$('f_name').value.trim()||'этого бота';
+  if(!confirm('Удалить «'+nm+'» с сайта?\nБот исчезнет из каталога, карточка тоже удалится. Действие необратимо.'))return;
+  const url=cfg.endpoint.replace(/add-bot\s*$/,'delete-bot');
+  const btn=$('btnDelete');btn.disabled=true;const was=btn.textContent;btn.textContent='Удаляю…';
+  try{
+    const r=await fetch(url,{method:'POST',headers:{'Content-Type':'application/json','x-add-secret':cfg.secret},body:JSON.stringify({
+      id:bot.id||null, image:bot.image||null, janitorUrl:bot.janitorUrl||null, name:bot.name||null,
+    })});
+    const j=await r.json().catch(()=>({}));
+    if(!r.ok||j.ok===false)throw new Error(j.error||('HTTP '+r.status));
+    toast('🗑 Удалён: '+(j.name||nm)+'. Сайт обновится через минуту.',true);
+    // убрать из локальных списков и почистить форму
+    EXISTING=EXISTING.filter(b=>b!==bot);buildSorted();
+    editingId=null;currentEditBot=null;
+    $('mode').textContent='ручной ввод';
+    ['f_name','f_author','f_authorUrl','f_janitorUrl','f_imageUrl','f_tags','f_universe','f_shortDesc','f_cardDesc','f_scenario','f_firstMes','f_altGreets','f_personality'].forEach(id=>$(id).value='');
+    $('f_light').checked=false;$('f_imgPreview').src='';renderTags();updateTok();
+    navIdx=-1;if(SORTED.length){$('navPos').textContent='— / '+SORTED.length;}else{$('navBar').style.display='none';}
+    btn.style.display='none';$('deleteNote').textContent='';
+  }catch(e){
+    toast('Удаление: '+e.message,false);
+    btn.disabled=false;btn.textContent=was;
   }
 };
 </script>

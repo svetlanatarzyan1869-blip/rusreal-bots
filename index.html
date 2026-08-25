@@ -73,6 +73,11 @@ body{background:var(--bg);color:var(--text);font-family:'Inter',sans-serif;font-
 #hero::after{content:"";position:absolute;left:0;right:0;bottom:0;height:42%;background:linear-gradient(to bottom,rgba(0,0,0,0) 0%,var(--bg) 96%);pointer-events:none}
 /* при скролле вся обложка плавно перетекает в цвет фона */
 #hero-fade{position:absolute;inset:0;background:var(--bg);opacity:0;pointer-events:none;will-change:opacity}
+/* на телефоне не обрезаем по бокам — показываем обложку целиком */
+@media (max-width:640px){
+  #hero{height:auto}
+  #hero img{height:auto;object-fit:contain}
+}
 #header{position:sticky;top:0;z-index:30;border-bottom:1px solid var(--border);padding:11px 20px;background:var(--header-bg);backdrop-filter:blur(12px);display:flex;align-items:center;gap:10px;flex-wrap:wrap}
 .hbtn{background:none;border:none;color:var(--text-dim);cursor:pointer;padding:4px;flex-shrink:0;transition:color .15s;line-height:0;border-radius:8px}
 .hbtn:hover{color:var(--text)}

@@ -665,7 +665,9 @@ function openModal(idx){
       ${b.authorUrl?`<a class="btn-ghost" href="${b.authorUrl}" target="_blank" rel="noopener">профиль автора</a>`:""}
       <button class="btn-ghost" onclick="shareBot('${esc(b.name)}')">🔗 поделиться</button>
     </div>
-    ${(b.image&&!b.noCard)?`<button class="btn-ghost" style="margin-top:0" onclick="dlCard(null,${idx})">↓ скачать карточку</button>`:""}`;
+    ${(b.image&&!b.noCard)?`
+      <button class="btn-ghost" style="margin-top:0" onclick="dlCard(null,${idx})">↓ Карточка для Таво</button>
+      <button class="btn-ghost" style="margin-top:0" onclick="dlTavern(null,${idx})">↓ Карточка для Таверны</button>`:""}`;
   switchTab("desc",document.querySelector(".tab-btn"));
   const bg=document.getElementById("modal-bg");bg.classList.remove("welcome");bg.classList.add("show");updateNav();
   document.body.style.overflow="hidden";
@@ -720,6 +722,75 @@ function switchTab(tab,btn){
 }
 function translit(s){const m={а:"a",б:"b",в:"v",г:"g",д:"d",е:"e",ё:"e",ж:"zh",з:"z",и:"i",й:"y",к:"k",л:"l",м:"m",н:"n",о:"o",п:"p",р:"r",с:"s",т:"t",у:"u",ф:"f",х:"kh",ц:"ts",ч:"ch",ш:"sh",щ:"shch",ъ:"",ы:"y",ь:"",э:"e",ю:"yu",я:"ya"};return (s||"").replace(/[а-яё]/gi,c=>{const l=c.toLowerCase(),r=m[l]||"";return c===l?r:r.charAt(0).toUpperCase()+r.slice(1);});}
 function dlCard(e,idx){if(e)e.stopPropagation();const b=filteredBots[idx];if(!b||!b.image||b.noCard)return;let fn=translit(b.name||"card").replace(/[\p{Extended_Pictographic}‍️]/gu,"").replace(/[^A-Za-z0-9 ._-]+/g,"-").replace(/[-\s]+/g," ").trim();if(!fn||/^[\s_.\-]*$/.test(fn))fn="card";const a=document.createElement("a");a.href=b.image;a.download=fn+".png";document.body.appendChild(a);a.click();document.body.removeChild(a);}
+
+/* ── карточка для Таверны: пересобираем PNG на лету (склеиваем scenario+personality в description) ── */
+const _crcTable=(()=>{const t=new Int32Array(256);for(let n=0;n<256;n++){let c=n;for(let k=0;k<8;k++)c=(c&1)?(0xEDB88320^(c>>>1)):(c>>>1);t[n]=c;}return t;})();
+function _crc32(buf){let crc=-1;for(let i=0;i<buf.length;i++)crc=(crc>>>8)^_crcTable[(crc^buf[i])&0xFF];return (crc^-1)>>>0;}
+const _L1=new TextDecoder("latin1");
+function _u32(b,i){return ((b[i]<<24)|(b[i+1]<<16)|(b[i+2]<<8)|b[i+3])>>>0;}
+function _isPng(b){return b.length>8&&b[0]===0x89&&b[1]===0x50&&b[2]===0x4E&&b[3]===0x47;}
+function _concat(arrs){let n=0;for(const a of arrs)n+=a.length;const out=new Uint8Array(n);let o=0;for(const a of arrs){out.set(a,o);o+=a.length;}return out;}
+function _extractChara(buf){
+  if(!_isPng(buf))return null;let i=8,result=null;
+  while(i+8<=buf.length){
+    const len=_u32(buf,i);const type=_L1.decode(buf.subarray(i+4,i+8));
+    if(type==="tEXt"||type==="iTXt"){
+      const data=buf.subarray(i+8,i+8+len);const z=data.indexOf(0);
+      if(z>0&&/^chara/i.test(_L1.decode(data.subarray(0,z)))){
+        let payload=null;
+        if(type==="tEXt")payload=data.subarray(z+1);
+        else{let p=z+1;const comp=data[p];p+=2;const z2=data.indexOf(0,p);p=z2+1;const z3=data.indexOf(0,p);p=z3+1;if(comp===0)payload=data.subarray(p);}
+        if(payload){try{const bin=atob(_L1.decode(payload).replace(/[^A-Za-z0-9+/=]/g,""));const by=Uint8Array.from(bin,c=>c.charCodeAt(0));result=JSON.parse(new TextDecoder("utf-8").decode(by));}catch(e){}}
+      }
+    }
+    if(type==="IEND")break;i+=12+len;
+  }
+  return result;
+}
+function _stripChara(buf){
+  const out=[buf.subarray(0,8)];let i=8;
+  while(i+8<=buf.length){
+    const len=_u32(buf,i);const type=_L1.decode(buf.subarray(i+4,i+8));let keep=true;
+    if(type==="tEXt"||type==="iTXt"){const data=buf.subarray(i+8,i+8+len);const z=data.indexOf(0);if(z>0&&/^chara/i.test(_L1.decode(data.subarray(0,z))))keep=false;}
+    if(keep)out.push(buf.subarray(i,i+12+len));
+    if(type==="IEND")break;i+=12+len;
+  }
+  return _concat(out);
+}
+function _embedChara(pngBuf,jsonStr){
+  const jb=new TextEncoder().encode(jsonStr);let bin="";for(let i=0;i<jb.length;i++)bin+=String.fromCharCode(jb[i]);
+  const b64=btoa(bin);
+  const text=_concat([Uint8Array.from("chara\0",c=>c.charCodeAt(0)),Uint8Array.from(b64,c=>c.charCodeAt(0))]);
+  const chunk=new Uint8Array(8+text.length+4);const dv=new DataView(chunk.buffer);
+  dv.setUint32(0,text.length,false);chunk[4]=0x74;chunk[5]=0x45;chunk[6]=0x58;chunk[7]=0x74;/* tEXt */
+  chunk.set(text,8);dv.setUint32(8+text.length,_crc32(chunk.subarray(4,8+text.length)),false);
+  const iend=pngBuf.length-12;
+  return _concat([pngBuf.subarray(0,iend),chunk,pngBuf.subarray(iend)]);
+}
+function _toTavern(parsed){
+  const clone=JSON.parse(JSON.stringify(parsed));const d=clone.data||clone;
+  const desc=(d.description||"").trim(),pers=(d.personality||"").trim(),scen=(d.scenario||"").trim();
+  const merged=[desc,pers,scen].filter(Boolean).join("\n\n");
+  d.description=merged;d.personality="";d.scenario="";
+  if(clone.data){if("description"in clone)clone.description=merged;if("personality"in clone)clone.personality="";if("scenario"in clone)clone.scenario="";}
+  return clone;
+}
+async function dlTavern(e,idx){
+  if(e)e.stopPropagation();
+  const b=filteredBots[idx];if(!b||!b.image||b.noCard)return;
+  let fn=translit(b.name||"card").replace(/[\p{Extended_Pictographic}‍️]/gu,"").replace(/[^A-Za-z0-9 ._-]+/g,"-").replace(/[-\s]+/g," ").trim();
+  if(!fn||/^[\s_.\-]*$/.test(fn))fn="card";
+  try{
+    const r=await fetch(b.image,{cache:"no-store"});
+    const buf=new Uint8Array(await r.arrayBuffer());
+    const parsed=_extractChara(buf);
+    if(!parsed){alert("Не удалось прочитать карточку из PNG — скачаю как есть.");dlCard(null,idx);return;}
+    const out=_embedChara(_stripChara(buf),JSON.stringify(_toTavern(parsed)));
+    const url=URL.createObjectURL(new Blob([out],{type:"image/png"}));
+    const a=document.createElement("a");a.href=url;a.download=fn+" (tavern).png";document.body.appendChild(a);a.click();document.body.removeChild(a);
+    setTimeout(()=>URL.revokeObjectURL(url),4000);
+  }catch(err){alert("Не получилось собрать карточку для Таверны: "+err.message);}
+}
 function openSidebar(){document.getElementById("sidebar").classList.add("open");document.getElementById("sidebar-overlay").classList.add("show");}
 function closeSidebar(){document.getElementById("sidebar").classList.remove("open");document.getElementById("sidebar-overlay").classList.remove("show");}
 function esc(s){return String(s).replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;").replace(/"/g,"&quot;");}

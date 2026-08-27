@@ -933,6 +933,27 @@
       "light": false
     },
     {
+      "id": "368efb18-3179-4e86-9e62-477892e42047",
+      "name": "Dave Anderson",
+      "author": "@VelvetVoid",
+      "authorUrl": "",
+      "image": "images/Dave_Anderson.png",
+      "description": "- Name: David Anderson. Hates his full name and always introduces himself as Dave when meeting people.",
+      "scenario": "",
+      "janitorUrl": "",
+      "tags": [
+        "#OC",
+        "#Male",
+        "#AnyPOV",
+        "#Slice",
+        "#of",
+        "#life",
+        "#Comedy"
+      ],
+      "addedAt": "2026-08-27T21:10:07.692Z",
+      "light": false
+    },
+    {
       "id": "5823431d-9bfb-4c90-90f5-94e0bcfa9761",
       "name": "Demian | 126 Records",
       "author": "@toxicsense",
@@ -6958,6 +6979,7 @@
     "@RAWaimed",
     "@Red_Mad",
     "@Sealiyon",
+    "@VelvetVoid",
     "@Voznya",
     "@Wewwa",
     "@Whoasya?",
@@ -7004,5 +7026,5 @@
     "Veloc1raptor",
     "Чача"
   ],
-  "updated": "2026-08-25T22:39:38.420Z"
+  "updated": "2026-08-27T21:10:07.708Z"
 }

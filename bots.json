@@ -6050,6 +6050,26 @@
       "light": false
     },
     {
+      "id": "b6a10010-72f4-41e9-b570-9293eeb06327",
+      "name": "Yan ╋━ Depression",
+      "author": "@didyulya",
+      "authorUrl": "https://janitorai.com/profiles/edf7f9b1-c7fa-4bfd-918e-1d775f607aba_profile-of-didyulya",
+      "image": "images/Yan_Depression.png",
+      "description": "Yan's evening is clearly not going well, and on top of that, you're sitting on a bench in a dark corner... actually, what are you even doing there?",
+      "scenario": "***Setting: Southern Russia, 2020s. Autumn, end of September. Krasnodar — a sweltering metropolis, squeezed between the Black Sea breeze and the endless steppes. A city of sharp contrasts: glass skyscrapers of the business district rise straight out of the private sector, and the traffic jams here are so bad you can feel the smell of hot asphalt on your skin. People flock here from all over the country — some lured by the southern sun, others by money — but the locals have long joked about their trademark \"hospitality,\" the kind that sometimes makes newcomers wish they were back in the snowdrifts. Every morning, the city floods with people from the surrounding stanitsas — old Cossack villages scattered across the steppe — pouring in for work, college.***",
+      "janitorUrl": "https://janitorai.com/characters/bf3803b7-af2b-4a5b-beb2-027f2b79df02_character-yan-%E2%95%8B%E2%94%81-depression",
+      "tags": [
+        "#Male",
+        "#OC",
+        "#AnyPOV",
+        "#Angst",
+        "#Russia",
+        "#rusreal"
+      ],
+      "addedAt": "2026-09-07T10:50:21.705Z",
+      "light": false
+    },
+    {
       "id": "35b3030e-84d8-815e-8397-cd273a758408",
       "name": "YAN BLOK | He’s proposing to you without even knowing who you are | RAPPER",
       "author": "@wvenusss",
@@ -7118,5 +7138,5 @@
     "Veloc1raptor",
     "Чача"
   ],
-  "updated": "2026-09-07T10:47:25.825Z"
+  "updated": "2026-09-07T10:50:21.706Z"
 }

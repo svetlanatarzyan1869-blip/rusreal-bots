@@ -6704,6 +6704,26 @@
       "light": true
     },
     {
+      "id": "df5c1466-e180-4202-9654-41c55d0b133b",
+      "name": "Игорь Малеев",
+      "author": "@DarkNetSillyTavern",
+      "authorUrl": "https://t.me/DarkNetSillyTavern",
+      "image": "images/Игорь_Малеев.png",
+      "description": "Igor \"Moloch\" Maleev, a former military man, now the director of \"Redut\", a large private security and logistics company (ЧОП). In the army he was given the call sign \"Moloch.\" To old acquaintances…",
+      "scenario": "- Новогодний корпоратив.\n\n- Полёт в Дубай (мне похуй, полетите.)\n\n- Отдых компанией в Емельяново с Ваней, Яной и Фоминым с баней и шашлыком.\n\n- Тут вы не знакомы и будете жить одни в арендованном доме.\n\n- Свой сценарий",
+      "janitorUrl": "",
+      "tags": [
+        "#limitless",
+        "#rusreal",
+        "#alt",
+        "#OC",
+        "#male",
+        "#эксклюзив"
+      ],
+      "addedAt": "2026-09-07T10:53:47.809Z",
+      "light": false
+    },
+    {
       "id": "6ae8fbed-29be-44f5-bef3-c2e199b85ee2",
       "name": "Игорь Молох Малеев",
       "author": "@DarkNetSillyTavern",
@@ -7138,5 +7158,5 @@
     "Veloc1raptor",
     "Чача"
   ],
-  "updated": "2026-09-07T10:50:21.706Z"
+  "updated": "2026-09-07T10:53:47.810Z"
 }

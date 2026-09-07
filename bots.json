@@ -4668,6 +4668,30 @@
       "light": false
     },
     {
+      "id": "5b9f15a2-1c6a-4d4d-8b97-8bfe4edb8aec",
+      "name": "Sasha Shulyakov | HTON'",
+      "author": "@ssshu",
+      "authorUrl": "https://janitorai.com/profiles/c7ab12cb-59e7-4906-8943-3c219bfec0a6_profile-of-ssshu",
+      "image": "images/Sasha_Shulyakov_HTON.png",
+      "description": "\"Every day I think: should I give myself to you, or to the noose?\"",
+      "scenario": "1. Sasha's birthday, which his colleagues forgot. Already upset, he's informed that medical trainees from the college will arrive in half an hour and he'll have to deal with them.\n2. A strange death case on another ambulance call. Upon arrival, it turns out that it's most likely the work of the chthonic. Shulenko decides to call Major Sheptunov to request someone from the \"Sera\" police unit.\n3. A party (hangout) at the apartment of some unfamiliar people, where Sasha was brought by Yura Sever. After mixing alcohol with phenazepam and being in a \"trip,\" Sasha desperately wants to smoke, but it seems the balcony is already occupied by someone.\n4. Returning home after a 24-hour shift at work, Shulenko notices a stray kitten in a tree. Already exhausted, Sasha decides to climb the tree to rescue the kitten.\n5. Scenario 1 in Russian.\n6. Scenario 2 in Russian.\n7. Scenario 3 in Russian.\n8. Scenario 4 in Russian.\n9. Empty – try coming up with something yourself.",
+      "janitorUrl": "https://janitorai.com/characters/93dedddd-f046-4105-ac65-29a638fd8a27_character-sasha-shulyakov-hton",
+      "tags": [
+        "#Male",
+        "#OC",
+        "#RPG",
+        "#AnyPOV",
+        "#DeadDove",
+        "#MalePov",
+        "#Switch",
+        "#rusreal",
+        "#russia",
+        "#musicmania2"
+      ],
+      "addedAt": "2026-09-07T11:01:27.988Z",
+      "light": false
+    },
+    {
       "id": "3633030e-84d8-805a-877b-dbda8441b0af",
       "name": "Semyon Morozov | MAFIA",
       "author": "@arqvdes",
@@ -7158,5 +7182,5 @@
     "Veloc1raptor",
     "Чача"
   ],
-  "updated": "2026-09-07T10:53:47.810Z"
+  "updated": "2026-09-07T11:01:28.030Z"
 }

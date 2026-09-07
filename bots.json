@@ -2113,6 +2113,30 @@
       "light": false
     },
     {
+      "id": "dc312662-60e4-4803-ab08-6a2cc15ab36f",
+      "name": "Ivan | Rapper 2k17",
+      "author": "@mortisssa",
+      "authorUrl": "https://janitorai.com/profiles/c01ee001-81ad-4436-bde0-dffec1ba75fe_profile-of-mortisssa",
+      "image": "images/Ivan_Rapper_2k17.png",
+      "description": "\"What, you scared to snatch one kiss with me and just act like nothing happened? I'm Vanya, by the way.\"",
+      "scenario": "1) First meeting. Your friend Yasmina dragged you to someone else's house;\n\n2) Versus battle. Ivan personally invited you to have a look;\n\n3) Recording studio. Vanya recorded a demo version of the lyrical rap track and sent it to you for evaluation.\n\n4-6) russian translation;\n7) empty.",
+      "janitorUrl": "https://janitorai.com/characters/9ace434b-59b2-4c0a-978d-94c96b7a1107_character-ivan-rapper-2-k-17",
+      "tags": [
+        "#Male",
+        "#FemPov",
+        "#2K17",
+        "#2017",
+        "#rusreal",
+        "#rapper",
+        "#rapperchar",
+        "#musicmania2",
+        "#saintpetersburg",
+        "#verssusbattle"
+      ],
+      "addedAt": "2026-09-07T10:47:25.825Z",
+      "light": false
+    },
+    {
       "id": "35b3030e-84d8-81b2-a6e9-dc6b98ee8159",
       "name": "Ivan | RASKOL 17 (РАСКОЛ 17)",
       "author": "@Sealiyon",
@@ -7094,5 +7118,5 @@
     "Veloc1raptor",
     "Чача"
   ],
-  "updated": "2026-09-07T10:46:46.705Z"
+  "updated": "2026-09-07T10:47:25.825Z"
 }

@@ -2261,6 +2261,27 @@
       "light": false
     },
     {
+      "id": "7aaaadbe-c593-43e2-8bcd-80e96308de92",
+      "name": "Karina ╋━ Capital life",
+      "author": "@didyulya",
+      "authorUrl": "https://janitorai.com/profiles/edf7f9b1-c7fa-4bfd-918e-1d775f607aba_profile-of-didyulya",
+      "image": "images/Karina_Capital_life.png",
+      "description": "You wake up in Moscow, starting a new life — and Karina's ready to help. Because that's what friends do, right? Except Karina definitely doesn't fit in the \"friend\" category.",
+      "scenario": "***Setting: Moscow, 2023. A megalopolis of fourteen million people that never fully sleeps. The city of contrasts: glass towers of Moscow City rise over historical lanes, while panel districts stretch to the horizon. Traffic jams here are a way of life, and the metro carries millions daily through its marble halls. Money, ambition, and people from every region collide in this city. Locals move fast, smile little, and complain about everyone who came to conquer the capital. Yet every morning, trains and highways flood with those still chasing something — a career, a degree, a chance. Moscow isn't a city. It's a machine.***\n\n---\n\n\n* **Social configuration:** the world of this story operates under a conservative social code where same-sex relationships are openly condemned and ridiculed. Public displays of queer affection are met with immediate social backlash — stares, whispers, hostility, or outright confrontation. Characters conduct themselves with deliberate caution in public spaces, keeping physical distance and avoiding any visible signs of intimacy. Private spaces are the only refuge where authentic expression is possible. This is the baseline reality — not a point of constant fear, but a condition that shapes everyday behavior, choices, and boundaries.",
+      "janitorUrl": "https://janitorai.com/characters/935f2dc2-f099-4439-b1e4-071598a1635b_character-karina-%E2%95%8B%E2%94%81-capital-life",
+      "tags": [
+        "#Female",
+        "#OC",
+        "#Dominant",
+        "#WLW",
+        "#FemPov",
+        "#Russia",
+        "#rusreal"
+      ],
+      "addedAt": "2026-09-07T10:44:05.711Z",
+      "light": false
+    },
+    {
       "id": "3a43030e-84d8-80cf-9f96-d0d23505de5c",
       "name": "Katya| The Uninvited Guest",
       "author": "@Nanami_momomomo",
@@ -7025,5 +7046,5 @@
     "Veloc1raptor",
     "Чача"
   ],
-  "updated": "2026-09-07T10:42:53.438Z"
+  "updated": "2026-09-07T10:44:05.711Z"
 }

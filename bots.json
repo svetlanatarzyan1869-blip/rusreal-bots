@@ -4741,6 +4741,27 @@
       "light": false
     },
     {
+      "id": "92b0e295-38de-4c8e-8f54-c1158cebfdd3",
+      "name": "Sergey ╋━ Family vacation",
+      "author": "@didyulya",
+      "authorUrl": "https://janitorai.com/profiles/edf7f9b1-c7fa-4bfd-918e-1d775f607aba_profile-of-didyulya",
+      "image": "images/Sergey_Family_vacation.png",
+      "description": "Are you ready for a vacation abroad with a small child and a husband... who sometimes acts like a child himself?",
+      "scenario": "* **Setting:** Turkey, Antalya, 2020s. A scorching resort city on the Mediterranean coast: five-star hotels line the shore, warm water, pools, beach bars. Days are for heat and the beach, nights for markets, street musicians, and late dinners under palm trees. A city where ancient ruins sit beside modern shopping malls, and time moves slower.\n\n* **The hotel Mavi Aslan Hotel** — a four-star, in the Konyaaltı district, fifteen minutes from the center. Not luxury, but decent: pools, a private stretch of beach, restaurants, a bar by the water. Guests are families, Russian-speaking tourists, Europeans. The promenade is a five-minute walk, the old town — half an hour by dolmuş. Noisy by day, quiet by midnight. What remains is warm wind, rustling palms, and the distant hum of the road. Hotel name: Mavi Aslan Hotel.",
+      "janitorUrl": "https://janitorai.com/characters/a3898097-3715-45cc-b0ac-1600734a6357_character-sergey-%E2%95%8B%E2%94%81-family-vacation",
+      "tags": [
+        "#Male",
+        "#OC",
+        "#FemPov",
+        "#rusreal",
+        "#Russia",
+        "#musicmania2",
+        "#familia"
+      ],
+      "addedAt": "2026-09-07T10:42:53.404Z",
+      "light": false
+    },
+    {
       "id": "35b3030e-84d8-8174-a7eb-fd2551b24832",
       "name": "Sergey Mikhailov",
       "author": "@cluellessai",
@@ -6958,7 +6979,6 @@
     "@RAWaimed",
     "@Red_Mad",
     "@Sealiyon",
-    "@VelvetVoid",
     "@Voznya",
     "@Wewwa",
     "@Whoasya?",
@@ -7005,5 +7025,5 @@
     "Veloc1raptor",
     "Чача"
   ],
-  "updated": "2026-08-28T11:21:58.949Z"
+  "updated": "2026-09-07T10:42:53.438Z"
 }

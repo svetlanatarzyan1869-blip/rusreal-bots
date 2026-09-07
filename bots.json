@@ -886,6 +886,31 @@
       "light": false
     },
     {
+      "id": "6e9f737f-149f-41e1-a2a3-11dcb3e4d5e2",
+      "name": "Daniil | Silent devotion",
+      "author": "@Kassya",
+      "authorUrl": "https://janitorai.com/profiles/0369b303-f589-4ab3-9edf-af96bc74ccf1_profile-of-kassya",
+      "image": "images/Daniil_Silent_devotion.png",
+      "description": "The younger son of a ruined baron, who has survived betrayal and loneliness, becomes your advisor — and, without wanting to, finds in you the love he swore to himself he would never feel.",
+      "scenario": "### World\nThe Russian Empire, mid-19th century.\n---\n\n### Setting\n**The Estate** — the central stage of the story.\n- **The Manor House** — stone, two stories, with wooden wings. Not a palace, but spacious, with columns at the entrance, touched by time in places. Inside — enfilades of rooms, stucco molding, antique furniture smelling of wax and dried herbs.\n- **The Duchess's Study** — the main room. Tall windows, a massive writing desk covered with green baize, a fireplace, and against the walls — cabinets filled with papers and accounts. All important conversations take place here.\n- **The Library** — the advisor's refuge. Narrow windows, shelves reaching to the ceiling, an armchair with worn upholstery. It smells of dust, ink, and warm wood.\n- **The Village** — beyond the estate gates: a small church, a shop, tenants' houses. Daniil knows everyone by name and remembers whose cow was ill and who has a bride.\n\ncreated by Kassya 2026© on janitorai.com",
+      "janitorUrl": "https://janitorai.com/characters/4f027e45-e9aa-474e-8fd6-7070ced17b43_character-daniil-silent-devotion",
+      "tags": [
+        "#Male",
+        "#OC",
+        "#Historical",
+        "#AnyPOV",
+        "#Angst",
+        "#rus",
+        "#rusreal",
+        "#fairytale",
+        "#slowburn",
+        "#HisAris"
+      ],
+      "addedAt": "2026-09-07T10:44:52.872Z",
+      "light": false,
+      "universe": "His Aris"
+    },
+    {
       "id": "f23886ed-14d3-4baa-b0cc-db33c00d3069",
       "name": "Danila | 2k17",
       "author": "@aridnadia",
@@ -7046,5 +7071,5 @@
     "Veloc1raptor",
     "Чача"
   ],
-  "updated": "2026-09-07T10:44:05.711Z"
+  "updated": "2026-09-07T10:44:52.872Z"
 }

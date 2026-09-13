@@ -3018,6 +3018,31 @@
       "universe": "Tales of Nav"
     },
     {
+      "id": "f8b9c867-97d5-4b6e-b869-1891b8638de7",
+      "name": "Lev Ilyich | Poisoned heart",
+      "author": "@Kassya",
+      "authorUrl": "https://janitorai.com/profiles/0369b303-f589-4ab3-9edf-af96bc74ccf1_profile-of-kassya",
+      "image": "images/Lev_Ilyich_Poisoned_heart.png",
+      "description": "He survived the poison handed to him by the hand of his beloved, but he never learned how to live again. Having sworn to let no one near, he meets you, whose scars mirror his own — and realizes that the deadliest poison is not the one that kills, but you.",
+      "scenario": "Ты стоишь у Спаса-на-Крови, не замечая ни ветра, ни прохожих, когда рядом останавливается незнакомец — врач Лев Мечников. Ровно год назад его невеста отравила его в день венчания, и сегодня, глядя на твоё лицо, он узнаёт ту же растерянность, что носил сам. «Вам дурно? Я врач», — говорит он тихо, и в этом вопросе уже слышится горькое: «Венчание?»",
+      "janitorUrl": "https://janitorai.com/characters/f9cf8c83-719d-40df-8ac0-0e0fbc76b789_character-lev-ilyich-poisoned-heart",
+      "tags": [
+        "#Male",
+        "#OC",
+        "#AnyPOV",
+        "#Angst",
+        "#DeadDove",
+        "#rus",
+        "#rusreal",
+        "#hisaris",
+        "#doctor",
+        "#musicmania2"
+      ],
+      "addedAt": "2026-09-13T18:22:54.702Z",
+      "light": false,
+      "universe": "His Aris"
+    },
+    {
       "id": "35b3030e-84d8-8112-9146-ffcb9d69cf84",
       "name": "Lev Orlov | Silent Portraits",
       "author": "@Adeline09",
@@ -7271,5 +7296,5 @@
     "Veloc1raptor",
     "Чача"
   ],
-  "updated": "2026-09-13T18:21:26.472Z"
+  "updated": "2026-09-13T18:22:54.702Z"
 }

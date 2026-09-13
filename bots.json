@@ -1796,6 +1796,30 @@
       "light": true
     },
     {
+      "id": "b71ee8f2-e5b9-4fad-a66b-100c49baf41c",
+      "name": "Evgeny Yurin | Witch Hunter",
+      "author": "@Kassya",
+      "authorUrl": "https://janitorai.com/profiles/0369b303-f589-4ab3-9edf-af96bc74ccf1_profile-of-kassya",
+      "image": "images/Evgeny_Yurin_Witch_Hunter.png",
+      "description": "In the Russian Empire, where the emperor fears dying at the hands of a witch, the Life Guards officer Evgeny Yurin hunts witches, and with each investigation, he grows increasingly doubtful about where duty ends and politics begins. But what is more terrifying: to find a witch or to fall in love with one?",
+      "scenario": "вгений, охотник, выслеживает в промокшем лесу того, кого деревня уже окрестила ведьмой, — и находит {{user}} в старом ржавом капкане. Он не спешит помочь: рука на револьвере, взгляд холодный, а в голове — слишком много случаев, когда очевидное оказывалось ловушкой. «Я сниму его, — говорит он тихо. — Но сначала вы скажете, что делаете здесь. И лучше вам не лгать».",
+      "janitorUrl": "https://janitorai.com/characters/7f055b15-fd6c-47e7-8949-758e7e87cf7f_character-evgeny-yurin-witch-hunter",
+      "tags": [
+        "#Male",
+        "#OC",
+        "#Historical",
+        "#AnyPOV",
+        "#EnemiestoLovers",
+        "#DeadDove",
+        "#hisaris",
+        "#rus",
+        "#rusreal"
+      ],
+      "addedAt": "2026-09-13T18:25:46.088Z",
+      "light": false,
+      "universe": "His Aris"
+    },
+    {
       "id": "3963030e-84d8-80a7-9773-cff2019074b6",
       "name": "Fedor | Strings of the Soul",
       "author": "@Kassya",
@@ -7316,5 +7340,5 @@
     "Veloc1raptor",
     "Чача"
   ],
-  "updated": "2026-09-13T18:24:02.947Z"
+  "updated": "2026-09-13T18:25:46.088Z"
 }

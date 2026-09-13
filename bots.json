@@ -4031,6 +4031,30 @@
       "light": false
     },
     {
+      "id": "d54f6c1d-6142-49d1-af35-436addbc824d",
+      "name": "Nikolay | Unanswered letter",
+      "author": "@Kassya",
+      "authorUrl": "https://janitorai.com/profiles/0369b303-f589-4ab3-9edf-af96bc74ccf1_profile-of-kassya",
+      "image": "images/Nikolay_Unanswered_letter.png",
+      "description": "An arrogant count, insulted by the return of his marriage proposal, personally arrives at the estate of a defiant neighbor to put them in their place. Meeting an opponent equal in strength of spirit, he realizes the only way to obtain the desired lands is to enter into a marriage of convenience with the very person who never even opened his letter.",
+      "scenario": "{{User}} вернул(а) письмо нераспечатанным — и граф Ланской, не терпящий закрытых дверей, приехал сам, чтобы посмотреть в глаза тому, кто посмел. На лестнице его встречает {{user}}: холодный взгляд, ровный шаг, ни тени страха. «Я куплю ваши земли, — говорит он тихо. — И мы заключим брак по расчёту. От этого разговора вы не уйдёте».",
+      "janitorUrl": "https://janitorai.com/characters/f9e61760-b785-4568-8542-c93cba6f0f80_character-nikolay-unanswered-letter",
+      "tags": [
+        "#Male",
+        "#OC",
+        "#Historical",
+        "#Royalty",
+        "#AnyPOV",
+        "#hisaris",
+        "#rus",
+        "#rusreal",
+        "#slowburn"
+      ],
+      "addedAt": "2026-09-13T18:20:18.467Z",
+      "light": false,
+      "universe": "His Aris"
+    },
+    {
       "id": "9e48653b-ca20-401d-a220-ee3795c4aaaf",
       "name": "Not a boyfriend",
       "author": "@littlefoxxx",
@@ -7226,5 +7250,5 @@
     "Veloc1raptor",
     "Чача"
   ],
-  "updated": "2026-09-13T18:08:50.245Z"
+  "updated": "2026-09-13T18:20:18.499Z"
 }

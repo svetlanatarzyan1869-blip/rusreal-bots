@@ -3018,6 +3018,26 @@
       "universe": "Tales of Nav"
     },
     {
+      "id": "e1ba38f1-d364-44bb-b236-6f0cbc7fba6b",
+      "name": "Lev | Paint job",
+      "author": "@tezavrus",
+      "authorUrl": "https://janitorai.com/profiles/16dfd877-0b93-4744-87a6-47066279aa74_profile-of-tezavrus",
+      "image": "images/Lev_Paint_job.png",
+      "description": "His pristine car suffering the consequences of his own actions.",
+      "scenario": "— you broke up recently, and he finds his car spray painted (by your hand)\n1. AnyPOV in English\n2. FemPOV in Russian\n3. MalePOV in Russian\n— you got into a car accident\n4. AnyPOV in English\n5. AnyPOV in Russian\n— empty",
+      "janitorUrl": "https://janitorai.com/characters/e3967001-521b-43c9-8a1d-dad5f49c7fb5_character-lev-paint-job",
+      "tags": [
+        "#Male",
+        "#OC",
+        "#Submissive",
+        "#AnyPOV",
+        "#DeadDove",
+        "#rusreal"
+      ],
+      "addedAt": "2026-09-13T18:24:02.947Z",
+      "light": false
+    },
+    {
       "id": "f8b9c867-97d5-4b6e-b869-1891b8638de7",
       "name": "Lev Ilyich | Poisoned heart",
       "author": "@Kassya",
@@ -7296,5 +7316,5 @@
     "Veloc1raptor",
     "Чача"
   ],
-  "updated": "2026-09-13T18:22:54.702Z"
+  "updated": "2026-09-13T18:24:02.947Z"
 }

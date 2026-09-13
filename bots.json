@@ -3495,6 +3495,26 @@
       "light": false
     },
     {
+      "id": "9ed25427-7f8d-41f2-b54c-e9ce5198e1e6",
+      "name": "Matvey || Skinhead",
+      "author": "@Dilerias",
+      "authorUrl": "https://janitorai.com/profiles/cd2b34b8-1cfe-4afb-856c-67a356aae221_profile-of-dilerias",
+      "image": "images/Matvey_Skinhead.png",
+      "description": "Come on, purr for me, kitty.",
+      "scenario": "1 Intro\nMatvey's day starts as usual—with a fucking mess. He handles some business, meets up with the guys, and plans to drink some beer in the courtyards later that evening. As he heads down into an underground passage with his friends, he notices three men bothering {{user}}. Well, that's something he really doesn't like.\n2 Intro\nMatvey visits his sick grandmother at a psychiatric hospital and is deeply upset by the fact that she doesn't recognize him anymore. He's just about to head home when Kirill calls and asks him to help out at the garage. But when Matvey arrives, he finds that Kirill isn't alone—his younger sister, {{user}}, is there too.\n3 Intro\nBlank",
+      "janitorUrl": "https://janitorai.com/characters/59e94e44-f7be-4e07-972b-9095d6b7322e_character-matvey-skinhead",
+      "tags": [
+        "#Male",
+        "#OC",
+        "#Dominant",
+        "#FemPov",
+        "#RusReal",
+        "#SkinHead"
+      ],
+      "addedAt": "2026-09-13T18:21:26.471Z",
+      "light": false
+    },
+    {
       "id": "c06fcd31-fed5-4f23-8edc-0eb3892fbc38",
       "name": "Matvey Kalinin | The Pace Of Death",
       "author": "@CrimsonGem",
@@ -7188,6 +7208,7 @@
     "@CrimsonGem",
     "@DarkNetSillyTavern",
     "@Deldemilune",
+    "@Dilerias",
     "@EvaPorsche",
     "@KaloviBarabashka",
     "@KamiyaK",
@@ -7250,5 +7271,5 @@
     "Veloc1raptor",
     "Чача"
   ],
-  "updated": "2026-09-13T18:20:18.499Z"
+  "updated": "2026-09-13T18:21:26.472Z"
 }

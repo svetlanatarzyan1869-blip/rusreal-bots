@@ -1771,6 +1771,27 @@
       "light": false
     },
     {
+      "id": "30329977-614b-4847-8b5b-59050128f36b",
+      "name": "Evgeny \"Acheron\" | Hardwired Cyber Club Admin",
+      "author": "@Red_Mad",
+      "authorUrl": "https://janitorai.com/profiles/68c80612-a2c2-419a-875b-68b6afd19363_profile-of-red_mad",
+      "image": "images/Evgeny_Acheron_Hardwired_Cyber_Club_Admin.png",
+      "description": "\"Another shift. Another twelve hours of listening to school kids screaming over headsets. If that kid in Row B spills his sticky soda on my motherboard one more time, I swear on the server rack, I'm throwing him out into the snow by his collar. Check the main register and tell me we actually broke even today.\"",
+      "scenario": "1. The Physical Debuff — The club is emptying out after a grueling night shift. Evgeny, running on three hours of sleep, brings you a mug of bitter black coffee. Exhausted and suffering from carpal tunnel syndrome, he leans against your desk and tasks you with closing a shady RMT deal with a client over ICQ, trusting you with the finances so he can finally get some sleep.\n\n2. The Castle Siege — The server room is a sweltering oven. Evgeny is focused on commanding a chaotic Lineage II siege over voice chat. With his attention divided and the framerate stuttering, the enemy pushes your flank. He barks a sharp, pragmatic command across the physical space between your desks, expecting you to burn your cooldowns and hold the line.\n\n3. The Post-Raid Hangover — 5:00 AM. After five grueling hours of screaming over Ventrilo, the 25-man raid boss is dead. Evgeny throws his headset onto the desk, the digital silence replaced by the hum of the servers. He turns to you in the dim neon glow, offering you a cigarette and pragmatically asking if you want to sort the loot now, or if you are finally logging off to sleep.\n\n4. The Morning Save Room — 8:00 AM. The club is officially closed. While you finish wiping down the sticky desks, Evgeny puts on the acoustic Diablo II Tristram theme through Winamp. Retreating to the server room, he tosses you a bottle of water and starts a dry, cynical debate about the morally gray choices in Dragon Age: Origins, seeking comfortable, nerdy decompression.\n\n5. System Overload — 1:00 AM. The club is a madhouse. After aggressively breaking up a near-brawl between local thugs in the main hall, Evgeny’s social battery is completely empty. He retreats to the server room, but instead of sitting at his desk, he stops behind your chair. He places his calloused hands on your shoulders, resting his head against your neck, using your quiet presence to ground himself while asking to see your game stats.",
+      "janitorUrl": "https://janitorai.com/characters/c84b3080-02de-4f38-8ad5-7cbc2ae0579e_character-evgeny-acheron-hardwired-cyber-club-admin",
+      "tags": [
+        "#Male",
+        "#OC",
+        "#MLM",
+        "#DeadDove",
+        "#MalePov",
+        "#rusreal",
+        "#musicmania2"
+      ],
+      "addedAt": "2026-09-13T18:28:28.266Z",
+      "light": false
+    },
+    {
       "id": "36f3030e-84d8-804a-8e97-f016478ffc22",
       "name": "Evgeny | New Year's kiss",
       "author": "@Anfitka",
@@ -7340,5 +7361,5 @@
     "Veloc1raptor",
     "Чача"
   ],
-  "updated": "2026-09-13T18:25:46.088Z"
+  "updated": "2026-09-13T18:28:28.267Z"
 }

@@ -5573,6 +5573,27 @@
       "light": true
     },
     {
+      "id": "cc4a7776-5985-406e-8041-11caa23bc280",
+      "name": "The Wanderers | Kamchatka",
+      "author": "@Kris Mars",
+      "authorUrl": "https://janitorai.com/profiles/75d9d4f4-2f68-49ad-b795-296fd5a079e6_profile-of-kris-mars",
+      "image": "images/The_Wanderers_Kamchatka.png",
+      "description": "Vecheslav is a wanderer in a world that long ago resigned itself to its fate and continues its slow decay. The guy isn't blessed with the pleasantest personality, suffers from hallucinations, and  continues its slow decay. The guy isn't blessed with the pleasantest personality, suffers from hallucinations, and isn't even always sure that you're real. People usually just call his type a prick, but hey, it's not like we're going to judge him for it.",
+      "scenario": "01. HALLUCINATION — Vecheslav mistakes you for just another silhouette spawned by his sick mind. Still, why not chat with a hallucination? It's not like better conversation partners are anywhere in sight. The only question left is at what point Slava will realize you're a bit too real.\n02. FOUR YEARS LATE — Your role is partially defined. A few years ago, you and Vecheslav agreed to head to Kamchatka together. Only, the very next morning, you vanished without a word of explanation. He waited for you. Really waited. And then he made his peace with it. Now you're standing in front of him on the shore of the Pacific Ocean, and Slava is almost politely asking if the road didn't tire you out too much.\n03. FREEFORM START — No predetermined encounter. Come up with your own backstory: a local resident, a wanderer, a trader, someone from a distant settlement, or anyone else. Decide for yourself how you ended up in Kamchatka and how your path crossed with Slava's.\n04–05. RUSSIAN VERSIONS — The first two scenarios completely in Russian.",
+      "janitorUrl": "https://janitorai.com/characters/2964ae52-5d74-48ec-89df-fa3d43f415dd_character-the-wanderers-kamchatka",
+      "tags": [
+        "#Male",
+        "#OC",
+        "#Angst",
+        "#DeadDove",
+        "#postapoc",
+        "#rusreal",
+        "#Wanderers"
+      ],
+      "addedAt": "2026-09-26T06:05:24.570Z",
+      "light": false
+    },
+    {
       "id": "3963030e-84d8-805c-ac3d-f7f79accb25e",
       "name": "Tima ⟢ Your guide to the new school",
       "author": "@didyulya",
@@ -7595,5 +7616,5 @@
     "Veloc1raptor",
     "Чача"
   ],
-  "updated": "2026-09-26T06:04:16.037Z"
+  "updated": "2026-09-26T06:05:24.570Z"
 }

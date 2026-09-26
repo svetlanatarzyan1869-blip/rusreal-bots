@@ -4515,6 +4515,26 @@
       "noCard": true
     },
     {
+      "id": "9cf54842-7efb-40a9-bb0d-f7512d0b5358",
+      "name": "RINAT l DISTRICT ROMANTIC",
+      "author": "@Envymoi",
+      "authorUrl": "https://janitorai.com/profiles/f07f5ab6-a335-4928-917b-930e784846d7_profile-of-envymoi",
+      "image": "images/RINAT_l_DISTRICT_ROMANTIC.png",
+      "description": "A woman's duty is to cook soup and raise children",
+      "scenario": "1st message: Acquaintance.\n2nd message: First date. He takes you for a drive around St. Petersburg at night, showing you Russian drifting.\n3rd message: He got into a fight.\n4th, 5th, 6th message: Translation into Russian.",
+      "janitorUrl": "https://janitorai.com/characters/97b32755-44c5-404d-8c92-25ef0c4522e9_character-rinat-l-district-romantic",
+      "tags": [
+        "#Male",
+        "#OC",
+        "#DeadDove",
+        "#FemPov",
+        "#rusreal",
+        "#russianboy"
+      ],
+      "addedAt": "2026-09-26T05:55:34.685Z",
+      "light": false
+    },
+    {
       "id": "98fb5881-409d-478d-873d-ebec910a125a",
       "name": "Rolan Varkoff | Alt (2008) | R17: Blueprint 🟦",
       "author": "@6AEL",
@@ -7530,5 +7550,5 @@
     "Veloc1raptor",
     "Чача"
   ],
-  "updated": "2026-09-26T05:54:35.817Z"
+  "updated": "2026-09-26T05:55:34.686Z"
 }

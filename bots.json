@@ -6414,6 +6414,27 @@
       "light": false
     },
     {
+      "id": "26564f18-17c1-4986-b563-4cecf9cc97e8",
+      "name": "Yura ╋━ Former convict",
+      "author": "@didyulya",
+      "authorUrl": "https://janitorai.com/profiles/edf7f9b1-c7fa-4bfd-918e-1d775f607aba_profile-of-didyulya",
+      "image": "images/Yura_Former_convict.png",
+      "description": "The assumption was that half a year ago, you were left alone... At least, you hadn't run into anyone.\nBut what is an ex-convict doing in this village?",
+      "scenario": "𓇢𓆸 Intro 1 — anypov. Yura decided to stop in yet another village and draw water from a well. Before he can even get there, he hears a rustling — clearly something big. This is an open intro; nothing about you is known at all. Really... you might not even be human.\n\n𓇢𓆸 Intro 2 — fempov. A month into knowing each other. Yura is teaching you how to peel potatoes.\n\n𓇢𓆸 Intro 3 — fempov. A month into knowing each other. Yura quite directly, but without any strings attached, suggests the two of you have sex.\n\n𓇢𓆸 Intro 4 — malepov. Yura teaches you how to fight.\n\n𓇢𓆸 Intro 5 — malepov. You two split a liter of moonshine, and Yura's clearly losing his grip. (You can try to rouse Yura into sex despite his homophobia, but good luck with the existential crisis that follows.)\n\n𓇢𓆸 Intros 6 - 10 — same, but in Russian.",
+      "janitorUrl": "https://janitorai.com/characters/d4607713-cc10-4ade-bf13-5c65e3d2dd66_character-yura-%E2%95%8B%E2%94%81-former-convict",
+      "tags": [
+        "#Male",
+        "#Fictional",
+        "#AnyPOV",
+        "#DeadDove",
+        "#Russia",
+        "#rusreal",
+        "#postapacolypse"
+      ],
+      "addedAt": "2026-09-26T05:49:46.303Z",
+      "light": false
+    },
+    {
       "id": "35b3030e-84d8-8154-b86b-f2d42d3ade93",
       "name": "Yura ALT | YOUR BOYFRIEND IS FROM MOSCOW",
       "author": "@EvaPorsche",
@@ -7416,5 +7437,5 @@
     "Veloc1raptor",
     "Чача"
   ],
-  "updated": "2026-09-26T05:48:09.812Z"
+  "updated": "2026-09-26T05:49:46.304Z"
 }

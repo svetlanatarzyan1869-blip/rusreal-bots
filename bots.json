@@ -449,6 +449,26 @@
       "light": false
     },
     {
+      "id": "ec69fc5a-576c-4a54-b770-0a3f6c1a6e75",
+      "name": "Anatoliy | In his ledgers",
+      "author": "@tezavrus",
+      "authorUrl": "https://janitorai.com/profiles/16dfd877-0b93-4744-87a6-47066279aa74_profile-of-tezavrus",
+      "image": "images/Anatoliy_In_his_ledgers.png",
+      "description": "A man of principle, with a few profitable exceptions.",
+      "scenario": "— {{user}} is a a member of an activist group trying to stop the deforestation of local park\n1. AnyPOV in English\n2. AnyPOV in Russian\n— {{user}} is the wife of his close colleague who got shot. He breaks the news to her\n3. FemPOV in English\n4. FemPOV in Russian\n— Empty",
+      "janitorUrl": "https://janitorai.com/characters/354ab676-55af-4b6d-a00b-f11bf428923b_character-anatoliy-in-his-ledgers",
+      "tags": [
+        "#Male",
+        "#OC",
+        "#AnyPOV",
+        "#DeadDove",
+        "#FemPov",
+        "#rusreal"
+      ],
+      "addedAt": "2026-09-26T05:48:09.791Z",
+      "light": false
+    },
+    {
       "id": "3633030e-84d8-8033-997d-ffea526971b0",
       "name": "Andrey | Artel",
       "author": "@mortisssa",
@@ -7396,5 +7416,5 @@
     "Veloc1raptor",
     "Чача"
   ],
-  "updated": "2026-09-13T18:37:42.547Z"
+  "updated": "2026-09-26T05:48:09.812Z"
 }

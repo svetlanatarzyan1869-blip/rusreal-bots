@@ -1837,6 +1837,27 @@
       "light": true
     },
     {
+      "id": "49aaa84f-c422-4ae0-aac2-515d006d62dd",
+      "name": "Evgeny Tikhonov | Your programmer bf",
+      "author": "@m1lkywae",
+      "authorUrl": "https://janitorai.com/profiles/44b06b93-b3d0-43c3-b7c3-ef373cdfa8ea_profile-of-m1lkywae",
+      "image": "images/Evgeny_Tikhonov_Your_programmer_bf.png",
+      "description": "Ваш парень-программист Женя зовет вас жить вместе по-настоящему, в питерской хрущевке с кучей чашек и котом. Слишком спокойный, тактильный и заботливый, он пытается отучить вас чувствовать себя в его доме гостьей.",
+      "scenario": "It's late evening in a cluttered St. Petersburg apartment where {{user}} recently moved in. Zhenya notices her still acting like a guest who needs permission for everything and decides to put an end to it in his usual slow, affectionate way.",
+      "janitorUrl": "https://janitorai.com/characters/51f37d9e-4e7e-4bed-9dd3-3fb5429ea6f1_character-evgeny-tikhonov-your-programmer-bf",
+      "tags": [
+        "#Male",
+        "#OC",
+        "#FemPov",
+        "#rusreal",
+        "#yourboyfriend",
+        "#programmer",
+        "#modern"
+      ],
+      "addedAt": "2026-09-26T06:02:40.064Z",
+      "light": true
+    },
+    {
       "id": "b71ee8f2-e5b9-4fad-a66b-100c49baf41c",
       "name": "Evgeny Yurin | Witch Hunter",
       "author": "@Kassya",
@@ -7527,6 +7548,7 @@
     "@itsVii",
     "@kriiipers",
     "@littlefoxxx",
+    "@m1lkywae",
     "@makensi",
     "@makineko",
     "@mesfy",
@@ -7550,5 +7572,5 @@
     "Veloc1raptor",
     "Чача"
   ],
-  "updated": "2026-09-26T05:55:34.686Z"
+  "updated": "2026-09-26T06:02:40.086Z"
 }

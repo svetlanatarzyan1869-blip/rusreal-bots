@@ -4306,6 +4306,30 @@
       "universe": "RUSSKAYA TOSKA"
     },
     {
+      "id": "9675a274-3ca6-47df-a769-88b5c58408cf",
+      "name": "PASHA | TRIP TO CHERNOBYL",
+      "author": "@Tuadomia",
+      "authorUrl": "https://janitorai.com/profiles/83a751b6-a35d-4053-9a6a-88fa35997f7a_profile-of-tuadomia",
+      "image": "images/PASHA_TRIP_TO_CHERNOBYL.png",
+      "description": "«Get ready. We're heading to Chernobyl to track down the ghoul who stole 11 million from me.»",
+      "scenario": "• Leha slipped some weed into Gosha’s car, which you’re all riding in. Now you’ve robbed truckers to pay a bribe. Good luck escaping and freeing your friend.\n• Coming soon.\n• Blank.",
+      "janitorUrl": "https://janitorai.com/characters/27c86c9f-549b-40aa-b614-21a61e9bf7b4_character-pasha-trip-to-chernobyl",
+      "tags": [
+        "#Male",
+        "#Fictional",
+        "#Dominant",
+        "#Horror",
+        "#FemPov",
+        "#chernobyl",
+        "#rusreal",
+        "#2014",
+        "#musicmania2",
+        "#chernobylexclusionzon"
+      ],
+      "addedAt": "2026-09-26T05:50:33.580Z",
+      "light": false
+    },
+    {
       "id": "3633030e-84d8-803e-8e2a-d203504afeef",
       "name": "Pavel | Artel",
       "author": "@mortisssa",
@@ -7391,6 +7415,7 @@
     "@RAWaimed",
     "@Red_Mad",
     "@Sealiyon",
+    "@Tuadomia",
     "@Voznya",
     "@Wewwa",
     "@Whoasya?",
@@ -7437,5 +7462,5 @@
     "Veloc1raptor",
     "Чача"
   ],
-  "updated": "2026-09-26T05:49:46.304Z"
+  "updated": "2026-09-26T05:50:33.580Z"
 }

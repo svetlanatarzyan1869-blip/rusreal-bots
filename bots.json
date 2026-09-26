@@ -182,7 +182,7 @@
         "#rusrealari"
       ],
       "addedAt": "2026-08-22T19:46:41.089Z",
-      "light": false
+      "light": true
     },
     {
       "id": "35b3030e-84d8-8131-b3d2-dc5e74e403de",
@@ -952,7 +952,7 @@
         "#HisAris"
       ],
       "addedAt": "2026-09-07T10:44:52.872Z",
-      "light": false,
+      "light": true,
       "universe": "His Aris"
     },
     {
@@ -975,7 +975,7 @@
         "#2017"
       ],
       "addedAt": "2026-08-22T20:07:20.267Z",
-      "light": false
+      "light": true
     },
     {
       "id": "3963030e-84d8-808f-b439-cb1dc3d8ab09",
@@ -1857,7 +1857,7 @@
         "#musicmania2"
       ],
       "addedAt": "2026-09-13T18:28:28.266Z",
-      "light": false
+      "light": true
     },
     {
       "id": "36f3030e-84d8-804a-8e97-f016478ffc22",
@@ -2292,7 +2292,7 @@
         "#verssusbattle"
       ],
       "addedAt": "2026-09-07T10:47:25.825Z",
-      "light": false
+      "light": true
     },
     {
       "id": "35b3030e-84d8-81b2-a6e9-dc6b98ee8159",
@@ -2486,7 +2486,7 @@
         "#rusreal"
       ],
       "addedAt": "2026-09-07T10:44:05.711Z",
-      "light": false
+      "light": true
     },
     {
       "id": "3a43030e-84d8-80cf-9f96-d0d23505de5c",
@@ -4271,7 +4271,7 @@
         "#slowburn"
       ],
       "addedAt": "2026-09-13T18:20:18.467Z",
-      "light": false,
+      "light": true,
       "universe": "His Aris"
     },
     {
@@ -4512,7 +4512,7 @@
         "#russia"
       ],
       "addedAt": "2026-08-22T19:41:15.802Z",
-      "light": false
+      "light": true
     },
     {
       "id": "7eb9ad2b-4f21-42bb-8d14-597f374fe893",
@@ -5212,7 +5212,7 @@
         "#familia"
       ],
       "addedAt": "2026-09-07T10:42:53.404Z",
-      "light": false
+      "light": true
     },
     {
       "id": "35b3030e-84d8-8174-a7eb-fd2551b24832",
@@ -5455,7 +5455,7 @@
         "#rusreal"
       ],
       "addedAt": "2026-08-22T19:34:06.178Z",
-      "light": false
+      "light": true
     },
     {
       "id": "3823030e-84d8-809e-a1c2-d0e8960e88c8",
@@ -7086,7 +7086,7 @@
       "janitorUrl": "",
       "tags": [],
       "addedAt": "2026-09-13T18:37:42.546Z",
-      "light": false
+      "light": true
     },
     {
       "id": "3a43030e-84d8-8048-a5ce-fba81c11ba57",
@@ -7643,5 +7643,5 @@
     "Veloc1raptor",
     "Чача"
   ],
-  "updated": "2026-09-26T06:15:42.746Z"
+  "updated": "2026-09-26T06:22:13.049086Z"
 }

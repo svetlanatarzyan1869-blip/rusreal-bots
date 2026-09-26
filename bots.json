@@ -1766,6 +1766,29 @@
       "light": true
     },
     {
+      "id": "331ee211-198e-49f9-a4c3-509a0959b9c7",
+      "name": "ELYA KOTENKO | HTON'",
+      "author": "@ssshu",
+      "authorUrl": "https://janitorai.com/profiles/c7ab12cb-59e7-4906-8943-3c219bfec0a6_profile-of-ssshu",
+      "image": "images/ELYA_KOTENKO_HTON.png",
+      "description": "«The Tarot says you will be mine»",
+      "scenario": "1. Elya is understanding toward her best friend. So when Aldar urgently needed to take an indefinite leave and go to Gorny Altai, his homeland, she decided to find a new temporary employee for the pharmacy on her own.\n2. An ordinary shift at the pharmacy. You came for medicine and interested Evelina with your... energy? Wait, what product did you even come for? And was it for the goods?\n3. At another house party, Elya persuades you, a stranger, to take off to a rave in Barnaul. She doesn't want to go alone. You take the last bus, listen to music, she tells stories about everyone she knows. Once there, it turns out her bag with documents and money was stolen. You'll have to figure it out together.\n4. The pharmacy where Elya works is right next to \"Krasnoe & Beloe\". During the evening shift, someone starts a drunken brawl outside, and you become the center of it. She intervenes to cover for you (and not at all because the shouting was scaring away her customers).\n5. Scenario 1 in Russian.\n6. Scenario 2 in Russian.\n7. Scenario 3 in Russian.\n8. Scenario 4 in Russian.\n9. Empty – try coming up with somethin.",
+      "janitorUrl": "https://janitorai.com/characters/165fe8f8-0bd9-4d55-a103-bfa185b689d9_character-elya-kotenko-hton",
+      "tags": [
+        "#Female",
+        "#OC",
+        "#DeadDove",
+        "#FemPov",
+        "#MalePov",
+        "#musicmania2",
+        "#rusreal",
+        "#russian"
+      ],
+      "addedAt": "2026-09-26T06:04:16.036Z",
+      "light": false,
+      "universe": "HTON'"
+    },
+    {
       "id": "3753030e-84d8-801f-bf11-e712ed5348cb",
       "name": "Erik | Artel",
       "author": "@mortisssa",
@@ -7572,5 +7595,5 @@
     "Veloc1raptor",
     "Чача"
   ],
-  "updated": "2026-09-26T06:02:40.086Z"
+  "updated": "2026-09-26T06:04:16.037Z"
 }

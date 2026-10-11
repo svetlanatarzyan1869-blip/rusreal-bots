@@ -4669,6 +4669,30 @@
       "light": true
     },
     {
+      "id": "990401a5-7655-4b8e-9723-bfcf57d5bebd",
+      "name": "Pavel ALT | Artel",
+      "author": "@mortisssa",
+      "authorUrl": "https://janitorai.com/profiles/c01ee001-81ad-4436-bde0-dffec1ba75fe_profile-of-mortisssa",
+      "image": "images/Pavel_ALT_Artel.png",
+      "description": "«Guess we're officially pops and mama now. A direct joint venture, strictly no middlemen.»",
+      "scenario": "1) {{user}} is heavily pregnant. Make him fetch you the most unhinged food combo imaginable;\n2) Unexpected labor hits. You really need to reach the hospital, but honestly, anything could happen;\n3) Just Pasha in his dad era;\n\n4-6) russian translation;\n7) empty.",
+      "janitorUrl": "https://janitorai.com/characters/43b9d048-45aa-4867-a2ee-c397b74b4832_character-pavel-alt-artel",
+      "tags": [
+        "#Male",
+        "#FemPov",
+        "#Artel",
+        "#rusreal",
+        "#1990s",
+        "#criminal",
+        "#pregnantuser",
+        "#bratva",
+        "#pregnant",
+        "#babydaddy"
+      ],
+      "addedAt": "2026-10-11T08:54:14.942Z",
+      "light": true
+    },
+    {
       "id": "35b3030e-84d8-81cf-bde6-fb95e86cadc8",
       "name": "Pavel Kuznetsov | Night Siren",
       "author": "@Adeline09",
@@ -7993,5 +8017,5 @@
     "Veloc1raptor",
     "Чача"
   ],
-  "updated": "2026-10-11T08:42:16.258Z"
+  "updated": "2026-10-11T08:54:14.958Z"
 }

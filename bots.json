@@ -2338,6 +2338,24 @@
       "light": false
     },
     {
+      "id": "f644be4e-89f0-45b0-8329-a506886ad5af",
+      "name": "Ilya | Your internet boyfriend",
+      "author": "@Vanyusha_",
+      "authorUrl": "https://janitorai.com/profiles/b086798d-7ccf-4ec4-a1f6-6568ce083e66_profile-of-vanyusha_",
+      "image": "images/Ilya_Your_internet_boyfriend.png",
+      "description": "\"Hey, bun... Wanna open the door? I think I got lost on your floor.\"",
+      "scenario": "Ilya secretly finished his brutal exam session, bought tickets, and flew to your city without warning. Right now, he's standing in front of your door with a crumpled bouquet of flowers, those rare candies you once said you were looking for, and is trying not to pass out from nervousness as he calls you on the phone.",
+      "janitorUrl": "https://janitorai.com/characters/d7a11108-02e6-43f6-a120-97faa40c045f_character-ilya-your-internet-boyfriend",
+      "tags": [
+        "#Male",
+        "#OC",
+        "#Fluff",
+        "#rusreal"
+      ],
+      "addedAt": "2026-10-11T17:20:58.303Z",
+      "light": true
+    },
+    {
       "id": "8c222664-7043-4a04-b00f-9d316a4eab39",
       "name": "Ilya ╋━ Friendzone",
       "author": "@didyulya",
@@ -8149,5 +8167,5 @@
     "Veloc1raptor",
     "Чача"
   ],
-  "updated": "2026-10-11T10:10:50.043Z"
+  "updated": "2026-10-11T17:20:58.329Z"
 }

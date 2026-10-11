@@ -2244,6 +2244,30 @@
       "light": true
     },
     {
+      "id": "4c093a4d-6008-4699-a0bb-81fa957f896d",
+      "name": "I decided everything for us | The Wanderers",
+      "author": "@Kris Mars",
+      "authorUrl": "https://janitorai.com/profiles/75d9d4f4-2f68-49ad-b795-296fd5a079e6_profile-of-kris-mars",
+      "image": "images/I_decided_everything_for_us_The_Wanderers.png",
+      "description": "“I’m sorry... I’m sorry I decided everything for both of us… I really thought it would be for the best. But I can’t handle this...”",
+      "scenario": "01. CHANGED MY MIND — For those who came for angst. You and Dima already know each other, but how long you've known him and what exactly connects you is up to you. Perhaps you traveled together and he decided to leave you in a safe sanatorium. Perhaps you met right here. Perhaps there is friendship between you, love, or something you haven't put a name to yet. Only one thing is known for sure: Dima left. He convinced himself it would be for the best, said goodbye, and continued his journey with Andrey. And then he couldn't take it anymore—turned around in the middle of the road and walked twenty kilometers back through the night just to ask you to come with him.W\n02. ANNA GO FOR A WALK? — Andrey and Dima arrived at the sanatorium just a couple of days ago. You and Dima are practically strangers: a few words exchanged at the communal table, and a promised tour of the sanatorium that he had been asking for quite persistently. Only after breakfast, Dima suddenly decides that the old buildings can wait. A mountain forest begins right behind the sanatorium, the weather is far too good, and he doesn't want to sit still at all. They won't let him go there alone, so now he's sitting beside you on the porch, giving you the most innocent puppy eyes he can manage, trying to talk you into a completely different kind of tour.\n03–04. RUSSIAN VERSIONS — The first two scenarios are fully in Russian.",
+      "janitorUrl": "https://janitorai.com/characters/b3e42987-9858-40c8-977e-3ae05de94095_character-i-decided-everything-for-us-the-wanderers",
+      "tags": [
+        "#Male",
+        "#OC",
+        "#AnyPOV",
+        "#Angst",
+        "#DeadDove",
+        "#Fluff",
+        "#postapocalyptic",
+        "#apokolips",
+        "#rusreal",
+        "#Wanderers"
+      ],
+      "addedAt": "2026-10-11T08:42:16.257Z",
+      "light": true
+    },
+    {
       "id": "3a43030e-84d8-8020-9a62-eae2a3801efc",
       "name": "ILYA | RUSSIAN DEMBEL",
       "author": "@Liiini",
@@ -7969,5 +7993,5 @@
     "Veloc1raptor",
     "Чача"
   ],
-  "updated": "2026-10-11T08:40:29.181Z"
+  "updated": "2026-10-11T08:42:16.258Z"
 }

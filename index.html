@@ -462,8 +462,15 @@ async function init(){
     document.documentElement.setAttribute("data-theme",saved);
     updateThemeIcon(saved);
     // Открыть бота из хэша
-    const hash=decodeURIComponent(location.hash.slice(1));
-    if(hash){const b=ALL_BOTS.find(b=>b.name===hash);if(b&&!b.isWelcome){const idx=ALL_BOTS.indexOf(b);setTimeout(()=>openModal(idx),300);}}
+    let hash="";try{hash=decodeURIComponent(location.hash.slice(1));}catch(e){hash=location.hash.slice(1);}
+    hash=hash.trim();
+    if(hash){
+      // openModal работает по номеру в filteredBots, поэтому ищем там
+      let i=filteredBots.findIndex(b=>!b.isWelcome&&b.name===hash);
+      // старые ссылки мессенджеры обрезали на апострофе — пробуем по началу имени, если такой бот один
+      if(i<0){const c=[];filteredBots.forEach((b,j)=>{if(!b.isWelcome&&b.name.startsWith(hash))c.push(j);});if(c.length===1)i=c[0];}
+      if(i>=0)setTimeout(()=>openModal(i),300);
+    }
   }catch(e){
     document.getElementById("loading").innerHTML=`<div class="loading-text" style="color:var(--accent)">Ошибка загрузки<br><small>${e.message}</small></div>`;
   }
@@ -677,7 +684,8 @@ function openModal(idx){
 }
 
 function shareBot(name){
-  const url=location.origin+location.pathname+"#"+encodeURIComponent(name);
+  // encodeURIComponent не трогает ' ( ) ! * — а мессенджеры рвут ссылку на апострофе, кодируем и их
+  const url=location.origin+location.pathname+"#"+encodeURIComponent(name).replace(/[!'()*]/g,c=>"%"+c.charCodeAt(0).toString(16).toUpperCase());
   navigator.clipboard.writeText(url).then(()=>showToast("Ссылка скопирована!")).catch(()=>{
     const inp=document.createElement("input");inp.value=url;document.body.appendChild(inp);inp.select();document.execCommand("copy");document.body.removeChild(inp);showToast("Ссылка скопирована!");
   });

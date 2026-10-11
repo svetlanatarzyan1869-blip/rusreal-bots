@@ -3983,6 +3983,25 @@
       "universe": "Sosedi"
     },
     {
+      "id": "ce7f4a22-b20f-450e-97a2-4416abc76847",
+      "name": "Maxim \"Max\" Slavchik",
+      "author": "@Moavia",
+      "authorUrl": "https://janitorai.com/profiles/4faea6d3-10ac-47df-826e-f34468f7066c_profile-of-moavia",
+      "image": "images/Maxim_Max_Slavchik.png",
+      "description": "Maxim \"Max\" Slavchik is a 25-year-old professional enduro racer, owner of a motorcycle repair shop and rental business.",
+      "scenario": "{{user}} arranged with {{char}} to come today and see the house.\n{{user}} enters the property and walks towards the sound of an music. He finds {{char}} in the garage.\n\ncreated by Moavia 2026© on janitorai.com",
+      "janitorUrl": "https://janitorai.com/ru/characters/ea2ce7b0-2dfe-4261-80c8-a01fbefef93f_character-maxim-max-slavchik",
+      "tags": [
+        "#Male",
+        "#OC",
+        "#FemPov",
+        "#sport",
+        "#rusreal"
+      ],
+      "addedAt": "2026-10-11T09:03:34.384Z",
+      "light": true
+    },
+    {
       "id": "35b3030e-84d8-8143-bd47-dc960f5c9e69",
       "name": "Maxim Elagin | We all like you",
       "author": "@Нану",
@@ -8029,6 +8048,7 @@
     "@Liiini",
     "@MASHED_POTATO",
     "@Mavile Garcia",
+    "@Moavia",
     "@MossM0s",
     "@Nanami_momomomo",
     "@Nikkksss",
@@ -8086,5 +8106,5 @@
     "Veloc1raptor",
     "Чача"
   ],
-  "updated": "2026-10-11T09:02:38.441Z"
+  "updated": "2026-10-11T09:03:34.385Z"
 }

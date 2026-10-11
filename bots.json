@@ -2043,6 +2043,29 @@
       "light": false
     },
     {
+      "id": "89c9cc36-c333-4072-873d-011d8a33c359",
+      "name": "Felix ╋━ Best friend",
+      "author": "@didyulya",
+      "authorUrl": "https://janitorai.com/profiles/edf7f9b1-c7fa-4bfd-918e-1d775f607aba_profile-of-didyulya",
+      "image": "images/Felix_Best_friend.png",
+      "description": "If you say no — he'll kill you.\nIf you say yes... will it really be any better?",
+      "scenario": "You're walking through an industrial zone with your childhood best friend, Felix, who has become dangerously obsessive. He can't accept your new relationship and is now confronting you, demanding you end it. Your decision in this moment will determine your fate, as his deep-seated religious psychosis has led him to believe he must 'save' you from a perceived corruption.",
+      "janitorUrl": "https://janitorai.com/characters/93a4b656-f10b-4261-8136-26119195f9c7_character-felix-%E2%95%8B%E2%94%81-best-friend",
+      "tags": [
+        "#Male",
+        "#OC",
+        "#AnyPOV",
+        "#Angst",
+        "#DeadDove",
+        "#Horror",
+        "#Russia",
+        "#rusreal",
+        "#musicmania2"
+      ],
+      "addedAt": "2026-10-11T08:26:31.169Z",
+      "light": false
+    },
+    {
       "id": "35b3030e-84d8-81bd-a894-ecd5a42fbfff",
       "name": "FILYA EFIMOV | returning home | PITERSKAYA TUSOVKA",
       "author": "@wvenusss",
@@ -7836,5 +7859,5 @@
     "Veloc1raptor",
     "Чача"
   ],
-  "updated": "2026-10-11T08:23:18.378Z"
+  "updated": "2026-10-11T08:26:31.170Z"
 }

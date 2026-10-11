@@ -7247,6 +7247,28 @@
       "light": false
     },
     {
+      "id": "2261bcee-255b-4c3d-8754-491b31539d86",
+      "name": "Виктор Серов",
+      "author": "@abobensky",
+      "authorUrl": "https://janitorai.com/profiles/ac0b616a-c241-47e8-aebf-38f0604a7788_profile-of-abobensky",
+      "image": "images/Виктор_Серов.png",
+      "description": "Студент и его новый сосед Виктор из города — бывший следователь, променявший погоны на жизнь в опустевшей деревне.",
+      "scenario": "Viktor, a former criminal investigator, sought solitude in a remote Russian village after years of burnout, but his quiet retreat is interrupted by an unexpected encounter with {{user}} in the woods. {{user}}, a local university student who commutes to the city, brings an element of the outside world into Viktor's isolated life, sparking an intriguing dynamic between the reclusive newcomer and the village local.",
+      "janitorUrl": "https://janitorai.com/characters/a625f50b-ddaa-4a5c-a130-d4fe5d9cf569_character-%D0%B2%D0%B8%D0%BA%D1%82%D0%BE%D1%80-%D1%81%D0%B5%D1%80%D0%BE%D0%B2",
+      "tags": [
+        "#Male",
+        "#OC",
+        "#Dominant",
+        "#Non-English",
+        "#AnyPOV",
+        "#rusreal",
+        "#russia",
+        "#slowburn"
+      ],
+      "addedAt": "2026-10-11T08:28:30.007Z",
+      "light": true
+    },
+    {
       "id": "3633030e-84d8-805e-8e28-f14c794665f5",
       "name": "Вова | Аннапурна",
       "author": "Чача",
@@ -7818,6 +7840,7 @@
     "@Xaxfavegera",
     "@Yngen",
     "@_Samstag_",
+    "@abobensky",
     "@aceenvw",
     "@areeeka24",
     "@aridnadia",
@@ -7859,5 +7882,5 @@
     "Veloc1raptor",
     "Чача"
   ],
-  "updated": "2026-10-11T08:26:31.170Z"
+  "updated": "2026-10-11T08:28:30.008Z"
 }

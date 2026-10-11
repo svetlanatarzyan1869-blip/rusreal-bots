@@ -474,6 +474,26 @@
       "light": false
     },
     {
+      "id": "04175b7a-4a57-4365-a8d0-932b268a0b87",
+      "name": "Alisa ╋━ Mentor",
+      "author": "@didyulya",
+      "authorUrl": "https://janitorai.com/profiles/edf7f9b1-c7fa-4bfd-918e-1d775f607aba_profile-of-didyulya",
+      "image": "images/Alisa_Mentor.png",
+      "description": "You've been interning as a barista for two weeks now... and you're pretty sure your mentor has her eye on you.",
+      "scenario": "🕮 Intro 1: During your internship, it turns out you have to save your mentor (Alisa) from a monster in the back room. And it's a spider the size of a pinky finger, just so you know.\n\n🕮 Intro 2: Out of boredom, Dasha decided to interrogate you about your personal life — and through the thin wall, Alisa found the topic very interesting too.\n\n🕮 Intro 3: Two weeks into your internship, you finally get that one customer who won't leave without a scene — and Alisa comes running to save you.",
+      "janitorUrl": "https://janitorai.com/characters/4fa5b758-bd57-4eda-afb9-d45d5e6eb8dd_character-alisa-%E2%95%8B%E2%94%81-mentor",
+      "tags": [
+        "#Female",
+        "#OC",
+        "#WLW",
+        "#FemPov",
+        "#Russia",
+        "#rusreal"
+      ],
+      "addedAt": "2026-10-11T08:23:18.378Z",
+      "light": false
+    },
+    {
       "id": "3753030e-84d8-80a1-8332-e15c65495d7f",
       "name": "Anar || OCG Leader",
       "author": "@Yngen",
@@ -7816,5 +7836,5 @@
     "Veloc1raptor",
     "Чача"
   ],
-  "updated": "2026-10-11T08:21:39.451Z"
+  "updated": "2026-10-11T08:23:18.378Z"
 }

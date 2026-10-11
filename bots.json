@@ -2625,6 +2625,26 @@
       "light": false
     },
     {
+      "id": "5d9b8a3d-fbdf-4c39-a278-2483a4033421",
+      "name": "Kirill ╋━  Streamer",
+      "author": "@didyulya",
+      "authorUrl": "https://janitorai.com/profiles/edf7f9b1-c7fa-4bfd-918e-1d775f607aba_profile-of-didyulya",
+      "image": "images/Kirill_Streamer.png",
+      "description": "You posted some educational content on TikTok... and in the comments, the smartest guy alive showed up to explain \"the basics\"",
+      "scenario": "You've just posted a viral TikTok criticizing male streamers for their behavior, indirectly calling out Kirill (kaboomer) in the process. His ego bruised, Kirill is now ready to confront you online, sparking a heated war of words that might just lead to an unexpected connection.",
+      "janitorUrl": "https://janitorai.com/characters/53a8007f-5b75-4936-ae64-5d858231fc0d_character-kirill-%E2%95%8B%E2%94%81-streamer",
+      "tags": [
+        "#Male",
+        "#OC",
+        "#EnemiestoLovers",
+        "#FemPov",
+        "#Russia",
+        "#rusreal"
+      ],
+      "addedAt": "2026-10-11T08:09:10.809Z",
+      "light": true
+    },
+    {
       "id": "3753030e-84d8-800a-a282-e4f75206cad9",
       "name": "Kirill Gurov | God will help us",
       "author": "@Нану",
@@ -7679,5 +7699,5 @@
     "Veloc1raptor",
     "Чача"
   ],
-  "updated": "2026-09-26T06:41:41.960Z"
+  "updated": "2026-10-11T08:09:10.825Z"
 }

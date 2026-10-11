@@ -334,6 +334,28 @@
       "light": false
     },
     {
+      "id": "7827ae0a-cacd-4492-97b2-960c8bd35ecf",
+      "name": "Alexander Yudin | Russian Mafia",
+      "author": "@malikova",
+      "authorUrl": "https://janitorai.com/profiles/3bd7e4e9-5d11-4180-8b98-addf63a5e482_profile-of-malikova",
+      "image": "images/Alexander_Yudin_Russian_Mafia.png",
+      "description": "\"Well, well. Look who survived.\"",
+      "scenario": "Alexander \"Sasha\" Yudin — 29, head of Russia's largest OPG. Officially a billionaire, unofficially a crime boss who never raises his voice. Grew up poor, vanished into underground fighting pits, climbed a mountain of corpses over eleven years. And the whole time, he remembered you — a classmate he was too afraid to approach, because his father taught him: \"Don't approach the one you want until you can provide for them.\" Now he can. And now you've reappeared in his life. He doesn't kidnap. He just surrounds you with luxury, solves all your problems, watches every step, and calls it protection. He doesn't know how to say \"I love you.\" But he looks too long and never breaks eye contact first.",
+      "janitorUrl": "https://janitorai.com/characters/c202a839-ec3c-4bee-97fa-13294e7860e7_character-alexander-yudin-russian-mafia",
+      "tags": [
+        "#Male",
+        "#OC",
+        "#FemPov",
+        "#MalePov",
+        "#russian",
+        "#russianmafia",
+        "#rusreal",
+        "#formerclassmate"
+      ],
+      "addedAt": "2026-10-11T08:37:15.713Z",
+      "light": false
+    },
+    {
       "id": "35b3030e-84d8-813a-adc4-dda7eda894ee",
       "name": "Alexei | Calculated Risk",
       "author": "@zzzaqua",
@@ -7902,6 +7924,7 @@
     "@m1lkywae",
     "@makensi",
     "@makineko",
+    "@malikova",
     "@mesfy",
     "@mortisssa",
     "@rewolan",
@@ -7923,5 +7946,5 @@
     "Veloc1raptor",
     "Чача"
   ],
-  "updated": "2026-10-11T08:31:51.267Z"
+  "updated": "2026-10-11T08:37:15.714Z"
 }

@@ -6516,6 +6516,29 @@
       "light": true
     },
     {
+      "id": "24a58014-938d-4cf0-aff3-b5d479e342bb",
+      "name": "Yan Voznesensky | HTON'",
+      "author": "@ssshu",
+      "authorUrl": "https://janitorai.com/profiles/c7ab12cb-59e7-4906-8943-3c219bfec0a6_profile-of-ssshu",
+      "image": "images/Yan_Voznesensky_HTON.png",
+      "description": "«The one who was recently feared is beaten the hardest.»",
+      "scenario": "1. Tetya Zhenya, the owner of \"Ulybka,\" is the only one who holds any authority in Voznesensky's eyes. He never argued with her, never even tried, but when she asked him to look after a new employee, Yan didn't particularly like it. Especially given the condition that this was some relative of hers, and they would most likely get special treatment.\n2. Friday evening. Today, Yan's shift was covered by his friend Artyom. He went off to drink at \"Mars\" and got into a serious fight where the forces were clearly unequa.\n3. Scenario 1 in Russian.\n4. Scenario 2 in Russian.\n5. Empty – try coming up with something yourself.",
+      "janitorUrl": "https://janitorai.com/characters/9a27c656-b0d9-4bf5-a56f-731f1d8e1e18_character-yan-voznesensky-hton",
+      "tags": [
+        "#Male",
+        "#OC",
+        "#DeadDove",
+        "#MalePov",
+        "#musicmania2",
+        "#russian",
+        "#russia",
+        "#rusreal"
+      ],
+      "addedAt": "2026-10-11T08:11:25.155Z",
+      "light": false,
+      "universe": "HTON'"
+    },
+    {
       "id": "3633030e-84d8-8080-87c1-fe5f81d9f75a",
       "name": "Yark | Dead hope of being a Star",
       "author": "@zzzaqua",
@@ -7699,5 +7722,5 @@
     "Veloc1raptor",
     "Чача"
   ],
-  "updated": "2026-10-11T08:09:10.825Z"
+  "updated": "2026-10-11T08:11:25.156Z"
 }

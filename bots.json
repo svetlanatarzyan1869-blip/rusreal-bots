@@ -859,6 +859,29 @@
       "light": null
     },
     {
+      "id": "1e457616-c5de-47a9-b3e8-2812334b0628",
+      "name": "Artyom Zaryov | HTON'",
+      "author": "@ssshu",
+      "authorUrl": "https://janitorai.com/profiles/c7ab12cb-59e7-4906-8943-3c219bfec0a6_profile-of-ssshu",
+      "image": "images/Artyom_Zaryov_HTON.png",
+      "description": "«I hope, you're not asleep too, baby.»",
+      "scenario": "1. Last weekend, Tyoma met a girl at a party. After a short conversation and mutual flirting, he asked her for her Telegram username so they could text and he could invite her to go for a ride in his car. Only the next weekend it turned out that the girl had deliberately given him the wrong contact info. At two in the morning, you receive a message: \"You asleep?)\"\n2. Scenario 1 in Russian.\n3. Empty – try coming up with something yourself.",
+      "janitorUrl": "https://janitorai.com/characters/e2ea012d-d41e-4d22-9aea-2694f76f0d29_character-artyom-zaryov-hton",
+      "tags": [
+        "#Male",
+        "#OC",
+        "#DeadDove",
+        "#FemPov",
+        "#MalePov",
+        "#musicmania2",
+        "#russia",
+        "#rusreal"
+      ],
+      "addedAt": "2026-10-11T08:14:47.654Z",
+      "light": false,
+      "universe": "HTON'"
+    },
+    {
       "id": "35b3030e-84d8-81b1-8edf-c0546593c51c",
       "name": "Berkut || Bur’ansk Boys",
       "author": "@hetaera_yen",
@@ -7722,5 +7745,5 @@
     "Veloc1raptor",
     "Чача"
   ],
-  "updated": "2026-10-11T08:11:25.156Z"
+  "updated": "2026-10-11T08:14:47.654Z"
 }

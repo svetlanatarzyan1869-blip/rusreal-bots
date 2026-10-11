@@ -6419,6 +6419,25 @@
       "light": false
     },
     {
+      "id": "c396c145-8230-4c74-80e9-8cf674f22879",
+      "name": "Vlas | Intrusive thoughts",
+      "author": "@tezavrus",
+      "authorUrl": "https://janitorai.com/profiles/16dfd877-0b93-4744-87a6-47066279aa74_profile-of-tezavrus",
+      "image": "images/Vlas_Intrusive_thoughts.png",
+      "description": "Your quiet coworker remembers a little too much about you.",
+      "scenario": "В полумраке гончарной студии Влас пытается унять навязчивые мысли и справиться со случайной встречей с {{user}}. Между ними возникает напряженная, почти удушливая динамика, где скрупулезное внимание Власа к деталям граничит с одержимостью.",
+      "janitorUrl": "https://janitorai.com/characters/7253a62c-a775-4dd9-8ea2-415d3d235c39_character-vlas-intrusive-thoughts",
+      "tags": [
+        "#Male",
+        "#OC",
+        "#AnyPOV",
+        "#DeadDove",
+        "#rusreal"
+      ],
+      "addedAt": "2026-10-11T08:31:51.267Z",
+      "light": false
+    },
+    {
       "id": "35b3030e-84d8-811f-9bb0-e2a40309f93a",
       "name": "Vlasov Igor Petrovich (\"Vlas\", \"Murzila\")",
       "author": "@Нану",
@@ -7904,5 +7923,5 @@
     "Veloc1raptor",
     "Чача"
   ],
-  "updated": "2026-10-11T08:30:33.563Z"
+  "updated": "2026-10-11T08:31:51.267Z"
 }

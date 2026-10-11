@@ -564,7 +564,7 @@ function updatePills(){
   if(!has)return;
   let h="";
   if(activeAuthor)h+=`<span class="pill" onclick="clearAuthor()">${esc(activeAuthor)} ×</span>`;
-  activeTags.forEach(t=>{h+=`<span class="pill" onclick="removePillTag('${esc(t)}')">${esc(t)} ×</span>`;});
+  activeTags.forEach(t=>{h+=`<span class="pill" onclick="removePillTag('${esc(t).replace(/'/g,"\\'")}')">${esc(t)} ×</span>`;});
   document.getElementById("pills-inner").innerHTML=h;
 }
 function removePillTag(t){activeTags.delete(t);updateBadge("tags",activeTags.size);renderFilterList("tags",ALL_TAGS,"");applyFilters();}
@@ -666,7 +666,7 @@ function openModal(idx){
     ${b.janitorUrl?`<a class="btn-full" href="${b.janitorUrl}" target="_blank" rel="noopener">открыть на Janitor →</a>`:""}
     <div class="btn-row">
       ${b.authorUrl?`<a class="btn-ghost" href="${b.authorUrl}" target="_blank" rel="noopener">профиль автора</a>`:""}
-      <button class="btn-ghost" onclick="shareBot('${esc(b.name)}')">🔗 поделиться</button>
+      <button class="btn-ghost" onclick="shareBot(filteredBots[${idx}].name)">🔗 поделиться</button>
     </div>
     ${(b.image&&!b.noCard)?`
       <button class="btn-ghost" style="margin-top:0" onclick="dlCard(null,${idx})">↓ Карточка для Таво</button>

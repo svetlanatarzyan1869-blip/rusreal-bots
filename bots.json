@@ -358,6 +358,28 @@
       "light": false
     },
     {
+      "id": "7f05fc08-95aa-4b7a-a94d-a461b238ad6b",
+      "name": "Alexey  Vorontsov",
+      "author": "@Dashka_Lyagushka",
+      "authorUrl": "https://janitorai.com/profiles/d0e94c1d-b850-4e9a-9cb3-6f98f9dae9b0_profile-of-dashka_lyagushka",
+      "image": "images/Alexey_Vorontsov.png",
+      "description": "22, self-made, attractive, successful, always surrounded by people. Alexey is charming, funny, shamelessly confident, easy to want — and very good at looking completely fine.\nHe isn’t.",
+      "scenario": "Intro1: Party — Casual first meeting at a rented house party. Lyosha is charming, social, and completely fine.\nintro2: Afterparty — {{user}} accidentally stays behind and catches Lyosha alone at night, quietly falling apart.",
+      "janitorUrl": "https://janitorai.com/characters/42aa0382-2391-4cfc-8f28-bf1d692932f0_character-alexey-vorontsov",
+      "tags": [
+        "#Male",
+        "#OC",
+        "#Angst",
+        "#FemPov",
+        "#musicmania2",
+        "#rusreal",
+        "#avoidantattachement",
+        "#hiddendepression"
+      ],
+      "addedAt": "2026-10-11T08:17:29.087Z",
+      "light": false
+    },
+    {
       "id": "35b3030e-84d8-81c3-982a-f8643892457a",
       "name": "Alexey \"Envy\" || 7DS",
       "author": "@Yngen",
@@ -7678,6 +7700,7 @@
     "@B.nuts",
     "@CrimsonGem",
     "@DarkNetSillyTavern",
+    "@Dashka_Lyagushka",
     "@Deldemilune",
     "@Dilerias",
     "@Envymoi",
@@ -7745,5 +7768,5 @@
     "Veloc1raptor",
     "Чача"
   ],
-  "updated": "2026-10-11T08:14:47.654Z"
+  "updated": "2026-10-11T08:17:29.087Z"
 }

@@ -3688,6 +3688,30 @@
       "universe": "Tales of Nav"
     },
     {
+      "id": "219b5ae6-9b3e-4b75-b2e0-100f78e32c76",
+      "name": "Lev | Faith and hope",
+      "author": "@Kassya",
+      "authorUrl": "https://janitorai.com/profiles/0369b303-f589-4ab3-9edf-af96bc74ccf1_profile-of-kassya",
+      "image": "images/Lev_Faith_and_hope.png",
+      "description": "Lev Sorokin is an agitator, speaker, and a man who believes with his whole body in what he is doing and is willing to pay with other people's lives for the truth he believes in. Behind him is a friend who was shot, whom he invited to the rally. Ahead is the power that he is helping to take, and the price that someone will pay for it. {{user}} enters his circle through Natasha — and becomes the one \"no\" that Lev cannot resist.",
+      "scenario": "Petrograd, September–October 1917 — a city on the brink. The Kornilov revolt has just been suppressed, the army is demoralized, the Provisional Government is weakening every day, the Soviets are Bolshevizing, and there is unrest in the barracks and garrison units. Officers like Georgy live with the feeling that everything they fought for is crumbling before their eyes — and yet every day they need to wear a uniform, salute and pretend that order still exists. XXXXXXXXXXXX.\n\n▼ Intro 1The rookie\nWhen the printing basement on the Tenth Line turns into the last point of resistance, Lev Sorokin checks each new person with one question — and {{user}} will have to prove that he can not only be silent, but also speak on time.\n\n▼ Intro 2Resistance\nIn a smoky tea shop on the Sixth Line, where thirty people are hanging on Lev Sorokin's every word, he suddenly stops speaking in mid—sentence and turns to the only one who has not nodded once - and more depends on an honest answer than it seems",
+      "janitorUrl": "https://janitorai.com/characters/4793ab42-5532-424d-8ef6-635230544699_character-lev-faith-and-hope",
+      "tags": [
+        "#Male",
+        "#OC",
+        "#AnyPOV",
+        "#Angst",
+        "#DeadDove",
+        "#lettershistory",
+        "#1917",
+        "#russia",
+        "#rusreal",
+        "#tragedy"
+      ],
+      "addedAt": "2026-10-31T21:45:29.462Z",
+      "light": false
+    },
+    {
       "id": "e1ba38f1-d364-44bb-b236-6f0cbc7fba6b",
       "name": "Lev | Paint job",
       "author": "@tezavrus",
@@ -8659,5 +8683,5 @@
     "Veloc1raptor",
     "Чача"
   ],
-  "updated": "2026-10-31T21:44:00.703Z"
+  "updated": "2026-10-31T21:45:29.462Z"
 }

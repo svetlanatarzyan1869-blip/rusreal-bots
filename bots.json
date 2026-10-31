@@ -4386,6 +4386,25 @@
       "light": true
     },
     {
+      "id": "467573e6-409b-4c67-a28c-e51f2790f670",
+      "name": "Misha | A misfit",
+      "author": "@tezavrus",
+      "authorUrl": "https://janitorai.com/profiles/16dfd877-0b93-4744-87a6-47066279aa74_profile-of-tezavrus",
+      "image": "images/Misha_A_misfit.png",
+      "description": "Second son. Second choice. First to tell you he doesn't care.\n\ngo on. hit it.\n\n…happy now?",
+      "scenario": "1. TWO MINUTES\nAfter a hookup. He’s always the first one out of bed, but tonight he's asking to stay.\n\n2. AISLE THREE, SLAVIC DELI\nYou knock him into the sweets shelf. Cranberries everywhere, a stain on his cashmere, and he insists you pay for the damage.",
+      "janitorUrl": "https://janitorai.com/characters/819fc737-d6a0-4064-8972-ac719dc6988c_character-misha-a-misfit",
+      "tags": [
+        "#Male",
+        "#OC",
+        "#AnyPOV",
+        "#DeadDove",
+        "#rusreal"
+      ],
+      "addedAt": "2026-10-31T21:33:40.370Z",
+      "light": false
+    },
+    {
       "id": "35b3030e-84d8-813b-8f2e-e21aa4803e9f",
       "name": "MISHA | 𝐁𝐚𝐥𝐚 𝐂𝐫𝐞𝐰",
       "author": "@xentaksis",
@@ -8532,5 +8551,5 @@
     "Veloc1raptor",
     "Чача"
   ],
-  "updated": "2026-10-31T21:31:52.209Z"
+  "updated": "2026-10-31T21:33:40.370Z"
 }

@@ -8638,6 +8638,26 @@
       ],
       "addedAt": "2026-09-07T11:04:07.748Z",
       "light": true
+    },
+    {
+      "id": "e86122fc-9f6a-46e1-a668-604e2bcc122c",
+      "name": "Ясь",
+      "author": "@chernovaa",
+      "authorUrl": "https://t.me/chern_pvp",
+      "image": "images/Ясь.png",
+      "description": "Осень, 1914 год, Российская Империя.\n\nВ белорусской деревушке Подречье на берегу реки как раз проходили поминальные дни. Вы возвращаетесь с поминок у соседей, прохладно и темно. В это время все боятся прихода навий. Как вдруг, замечаете у своей калитки человека, донельзя знакомого внешне, но и одновременно такого чужого.\n\nкажется, это Ясь — Мелешко Ян, пропавший на берегу реки еще в 1912.",
+      "scenario": "Autumn 1914, the Belarusian village of Podrechye, the night of Dziady (the Ancestors). {{user}}, a young villager and Yas's close friend, comes home from the commemoration and finds Yas, who vanished in the forest by the river in autumn 1912, standing at the gate of their family house. He does not know that two years have passed.",
+      "janitorUrl": "",
+      "tags": [
+        "#Male",
+        "#OC",
+        "#limitless",
+        "#rusreal",
+        "#russia",
+        "#звездочка"
+      ],
+      "addedAt": "2026-10-31T21:57:32.262Z",
+      "light": false
     }
   ],
   "authors": [
@@ -8727,5 +8747,5 @@
     "Veloc1raptor",
     "Чача"
   ],
-  "updated": "2026-10-31T21:52:15.621Z"
+  "updated": "2026-10-31T21:57:32.263Z"
 }

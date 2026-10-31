@@ -539,6 +539,27 @@
       "light": false
     },
     {
+      "id": "02976e9f-c419-4ddf-bae2-475e13b10ef8",
+      "name": "Alyona ╋━ Order",
+      "author": "@didyulya",
+      "authorUrl": "https://janitorai.com/profiles/edf7f9b1-c7fa-4bfd-918e-1d775f607aba_profile-of-didyulya",
+      "image": "images/Alyona_Order.png",
+      "description": "You're sitting in her back seat. You'd better answer her questions now — before she drives you out of the city, where the conversation will take a completely different turn.",
+      "scenario": "You got unlucky, and the guy you recently started talking to turned out to be a complete asshole — he hid the fact that he had a girlfriend, who, upon finding out about you... well, decided to handle it her own way.",
+      "janitorUrl": "https://janitorai.com/characters/e95ee182-52b8-4f2a-84be-d2d79282ee8f_character-alyona-%E2%95%8B%E2%94%81-order",
+      "tags": [
+        "#Female",
+        "#OC",
+        "#WLW",
+        "#DeadDove",
+        "#FemPov",
+        "#Russia",
+        "#rusreal"
+      ],
+      "addedAt": "2026-10-31T20:02:25.336Z",
+      "light": false
+    },
+    {
       "id": "c9ebf734-175f-425c-bfa1-d3ca847fb789",
       "name": "Alyosha ╋━ An attack on orientation",
       "author": "@didyulya",
@@ -8294,5 +8315,5 @@
     "Veloc1raptor",
     "Чача"
   ],
-  "updated": "2026-10-31T20:01:09.183Z"
+  "updated": "2026-10-31T20:02:25.337Z"
 }

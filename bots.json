@@ -8048,6 +8048,28 @@
       "light": true
     },
     {
+      "id": "f4085db4-5e6e-46cd-8cb4-a83f2bba393f",
+      "name": "Вячеслав Вайс",
+      "author": "@MommyCat_SillyTavern",
+      "authorUrl": "https://t.me/MommyCat_SillyTavern",
+      "image": "images/Вячеслав_Вайс.png",
+      "description": "professor? yes. friendly? no. emotionally available? don't make him laugh.",
+      "scenario": "Первая лекция по истории античной философии. В аудитории восемьдесят студентов, четыре влюблённые дурочки и один преподаватель, который уже жалеет, что не остался дома.\nДаша Морозова шепчет подруге, что сегодня Вайс особенно красивый. Ксюша Волкова делает вид, что ей плевать. Лена Савельева краснеет от одного его взгляда.\nИ тут появляешься ты.\nС опозданием.\nНа двадцать минут.\nВайс медленно откладывает записи.\n«Замечательно. Мы как раз обсуждали течение времени. Проходите, вы будете наглядным пособием».",
+      "janitorUrl": "",
+      "tags": [
+        "#ruesreal",
+        "#male",
+        "#OC",
+        "#limitless",
+        "#romantic",
+        "#comedy",
+        "#slowburn",
+        "#эксклюзив"
+      ],
+      "addedAt": "2026-10-31T21:50:08.038Z",
+      "light": true
+    },
+    {
       "id": "d0ad1cae-aa08-40f9-b88d-19d5eae4d35c",
       "name": "Даня",
       "author": "@chernovaa",
@@ -8624,6 +8646,7 @@
     "@MASHED_POTATO",
     "@Mavile Garcia",
     "@Moavia",
+    "@MommyCat_SillyTavern",
     "@MossM0s",
     "@Nanami_momomomo",
     "@Nikkksss",
@@ -8683,5 +8706,5 @@
     "Veloc1raptor",
     "Чача"
   ],
-  "updated": "2026-10-31T21:45:29.462Z"
+  "updated": "2026-10-31T21:50:08.039Z"
 }

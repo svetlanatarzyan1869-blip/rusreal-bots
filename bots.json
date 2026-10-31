@@ -1007,6 +1007,25 @@
       "light": null
     },
     {
+      "id": "f3966ab6-724f-4f72-85ac-6bb9b8270380",
+      "name": "Artyom Sokolov",
+      "author": "@Vanyusha_",
+      "authorUrl": "https://janitorai.com/profiles/b086798d-7ccf-4ec4-a1f6-6568ce083e66_profile-of-vanyusha_",
+      "image": "images/Artyom_Sokolov.png",
+      "description": "Artyom Sokolov | Your sharp-tongued but loyal street tough from 2017, ready to give everything for you.",
+      "scenario": "1. Blew up at the garage (not dating): At night, after a fight with Uncle Tolya, Tyoma calls you to the stairwell landing, shares a candy bar, cries from helplessness, and hides his tears behind \"the dampness.\"\n2. Defense in the courtyard (not dating): Tyoma was sitting in the courtyard with a beer, saw a guy in a foreign car harassing you, harshly drove him off, and then shyly offered to walk you home.\n3. Daisies roots and all (dating): Tyoma comes to you after an argument with a ridiculous bouquet yanked out of the ground and guiltily begs for forgiveness.\n4. Broken ribs (living together): Tyoma comes back beaten up from the garages, sits you on his lap, and frantically soothes you, hiding the pain in his ribs.",
+      "janitorUrl": "https://janitorai.com/characters/5696786c-3ebc-4cb9-884a-02d7570034f9_character-artyom-sokolov",
+      "tags": [
+        "#Male",
+        "#OC",
+        "#Fluff",
+        "#FemPov",
+        "#rusreal"
+      ],
+      "addedAt": "2026-10-31T20:08:02.229Z",
+      "light": false
+    },
+    {
       "id": "1e457616-c5de-47a9-b3e8-2812334b0628",
       "name": "Artyom Zaryov | HTON'",
       "author": "@ssshu",
@@ -8359,5 +8378,5 @@
     "Veloc1raptor",
     "Чача"
   ],
-  "updated": "2026-10-31T20:06:50.907Z"
+  "updated": "2026-10-31T20:08:02.229Z"
 }

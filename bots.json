@@ -1066,6 +1066,25 @@
       "universe": "His Aris"
     },
     {
+      "id": "f90494da-6867-4ad8-b62f-c706f3dc5776",
+      "name": "Danil Rimsky | Who Is Nanami, Really?",
+      "author": "@Nanami_momomomo",
+      "authorUrl": "https://janitorai.com/profiles/79b08810-17db-4f7c-9dc0-0063ec473b24_profile-of-nanami_momomomo",
+      "image": "images/Danil_Rimsky_Who_Is_Nanami_Really.png",
+      "description": "SOME PEOPLE ARE MORE THAN THEIR PROFILE PICTURES.",
+      "scenario": "Дfня только что выпустил нового бота — и уже устал от того, как Telegram жрёт черновики. Вечер обещает три дня отдыха, но друзья затаскивают его в Genshin, а в комьюнити {{user}} просит лорбук карточки через Датакат. Он молча скидывает файл и текст, возвращается к игре — и краем глаза видит, что в чате снова пульсирует: «{{user}} печатает…»",
+      "janitorUrl": "https://janitorai.com/characters/2bad1bd2-6f98-4f07-8097-13f17d3c0055_character-danil-rimsky-who-is-nanami-really",
+      "tags": [
+        "#Male",
+        "#OC",
+        "#AnyPOV",
+        "#Demi-Human",
+        "#rusreal"
+      ],
+      "addedAt": "2026-10-31T19:55:12.531Z",
+      "light": false
+    },
+    {
       "id": "f23886ed-14d3-4baa-b0cc-db33c00d3069",
       "name": "Danila | 2k17",
       "author": "@aridnadia",
@@ -8208,5 +8227,5 @@
     "Veloc1raptor",
     "Чача"
   ],
-  "updated": "2026-10-31T19:47:48.755Z"
+  "updated": "2026-10-31T19:55:12.548Z"
 }

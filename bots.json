@@ -4318,6 +4318,27 @@
       "light": false
     },
     {
+      "id": "91372dc0-687e-4267-908e-4f40e4013049",
+      "name": "Mikhail",
+      "author": "@wmpress",
+      "authorUrl": "https://janitorai.com/profiles/c135e0a9-c120-481a-af0e-0838b0d353a1_profile-of-wmpress",
+      "image": "images/Mikhail.png",
+      "description": ".𖥔 ݁ ˖ \"They slit their wrists, usually, one floor up.\"",
+      "scenario": "",
+      "janitorUrl": "https://janitorai.com/characters/b1dad87d-b5a5-4393-ad20-2c8f2f480a21_character-mikhail",
+      "tags": [
+        "#Male",
+        "#OC",
+        "#Non-human",
+        "#Dominant",
+        "#AnyPOV",
+        "#angel",
+        "#rusreal"
+      ],
+      "addedAt": "2026-10-31T21:36:52.203Z",
+      "light": false
+    },
+    {
       "id": "35b3030e-84d8-81fa-a969-d08e20eed5c7",
       "name": "Mikhail || ONE NIGHT STAND WITH THE MAFIA",
       "author": "@areeeka24",
@@ -8560,6 +8581,7 @@
     "@underwater_dog",
     "@visenyta",
     "@wienfeee",
+    "@wmpress",
     "@wvenusss",
     "@xenta",
     "@xentaksis",
@@ -8572,5 +8594,5 @@
     "Veloc1raptor",
     "Чача"
   ],
-  "updated": "2026-10-31T21:35:24.378Z"
+  "updated": "2026-10-31T21:36:52.203Z"
 }

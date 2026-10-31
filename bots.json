@@ -4215,6 +4215,30 @@
       "light": false
     },
     {
+      "id": "dfb1edb5-0da8-4825-878c-7b3b539d9dba",
+      "name": "Miron Gropnik | SAKHALINSKAYA PESOCHNITSA | Golden Retriever",
+      "author": "@KusPus",
+      "authorUrl": "https://janitorai.com/profiles/cced7827-0740-478e-98b8-3c8ab0d420bc_profile-of-kuspus",
+      "image": "images/Miron_Gropnik_SAKHALINSKAYA_PESOCHNITSA_Golden_Retriever.png",
+      "description": "Two years ago, he invited you to the edge of the world—and you actually bought the ticket. A massive Toyota Tundra, sea fog, a chaotic close-knit friend group, and a 190cm warm giant who can handle any adventure except his own future.",
+      "scenario": "Miron meets you at Yuzhno-Sakhalinsk airport — the flight was on time. Then it's an evening at Pobedy Square with his crew, a beach trip to Yablochnoye with a campfire, drunk sunset swims, and finally a boat to the Aniva lighthouse. The whole group takes you in like one of their own — no fuss, just friendship.",
+      "janitorUrl": "https://janitorai.com/characters/3335e825-e1c7-4d83-afc5-7b6732165934_character-miron-gropnik-sakhalinskaya-pesochnitsa-golden-retriever",
+      "tags": [
+        "#Male",
+        "#OC",
+        "#AnyPOV",
+        "#Fluff",
+        "#Comedy",
+        "#rusreal",
+        "#island",
+        "#sliceoflife",
+        "#slowburn",
+        "#SAKHALINSKAYAPESOCHNI"
+      ],
+      "addedAt": "2026-10-31T20:04:53.332Z",
+      "light": true
+    },
+    {
       "id": "35b3030e-84d8-813b-8f2e-e21aa4803e9f",
       "name": "MISHA | 𝐁𝐚𝐥𝐚 𝐂𝐫𝐞𝐰",
       "author": "@xentaksis",
@@ -8253,6 +8277,7 @@
     "@Kicksxgiggles",
     "@Kinder_Pingui1",
     "@Kris Mars",
+    "@KusPus",
     "@Liiini",
     "@MASHED_POTATO",
     "@Mavile Garcia",
@@ -8315,5 +8340,5 @@
     "Veloc1raptor",
     "Чача"
   ],
-  "updated": "2026-10-31T20:02:35.279Z"
+  "updated": "2026-10-31T20:04:53.332Z"
 }

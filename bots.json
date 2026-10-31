@@ -3596,6 +3596,26 @@
       "light": false
     },
     {
+      "id": "98aa4612-5a75-468d-82c6-77fa9fc39229",
+      "name": "Leonid | Morgue",
+      "author": "@tezavrus",
+      "authorUrl": "https://janitorai.com/profiles/16dfd877-0b93-4744-87a6-47066279aa74_profile-of-tezavrus",
+      "image": "images/Leonid_Morgue.png",
+      "description": "Your body arrived at his morgue. This body acts weird.",
+      "scenario": "Your body came in today, tagged and logged like all the others. It doesn’t behave like the others, and Leonid is a very superstitious man.",
+      "janitorUrl": "https://janitorai.com/characters/23e51add-30c8-4026-92a0-7d7dbbb57347_character-leonid-morgue",
+      "tags": [
+        "#Male",
+        "#OC",
+        "#AnyPOV",
+        "#DeadDove",
+        "#rusreal",
+        "#halloween"
+      ],
+      "addedAt": "2026-10-31T21:43:49.283Z",
+      "light": false
+    },
+    {
       "id": "3633030e-84d8-80c3-ae2d-e83fcfc88f51",
       "name": "Leonid Vasiliev | MAFIA",
       "author": "@visenyta",
@@ -8639,5 +8659,5 @@
     "Veloc1raptor",
     "Чача"
   ],
-  "updated": "2026-10-31T21:41:33.788Z"
+  "updated": "2026-10-31T21:43:49.284Z"
 }

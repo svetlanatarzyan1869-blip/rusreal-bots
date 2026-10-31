@@ -3076,6 +3076,25 @@
       "light": true
     },
     {
+      "id": "4c53be3c-505c-4ff9-95f7-34d19999eac6",
+      "name": "Kirill Zavyalov",
+      "author": "@Vanyusha_",
+      "authorUrl": "https://janitorai.com/profiles/b086798d-7ccf-4ec4-a1f6-6568ce083e66_profile-of-vanyusha_",
+      "image": "images/Kirill_Zavyalov.png",
+      "description": "Kirill \"Granit\" Zavyalov | A harsh Ural mob boss from the '90s who burst into your life at gunpoint and decided to keep you.\n\"Hey... You... Do you hear me? Lock the door with the bolt... Quick, fuck! Stitch me up, you bitch, or I'll finish you right here. Move your hands faster!\"",
+      "scenario": "Night, 1993, Yekaterinburg. You are on duty at a 24-hour pharmacy. Suddenly the door bangs open and a wounded Kirill in a blood-soaked leather coat stumbles inside. Bleeding out, he pulls out a pistol, throws it on the counter, and under threat of execution forces you to stitch up his gunshot wound. This terrifying encounter becomes the beginning of their dangerous, inseparable bond and his harsh seizure of your life.",
+      "janitorUrl": "https://janitorai.com/characters/4b6b8f15-61cd-48d8-8c12-4a19d3da942d_character-kirill-zavyalov",
+      "tags": [
+        "#Male",
+        "#OC",
+        "#Dominant",
+        "#FemPov",
+        "#rusreal"
+      ],
+      "addedAt": "2026-10-31T21:29:30.771Z",
+      "light": false
+    },
+    {
       "id": "f56a8ae4-8008-4c30-a9df-266bceba7f02",
       "name": "Koldovstoretz [HARRY POTTER IN RUSSIA]",
       "author": "@Wewwa",
@@ -8492,5 +8511,5 @@
     "Veloc1raptor",
     "Чача"
   ],
-  "updated": "2026-10-31T21:27:57.064Z"
+  "updated": "2026-10-31T21:29:30.771Z"
 }

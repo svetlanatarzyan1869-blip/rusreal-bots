@@ -2367,6 +2367,30 @@
       "light": false
     },
     {
+      "id": "1a8a9967-47a4-4dff-ad99-efc3f33c47ed",
+      "name": "Georgy | The agony of choice",
+      "author": "@Kassya",
+      "authorUrl": "https://janitorai.com/profiles/0369b303-f589-4ab3-9edf-af96bc74ccf1_profile-of-kassya",
+      "image": "images/Georgy_The_agony_of_choice.png",
+      "description": "Staff Captain Georgy Velyaminov, an officer of the old school, shell-shocked at the front and secretly connected with the underground, meets {{user}}, a childhood friend who finds himself in circles close to the revolution, after three years of separation.",
+      "scenario": "▼ Intro 1Separation\nGeorgy, who has been writing letters to a childhood friend from the front for three years, finally rises to his door on Vasilyevsky Island — and realizes that the person from the letters has remained on paper, and someone else will come out to meet him. And he also came different.\n▼ Intro 2Train\nHe gets off a late Pskov train—with shoulder straps, concussion, and a bundle of other people's letters under his tunic—and sees someone he hasn't seen in three years on the platform. The words he's prepared on the road disappear before he can take three steps.\n▼ Intro 3Bread\nGeorge, who had been hesitating to write {{user}} for two weeks, accidentally finds {{user}} in the bread queue at four in the morning — and realizes that all the prepared words do not fit either this rain, this fatigue, or this city.",
+      "janitorUrl": "https://janitorai.com/characters/a3373fa7-9dc8-4ca6-a233-73ab6053e711_character-georgy-the-agony-of-choice",
+      "tags": [
+        "#Male",
+        "#OC",
+        "#AnyPOV",
+        "#Angst",
+        "#DeadDove",
+        "#LettersHistory",
+        "#1917",
+        "#rusreal",
+        "#russia",
+        "#tragedy"
+      ],
+      "addedAt": "2026-10-31T21:39:01.978Z",
+      "light": false
+    },
+    {
       "id": "3a43030e-84d8-80b2-bf35-f7cec0374295",
       "name": "GLEB | BRATVA",
       "author": "@xentaksis",
@@ -8594,5 +8618,5 @@
     "Veloc1raptor",
     "Чача"
   ],
-  "updated": "2026-10-31T21:37:00.133Z"
+  "updated": "2026-10-31T21:39:01.979Z"
 }

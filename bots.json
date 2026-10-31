@@ -6892,6 +6892,26 @@
       "light": false
     },
     {
+      "id": "2bf06673-313b-484e-8209-28c602e51cf4",
+      "name": "Vsevolod | Lodya",
+      "author": "@chernovaa",
+      "authorUrl": "https://janitorai.com/profiles/54d0efc3-5cc3-4423-86bc-ddb84bb69c6d_profile-of-chernovaa",
+      "image": "images/Vsevolod_Lodya.png",
+      "description": "1903. Nicholas II rules the Russian Empire with absolute authority. Though he and Empress Alexandra Feodorovna have four daughters, the court is rife with whispers over the persistent lack of a male heir. Russia still follows the Julian calendar, lagging thirteen days behind Western Europe.",
+      "scenario": "1: Saint Petersburg (1 rus, 2 eng)\nOn a snowy 1903 winter evening in St. Petersburg, a slightly tipsy young hussar, Vsevolod (Lody) Velyaminov, bursts out of a club on Bolshaya Morskaya Street. Having just gambled away his last coin, he recklessly approaches you like an old friend, playfully begging to borrow three rubles for a cab.\n\n2: Olkhovka ( 3 rus , 4 eng)\nA stifling July morning in the quiet village of Olkhovka is shattered when Lody crashes over your fence straight into the raspberry bushes. Battered, bleeding, and fresh off an illegal duel, he charmingly begs you to hide him before the regiment’s adjutant knocks on your gate.",
+      "janitorUrl": "https://janitorai.com/characters/7f44647b-c951-4c5f-abdd-9f8fe7051267_character-vsevolod-lodya",
+      "tags": [
+        "#Male",
+        "#OC",
+        "#Historical",
+        "#Non-English",
+        "#AnyPOV",
+        "#rusreal"
+      ],
+      "addedAt": "2026-10-31T20:10:56.588Z",
+      "light": true
+    },
+    {
       "id": "35b3030e-84d8-81a1-8d96-d3e701548049",
       "name": "Vsevolod | the Summer you will never forget | RUSSKAYA TOSKA",
       "author": "@Wewwa",
@@ -8378,5 +8398,5 @@
     "Veloc1raptor",
     "Чача"
   ],
-  "updated": "2026-10-31T20:08:02.229Z"
+  "updated": "2026-10-31T20:10:56.588Z"
 }

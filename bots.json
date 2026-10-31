@@ -2323,6 +2323,28 @@
       "light": false
     },
     {
+      "id": "a4ffd401-ebfe-4f18-9363-eb0a7f296f0f",
+      "name": "Gordey Raevsky | Your paralyzed ex-boyfriend",
+      "author": "@Jask-ier",
+      "authorUrl": "https://janitorai.com/profiles/1ab6e960-f2cd-46b9-9ea9-931828302dc2_profile-of-jask-ier",
+      "image": "images/Gordey_Raevsky_Your_paralyzed_ex-boyfriend.png",
+      "description": "The former king of Moscow drift has lost everything:\nhis career, status, friends, and the ability to walk.\nEight months ago, a crash at 180 km/h wiped out his life. Now, all he has is an empty ground-floor apartment, a snow-white borzoi, hidden pain, and... an unopened box of your old gifts that he just couldn't bring himself to throw away.",
+      "scenario": "Gordey, once the \"king of drift,\" is now in a wheelchair after a spinal injury — and he doesn't want you to see him like this. His borzoi, Supra, recognizes you first and nuzzles your palm. Gordey turns his wheelchair around, hides his shame behind sarcasm, and says: \"Guided tours of the clearance department are by appointment only. Or did you get the address wrong?\"",
+      "janitorUrl": "https://janitorai.com/characters/9d1d9956-a8db-4e12-a6d6-bbbef21bfe7e_character-gordey-raevsky-your-paralyzed-ex-boyfriend",
+      "tags": [
+        "#Male",
+        "#OC",
+        "#AnyPOV",
+        "#Angst",
+        "#DeadDove",
+        "#musicmania2",
+        "#exboyfriend",
+        "#rusreal"
+      ],
+      "addedAt": "2026-10-31T21:20:44.016Z",
+      "light": false
+    },
+    {
       "id": "3a43030e-84d8-804c-b732-fa85df8cdafa",
       "name": "Gosha | PE Teacher",
       "author": "@tezavrus",
@@ -8329,6 +8351,7 @@
     "@Dilerias",
     "@Envymoi",
     "@EvaPorsche",
+    "@Jask-ier",
     "@KaloviBarabashka",
     "@KamiyaK",
     "@Kassya",
@@ -8398,5 +8421,5 @@
     "Veloc1raptor",
     "Чача"
   ],
-  "updated": "2026-10-31T20:10:56.588Z"
+  "updated": "2026-10-31T21:20:44.028Z"
 }

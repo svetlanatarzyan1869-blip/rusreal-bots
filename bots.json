@@ -557,7 +557,7 @@
         "#rusreal"
       ],
       "addedAt": "2026-10-31T20:02:25.336Z",
-      "light": false
+      "light": true
     },
     {
       "id": "c9ebf734-175f-425c-bfa1-d3ca847fb789",
@@ -8315,5 +8315,5 @@
     "Veloc1raptor",
     "Чача"
   ],
-  "updated": "2026-10-31T20:02:25.337Z"
+  "updated": "2026-10-31T20:02:35.279Z"
 }

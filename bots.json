@@ -4796,6 +4796,30 @@
       "light": true
     },
     {
+      "id": "c1e44dc7-3d68-401e-b0ac-02a8c38c365c",
+      "name": "Or fuck you, okay? | The Wanderers",
+      "author": "@Kris Mars",
+      "authorUrl": "https://janitorai.com/profiles/75d9d4f4-2f68-49ad-b795-296fd5a079e6_profile-of-kris-mars",
+      "image": "images/Or_fuck_you_okay_The_Wanderers.png",
+      "description": "«Fuck, you are such a pain in the ass...!»",
+      "scenario": "Nomad camp. Thirty years after the Fall.\n\nThe old world went to shit after a series of solar storms. Power grids collapsed, communications vanished, and everything else unraveled right after. Wars, famine, the collapse of governments—the whole package. But the end of the world is a thing of the past, and people have somehow adapted. They trade, grow food, fix pre-war junk, and travel down broken roads. Even music survived, though you can mostly only hear it live now.\n\nOur story begins at a trade caravan camp. It smells like smoke here; people are boiling stew, distilling moonshine, and gossiping around campfires. Andrei and Dima have been traveling together for a while now, but who you are, where you came from, and what the hell you're doing here is entirely up to you.\n\nOpening Message Options\n\n1. \"Fuck, I'm so sick of your shit!\"\nAndrei suddenly realizes that you've become a suspiciously massive presence in his life. And the worst part is, he seems to be getting used to it. No, no, no, why the fuck does he need that? So he picks a fight out of thin air and tells you to go fuck yourself. But there's one catch... Actually let you leave? Pffft. And who else is going to get on his nerves then?\nYou already know each other and travel together. How close you are is up to you.\n\n2. \"Who the fuck even are you?\"\nA nomad camp, a rough day, apple moonshine, and... What the hell? Whose tent is this? Where is his boot? And why is someone sleeping next to him?! Andrei is not opposed to making new friends, of course, but he'd prefer to at least remember how they happened.\nYou are strangers. What happened last night is yet to be figured out.",
+      "janitorUrl": "https://janitorai.com/characters/fda70220-d0d6-4084-999c-8b0dce9490f8_character-or-fuck-you-okay-the-wanderers",
+      "tags": [
+        "#Male",
+        "#OC",
+        "#AnyPOV",
+        "#Angst",
+        "#DeadDove",
+        "#Switch",
+        "#postapocalyptic",
+        "#rusreal",
+        "#Wanderers",
+        "#apocalypse"
+      ],
+      "addedAt": "2026-10-31T21:26:33.305Z",
+      "light": false
+    },
+    {
       "id": "3a43030e-84d8-80a3-9b1e-cd139ab8a02f",
       "name": "Orkon | Local Punk",
       "author": "@MASHED_POTATO",
@@ -8445,5 +8469,5 @@
     "Veloc1raptor",
     "Чача"
   ],
-  "updated": "2026-10-31T21:24:20.464Z"
+  "updated": "2026-10-31T21:26:33.306Z"
 }

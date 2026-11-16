@@ -2524,6 +2524,28 @@
       "light": true
     },
     {
+      "id": "cbefecef-aed0-4b96-886a-3e36ec76b2b8",
+      "name": "Han Jisung",
+      "author": "@Polauvitka",
+      "authorUrl": "https://janitorai.com/profiles/38f9686f-fc80-4794-92cf-69095b86c6ce_profile-of-polauvitka",
+      "image": "images/Han_Jisung.png",
+      "description": "/// VOISE MESSAGES ///\n2K17\nYou don't know it yet, but someone on the other side of the screen has been in love with you for a long time.\nMay 2017, Saint Petersburg, Russia. You met on VKontakte entirely by chance, starting with a stupid joke, a random comment, and a conversation that dragged on until three in the morning. Since then, there have been songs sent in place of confessions, memes in the middle of the night, and endless messages saying, “why tf are u still awake?”",
+      "scenario": "Han Jisung never planned to fall for someone in the comments of a VK post—but late-night voice messages, shared playlists, and 2 a.m. talks turned her into a habit he can’t quit. Then one May evening in St. Petersburg, his phone buzzes:\n\n“hey, so i’m gonna be in petersburg soon. maybe we could meet up?? :з”\n\nShe’s coming. Not a name on a screen—here. Same streets, same city. His heart goes rogue, his reply is too fast, and suddenly the only question left is: what happens when the person you’ve been falling for online is standing right in front of you?\n\nWant to play it out with me—the first meeting, the electric awkwardness, or the moment he almost loses his nerve?",
+      "janitorUrl": "https://janitorai.com/characters/cdbec972-2203-446d-b434-a111069ca366_character-han-jisung",
+      "tags": [
+        "#Male",
+        "#Fluff",
+        "#FemPov",
+        "#Switch",
+        "#rusreal",
+        "#hanjisung",
+        "#hanjisungstraykids",
+        "#2K17"
+      ],
+      "addedAt": "2026-11-16T11:19:39.659Z",
+      "light": true
+    },
+    {
       "id": "4c093a4d-6008-4699-a0bb-81fa957f896d",
       "name": "I decided everything for us | The Wanderers",
       "author": "@Kris Mars",
@@ -8894,6 +8916,7 @@
     "@MossM0s",
     "@Nanami_momomomo",
     "@Nikkksss",
+    "@Polauvitka",
     "@RAWaimed",
     "@Red_Mad",
     "@Sealiyon",
@@ -8955,5 +8978,5 @@
     "Veloc1raptor",
     "Чача"
   ],
-  "updated": "2026-11-16T11:04:33.412Z"
+  "updated": "2026-11-16T11:19:39.675Z"
 }

@@ -213,7 +213,7 @@ body{background:var(--bg);color:var(--text);font-family:'Inter',sans-serif;font-
 .tabs{display:flex;border-bottom:1px solid var(--border);margin-bottom:14px}
 .tab-btn{background:none;border:none;border-bottom:2px solid transparent;color:var(--text-dim);padding:6px 14px 8px;font-size:11px;cursor:pointer;letter-spacing:.06em;text-transform:uppercase;font-family:inherit;transition:all .15s;margin-bottom:-1px}
 .tab-btn.active{color:var(--text);border-bottom-color:var(--accent)}
-.tab-content{font-size:12px;color:var(--text-dim);line-height:1.72;letter-spacing:.01em;min-height:72px}
+.tab-content{font-size:12px;color:var(--text-dim);line-height:1.72;letter-spacing:.01em;min-height:72px;white-space:pre-wrap;overflow-wrap:anywhere}
 #modal-tags{display:flex;flex-wrap:wrap;gap:5px;margin:16px 0 20px}
 #modal-btns{display:flex;flex-direction:column;gap:8px}
 .btn-full{font-size:11px;padding:10px 18px;background:var(--accent);color:#e0d8d0;border:none;letter-spacing:.07em;cursor:pointer;font-family:inherit;text-transform:uppercase;border-radius:22px;transition:background .15s;width:100%;text-decoration:none;display:block;text-align:center}
@@ -666,8 +666,8 @@ function openModal(idx){
   document.getElementById("modal-author-badge").textContent=b.author;
   document.getElementById("modal-name").textContent=b.name;
   document.getElementById("modal-author").textContent=b.author;
-  document.getElementById("tab-desc").textContent=b.description||"—";
-  document.getElementById("tab-scenario").textContent=b.scenario||"—";
+  document.getElementById("tab-desc").textContent=(b.description||"").trim()||"—";
+  document.getElementById("tab-scenario").textContent=(b.scenario||"").trim()||"—";
   document.getElementById("modal-tags").innerHTML=sortedTags(b.tags).map(t=>`<span class="tag-chip">${esc(t)}</span>`).join("");
   document.getElementById("modal-btns").innerHTML=`
     ${b.janitorUrl?`<a class="btn-full" href="${b.janitorUrl}" target="_blank" rel="noopener">открыть на Janitor →</a>`:""}

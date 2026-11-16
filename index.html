@@ -669,9 +669,9 @@ function openModal(idx){
   document.getElementById("modal-author-badge").textContent=b.author;
   document.getElementById("modal-name").textContent=b.name;
   document.getElementById("modal-author").textContent=b.author;
-  setLongText("tab-desc",(b.description||"").trim()||"—");
+  setLongText("tab-desc",(b.description||"").trim()||"—",b);
   loadFullDesc(b,idx);
-  setLongText("tab-scenario",(b.scenario||"").trim()||"—");
+  setLongText("tab-scenario",(b.scenario||"").trim()||"—",b);
   document.getElementById("modal-tags").innerHTML=sortedTags(b.tags).map(t=>`<span class="tag-chip">${esc(t)}</span>`).join("");
   document.getElementById("modal-btns").innerHTML=`
     ${b.janitorUrl?`<a class="btn-full" href="${b.janitorUrl}" target="_blank" rel="noopener">открыть на Janitor →</a>`:""}
@@ -805,13 +805,27 @@ async function loadFullDesc(b,idx){
     _fullDescCache[b.image]=full;
   }
   if(!full||modalIdx!==idx||filteredBots[idx]!==b)return;
-  setLongText("tab-desc",full);
+  setLongText("tab-desc",full,b);
 }
 /* длинный текст: показываем начало и кнопку «показать полностью» */
 const LONG_TEXT=1200;
-function setLongText(id,text){
+/* {{char}}/{{user}} → имя бота / «you»(«ты»), **жирный**, *курсив* */
+function renderText(text,b){
+  const cyr=(text.match(/[а-яё]/gi)||[]).length,lat=(text.match(/[a-z]/gi)||[]).length;
+  const charName=((b&&b.name)||"").split(/\s*(?:\||\(|«|"|—)\s*/)[0].trim()||"{{char}}";
+  let h=esc(text)
+    .replace(/\{\{\s*char\s*\}\}/gi,esc(charName))
+    .replace(/\{\{\s*user\s*\}\}/gi,cyr>lat?"ты":"you")
+    .replace(/^&gt;[ \t]?/gm,"")
+    .replace(/^#{1,6}[ \t]+(.+)$/gm,"<b>$1</b>")
+    .replace(/\*\*([^*\n]+?)\*\*/g,"<b>$1</b>")
+    .replace(/__([^_\n]+?)__/g,"<b>$1</b>")
+    .replace(/(^|[^*\w])\*(?!\s)([^*\n]+?)\*(?![\w*])/g,"$1<i>$2</i>");
+  return h;
+}
+function setLongText(id,text,b){
   const el=document.getElementById(id);el.textContent="";
-  const body=document.createElement("div");body.textContent=text;el.appendChild(body);
+  const body=document.createElement("div");body.innerHTML=renderText(text,b);el.appendChild(body);
   if(text.length<=LONG_TEXT)return;
   body.className="clamped";
   const btn=document.createElement("button");btn.className="show-more";btn.textContent="показать полностью ↓";

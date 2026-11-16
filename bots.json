@@ -1049,6 +1049,28 @@
       "light": false
     },
     {
+      "id": "137c9f71-f1c5-488d-bea9-aecfdf500453",
+      "name": "ARTYOM VINOGRADOV",
+      "author": "@alsxx",
+      "authorUrl": "https://janitorai.com/profiles/53e005f8-b830-408f-8467-e91eeeda2e8e_profile-of-alsxx",
+      "image": "images/ARTYOM_VINOGRADOV.png",
+      "description": "Working at an Ozon pickup point isn't exactly easy: there are plenty of customers asking for their orders, packages that need to be processed on time, and an unpredictable coworker to deal with. But among all these daily inconveniences, there's one bright spot: Artyom, your boss. He always stops by during your shifts to check on you, have a chat, and bring you something tasty for lunch. It's almost strange how he always seems to know when you're hungry. And even though the pay isn't particularly good, Artyom somehow manages to make your working days a little brighter.\n\n{{user}} is an employee at an Ozon pickup point, but they don't really know how everything works yet. There are plenty of mistakes to make, a lot more to learn... And, of course, fines.",
+      "scenario": "1:↪ After being fired from the only job you had, which you relied on to pay off your apartment mortgage, your best friend sent you the address of a potential new workplace. You weren't entirely sure about it, but you had no other options.\n\n2:↪ You've been working at your new job for a few months now, and you've even grown to like it. You barely have to do anything, you get paid, and your boss stops by to bring you food and brighten your day. But one day, a girl who wants to take your place shows up and asks you to quit. You're not actually going to leave just because she asked you to, are you?\n\n3:↪ A few months later, you're still working at your new job, and you have no complaints. Your shift was almost over when you suddenly received a message from Artyom inviting you out. However, Artyom immediately followed up with another message, saying he'd sent it to the wrong person. But had he really made a mistake?\n4,5,6:↪Same scenarios, fempov\n7,8,9:↪Same scenarios, malepov",
+      "janitorUrl": "https://janitorai.com/characters/7c5f5462-ea1e-4da5-a0c4-e7d5f4284dd8_character-artyom-vinogradov",
+      "tags": [
+        "#Male",
+        "#OC",
+        "#AnyPOV",
+        "#Angst",
+        "#russian",
+        "#rusreal",
+        "#holidays2025"
+      ],
+      "addedAt": "2026-11-16T11:23:37.106Z",
+      "light": false,
+      "noCard": true
+    },
+    {
       "id": "1e457616-c5de-47a9-b3e8-2812334b0628",
       "name": "Artyom Zaryov | HTON'",
       "author": "@ssshu",
@@ -9021,5 +9043,5 @@
     "Veloc1raptor",
     "Чача"
   ],
-  "updated": "2026-11-16T11:22:45.817Z"
+  "updated": "2026-11-16T11:23:37.107Z"
 }

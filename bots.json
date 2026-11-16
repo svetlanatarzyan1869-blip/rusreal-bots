@@ -7017,6 +7017,29 @@
       "light": false
     },
     {
+      "id": "9b89e982-9b99-4cdc-9215-16ba4b6ed3e0",
+      "name": "VLAD KITSLER | He's crazy about abandoned places",
+      "author": "@ssshu",
+      "authorUrl": "https://janitorai.com/profiles/c7ab12cb-59e7-4906-8943-3c219bfec0a6_profile-of-ssshu",
+      "image": "images/VLAD_KITSLER_He_s_crazy_about_abandoned_places.png",
+      "description": "«I'm in you forever, like tea spilled into a favorite book.»",
+      "scenario": "The stories awaiting you are nine very different places, each with its own history and interesting tales:\n1. **Khovrinskaya Hospital** (Moscow, Klinskaya St.). 1980–1985, unfinished, project frozen: no funding, unstable soil. A huge labyrinth with empty windows; a place of pilgrimage for stalkers and Satanists. Legends about the \"Khovrinsky ghost\" and corridors with no way out.\n2. **Pioneer Camp \"Skazka\"** (Moscow region, forest). 1960s, abandoned in the 1990s after the closure of the \"Detskaya Kniga\" publishing house. Barracks with Soviet symbols, a stage with murals, rusty swings. The atmosphere of \"the last summer.\"\n3. **Novgorod-17** (Novgorod region, coordinates classified). 1950s, a closed military town, fully abandoned in the 1990s. A former tactical nuclear weapons storage base: empty five-storey blocks, garages, barbed wire. It fonit (фонит — it radiates) — entry is forbidden without a dosimeter.\n4. **Pripyat** (Kyiv region, Ukraine). 1970, a dead city after the Chernobyl NPP disaster in 1986. A rusty Ferris wheel, schools with textbooks, flats with belongings. Time stopped on 26 April 1986.\n5. **Verkhnyaya (Staraya) Gubakha** (Perm Krai). 1930s–1940s, an abandoned settlement after an ecological disaster (coke chemistry). The houses are empty, the earth is soaked in chemicals. Legends about the \"glow\" of reagents at night.\n6. **Green Theater and Askoldova DShS** (Kyiv, Pechersk). Theater — 1970s, tunnels — 17th–19th c. Half-flooded ruins due to landslides and destroyed drainage. Water knee-deep, you can fall through into voids.\n7. **Psychiatric Hospital in Noginsk** (Moscow region). Early 20th century, suddenly abandoned; cause unknown (fire or a life-support failure). Chaos inside: medical files, belongings, beds. A very \"loud\" place.\n8. **The 1920 Morgue** (Saint Petersburg, Building No. 16 of the Botkin Hospital). Abandoned due to the building's obsolescence. Panoramic windows, dissecting tables, old documentation. Eerie sterility; they say forgotten instruments and \"unrecorded\" autopsy notes are still found here.\n9. **Ordzhonikidze Sanatorium** (Sochi, Kurortny Prospekt). 1930s, architect Ivan Kuznetsov; partly abandoned after a fire in the 1990s and landslides. Stalinist Empire style, mosaics, columns, ruin. A legend about a secret bomb shelter beneath the administration building.",
+      "janitorUrl": "https://janitorai.com/characters/2baeb5ac-22cd-4f18-8c47-5cbb500d6218_character-vlad-kitsler-hes-crazy-about-abandoned-places",
+      "tags": [
+        "#Male",
+        "#OC",
+        "#DeadDove",
+        "#Switch",
+        "#russian",
+        "#rusreal",
+        "#nerd",
+        "#geek",
+        "#musicmania2"
+      ],
+      "addedAt": "2026-11-16T07:23:32.609Z",
+      "light": false
+    },
+    {
       "id": "a94dcb0e-12c1-46b8-853d-a1488ad6f845",
       "name": "Vlad Novikov | HTON'",
       "author": "@ssshu",
@@ -8874,5 +8897,5 @@
     "Veloc1raptor",
     "Чача"
   ],
-  "updated": "2026-11-16T07:18:35.902Z"
+  "updated": "2026-11-16T07:23:32.610Z"
 }

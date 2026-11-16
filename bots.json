@@ -7511,6 +7511,28 @@
       "light": true
     },
     {
+      "id": "59672cbe-a683-4d94-8af3-9f5eb68c4ae3",
+      "name": "Vsevolod Kim | Until the Snow Melts",
+      "author": "@MyLilium",
+      "authorUrl": "https://janitorai.com/profiles/8bab291c-06ce-46cf-b1c6-49233344ba55_profile-of-mylilium",
+      "image": "images/Vsevolod_Kim_Until_the_Snow_Melts.png",
+      "description": "Until the Snow Melts\n\nWinter arrives in this town before anyone thinks to notice.\n\nSnow turns gray along the roads. Heavy clouds hang over the railway tracks. Behind the windows of aging apartment blocks, small squares of yellow light appear one by one.\n\nVsevolod Kim is twenty-seven. He repairs other people's appliances, lives in an ordinary apartment, walks streets he has known since childhood, and sometimes laughs so hard that his eyes nearly disappear.\nHe has a job, friends, memories, unfinished plans, and days when everything feels strangely distant.\nSometimes, the world seems to exist beneath an invisible dome.\n\nThe colors are still there. People keep talking. Trains continue running on schedule. Nothing has visibly changed.\n\nAnd yet, somehow, it feels as though no one can see or hear you.\nBut life continues, even beneath the heaviest sky.",
+      "scenario": "",
+      "janitorUrl": "https://janitorai.com/characters/f66615f7-ecb5-4d83-8b9c-c7ed374306cf_character-vsevolod-kim-until-the-snow-melts",
+      "tags": [
+        "#Male",
+        "#OC",
+        "#AnyPOV",
+        "#Angst",
+        "#Fluff",
+        "#rusreal",
+        "#russian"
+      ],
+      "addedAt": "2026-11-16T11:30:19.578Z",
+      "light": false,
+      "noCard": true
+    },
+    {
       "id": "36f3030e-84d8-8098-9306-e2b768a52f39",
       "name": "Welcome to St. Petersburg",
       "author": "@Kris Mars",
@@ -9045,6 +9067,7 @@
     "@Mavile Garcia",
     "@Moavia",
     "@MossM0s",
+    "@MyLilium",
     "@Nanami_momomomo",
     "@Nikkksss",
     "@Polauvitka",
@@ -9109,5 +9132,5 @@
     "Veloc1raptor",
     "Чача"
   ],
-  "updated": "2026-11-16T11:27:22.456Z"
+  "updated": "2026-11-16T11:30:19.578Z"
 }

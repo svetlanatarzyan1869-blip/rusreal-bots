@@ -138,7 +138,7 @@
     <datalist id="universeList"></datalist>
 
     <label style="display:flex;align-items:center;gap:8px;cursor:pointer;margin-top:14px;font-weight:400">
-      <input type="checkbox" id="f_closed" style="width:auto"> <span>🔒 <b>Закрытое описание</b> — на сайте будет плашка, карточку скачать нельзя <span class="hint">(ставится само, если в карточке нет personality и приветствия)</span></span>
+      <input type="checkbox" id="f_closed" style="width:auto"> <span>🔒 <b>Закрытое описание</b> — на сайте будет плашка, карточку скачать нельзя <span class="hint">(ставится само, если в карточке нет personality)</span></span>
     </label>
 
     <label>Описание
@@ -197,8 +197,8 @@ function cleanDescription(input,opts={}){const aggressive=opts.aggressive!==fals
   let lines=s.split('\n').map(l=>l.trim()).filter(l=>{if(isDecorative(l))return false;if(aggressive&&l&&PROMO_RE.test(l))return false;if(aggressive&&l&&BOILER_RE.test(l))return false;return true;});
   const out=[];for(const l of lines){if(l===''&&out[out.length-1]==='')continue;out.push(l);}return out.join('\n').trim();}
 const estTokens=s=>Math.round((s||'').length/4);
-/* закрытый бот: в карточке нет ни personality, ни приветствия */
-function autoClosed(pers,fm){if(!String(pers||'').trim()&&!String(fm||'').trim())$('f_closed').checked=true;}
+/* закрытый бот: в карточке нет personality */
+function autoClosed(pers){if(!String(pers||'').trim())$('f_closed').checked=true;}
 function makeBlurb(text){const line=(text||'').split('\n').find(l=>l.trim().length>20)||'';return line.length<=200?line.trim():line.slice(0,200).replace(/\s+\S*$/,'')+'…';}
 
 /* ── вселенные: список для выпадашки (та же логика, что на сайте) ─────── */

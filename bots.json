@@ -7942,8 +7942,7 @@
         "#russian"
       ],
       "addedAt": "2026-11-16T12:00:31.637Z",
-      "light": false,
-      "noCard": true
+      "light": false
     },
     {
       "id": "35b3030e-84d8-812f-89ae-c7bdde930437",
@@ -9286,5 +9285,5 @@
     "Veloc1raptor",
     "Чача"
   ],
-  "updated": "2026-11-16T13:15:37.392Z"
+  "updated": "2026-11-16T15:27:18.187Z"
 }

@@ -1278,7 +1278,8 @@
         "#russianchar"
       ],
       "addedAt": "2026-11-16T07:27:54.817Z",
-      "light": false
+      "light": false,
+      "noCard": true
     },
     {
       "id": "5823431d-9bfb-4c90-90f5-94e0bcfa9761",

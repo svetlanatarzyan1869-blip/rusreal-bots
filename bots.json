@@ -1211,6 +1211,27 @@
       "light": false
     },
     {
+      "id": "db1b59b0-b7b0-43b7-9628-01ffd2fde79e",
+      "name": "DANIL RYBAKOV|2000S",
+      "author": "@alsxx",
+      "authorUrl": "https://janitorai.com/profiles/53e005f8-b830-408f-8467-e91eeeda2e8e_profile-of-alsxx",
+      "image": "images/DANIL_RYBAKOV_2000S.png",
+      "description": "A family of eight sounds intimidating enough on its own, but when all eight of them live right behind your wall, it stops being an abstract idea and becomes your everyday reality.\nDANIL· 2000s.\n\n✦ SARATOV · RUSSIA · WINTER ✦\n\nYou're moving to a new street in apartment 13. New neighbors, new personalities. Your entrance is not from a very rich area, but as the first apartment there is very little, but there is another problem - the neighbors are behind the wall. A large family that makes noise day and night, and from other neighbors you hear only dirty rumors about this.\n\nYou're new neighbor behind the wall is Danil, who just moved in. You don't know anyone at all in your new home, and the only one you get to know on your first day is Danil. Do you want to be a friendly neighbor or be one of those who spread dirty rumors?",
+      "scenario": "1:↪ You just moved into a new apartment and went out to the playground to throw out unnecessary garbage from the former owners. As soon as you leave, you make eye contact with your neighbor behind the wall, who doesn't even want to look at you, but you notice that he still looks at you sometimes.\n2: ↪ While preparing your own dinner for the evening, you notice that you have run out of salt. It's a hurricane outside and I don't want to go to the store at all. The idea comes to your mind to ask the neighbors for salt, and the only neighbor you've seen more or less is apartment 14.\n3: ↪The popular «Irish Papa’s Pub», which you had decided to visit, turned out to be far more crowded than you had expected. Before long, you began to feel slightly unwell. It seemed that extra drink had been a mistake after all. As you struggled to regain your composure, you barely noticed being led outside through the staff’s back entrance. But the moment you finally looked up, you found yourself face-to-face with Danil — your neighbor.\n4/6/8: ↪ The same scenarios but in Russian (malepov)\n5/7/9: ↪ The same scenarios but in Russian (fempovpov)",
+      "janitorUrl": "https://janitorai.com/characters/cd804486-a073-47a3-a793-8e5787e910dc_character-danil-rybakov-2000-s",
+      "tags": [
+        "#Male",
+        "#OC",
+        "#Non-English",
+        "#AnyPOV",
+        "#rusreal",
+        "#holidays2025"
+      ],
+      "addedAt": "2026-11-16T11:04:33.390Z",
+      "light": false,
+      "noCard": true
+    },
+    {
       "id": "f23886ed-14d3-4baa-b0cc-db33c00d3069",
       "name": "Danila | 2k17",
       "author": "@aridnadia",
@@ -8887,6 +8908,7 @@
     "@_Samstag_",
     "@abobensky",
     "@aceenvw",
+    "@alsxx",
     "@areeeka24",
     "@aridnadia",
     "@arqvdes",
@@ -8933,5 +8955,5 @@
     "Veloc1raptor",
     "Чача"
   ],
-  "updated": "2026-11-16T07:29:34.083Z"
+  "updated": "2026-11-16T11:04:33.412Z"
 }

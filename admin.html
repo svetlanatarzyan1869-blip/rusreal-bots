@@ -137,15 +137,12 @@
     <input type="text" id="f_universe" list="universeList" placeholder="напр. Bur'ansk Boys">
     <datalist id="universeList"></datalist>
 
-    <label>Короткое описание для каталога <span class="hint">— 1–2 предложения, показывается на карточке сайта</span></label>
-    <textarea id="f_shortDesc" style="min-height:60px" placeholder="Охранник, который спасает тебя от троих пьяных…"></textarea>
-    <div style="margin-top:8px">
-      <button type="button" class="btn ghost small" id="btnEnrich">✨ Обработать ИИ (описание + сценарий)</button>
-      <span class="hint" id="enrichNote"></span>
-    </div>
+    <label style="display:flex;align-items:center;gap:8px;cursor:pointer;margin-top:14px;font-weight:400">
+      <input type="checkbox" id="f_closed" style="width:auto"> <span>🔒 <b>Закрытое описание</b> — на сайте будет плашка, карточку скачать нельзя <span class="hint">(ставится само, если в карточке нет personality и приветствия)</span></span>
+    </label>
 
-    <label>Описание для карточки (очищенное)
-      <span class="hint">— это зашивается в .png и уходит в модель. HTML/мусор уже убран.</span>
+    <label>Описание
+      <span class="hint">— показывается на сайте и зашивается в .png карточки. HTML/мусор уже убран.</span>
     </label>
     <textarea id="f_cardDesc" style="min-height:160px"></textarea>
     <div class="tokline" id="tokLine"></div>
@@ -200,6 +197,8 @@ function cleanDescription(input,opts={}){const aggressive=opts.aggressive!==fals
   let lines=s.split('\n').map(l=>l.trim()).filter(l=>{if(isDecorative(l))return false;if(aggressive&&l&&PROMO_RE.test(l))return false;if(aggressive&&l&&BOILER_RE.test(l))return false;return true;});
   const out=[];for(const l of lines){if(l===''&&out[out.length-1]==='')continue;out.push(l);}return out.join('\n').trim();}
 const estTokens=s=>Math.round((s||'').length/4);
+/* закрытый бот: в карточке нет ни personality, ни приветствия */
+function autoClosed(pers,fm){if(!String(pers||'').trim()&&!String(fm||'').trim())$('f_closed').checked=true;}
 function makeBlurb(text){const line=(text||'').split('\n').find(l=>l.trim().length>20)||'';return line.length<=200?line.trim():line.slice(0,200).replace(/\s+\S*$/,'')+'…';}
 
 /* ── вселенные: список для выпадашки (та же логика, что на сайте) ─────── */
@@ -268,7 +267,7 @@ function applyCardFields(parsed,opt={}){
   if(Array.isArray(ag)&&ag.length&&!$('f_altGreets').value.trim())$('f_altGreets').value=ag.filter(Boolean).join('\n---\n');
   if(Array.isArray(d.tags)&&d.tags.length&&!$('f_tags').value.trim())$('f_tags').value=d.tags.map(t=>String(t).replace(/^#/,'')).join(' ');
   if(d.creator&&!$('f_author').value)$('f_author').value='@'+String(d.creator).replace(/^@/,'');
-  if(!$('f_shortDesc').value.trim())$('f_shortDesc').value=makeBlurb(cleanDescription(d.description||''));
+  if(opt.fillName!==false)autoClosed(d.personality,d.first_mes||d.first_message);
   renderTags();updateTok();
   return true;
 }
@@ -318,9 +317,9 @@ async function fillFromExisting(bot){
   $('f_tags').value=(bot.tags||[]).map(t=>String(t).replace(/^#/,'')).join(' ');
   $('f_light').checked=bot.light===true;
   $('f_universe').value=bot.universe||'';
-  $('f_shortDesc').value=bot.description||'';
+  $('f_closed').checked=bot.noCard===true;
   $('f_scenario').value=bot.scenario||'';
-  $('f_cardDesc').value='';$('f_firstMes').value='';$('f_altGreets').value='';$('f_personality').value='';
+  $('f_cardDesc').value=bot.description||'';$('f_firstMes').value='';$('f_altGreets').value='';$('f_personality').value='';
   const imgAbs=bot.image?new URL(bot.image,location.href).href:'';
   $('f_imageUrl').value=imgAbs;if(imgAbs)$('f_imgPreview').src=imgAbs;
   renderTags();updateTok();
@@ -354,13 +353,6 @@ async function callEnrich(){
   if(!r.ok||j.ok===false)throw new Error(j.error||('HTTP '+r.status));
   return j;
 }
-// описание + сценарий сразу
-$('btnEnrich').onclick=async()=>{
-  const btn=$('btnEnrich');btn.disabled=true;const was=btn.textContent;btn.textContent='✨ Думаю…';$('enrichNote').textContent='';
-  try{const j=await callEnrich();if(j){if(j.shortDescription)$('f_shortDesc').value=j.shortDescription;if(j.scenario)$('f_scenario').value=j.scenario;$('enrichNote').textContent='готово ('+(j.model||'ИИ')+') — проверь и поправь';}}
-  catch(e){toast('ИИ: '+e.message,false);}
-  btn.disabled=false;btn.textContent=was;
-};
 // только сценарий
 $('btnScenario').onclick=async()=>{
   const btn=$('btnScenario');btn.disabled=true;const was=btn.textContent;btn.textContent='✨ Думаю…';$('scenNote').textContent='';
@@ -431,7 +423,7 @@ function prefill(d){
   const cleaned=cleanDescription(rawDesc);
   $('f_cardDesc').value=cleaned;
   // короткое описание: первая содержательная строка очищенного
-  $('f_shortDesc').value=(d.shortDescription&&d.shortDescription.length>20)?d.shortDescription:makeBlurb(cleaned);
+  $('f_closed').checked=false;autoClosed(d.personality,d.first_mes||d.firstMes);
   $('f_scenario').value=d.scenario||'';
   $('f_firstMes').value=d.first_mes||d.firstMes||'';
   $('f_altGreets').value=(Array.isArray(d.alternate_greetings)?d.alternate_greetings:[]).filter(Boolean).join('\n---\n');
@@ -463,7 +455,8 @@ $('btnSave').onclick=async()=>{
       author:$('f_author').value.trim(),
       authorUrl:$('f_authorUrl').value.trim(),
       janitorUrl:$('f_janitorUrl').value.trim(),
-      description:$('f_shortDesc').value.trim(),
+      description:$('f_cardDesc').value.trim(),
+      noCard:$('f_closed').checked,
       scenario:$('f_scenario').value.trim(),
       tags:parseTags($('f_tags').value),
       light:$('f_light').checked,
@@ -517,8 +510,8 @@ $('btnDelete').onclick=async()=>{
     EXISTING=EXISTING.filter(b=>b!==bot);buildSorted();
     editingId=null;currentEditBot=null;
     $('mode').textContent='ручной ввод';
-    ['f_name','f_author','f_authorUrl','f_janitorUrl','f_imageUrl','f_tags','f_universe','f_shortDesc','f_cardDesc','f_scenario','f_firstMes','f_altGreets','f_personality'].forEach(id=>$(id).value='');
-    $('f_light').checked=false;$('f_imgPreview').src='';renderTags();updateTok();
+    ['f_name','f_author','f_authorUrl','f_janitorUrl','f_imageUrl','f_tags','f_universe','f_cardDesc','f_scenario','f_firstMes','f_altGreets','f_personality'].forEach(id=>$(id).value='');
+    $('f_light').checked=false;$('f_closed').checked=false;$('f_imgPreview').src='';renderTags();updateTok();
     navIdx=-1;if(SORTED.length){$('navPos').textContent='— / '+SORTED.length;}else{$('navBar').style.display='none';}
     btn.style.display='none';$('deleteNote').textContent='';
   }catch(e){

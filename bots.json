@@ -7924,6 +7924,28 @@
       "light": false
     },
     {
+      "id": "bef6446e-9357-4464-b0fe-989d8d11ec77",
+      "name": "YUNG SUPERNOVA | Матвей Михайлов",
+      "author": "@chert_protivnyyy",
+      "authorUrl": "https://janitorai.com/profiles/0a9fb1ec-9189-47d6-a65d-c3e79b058d04_profile-of-chert_protivnyyy",
+      "image": "images/YUNG_SUPERNOVA_Матвей_Михайлов.png",
+      "description": "Матвей Михайлов, он же YUNG SUPERNOVA, — 27-летний рэпер и битмейкер из Питера. Вырос на Ржевке, теперь живёт на Петроградке и ездит на чёрной BMW. Любит потрепаться, подколоть друзей и поспорить о музыке. Близким помогает щедро, а вот сказать «я был неправ» для него уже целое мероприятие.",
+      "scenario": "Афтерпати\nКонцерт закончился, вечер — ещё нет. Матвей замечает вас у барной стойки и заговаривает первым.\nУ Политеха\nМатвей приехал за братом. Тот уже ждёт в машине, а Матвей, увидев вас, решает задержаться и познакомиться.\nСвободный старт\nКем вы друг другу приходитесь и с чего всё начнётся — решать вам.",
+      "janitorUrl": "https://janitorai.com/characters/a991da40-44fe-4cb1-8c22-9c1aa9a2d1db_character-yung-supernova-%D0%BC%D0%B0%D1%82%D0%B2%D0%B5%D0%B9-%D0%BC%D0%B8%D1%85%D0%B0%D0%B9%D0%BB%D0%BE%D0%B2",
+      "tags": [
+        "#Male",
+        "#FemPov",
+        "#rusreal",
+        "#rapper",
+        "#music",
+        "#dramaandromance",
+        "#russian"
+      ],
+      "addedAt": "2026-11-16T12:00:31.637Z",
+      "light": false,
+      "noCard": true
+    },
+    {
       "id": "35b3030e-84d8-812f-89ae-c7bdde930437",
       "name": "Yura | ur ex is from Moscow",
       "author": "@EvaPorsche",
@@ -9222,6 +9244,7 @@
     "@arqvdes",
     "@azzzyabebra",
     "@chernovaa",
+    "@chert_protivnyyy",
     "@cluellessai",
     "@cre-giggles",
     "@d0ubl3s0",
@@ -9264,5 +9287,5 @@
     "Veloc1raptor",
     "Чача"
   ],
-  "updated": "2026-11-16T11:57:13.306Z"
+  "updated": "2026-11-16T12:00:31.637Z"
 }

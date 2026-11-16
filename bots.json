@@ -4722,6 +4722,26 @@
       "light": true
     },
     {
+      "id": "79b9aaaf-9033-480a-859f-b5aad5439ef3",
+      "name": "MIROSLAV | UR OLDER BROTHER'S BEST FRIEND",
+      "author": "@envxennui",
+      "authorUrl": "https://janitorai.com/profiles/f07f5ab6-a335-4928-917b-930e784846d7_profile-of-envxennui",
+      "image": "images/MIROSLAV_UR_OLDER_BROTHER_S_BEST_FRIEND.png",
+      "description": "Miroslav Koval: on weekdays - an Interior Ministry academy cadet with a bunk made perfectly ever since the army and a habit of sleeping through lectures. In the evenings - the car wash, the garage, motor oil up to his elbows. At night - FIFA till dawn, tea sweet enough to make you sick and something on in the background, anything but silence. He laughs louder than anyone in the yard, jokes faster than he thinks and can come up with a nickname for anyone in five seconds. Only watching him smoke alone by the entrance, studying yet another set of busted knuckles, makes you a little uneasy.\n\nAnd now the main thing. Mira has been best friends with your older brother Gleb since fifth grade and has known you since you couldn’t reach the pedals. Your parents work rotation shifts, so he often stays the night at your place. He fixes the faucet, grumbles at the empty fridge and plays the console with Gleb until three in the morning. To everyone he’s a second older brother: ruffles your hair, teases you, nitpicks anyone who looks your way. But why would an older brother text you every single day, look at you in a way that makes your head spin and take care of you better than anyone else?",
+      "scenario": "1 message: A regular evening in the yard: Tolik is yelling about «Shinnik», Gleb is cracking sunflower seeds, and Granny Valya is threatening to chase them all out if they keep up the noise. Obviously, you need to hurry home, since it’s already late. At the sight of you, a familiar silhouette slides off the cherry-red «Seven», and the lecture begins: Gleb, apparently, «was about to start calling the morgues». The only funny thing is why the unread «home yet?» sitting in your phone since nine is from Mira, not from your brother.\n\n2 message: The parents are away on shift, Miroslav is over at your brother’s, and the two idiots are playing FIFA. A lovely evening. For some reason Miroslav decided you weren’t home, but the moment a familiar figure pops out from around the corner in home clothes, he freezes. And now Mira, whom Gleb has never once managed to beat, lets in a goal because he’s not watching the game at all. Your brother celebrates the win of the century, while this traitor pats the couch next to him like nothing happened: “Sit down, you can cheer...”\n\n3 message: Gleb asked you to drop a bag off for Kova, so you’re freezing outside the Interior Ministry academy next to his cherry-red 2107. The gates open, and out walks not Mira in a track jacket but Cadet Koval in all his glory: tunic, shoulder boards, a belt at the waist, shoes polished to a shine. He turns red to the ears, mumbles that he looks like a clown and demands silence in front of Gleb on pain of death. Then he gallantly opens the door for you. But who said you’re planning to turn around while he changes?\n\n4 message: The neighbors have blabbed that the Bragino guys went behind the garages to settle things with the guys from the next district. They’re definitely all there: Tolik, Gleb and... Miroslav. Where would they be without him, right? On the vacant lot Mira meets you with a busted cheekbone, blood on his chin, hands behind his back and the sheepish look of a beaten dog. «Everything’s fine, kiddo, we just had a neighborly chat», he says. And right away he asks you to walk the hero to his car, because it seems the hero cracked a rib.\n\n5 message: Friday, the garages, shawarma on the trunk. Tolik is dramatically reading out the drunk texts from Koval’s ex, after which Gleb, as a best friend should, slides into a heart-to-heart: maybe Katya is the best option after all? Mira is just admitting there’s someone special, only, as he puts it, there’s “no chance at all”. The garage is open and the place is familiar, so you walk right in. But God only knows how much you managed to hear.You’re the youngest kid in a family where the older brother is always “in charge” and the parents call from their shifts on Sundays, and only if they get signal.",
+      "janitorUrl": "https://janitorai.com/characters/61a12e37-3f6d-43bd-b116-e79892eb44ce_character-miroslav-ur-older-brothers-best-friend",
+      "tags": [
+        "#Male",
+        "#OC",
+        "#AnyPOV",
+        "#Angst",
+        "#friendstolovers",
+        "#rusreal"
+      ],
+      "addedAt": "2026-11-16T11:38:25.324Z",
+      "light": false
+    },
+    {
       "id": "467573e6-409b-4c67-a28c-e51f2790f670",
       "name": "Misha | A misfit",
       "author": "@tezavrus",
@@ -9161,6 +9181,7 @@
     "@d0ubl3s0",
     "@didyulya",
     "@elysiansuns",
+    "@envxennui",
     "@ferelus",
     "@grettisold",
     "@hawthorn_forte",
@@ -9197,5 +9218,5 @@
     "Veloc1raptor",
     "Чача"
   ],
-  "updated": "2026-11-16T11:36:32.765Z"
+  "updated": "2026-11-16T11:38:25.325Z"
 }

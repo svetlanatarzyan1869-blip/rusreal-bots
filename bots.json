@@ -5587,8 +5587,7 @@
         "#russia"
       ],
       "addedAt": "2026-11-20T16:10:26.419Z",
-      "light": false,
-      "noCard": true
+      "light": false
     },
     {
       "id": "3963030e-84d8-8089-80e7-d4541178af05",
@@ -9358,5 +9357,5 @@
     "Veloc1raptor",
     "Чача"
   ],
-  "updated": "2026-11-20T16:11:32.239Z"
+  "updated": "2026-11-20T16:17:57.131Z"
 }
